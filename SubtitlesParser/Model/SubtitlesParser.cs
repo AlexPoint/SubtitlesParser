@@ -32,27 +32,23 @@ namespace SubtitlesParser.Model
         /// Gets the most likely format of the subtitle file based on its filename.
         /// Most likely because .sub are sometimes srt files for example.
         /// </summary>
-        /// <param name="file">The subtitles file</param>
+        /// <param name="fileName">The subtitle file name</param>
         /// <returns>The most likely subtitles format</returns>
-        /*public SubtitlesFormat GetMostLikelyFormat(HttpPostedFileBase file)
+        public SubtitlesFormat GetMostLikelyFormat(string fileName)
         {
-            var fileName = file.FileName;
             var extension = Path.GetExtension(fileName);
 
-            if (extension == ".srt")
+            foreach (var format in SubtitlesFormat.SupportedSubtitlesFormats)
             {
-                return SubtitlesFormat.Srt;
+                if (format.Extension == extension)
+                {
+                    return format;
+                }
             }
-            else if (extension == ".sub")
-            {
-                return SubtitlesFormat.Sub;
-            }
-            else
-            {
-                // default is srt
-                return SubtitlesFormat.Srt;
-            }
-        }*/
+
+            // return default format -> srt
+            return SubtitlesFormat.SubRipFormat;
+        }
 
         /// <summary>
         /// Parses a subtitles file stream
