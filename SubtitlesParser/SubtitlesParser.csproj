@@ -6,7 +6,7 @@
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{6F33AA98-2275-4241-BBED-B3D02BDE5EBB}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SubtitlesParser</RootNamespace>
     <AssemblyName>SubtitlesParser</AssemblyName>
@@ -58,6 +58,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Content\SubtitlesFiles\4989_ES.srt" />
+    <None Include="Content\SubtitlesFiles\Fight Club_eng.sub" />
+    <None Include="Content\SubtitlesFiles\Freaks - Freaks, la monstrueuse parade %28Tod Browning - 1932%29.sub" />
+    <None Include="Content\SubtitlesFiles\Gangs-of-New-York-DVD-Deadman-2.sub" />
+    <None Include="Content\SubtitlesFiles\Jack_the_Giant_Slayer.srt" />
+    <None Include="Content\SubtitlesFiles\Pirates of Caraibean CD1.sub" />
     <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
