@@ -23,7 +23,7 @@ namespace SubtitlesParser.Model
 
         // Constructors --------------------------------------------------------------------
 
-        private SubtitlesParser(){}
+        public SubtitlesParser(){}
 
 
         // Methods -------------------------------------------------------------------------
