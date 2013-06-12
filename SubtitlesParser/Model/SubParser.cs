@@ -74,7 +74,7 @@ namespace SubtitlesParser.Model
                     frameRate = DefaultFrameRate;
                     
                     // treat it as a regular line
-                    firstItem.Language = languageCode;
+                    //firstItem.Language = languageCode;
                     items.Add(firstItem);
                 }
 
@@ -83,7 +83,7 @@ namespace SubtitlesParser.Model
                 while (line != null)
                 {
                     var item = ParseLine(line, frameRate);
-                    item.Language = languageCode;
+                    //item.Language = languageCode;
 
                     items.Add(item);
                     line = reader.ReadLine();
@@ -109,15 +109,15 @@ namespace SubtitlesParser.Model
             if (match.Success && match.Groups.Count > 2)
             {
                 var startFrame = match.Groups[1].Value;
-                var start = double.Parse(startFrame) / frameRate;
+                var start = (int)(1000 * double.Parse(startFrame) / frameRate);
                 var endTime = match.Groups[2].Value;
-                var end = double.Parse(endTime) / frameRate;
+                var end = (int)(1000 * double.Parse(endTime) / frameRate);
                 var text = match.Groups[match.Groups.Count - 1].Value;
                 var item = new SubtitleItem
                     {
                         Text = text,
-                        Start = start,
-                        End = end
+                        StartTime = start,
+                        EndTime = end
                     };
 
                 return item;

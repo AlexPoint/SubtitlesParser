@@ -8,15 +8,12 @@ namespace SubtitlesParser.Model
     {
 
         //Properties------------------------------------------------------------------
-
-        /*[ScriptIgnore] // The JavaScriptSerializer ignores this field.
-        public int SubtitleItemId { get; set; }*/
-
-        public double Start { get; set; }
-        public double End { get; set; }
+        
+        //StartTime and EndTime times are in milliseconds
+        public int StartTime { get; set; }
+        public int EndTime { get; set; }
         public string Text { get; set; }
-        public short Language { get; set; }
-
+        
 
         //Constructors-----------------------------------------------------------------
 
@@ -28,36 +25,20 @@ namespace SubtitlesParser.Model
         /// <summary>
         /// The default constructor
         /// </summary>
-        /// <param name="subtitleItemId">The id of the SubtitleItem instance</param>
-        /// <param name="start">The begin time of the SubtitleItem instance</param>
-        /// <param name="end">The end time of the SubtitleItem instance</param>
-        /// <param name="text">The text of the SubtitleItem instance</param>
-        /// <param name="language">The lanaguage of the SubtitleItem instance</param>
-        public SubtitleItem(/*int subtitleItemId, */double start, double end, string text, short language)
+        /// <param name="start">The begin time of the subtitle item in milliseconds</param>
+        /// <param name="end">The end time of the subtitle item in milliseconds</param>
+        /// <param name="text">The text of the subtitle item</param>
+        public SubtitleItem(int start, int end, string text)
         {
-            /*SubtitleItemId = subtitleItemId;*/
-            Start = start;
-            End = end;
-            Text = text;
-            Language = language;
-        }
-
-        /// <summary>
-        /// A constructor that doesn't specify the subtitleItem's language
-        /// </summary>
-        /// <param name="subtitleItemId">The id of the SubtitleItem instance</param>
-        /// <param name="start">The begin time of the SubtitleItem instance</param>
-        /// <param name="end">The end time of the SubtitleItem instance</param>
-        /// <param name="text">The text of the SubtitleItem instance</param>
-        public SubtitleItem(int subtitleItemId, double start, double end, string text)
-        {
-            /*SubtitleItemId = subtitleItemId;*/
-            Start = start;
-            End = end;
+            StartTime = start;
+            EndTime = end;
             Text = text;
         }
 
-        /// <summary>
+
+        // Methods --------------------------------------------------------------------------
+
+        /*/// <summary>
         /// Finds the "closest" (in terms of timecodes) item in the collection of items
         /// submitted as parameters.
         /// </summary>
@@ -65,7 +46,7 @@ namespace SubtitlesParser.Model
         /// <returns>The index as int</returns>
         public int FindClosestIndex(List<SubtitleItem> items)
         {
-            var minItem = items.OrderBy(i => Math.Pow(i.Start - this.Start, 2) + Math.Pow(i.End - this.End, 2))
+            var minItem = items.OrderBy(i => Math.Pow(i.StartTime - this.StartTime, 2) + Math.Pow(i.EndTime - this.EndTime, 2))
                 .FirstOrDefault();
             if (minItem == null)
             {
@@ -76,15 +57,15 @@ namespace SubtitlesParser.Model
             {
                 return items.IndexOf(minItem);
             }
-        }
+        }*/
 
-        // Temporary (for debug) -----------------------------------------------------------------------
-
+        
         public override string ToString()
         {
-            string res = "";
-            res += Start + " --> " + End + " (" + (End - Start) + ")<br/>";
-            res += Text;
+            var startTs = new TimeSpan(0, 0, 0, 0, StartTime);
+            var endTs = new TimeSpan(0, 0, 0, 0, EndTime);
+
+            var res = string.Format("{0} --> {1}: {2}", startTs.ToString("G"), endTs.ToString("G"), Text);
             return res;
         }
 

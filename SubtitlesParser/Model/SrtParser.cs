@@ -95,8 +95,8 @@ namespace SubtitlesParser.Model
 
                 items.Add(new SubtitleItem()
                     {
-                        Start = start,
-                        End = end,
+                        StartTime = start,
+                        EndTime = end,
                         Text = textLine
                     });
             }
@@ -144,13 +144,14 @@ namespace SubtitlesParser.Model
         /// </summary>
         /// <param name="s">The timecode to parse</param>
         /// <returns>The parsed timecode as a TimeSpan instance. If the parsing was unsuccessful, -1 is returned (subtitles should never show)</returns>
-        private double ParseSrtTimecode(string s)
+        private int ParseSrtTimecode(string s)
         {
             TimeSpan result;
 
             if (TimeSpan.TryParse(s.Replace(',', '.'), out result))
             {
-                return result.TotalSeconds;
+                var nbOfMs = (int)result.TotalMilliseconds;
+                return nbOfMs;
             }
             else
             {
