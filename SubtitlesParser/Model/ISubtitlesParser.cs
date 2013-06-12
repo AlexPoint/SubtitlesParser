@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.IO;
+using System.Text;
 
 namespace SubtitlesParser.Model
 {
@@ -8,14 +9,13 @@ namespace SubtitlesParser.Model
     /// </summary>
     public interface ISubtitlesParser
     {
-        
         /// <summary>
         /// Parses a subtitles file stream in a list of SubtitleItem
         /// </summary>
         /// <param name="stream">The subtitles file stream to parse</param>
-        /// <param name="languageCode">The language code of the subtitles file</param>
+        /// <param name="encoding">The stream encoding (if known)</param>
         /// <returns>The corresponding list of SubtitleItems</returns>
-        List<SubtitleItem> ParseStream(Stream stream, short languageCode);
-        
+        List<SubtitleItem> ParseStream(Stream stream, Encoding encoding);
+
     }
 }

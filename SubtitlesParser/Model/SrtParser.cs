@@ -34,13 +34,7 @@ namespace SubtitlesParser.Model
 
         // Methods -------------------------------------------------------------------------
 
-        /// <summary>
-        /// Lists the SubtitleItems in a memory stream
-        /// </summary>
-        /// <param name="srtStream">The memory stream to read from</param>
-        /// <param name="languageCode">The language of the text in the srtStream</param>
-        /// <returns>A List object containing all the subtitle items in the memory stream</returns>
-        public List<SubtitleItem> ParseStream(Stream srtStream, short languageCode)
+        public List<SubtitleItem> ParseStream(Stream srtStream, Encoding encoding)
         {
             // test if stream if readable and seekable (just a check, should be good)
             if (!srtStream.CanRead || !srtStream.CanSeek)
@@ -54,8 +48,6 @@ namespace SubtitlesParser.Model
             // seek the beginning of the stream
             srtStream.Position = 0;
 
-            // TODO detect encoding
-            var encoding = Encoding.UTF8;
             //var encoding = Language.GetPreferredEncoding(languageCode);
             var reader = new StreamReader(srtStream, encoding, true);
 
@@ -86,9 +78,9 @@ namespace SubtitlesParser.Model
                 var end = ParseSrtTimecode(timeCodeParts[1]);
 
                 // text part
-                var textLine = string.Join(" ", lines.Skip(2));
+                var textLine = string.Join(Environment.NewLine, lines.Skip(2));
 
-                items.Add(new SubtitleItem()
+                items.Add(new SubtitleItem
                     {
                         StartTime = start,
                         EndTime = end,
@@ -97,7 +89,7 @@ namespace SubtitlesParser.Model
             }
             return items;
         }
-
+        
         /// <summary>
         /// Enumerates the subtitle parts in a srt file based on the standard line break observed between them. 
         /// A srt subtitle part is in the form:

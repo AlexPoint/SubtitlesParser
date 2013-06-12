@@ -55,15 +55,14 @@ namespace SubtitlesParser.Model
         }*/
 
         /// <summary>
-        /// Parses a subtitle file stream.
-        /// We try all the parsers registered in the _subFormatToParser dictionary
+        /// Parses a subtitles file stream
         /// </summary>
-        /// <param name="stream">The subtitle file stream</param>
-        /// <param name="languageCode">The language code of the subtitles</param>
-        /// <returns>The corresponding list of SubtitleItem, null if parsing failed</returns>
-        public List<SubtitleItem> ParseStream(Stream stream, short languageCode)
+        /// <param name="stream">The subtitles file stream</param>
+        /// <returns>The corresponding list of SubtitleItems</returns>
+        public List<SubtitleItem> ParseStream(Stream stream)
         {
-            return ParseStream(stream, languageCode, SubtitlesFormat.Srt);
+            // we default encoding to UTF-8
+            return ParseStream(stream, Encoding.UTF8);
         }
 
         /// <summary>
@@ -71,15 +70,27 @@ namespace SubtitlesParser.Model
         /// We try all the parsers registered in the _subFormatToParser dictionary
         /// </summary>
         /// <param name="stream">The subtitle file stream</param>
-        /// <param name="languageCode">The language code of the subtitles</param>
+        /// <param name="encoding">The stream encoding</param>
+        /// <returns>The corresponding list of SubtitleItem, null if parsing failed</returns>
+        public List<SubtitleItem> ParseStream(Stream stream, Encoding encoding)
+        {
+            return ParseStream(stream, encoding, SubtitlesFormat.Srt);
+        }
+
+        /// <summary>
+        /// Parses a subtitle file stream.
+        /// We try all the parsers registered in the _subFormatToParser dictionary
+        /// </summary>
+        /// <param name="stream">The subtitle file stream</param>
+        /// <param name="encoding">The stream encoding</param>
         /// <param name="subFormat">The preferred subFormat to try first (if we have a clue with the subtitle file name for example)</param>
         /// <returns>The corresponding list of SubtitleItem, null if parsing failed</returns>
-        public List<SubtitleItem> ParseStream(Stream stream, short languageCode, SubtitlesFormat subFormat)
+        public List<SubtitleItem> ParseStream(Stream stream, Encoding encoding, SubtitlesFormat subFormat)
         {
             var dictionary = _subFormatToParser.OrderBy(dic => Math.Abs(dic.Key - subFormat))
                                 .ToDictionary(entry => entry.Key, entry => entry.Value);
 
-            return ParseStream(stream, languageCode, dictionary);
+            return ParseStream(stream, encoding, dictionary);
         }
 
         /// <summary>
@@ -87,10 +98,10 @@ namespace SubtitlesParser.Model
         /// We try all the parsers registered in the _subFormatToParser dictionary
         /// </summary>
         /// <param name="stream">The subtitle file stream</param>
-        /// <param name="languageCode">The language code of the subtitles</param>
+        /// <param name="encoding">The stream encoding</param>
         /// <param name="subFormatDictionary">The dictionary of the subtitles parser (ordered) to try</param>
         /// <returns>The corresponding list of SubtitleItem, null if parsing failed</returns>
-        public List<SubtitleItem> ParseStream(Stream stream, short languageCode, Dictionary<SubtitlesFormat, ISubtitlesParser> subFormatDictionary = null)
+        public List<SubtitleItem> ParseStream(Stream stream, Encoding encoding, Dictionary<SubtitlesFormat, ISubtitlesParser> subFormatDictionary = null)
         {
             // test if stream if readable
             if (!stream.CanRead)
@@ -115,30 +126,24 @@ namespace SubtitlesParser.Model
                 try
                 {
                     var parser = subtitlesParser.Value;
-                    var items = parser.ParseStream(seekableStream, languageCode);
+                    var items = parser.ParseStream(seekableStream, encoding);
 
                     return items;
                 }
                 catch (Exception ex)
                 {
                     // log the first characters
-                    LogFirstCharactersOfStream(seekableStream, ex, 500, languageCode);
+                    LogFirstCharactersOfStream(seekableStream, ex, 500, encoding);
                 }
             }
 
             // all the parsers failed
             Logger.ErrorFormat("All the subtitles parsers failed to parse the following stream:");
             LogFirstCharactersOfStream(stream, new ArgumentException("Wrong subtitle format"),
-                                                               500, languageCode);
+                                                               500, encoding);
             return null;
         }
 
-        /// <summary>
-        /// Parses a subtitle file with the registered subtitles parsers
-        /// </summary>
-        /// <param name="file">The subtitles file</param>
-        /// <param name="languageCode">The language code of the subtitles file</param>
-        /// <returns>The corresponding list of SubtitleItems, null if parsing failed</returns>
         /*public List<SubtitleItem> ParseSubtitleFile(HttpPostedFileBase file, short languageCode)
         {
             var mostLikelyFormat = GetMostLikelyFormat(file);
@@ -149,6 +154,7 @@ namespace SubtitlesParser.Model
             
             return ParseStream(copy, languageCode, mostLikelyFormat);
         }*/
+        
 
         /// <summary>
         /// Logs the first characters of a stream for debug
@@ -156,8 +162,8 @@ namespace SubtitlesParser.Model
         /// <param name="stream">The file stream</param>
         /// <param name="ex">The exception caught when reading the stream</param>
         /// <param name="nbOfCharactersToPrint">The number of caracters to print</param>
-        /// <param name="languageCode">The language code of the text in the stream</param>
-        private void LogFirstCharactersOfStream(Stream stream, Exception ex, int nbOfCharactersToPrint, short languageCode)
+        /// <param name="encoding">The stream encoding</param>
+        private void LogFirstCharactersOfStream(Stream stream, Exception ex, int nbOfCharactersToPrint, Encoding encoding)
         {
             // print the first 500 characters
             if (stream.CanRead)
@@ -167,9 +173,7 @@ namespace SubtitlesParser.Model
                     stream.Position = 0;
                 }
 
-                //TODO detect encoding
-                //var encoding = Language.GetPreferredEncoding(languageCode);
-                var reader = new StreamReader(stream, Encoding.UTF8, true);
+                var reader = new StreamReader(stream, encoding, true);
 
                 var buffer = new char[nbOfCharactersToPrint];
                 reader.ReadBlock(buffer, 0, nbOfCharactersToPrint);

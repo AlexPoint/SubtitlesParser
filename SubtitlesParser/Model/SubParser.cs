@@ -39,7 +39,7 @@ namespace SubtitlesParser.Model
 
         // Methods -------------------------------------------------------------------------
 
-        public List<SubtitleItem> ParseStream(Stream subStream, short languageCode)
+        public List<SubtitleItem> ParseStream(Stream subStream, Encoding encoding)
         {
             // test if stream if readable and seekable (just a check, should be good)
             if (!subStream.CanRead || !subStream.CanSeek)
@@ -52,13 +52,9 @@ namespace SubtitlesParser.Model
 
             // seek the beginning of the stream
             subStream.Position = 0;
+            var reader = new StreamReader(subStream, encoding, true);
 
             var items = new List<SubtitleItem>();
-
-            //TODO implement encoding preference
-            //var encoding = Language.GetPreferredEncoding(languageCode);
-            var reader = new StreamReader(subStream, Encoding.UTF8, true);
-
             var line = reader.ReadLine();
             if (line != null)
             {
@@ -73,7 +69,6 @@ namespace SubtitlesParser.Model
                     frameRate = _defaultFrameRate;
                     
                     // treat it as a regular line
-                    //firstItem.Language = languageCode;
                     items.Add(firstItem);
                 }
 
@@ -82,7 +77,6 @@ namespace SubtitlesParser.Model
                 while (line != null)
                 {
                     var item = ParseLine(line, frameRate);
-                    //item.Language = languageCode;
 
                     items.Add(item);
                     line = reader.ReadLine();

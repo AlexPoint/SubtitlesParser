@@ -20,7 +20,7 @@ namespace SubtitlesParser
                 {
                     try
                     {
-                        var items = parser.ParseStream(fileStream, 0);
+                        var items = parser.ParseStream(fileStream);
                         Console.WriteLine("Parsing of file {0} succeded", fileName);
                         Console.WriteLine(string.Join(Environment.NewLine, items.Take(5)));
                     }
