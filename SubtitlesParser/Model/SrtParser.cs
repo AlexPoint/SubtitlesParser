@@ -19,22 +19,17 @@ namespace SubtitlesParser.Model
     /// 00:00:15,000 --> 00:00:18,000
     /// At the left we can see...[12]
     /// </summary>
-    public class SrtParser: ISubtitlesParser
+    internal class SrtParser: ISubtitlesParser
     {
         private static readonly ILog Logger = LogManager.GetLogger(typeof (SrtParser));
 
         // Properties -----------------------------------------------------------------------
 
-        private static SrtParser _instance;
-        public static SrtParser Instance
-        {
-            get { return _instance ?? (_instance = new SrtParser()); }
-        }
-
+        
 
         // Constructors --------------------------------------------------------------------
 
-        private SrtParser(){}
+        public SrtParser(){}
 
 
         // Methods -------------------------------------------------------------------------

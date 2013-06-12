@@ -38,28 +38,6 @@ namespace SubtitlesParser.Model
 
         // Methods --------------------------------------------------------------------------
 
-        /*/// <summary>
-        /// Finds the "closest" (in terms of timecodes) item in the collection of items
-        /// submitted as parameters.
-        /// </summary>
-        /// <param name="items">The list of items in which to find the closest of the current SubtitleItem</param>
-        /// <returns>The index as int</returns>
-        public int FindClosestIndex(List<SubtitleItem> items)
-        {
-            var minItem = items.OrderBy(i => Math.Pow(i.StartTime - this.StartTime, 2) + Math.Pow(i.EndTime - this.EndTime, 2))
-                .FirstOrDefault();
-            if (minItem == null)
-            {
-                // happens only in the collection items is empty
-                return 0;
-            }
-            else
-            {
-                return items.IndexOf(minItem);
-            }
-        }*/
-
-        
         public override string ToString()
         {
             var startTs = new TimeSpan(0, 0, 0, 0, StartTime);

@@ -13,17 +13,11 @@ namespace SubtitlesParser.Model
         private static readonly ILog Logger = LogManager.GetLogger(typeof (SubtitlesParser));
 
         // Properties -----------------------------------------------------------------------
-
-        private static SubtitlesParser _instance;
-        public static SubtitlesParser Instance
-        {
-            get { return _instance ?? (_instance = new SubtitlesParser()); }
-        }
-
+        
         private readonly Dictionary<SubtitlesFormat, ISubtitlesParser> _subFormatToParser = new Dictionary<SubtitlesFormat, ISubtitlesParser>
             {
-                {SubtitlesFormat.Srt, SrtParser.Instance},
-                {SubtitlesFormat.Sub, global::SubtitlesParser.Model.SubParser.Instance}
+                {SubtitlesFormat.Srt, new SrtParser()},
+                {SubtitlesFormat.Sub, new SubParser()}
             };
 
 

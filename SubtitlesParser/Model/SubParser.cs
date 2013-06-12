@@ -18,24 +18,23 @@ namespace SubtitlesParser.Model
     /// 
     /// We need the video frame rate to extract .sub files -> careful when using it
     /// </summary>
-    public class SubParser : ISubtitlesParser
+    internal class SubParser : ISubtitlesParser
     {
         private static readonly ILog Logger = LogManager.GetLogger(typeof (SubParser));
 
         // Properties -----------------------------------------------------------------------
 
-        private static SubParser _instance;
-        public static SubParser Instance
-        {
-            get { return _instance ?? (_instance = new SubParser()); }
-        }
-
-        private const short DefaultFrameRate = 25;
+        private readonly float _defaultFrameRate = 25;
 
 
         // Constructors --------------------------------------------------------------------
 
-        private SubParser(){}
+        public SubParser(){}
+
+        public SubParser(float defaultFrameRate)
+        {
+            this._defaultFrameRate = defaultFrameRate;
+        }
 
 
         // Methods -------------------------------------------------------------------------
@@ -65,13 +64,13 @@ namespace SubtitlesParser.Model
             {
                 float frameRate;
                 // try to extract the framerate from the first line
-                var firstItem = ParseLine(line, DefaultFrameRate);
+                var firstItem = ParseLine(line, _defaultFrameRate);
                 var success = TryExtractFrameRate(firstItem.Text, out frameRate);
                 if (!success)
                 {
                     Logger.WarnFormat("Couldn't extract frame rate of sub file with first line {0}. " +
-                                      "We use the default frame rate: {1}", line, DefaultFrameRate);
-                    frameRate = DefaultFrameRate;
+                                      "We use the default frame rate: {1}", line, _defaultFrameRate);
+                    frameRate = _defaultFrameRate;
                     
                     // treat it as a regular line
                     //firstItem.Language = languageCode;
