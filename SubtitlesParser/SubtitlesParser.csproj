@@ -51,7 +51,9 @@
   <ItemGroup>
     <Compile Include="Model\ISubtitlesParser.cs" />
     <Compile Include="Model\SrtParser.cs" />
+    <Compile Include="Model\StreamHelpers.cs" />
     <Compile Include="Model\SubParser.cs" />
+    <Compile Include="Model\SubtitlesFormat.cs" />
     <Compile Include="Model\SubtitleItem.cs" />
     <Compile Include="Model\SubtitlesParser.cs" />
     <Compile Include="Program.cs" />

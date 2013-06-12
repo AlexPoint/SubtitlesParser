@@ -16,8 +16,8 @@ namespace SubtitlesParser.Model
         
         private readonly Dictionary<SubtitlesFormat, ISubtitlesParser> _subFormatToParser = new Dictionary<SubtitlesFormat, ISubtitlesParser>
             {
-                {SubtitlesFormat.Srt, new SrtParser()},
-                {SubtitlesFormat.Sub, new SubParser()}
+                {SubtitlesFormat.SubRipFormat, new SrtParser()},
+                {SubtitlesFormat.SubViewerFormat, new SubParser()}
             };
 
 
@@ -74,7 +74,7 @@ namespace SubtitlesParser.Model
         /// <returns>The corresponding list of SubtitleItem, null if parsing failed</returns>
         public List<SubtitleItem> ParseStream(Stream stream, Encoding encoding)
         {
-            return ParseStream(stream, encoding, SubtitlesFormat.Srt);
+            return ParseStream(stream, encoding, SubtitlesFormat.SubRipFormat);
         }
 
         /// <summary>
@@ -87,7 +87,9 @@ namespace SubtitlesParser.Model
         /// <returns>The corresponding list of SubtitleItem, null if parsing failed</returns>
         public List<SubtitleItem> ParseStream(Stream stream, Encoding encoding, SubtitlesFormat subFormat)
         {
-            var dictionary = _subFormatToParser.OrderBy(dic => Math.Abs(dic.Key - subFormat))
+            var dictionary = _subFormatToParser
+                                // start the parsing by the specified format
+                                .OrderBy(dic => Math.Abs(String.Compare(dic.Key.Name, subFormat.Name, StringComparison.Ordinal)))
                                 .ToDictionary(entry => entry.Key, entry => entry.Value);
 
             return ParseStream(stream, encoding, dictionary);
@@ -101,21 +103,19 @@ namespace SubtitlesParser.Model
         /// <param name="encoding">The stream encoding</param>
         /// <param name="subFormatDictionary">The dictionary of the subtitles parser (ordered) to try</param>
         /// <returns>The corresponding list of SubtitleItem, null if parsing failed</returns>
-        public List<SubtitleItem> ParseStream(Stream stream, Encoding encoding, Dictionary<SubtitlesFormat, ISubtitlesParser> subFormatDictionary = null)
+        public List<SubtitleItem> ParseStream(Stream stream, Encoding encoding, Dictionary<SubtitlesFormat, ISubtitlesParser> subFormatDictionary)
         {
             // test if stream if readable
             if (!stream.CanRead)
             {
-                Logger.Error("Cannot parse a non-readable stream");
-                return null;
+                throw new ArgumentException("Cannot parse a non-readable stream");
             }
 
             // copy the stream if not seekable
             var seekableStream = stream;
             if (!stream.CanSeek)
             {
-                // TODO: copy stream method
-                //seekableStream = StreamHelpers.CopyStream(stream);
+                seekableStream = StreamHelpers.CopyStream(stream);
             }
 
             // if dictionary is null, use the default one
@@ -186,10 +186,5 @@ namespace SubtitlesParser.Model
                 Logger.ErrorFormat("Tried to log the first {0} characters of a closed stream", nbOfCharactersToPrint);
             }
         }
-    }
-
-    public enum SubtitlesFormat
-    {
-        Srt, Sub
     }
 }
