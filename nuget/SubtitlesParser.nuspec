@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package>
+  <metadata>
+    <id>SubtitlesParser</id>
+    <version>1.0</version>    
+    <description>A bunch of parsers to parse subtitles files</description>
+    <authors>AlexPoint</authors>
+    <language>en-US</language>
+  </metadata>
+</package>
