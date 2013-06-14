@@ -4,13 +4,12 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Web;
-using log4net;
 
 namespace SubtitlesParser.Model
 {
     public class SubtitlesParser : ISubtitlesParser
     {
-        private static readonly ILog Logger = LogManager.GetLogger(typeof (SubtitlesParser));
+        //private static readonly ILog Logger = LogManager.GetLogger(typeof (SubtitlesParser));
 
         // Properties -----------------------------------------------------------------------
         
@@ -129,15 +128,17 @@ namespace SubtitlesParser.Model
                 catch (Exception ex)
                 {
                     // log the first characters
-                    LogFirstCharactersOfStream(seekableStream, ex, 500, encoding);
+                    var firstCharsOfStream = LogFirstCharactersOfStream(seekableStream, 500, encoding);
+                    var msg = string.Format("Error was thrown when parsing subtitles: {0} \n " +
+                                            "Beginning of subtitle file {1}", ex, firstCharsOfStream);
+                    throw new ArgumentException(msg);
                 }
             }
 
             // all the parsers failed
-            Logger.ErrorFormat("All the subtitles parsers failed to parse the following stream:");
-            LogFirstCharactersOfStream(stream, new ArgumentException("Wrong subtitle format"),
-                                                               500, encoding);
-            return null;
+            var firstCharsOfFile = LogFirstCharactersOfStream(stream, 500, encoding);
+            var message = string.Format("All the subtitles parsers failed to parse the following stream:{0}", firstCharsOfFile);
+            throw new ArgumentException(message);
         }
 
         /*public List<SubtitleItem> ParseSubtitleFile(HttpPostedFileBase file, short languageCode)
@@ -150,17 +151,18 @@ namespace SubtitlesParser.Model
             
             return ParseStream(copy, languageCode, mostLikelyFormat);
         }*/
-        
+
 
         /// <summary>
         /// Logs the first characters of a stream for debug
         /// </summary>
         /// <param name="stream">The file stream</param>
-        /// <param name="ex">The exception caught when reading the stream</param>
         /// <param name="nbOfCharactersToPrint">The number of caracters to print</param>
         /// <param name="encoding">The stream encoding</param>
-        private void LogFirstCharactersOfStream(Stream stream, Exception ex, int nbOfCharactersToPrint, Encoding encoding)
+        /// <returns>The first characters of the stream</returns>
+        private string LogFirstCharactersOfStream(Stream stream, int nbOfCharactersToPrint, Encoding encoding)
         {
+            var message = "";
             // print the first 500 characters
             if (stream.CanRead)
             {
@@ -173,14 +175,15 @@ namespace SubtitlesParser.Model
 
                 var buffer = new char[nbOfCharactersToPrint];
                 reader.ReadBlock(buffer, 0, nbOfCharactersToPrint);
-                Logger.DebugFormat("Parsing of subtitle stream failed: {0}\n" +
-                                  "Beginning of sub stream:\n{1}", ex,
-                                  string.Join("", buffer));
+                message = string.Format("Parsing of subtitle stream failed. Beginning of sub stream:\n{0}",
+                                        string.Join("", buffer));
             }
             else
             {
-                Logger.ErrorFormat("Tried to log the first {0} characters of a closed stream", nbOfCharactersToPrint);
+                message = string.Format("Tried to log the first {0} characters of a closed stream",
+                                        nbOfCharactersToPrint);
             }
+            return message;
         }
     }
 }

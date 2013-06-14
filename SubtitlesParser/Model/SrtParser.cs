@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
-using log4net;
 
 namespace SubtitlesParser.Model
 {
@@ -21,7 +20,7 @@ namespace SubtitlesParser.Model
     /// </summary>
     internal class SrtParser: ISubtitlesParser
     {
-        private static readonly ILog Logger = LogManager.GetLogger(typeof (SrtParser));
+        //private static readonly ILog Logger = LogManager.GetLogger(typeof (SrtParser));
 
         // Properties -----------------------------------------------------------------------
 
@@ -39,10 +38,10 @@ namespace SubtitlesParser.Model
             // test if stream if readable and seekable (just a check, should be good)
             if (!srtStream.CanRead || !srtStream.CanSeek)
             {
-                Logger.ErrorFormat("Stream must be seekable and readable in specific parser. " +
+                var message = string.Format("Stream must be seekable and readable in a subtitles parser. " +
                                    "Operation interrupted; isSeekable: {0} - isReadable: {1}",
                                    srtStream.CanSeek, srtStream.CanSeek);
-                return null;
+                throw new ArgumentException(message);
             }
 
             // seek the beginning of the stream
@@ -60,7 +59,7 @@ namespace SubtitlesParser.Model
                 var lines = srtSubPart.Split(new string[]{Environment.NewLine}, StringSplitOptions.None).Select(s => s.Trim()).ToList();
                 if (lines.Count < 3)
                 {
-                    Logger.DebugFormat("Srt part {0} could not be parsed -> we skip it.", srtSubPart);
+                    Console.WriteLine("Srt part {0} could not be parsed -> we skip it.", srtSubPart);
                     continue;
                 }
 

@@ -1,9 +1,9 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
 using System.Text;
 using System.Text.RegularExpressions;
-using log4net;
 
 namespace SubtitlesParser.Model
 {
@@ -20,7 +20,7 @@ namespace SubtitlesParser.Model
     /// </summary>
     internal class SubParser : ISubtitlesParser
     {
-        private static readonly ILog Logger = LogManager.GetLogger(typeof (SubParser));
+        //private static readonly ILog Logger = LogManager.GetLogger(typeof (SubParser));
 
         // Properties -----------------------------------------------------------------------
 
@@ -44,10 +44,10 @@ namespace SubtitlesParser.Model
             // test if stream if readable and seekable (just a check, should be good)
             if (!subStream.CanRead || !subStream.CanSeek)
             {
-                Logger.ErrorFormat("Stream must be seekable and readable in specific parser. " +
+                var message = string.Format("Stream must be seekable and readable in a subtitles parser. " +
                                    "Operation interrupted; isSeekable: {0} - isReadable: {1}", 
                                    subStream.CanSeek, subStream.CanSeek);
-                return null;
+                throw new ArgumentException(message);
             }
 
             // seek the beginning of the stream
@@ -64,7 +64,7 @@ namespace SubtitlesParser.Model
                 var success = TryExtractFrameRate(firstItem.Text, out frameRate);
                 if (!success)
                 {
-                    Logger.WarnFormat("Couldn't extract frame rate of sub file with first line {0}. " +
+                    Console.WriteLine("Couldn't extract frame rate of sub file with first line {0}. " +
                                       "We use the default frame rate: {1}", line, _defaultFrameRate);
                     frameRate = _defaultFrameRate;
                     
@@ -119,7 +119,7 @@ namespace SubtitlesParser.Model
             {
                 var message = string.Format("The subtitle file line {0} is " +
                                             "not in the .sub format. We stop the process.", line);
-                Logger.Debug(message);
+                Console.WriteLine(message);
                 throw new InvalidDataException(message);
             }
         }
