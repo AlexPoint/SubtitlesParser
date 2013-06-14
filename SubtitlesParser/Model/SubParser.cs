@@ -20,8 +20,6 @@ namespace SubtitlesParser.Model
     /// </summary>
     internal class SubParser : ISubtitlesParser
     {
-        //private static readonly ILog Logger = LogManager.GetLogger(typeof (SubParser));
-
         // Properties -----------------------------------------------------------------------
 
         private readonly float _defaultFrameRate = 25;

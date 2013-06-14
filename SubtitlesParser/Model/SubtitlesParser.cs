@@ -9,8 +9,6 @@ namespace SubtitlesParser.Model
 {
     public class SubtitlesParser : ISubtitlesParser
     {
-        //private static readonly ILog Logger = LogManager.GetLogger(typeof (SubtitlesParser));
-
         // Properties -----------------------------------------------------------------------
         
         private readonly Dictionary<SubtitlesFormat, ISubtitlesParser> _subFormatToParser = new Dictionary<SubtitlesFormat, ISubtitlesParser>
