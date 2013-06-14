@@ -2,14 +2,14 @@
 <package >
   <metadata>
     <id>SubtitlesParser</id>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
     <title>Subtitles parser</title>
     <authors>AlexPoint</authors>
     <owners>AlexPoint</owners>
     <projectUrl>https://github.com/AlexPoint/SubtitlesParser</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Clever parser for subtitles files.</description>
-    <releaseNotes>Fix previous release which continued referencing log4net</releaseNotes>
+    <releaseNotes>Fix parsing of frame rates in .sub files</releaseNotes>
     <copyright>Copyright 2013</copyright>
     <tags>subtitles parser</tags>
   </metadata>
