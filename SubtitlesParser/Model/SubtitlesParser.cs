@@ -126,10 +126,11 @@ namespace SubtitlesParser.Model
                 catch (Exception ex)
                 {
                     // log the first characters
-                    var firstCharsOfStream = LogFirstCharactersOfStream(seekableStream, 500, encoding);
+                    /*var firstCharsOfStream = LogFirstCharactersOfStream(seekableStream, 500, encoding);
                     var msg = string.Format("Error was thrown when parsing subtitles: {0} \n " +
                                             "Beginning of subtitle file {1}", ex, firstCharsOfStream);
-                    throw new ArgumentException(msg);
+                    throw new ArgumentException(msg);*/
+                    continue;
                 }
             }
 

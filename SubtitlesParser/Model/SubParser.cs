@@ -134,7 +134,7 @@ namespace SubtitlesParser.Model
         /// <returns>True if the parsing was successful, false otherwise</returns>
         private bool TryExtractFrameRate(string text, out float frameRate)
         {
-            var success = float.TryParse(text, NumberStyles.AllowDecimalPoint, CultureInfo.CurrentCulture, out frameRate);
+            var success = float.TryParse(text, NumberStyles.AllowDecimalPoint, CultureInfo.InvariantCulture, out frameRate);
             return success;
         }
 
