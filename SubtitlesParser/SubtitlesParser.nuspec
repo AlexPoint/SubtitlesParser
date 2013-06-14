@@ -2,14 +2,14 @@
 <package >
   <metadata>
     <id>SubtitlesParser</id>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
     <title>Subtitles parser</title>
     <authors>AlexPoint</authors>
     <owners>AlexPoint</owners>
     <projectUrl>https://github.com/AlexPoint/SubtitlesParser</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Clever parser for subtitles files.</description>
-    <releaseNotes>A lot of cleanup for nuget packaging</releaseNotes>
+    <releaseNotes>Removed reference to log4net and throw exceptions instead</releaseNotes>
     <copyright>Copyright 2013</copyright>
     <tags>subtitles parser</tags>
   </metadata>
