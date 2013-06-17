@@ -2,14 +2,14 @@
 <package >
   <metadata>
     <id>SubtitlesParser</id>
-    <version>1.0.6</version>
+    <version>1.1.0</version>
     <title>Subtitles parser</title>
     <authors>AlexPoint</authors>
     <owners>AlexPoint</owners>
     <projectUrl>https://github.com/AlexPoint/SubtitlesParser</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Clever parser for subtitles files.</description>
-    <releaseNotes>Return a list of lines for each subtitle item (instead of a string). Also improved reliability of .sub parser.</releaseNotes>
+    <releaseNotes>Added SubStation Alpha parser for .ssa files</releaseNotes>
     <copyright>Copyright 2013</copyright>
     <tags>subtitles parser</tags>
   </metadata>
