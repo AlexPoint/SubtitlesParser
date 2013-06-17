@@ -66,11 +66,13 @@
     <None Include="Content\TestFiles\HellBoy 2 The Golden Army.ssa" />
     <None Include="Content\SubtitlesFiles\Jack_the_Giant_Slayer.srt" />
     <None Include="Content\SubtitlesFiles\jPod.S01E01.HDTV.XviD-2HD.srt" />
+    <None Include="Content\TestFiles\HP2.ssa" />
+    <None Include="Content\TestFiles\Lost_and_Delirious_fr.ssa" />
     <None Include="Content\TestFiles\Pirates of Caraibean CD1.sub" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>$(SolutionDir)nuget\NuGet.exe pack $(SolutionDir)\SubtitlesParser\SubtitlesParser.csproj</PostBuildEvent>
+    <PostBuildEvent>$(SolutionDir)nuget\NuGet.exe pack $(SolutionDir)\SubtitlesParser\SubtitlesParser.csproj -Prop Configuration=$(ConfigurationName)</PostBuildEvent>
   </PropertyGroup>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
