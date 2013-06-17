@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
+using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 
@@ -23,6 +24,7 @@ namespace SubtitlesParser.Model
         // Properties -----------------------------------------------------------------------
 
         private readonly float _defaultFrameRate = 25;
+        private char[] _lineSeparators = {'|'};
 
 
         // Constructors --------------------------------------------------------------------
@@ -59,7 +61,7 @@ namespace SubtitlesParser.Model
                 float frameRate;
                 // try to extract the framerate from the first line
                 var firstItem = ParseLine(line, _defaultFrameRate);
-                var success = TryExtractFrameRate(firstItem.Text, out frameRate);
+                var success = TryExtractFrameRate(firstItem.Lines[0], out frameRate);
                 if (!success)
                 {
                     Console.WriteLine("Couldn't extract frame rate of sub file with first line {0}. " +
@@ -104,9 +106,11 @@ namespace SubtitlesParser.Model
                 var endTime = match.Groups[2].Value;
                 var end = (int)(1000 * double.Parse(endTime) / frameRate);
                 var text = match.Groups[match.Groups.Count - 1].Value;
+                var lines = text.Split(_lineSeparators);
+                var nonEmptyLines = lines.Where(l => !string.IsNullOrEmpty(l)).ToList();
                 var item = new SubtitleItem
                     {
-                        Text = text,
+                        Lines = nonEmptyLines,
                         StartTime = start,
                         EndTime = end
                     };

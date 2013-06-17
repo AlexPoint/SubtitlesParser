@@ -76,14 +76,14 @@ namespace SubtitlesParser.Model
                 var start = ParseSrtTimecode(timeCodeParts[0]);
                 var end = ParseSrtTimecode(timeCodeParts[1]);
 
-                // text part
-                var textLine = string.Join(Environment.NewLine, lines.Skip(2));
-
+                // take only the non-empty lines
+                var textLines = lines.Skip(2).Where(l => !string.IsNullOrEmpty(l)).ToList();
+                
                 items.Add(new SubtitleItem
                     {
                         StartTime = start,
                         EndTime = end,
-                        Text = textLine
+                        Lines = textLines
                     });
             }
             return items;
