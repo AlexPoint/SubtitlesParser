@@ -37,7 +37,7 @@ namespace SubtitlesParser.Model
 
         private const string FirstLine = "[Script Info]";
         private const string EventLine = "[Events]";
-        private const short MaxLineNumberForEventSection = 20;
+        private const short MaxLineNumberForEventSection = 30;
         private const char Separator = ',';
 
         private const string StartColumn = "Start";
