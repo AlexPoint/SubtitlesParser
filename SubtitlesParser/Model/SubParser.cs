@@ -95,7 +95,7 @@ namespace SubtitlesParser.Model
         /// <returns>The corresponding SubtitleItem</returns>
         private SubtitleItem ParseLine(string line, float frameRate)
         {
-            const string regex = @"{(\d+)}{(\d+)}({.*})?(.*)";
+            const string regex = @"^[{\[](\d+)[}\]][{\[](\d+)[}\]](.*)";
             var match = Regex.Match(line, regex);
             if (match.Success && match.Groups.Count > 2)
             {

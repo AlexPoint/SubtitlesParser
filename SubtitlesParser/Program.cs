@@ -21,12 +21,13 @@ namespace SubtitlesParser
                     try
                     {
                         var items = parser.ParseStream(fileStream);
-                        Console.WriteLine("Parsing of file {0} succeded", fileName);
+                        Console.WriteLine("Parsing of file {0}: SUCCESS", fileName);
+                        Console.WriteLine();
                         Console.WriteLine(string.Join(Environment.NewLine, items.Take(5)));
                     }
                     catch (Exception ex)
                     {
-                        Console.WriteLine("Parsing of file {0} failed: {1}", fileName, ex);
+                        Console.WriteLine("Parsing of file {0}: FAILURE\n{1}", fileName, ex);
                     }
                 }
                 Console.WriteLine("----------------------");
