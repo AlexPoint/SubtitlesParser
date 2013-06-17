@@ -30,8 +30,18 @@ namespace SubtitlesParser.Model
             Name = "SubViewer",
             Extension = ".sub"
         };
+        public static SubtitlesFormat SubStationAlphaFormat = new SubtitlesFormat()
+        {
+            Name = "SubStationAlpha",
+            Extension = ".ssa"
+        };
 
-        public static List<SubtitlesFormat> SupportedSubtitlesFormats = new List<SubtitlesFormat>() { SubRipFormat, SubViewerFormat };
+        public static List<SubtitlesFormat> SupportedSubtitlesFormats = new List<SubtitlesFormat>()
+            {
+                SubRipFormat, 
+                SubViewerFormat,
+                SubStationAlphaFormat
+            };
 
     }
 
