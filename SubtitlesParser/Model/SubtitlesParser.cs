@@ -14,7 +14,8 @@ namespace SubtitlesParser.Model
         private readonly Dictionary<SubtitlesFormat, ISubtitlesParser> _subFormatToParser = new Dictionary<SubtitlesFormat, ISubtitlesParser>
             {
                 {SubtitlesFormat.SubRipFormat, new SrtParser()},
-                {SubtitlesFormat.SubViewerFormat, new SubParser()}
+                {SubtitlesFormat.SubViewerFormat, new SubParser()},
+                {SubtitlesFormat.SubStationAlphaFormat, new SsaParser()}
             };
 
 

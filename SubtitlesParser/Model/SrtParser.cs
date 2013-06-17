@@ -47,9 +47,7 @@ namespace SubtitlesParser.Model
             // seek the beginning of the stream
             srtStream.Position = 0;
 
-            //var encoding = Language.GetPreferredEncoding(languageCode);
             var reader = new StreamReader(srtStream, encoding, true);
-
             var delimiter = new string[] { "-->" };
 
             var items = new List<SubtitleItem>();

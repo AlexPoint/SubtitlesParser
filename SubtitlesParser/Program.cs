@@ -38,7 +38,7 @@ namespace SubtitlesParser
 
         private static string[] BrowseTestSubtitlesFiles()
         {
-            const string subFilesDirectory = @"Content\SubtitlesFiles";
+            const string subFilesDirectory = @"Content\TestFiles";
             var currentPath = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
             var completePath = Path.Combine(currentPath, "..", "..", subFilesDirectory);
 
