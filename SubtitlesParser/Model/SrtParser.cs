@@ -23,7 +23,7 @@ namespace SubtitlesParser.Model
         
         // Properties -----------------------------------------------------------------------
 
-        private readonly string[] _delimiters = new string[] { "-->" , "- >"};
+        private readonly string[] _delimiters = new string[] { "-->" , "- >", "->" };
         
 
         // Constructors --------------------------------------------------------------------
