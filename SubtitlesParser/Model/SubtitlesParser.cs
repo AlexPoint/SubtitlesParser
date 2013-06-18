@@ -136,19 +136,7 @@ namespace SubtitlesParser.Model
             var message = string.Format("All the subtitles parsers failed to parse the following stream:{0}", firstCharsOfFile);
             throw new ArgumentException(message);
         }
-
-        /*public List<SubtitleItem> ParseSubtitleFile(HttpPostedFileBase file, short languageCode)
-        {
-            var mostLikelyFormat = GetMostLikelyFormat(file);
-
-            Stream copy = new MemoryStream();
-            file.InputStream.CopyTo(copy);
-            file.InputStream.Position = copy.Position = 0;//reset the position at 0 to use the stream aftewards
-            
-            return ParseStream(copy, languageCode, mostLikelyFormat);
-        }*/
-
-
+        
         /// <summary>
         /// Logs the first characters of a stream for debug
         /// </summary>
