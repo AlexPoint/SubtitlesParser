@@ -2,14 +2,14 @@
 <package >
   <metadata>
     <id>SubtitlesParser</id>
-    <version>1.2.1</version>
+    <version>1.2.2</version>
     <title>Subtitles parser</title>
     <authors>AlexPoint</authors>
     <owners>AlexPoint</owners>
     <projectUrl>https://github.com/AlexPoint/SubtitlesParser</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Clever parser for subtitles files.</description>
-    <releaseNotes>Made srt parsing more robust by adding several timecode delimiters</releaseNotes>
+    <releaseNotes>Made srt parsing more robust by adding new timecode delimiters</releaseNotes>
     <copyright>Copyright 2013</copyright>
     <tags>subtitles parser</tags>
   </metadata>
