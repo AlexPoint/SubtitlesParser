@@ -25,6 +25,11 @@ namespace SubtitlesParser.Model
             Name = "SubRip",
             Extension = ".srt"
         };
+        public static SubtitlesFormat MicroDvdFormat = new SubtitlesFormat()
+        {
+            Name = "MicroDvd",
+            Extension = ".sub"
+        };
         public static SubtitlesFormat SubViewerFormat = new SubtitlesFormat()
         {
             Name = "SubViewer",
@@ -39,6 +44,7 @@ namespace SubtitlesParser.Model
         public static List<SubtitlesFormat> SupportedSubtitlesFormats = new List<SubtitlesFormat>()
             {
                 SubRipFormat, 
+                MicroDvdFormat,
                 SubViewerFormat,
                 SubStationAlphaFormat
             };

@@ -14,7 +14,8 @@ namespace SubtitlesParser.Model
         private readonly Dictionary<SubtitlesFormat, ISubtitlesParser> _subFormatToParser = new Dictionary<SubtitlesFormat, ISubtitlesParser>
             {
                 {SubtitlesFormat.SubRipFormat, new SrtParser()},
-                {SubtitlesFormat.SubViewerFormat, new SubParser()},
+                {SubtitlesFormat.MicroDvdFormat, new MicroDvdSubParser()},
+                {SubtitlesFormat.SubViewerFormat, new SubViewerSubParser()},
                 {SubtitlesFormat.SubStationAlphaFormat, new SsaParser()}
             };
 
@@ -124,8 +125,9 @@ namespace SubtitlesParser.Model
 
                     return items;
                 }
-                catch
+                catch(Exception ex)
                 {
+                    //Console.WriteLine(ex);
                 }
             }
 
