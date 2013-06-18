@@ -20,10 +20,10 @@ namespace SubtitlesParser.Model
     /// </summary>
     internal class SrtParser: ISubtitlesParser
     {
-        //private static readonly ILog Logger = LogManager.GetLogger(typeof (SrtParser));
-
+        
         // Properties -----------------------------------------------------------------------
 
+        private readonly string[] _delimiters = new string[] { "-->" , "- >"};
         
 
         // Constructors --------------------------------------------------------------------
@@ -48,7 +48,6 @@ namespace SubtitlesParser.Model
             srtStream.Position = 0;
 
             var reader = new StreamReader(srtStream, encoding, true);
-            var delimiter = new string[] { "-->" };
 
             var items = new List<SubtitleItem>();
             var srtSubParts = GetSrtSubTitleParts(reader);
@@ -64,7 +63,7 @@ namespace SubtitlesParser.Model
                 // lines[0] is the index -> useless
                 // timecode part
                 var timeCodeLine = lines[1];
-                var timeCodeParts = timeCodeLine.Split(delimiter, StringSplitOptions.None);
+                var timeCodeParts = timeCodeLine.Split(_delimiters, StringSplitOptions.None);
                 if (timeCodeParts.Length != 2)
                 {
                     var msg = string.Format("Timecode line {0} in {1} could not be parsed " +
