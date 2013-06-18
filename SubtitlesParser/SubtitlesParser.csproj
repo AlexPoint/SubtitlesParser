@@ -6,7 +6,7 @@
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{6F33AA98-2275-4241-BBED-B3D02BDE5EBB}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>SubtitlesParser</RootNamespace>
     <AssemblyName>SubtitlesParser</AssemblyName>
@@ -80,10 +80,11 @@
     <Compile Include="Model\SrtParser.cs" />
     <Compile Include="Model\SsaParser.cs" />
     <Compile Include="Model\StreamHelpers.cs" />
-    <Compile Include="Model\SubParser.cs" />
+    <Compile Include="Model\MicroDvdSubParser.cs" />
     <Compile Include="Model\SubtitlesFormat.cs" />
     <Compile Include="Model\SubtitleItem.cs" />
     <Compile Include="Model\SubtitlesParser.cs" />
+    <Compile Include="Model\SubViewerSubParser.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -93,12 +94,14 @@
     <None Include="Content\SubtitlesFiles\Freaks - Freaks, la monstrueuse parade %28Tod Browning - 1932%29.sub" />
     <None Include="Content\SubtitlesFiles\Game of Thrones - 03x05 - Kissed by Fire.2HD.English.HI.C.orig.Addic7ed.com.srt" />
     <None Include="Content\SubtitlesFiles\Gangs-of-New-York-DVD-Deadman-2.sub" />
+    <None Include="Content\TestFiles\battlestar.galactica.s03e09.ws.dsr.xvid-orenji.eng.sub" />
     <None Include="Content\TestFiles\HellBoy 2 The Golden Army.ssa" />
     <None Include="Content\SubtitlesFiles\Jack_the_Giant_Slayer.srt" />
     <None Include="Content\SubtitlesFiles\jPod.S01E01.HDTV.XviD-2HD.srt" />
     <None Include="Content\TestFiles\HP2.ssa" />
     <None Include="Content\TestFiles\Lost_and_Delirious_fr.ssa" />
     <None Include="Content\TestFiles\Pirates of Caraibean CD1.sub" />
+    <None Include="Content\TestFiles\Remember the Titans[2000]DvDrip[Eng]-prithwi.srt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\nuget\nuget.targets" />

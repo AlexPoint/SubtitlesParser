@@ -9,7 +9,7 @@ using System.Text.RegularExpressions;
 namespace SubtitlesParser.Model
 {
     /// <summary>
-    /// Parser for .sub subtitles files
+    /// Parser for MicroDVD .sub subtitles files
     /// 
     /// A .sub file looks like this:
     /// {1}{1}29.970
@@ -18,20 +18,22 @@ namespace SubtitlesParser.Model
     /// {635}{755}We kidnap and ravage and don't give a hoot.
     /// 
     /// We need the video frame rate to extract .sub files -> careful when using it
+    /// 
+    /// see https://en.wikipedia.org/wiki/MicroDVD
     /// </summary>
-    internal class SubParser : ISubtitlesParser
+    internal class MicroDvdSubParser : ISubtitlesParser
     {
         // Properties -----------------------------------------------------------------------
 
         private readonly float _defaultFrameRate = 25;
-        private char[] _lineSeparators = {'|'};
+        private readonly char[] _lineSeparators = {'|'};
 
 
         // Constructors --------------------------------------------------------------------
 
-        public SubParser(){}
+        public MicroDvdSubParser(){}
 
-        public SubParser(float defaultFrameRate)
+        public MicroDvdSubParser(float defaultFrameRate)
         {
             this._defaultFrameRate = defaultFrameRate;
         }
