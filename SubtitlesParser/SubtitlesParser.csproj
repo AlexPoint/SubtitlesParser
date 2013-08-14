@@ -102,6 +102,7 @@
     <None Include="Content\SubtitlesFiles\Lost_and_Delirious_fr.ssa" />
     <None Include="Content\SubtitlesFiles\Pirates of Caraibean CD1.sub" />
     <None Include="Content\SubtitlesFiles\Remember the Titans[2000]DvDrip[Eng]-prithwi.srt" />
+    <None Include="Content\TestFiles\Annie Hall - Eng 25fps.srt" />
     <None Include="Content\TestFiles\Remember the Titans[2000]DvDrip[Eng]-prithwi %281%29.srt" />
     <None Include="Content\TestFiles\Rise.of.the.Guardians.2012.BDRip.XViD-SPARKS.srt" />
     <None Include="Content\TestFiles\The Mentalist - 3x11 - Episode 11.fr.srt" />

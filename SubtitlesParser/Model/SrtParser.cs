@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace SubtitlesParser.Model
 {
@@ -140,16 +141,17 @@ namespace SubtitlesParser.Model
         private int ParseSrtTimecode(string s)
         {
             TimeSpan result;
-
-            if (TimeSpan.TryParse(s.Replace(',', '.'), out result))
+            var match = Regex.Match(s, "[0-9]+:[0-9]+:[0-9]+,[0-9]+");
+            if (match != null)
             {
-                var nbOfMs = (int)result.TotalMilliseconds;
-                return nbOfMs;
+                s = match.Value;
+                if (TimeSpan.TryParse(s.Replace(',', '.'), out result))
+                {
+                    var nbOfMs = (int)result.TotalMilliseconds;
+                    return nbOfMs;
+                }
             }
-            else
-            {
-                return -1;
-            }
+            return -1;
         }
 
     }
