@@ -71,7 +71,17 @@ namespace SubtitlesParser.Model
                     throw new IndexOutOfRangeException(msg);
                 }
                 var start = ParseSrtTimecode(timeCodeParts[0]);
+                if (start == -1)
+                {
+                    var msg = string.Format("Failed to parse timecode {0} in {1}. Timecode is in the wrong format.", timeCodeParts[0], srtSubPart);
+                    throw new FormatException(msg);
+                }
                 var end = ParseSrtTimecode(timeCodeParts[1]);
+                if (end == -1)
+                {
+                    var msg = string.Format("Failed to parse timecode {0} in {1}. Timecode is in the wrong format.", timeCodeParts[1], srtSubPart);
+                    throw new FormatException(msg);
+                }
 
                 // take only the non-empty lines
                 var textLines = lines.Skip(2).Where(l => !string.IsNullOrEmpty(l)).ToList();
