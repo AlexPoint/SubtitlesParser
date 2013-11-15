@@ -73,3 +73,7 @@ $RECYCLE.BIN/
 
 # Nuget package files
 *.nupkg
+
+# binaries
+*.exe
+*.snk
