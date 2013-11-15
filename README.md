@@ -13,7 +13,7 @@ For now, 4 different formats are supported:
 
 ### Quickstart
 
-You can check the Test project for more sample codes.
+You can check the Test project for subtitles files and more sample codes.
 
 #### Universal parser
 
