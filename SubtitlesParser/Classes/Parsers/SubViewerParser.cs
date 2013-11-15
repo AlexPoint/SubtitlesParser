@@ -20,7 +20,7 @@ namespace SubtitlesParser.Classes.Parsers
     /// 
     /// see https://en.wikipedia.org/wiki/SubViewer
     /// </summary>
-    internal class SubViewerSubParser : ISubtitlesParser
+    internal class SubViewerParser : ISubtitlesParser
     {
         // Properties ----------------------------------------------------------
 
@@ -90,7 +90,7 @@ namespace SubtitlesParser.Classes.Parsers
             }
             else
             {
-                throw new ArgumentException("Wrong subtitles format for the SubViewerSubParser");
+                throw new ArgumentException("Wrong subtitles format for the SubViewerParser");
             }
         }
 

@@ -21,7 +21,7 @@ namespace SubtitlesParser.Classes.Parsers
     /// 
     /// see https://en.wikipedia.org/wiki/MicroDVD
     /// </summary>
-    internal class MicroDvdSubParser : ISubtitlesParser
+    internal class MicroDvdParser : ISubtitlesParser
     {
         // Properties -----------------------------------------------------------------------
 
@@ -31,9 +31,9 @@ namespace SubtitlesParser.Classes.Parsers
 
         // Constructors --------------------------------------------------------------------
 
-        public MicroDvdSubParser(){}
+        public MicroDvdParser(){}
 
-        public MicroDvdSubParser(float defaultFrameRate)
+        public MicroDvdParser(float defaultFrameRate)
         {
             this._defaultFrameRate = defaultFrameRate;
         }

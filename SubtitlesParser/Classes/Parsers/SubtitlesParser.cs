@@ -13,8 +13,8 @@ namespace SubtitlesParser.Classes.Parsers
         private readonly Dictionary<SubtitlesFormat, ISubtitlesParser> _subFormatToParser = new Dictionary<SubtitlesFormat, ISubtitlesParser>
             {
                 {SubtitlesFormat.SubRipFormat, new SrtParser()},
-                {SubtitlesFormat.MicroDvdFormat, new MicroDvdSubParser()},
-                {SubtitlesFormat.SubViewerFormat, new SubViewerSubParser()},
+                {SubtitlesFormat.MicroDvdFormat, new MicroDvdParser()},
+                {SubtitlesFormat.SubViewerFormat, new SubViewerParser()},
                 {SubtitlesFormat.SubStationAlphaFormat, new SsaParser()}
             };
 
