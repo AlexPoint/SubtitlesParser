@@ -86,11 +86,11 @@
     <Compile Include="Classes\Parsers\SrtParser.cs" />
     <Compile Include="Classes\Parsers\SsaParser.cs" />
     <Compile Include="Classes\StreamHelpers.cs" />
-    <Compile Include="Classes\Parsers\MicroDvdSubParser.cs" />
+    <Compile Include="Classes\Parsers\MicroDvdParser.cs" />
     <Compile Include="Classes\SubtitlesFormat.cs" />
     <Compile Include="Classes\SubtitleItem.cs" />
     <Compile Include="Classes\Parsers\SubtitlesParser.cs" />
-    <Compile Include="Classes\Parsers\SubViewerSubParser.cs" />
+    <Compile Include="Classes\Parsers\SubViewerParser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

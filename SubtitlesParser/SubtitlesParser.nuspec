@@ -2,14 +2,14 @@
 <package >
   <metadata>
     <id>SubtitlesParser</id>
-    <version>1.2.4</version>
+    <version>1.3.0</version>
     <title>Subtitles parser</title>
-    <authors>guidupuy</authors>
+    <authors>AlexPoint</authors>
     <owners>AlexPoint</owners>
     <projectUrl>https://github.com/AlexPoint/SubtitlesParser</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Clever parser for subtitles files.</description>
-    <releaseNotes>SubRip parser: more robust timecode parsing</releaseNotes>
+    <description>Universal subtitles parser</description>
+    <releaseNotes>Reorganized project in main assembly and Test project and signed main assembly</releaseNotes>
     <copyright>Copyright 2013</copyright>
     <tags>subtitles parser</tags>
   </metadata>
