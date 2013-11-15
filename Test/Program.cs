@@ -11,7 +11,7 @@ namespace Test
     {
         static void Main(string[] args)
         {
-            var parser = new SubtitlesParser.Model.SubtitlesParser();
+            var parser = new SubtitlesParser.Classes.Parsers.SubtitlesParser();
 
             var allFiles = BrowseTestSubtitlesFiles();
             foreach (var file in allFiles)

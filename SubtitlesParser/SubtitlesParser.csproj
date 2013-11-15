@@ -76,15 +76,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Model\ISubtitlesParser.cs" />
-    <Compile Include="Model\SrtParser.cs" />
-    <Compile Include="Model\SsaParser.cs" />
-    <Compile Include="Model\StreamHelpers.cs" />
-    <Compile Include="Model\MicroDvdSubParser.cs" />
-    <Compile Include="Model\SubtitlesFormat.cs" />
-    <Compile Include="Model\SubtitleItem.cs" />
-    <Compile Include="Model\SubtitlesParser.cs" />
-    <Compile Include="Model\SubViewerSubParser.cs" />
+    <Compile Include="Classes\Parsers\ISubtitlesParser.cs" />
+    <Compile Include="Classes\Parsers\SrtParser.cs" />
+    <Compile Include="Classes\Parsers\SsaParser.cs" />
+    <Compile Include="Classes\StreamHelpers.cs" />
+    <Compile Include="Classes\Parsers\MicroDvdSubParser.cs" />
+    <Compile Include="Classes\SubtitlesFormat.cs" />
+    <Compile Include="Classes\SubtitleItem.cs" />
+    <Compile Include="Classes\Parsers\SubtitlesParser.cs" />
+    <Compile Include="Classes\Parsers\SubViewerSubParser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

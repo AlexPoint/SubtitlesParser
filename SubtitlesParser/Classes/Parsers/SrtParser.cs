@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 
-namespace SubtitlesParser.Model
+namespace SubtitlesParser.Classes.Parsers
 {
     /// <summary>
     /// Parser for the .srt subtitles files
