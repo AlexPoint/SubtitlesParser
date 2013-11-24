@@ -5,7 +5,7 @@ using System.Text;
 namespace SubtitlesParser.Classes.Parsers
 {
     /// <summary>
-    /// Interface specifying the required method for a SubtitlesParser.
+    /// Interface specifying the required method for a SubParser.
     /// </summary>
     public interface ISubtitlesParser
     {

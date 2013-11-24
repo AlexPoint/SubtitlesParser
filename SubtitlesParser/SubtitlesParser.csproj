@@ -70,7 +70,8 @@
     <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>SubtitlesParser.snk</AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -89,12 +90,9 @@
     <Compile Include="Classes\Parsers\MicroDvdParser.cs" />
     <Compile Include="Classes\SubtitlesFormat.cs" />
     <Compile Include="Classes\SubtitleItem.cs" />
-    <Compile Include="Classes\Parsers\SubtitlesParser.cs" />
+    <Compile Include="Classes\Parsers\SubParser.cs" />
     <Compile Include="Classes\Parsers\SubViewerParser.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="SubtitlesParser.snk" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\nuget\nuget.targets" />

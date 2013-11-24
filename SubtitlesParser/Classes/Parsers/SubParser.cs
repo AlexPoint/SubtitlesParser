@@ -6,7 +6,7 @@ using System.Text;
 
 namespace SubtitlesParser.Classes.Parsers
 {
-    public class SubtitlesParser : ISubtitlesParser
+    public class SubParser : ISubtitlesParser
     {
         // Properties -----------------------------------------------------------------------
         
@@ -21,7 +21,7 @@ namespace SubtitlesParser.Classes.Parsers
 
         // Constructors --------------------------------------------------------------------
 
-        public SubtitlesParser(){}
+        public SubParser(){}
 
 
         // Methods -------------------------------------------------------------------------
