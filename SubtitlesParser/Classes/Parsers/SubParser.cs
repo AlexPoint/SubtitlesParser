@@ -15,7 +15,8 @@ namespace SubtitlesParser.Classes.Parsers
                 {SubtitlesFormat.SubRipFormat, new SrtParser()},
                 {SubtitlesFormat.MicroDvdFormat, new MicroDvdParser()},
                 {SubtitlesFormat.SubViewerFormat, new SubViewerParser()},
-                {SubtitlesFormat.SubStationAlphaFormat, new SsaParser()}
+                {SubtitlesFormat.SubStationAlphaFormat, new SsaParser()},
+                {SubtitlesFormat.YoutubeXmlFormat, new YtXmlFormatParser()}
             };
 
 
@@ -110,6 +111,7 @@ namespace SubtitlesParser.Classes.Parsers
             if (!stream.CanSeek)
             {
                 seekableStream = StreamHelpers.CopyStream(stream);
+                seekableStream.Seek(0, SeekOrigin.Begin);
             }
 
             // if dictionary is null, use the default one

@@ -37,13 +37,20 @@ namespace SubtitlesParser.Classes
             Name = "SubStationAlpha",
             Extension = ".ssa"
         };
+        public static SubtitlesFormat YoutubeXmlFormat = new SubtitlesFormat()
+        {
+            Name = "YoutubeXml",
+            Extension = ""
+        };
+
 
         public static List<SubtitlesFormat> SupportedSubtitlesFormats = new List<SubtitlesFormat>()
             {
                 SubRipFormat, 
                 MicroDvdFormat,
                 SubViewerFormat,
-                SubStationAlphaFormat
+                SubStationAlphaFormat,
+                YoutubeXmlFormat
             };
 
     }
