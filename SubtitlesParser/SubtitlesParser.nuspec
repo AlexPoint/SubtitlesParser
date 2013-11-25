@@ -2,14 +2,14 @@
 <package >
   <metadata>
     <id>SubtitlesParser</id>
-    <version>1.3.0</version>
+    <version>1.3.1</version>
     <title>Subtitles parser</title>
     <authors>AlexPoint</authors>
     <owners>AlexPoint</owners>
     <projectUrl>https://github.com/AlexPoint/SubtitlesParser</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Universal subtitles parser</description>
-    <releaseNotes>Reorganized project in main assembly and Test project and signed main assembly</releaseNotes>
+    <releaseNotes>Added subtitles parser for Youtube specific XML format</releaseNotes>
     <copyright>Copyright 2013</copyright>
     <tags>subtitles parser</tags>
   </metadata>
