@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace SubtitlesParser.Classes.Parsers
 {
@@ -39,7 +40,7 @@ namespace SubtitlesParser.Classes.Parsers
 
             foreach (var format in SubtitlesFormat.SupportedSubtitlesFormats)
             {
-                if (format.Extension == extension)
+                if (Regex.IsMatch(extension, format.Extension))
                 {
                     return format;
                 }

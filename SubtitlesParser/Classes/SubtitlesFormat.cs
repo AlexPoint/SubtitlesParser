@@ -20,27 +20,27 @@ namespace SubtitlesParser.Classes
         public static SubtitlesFormat SubRipFormat = new SubtitlesFormat()
         {
             Name = "SubRip",
-            Extension = ".srt"
+            Extension = @"\.srt"
         };
         public static SubtitlesFormat MicroDvdFormat = new SubtitlesFormat()
         {
             Name = "MicroDvd",
-            Extension = ".sub"
+            Extension = @"\.sub"
         };
         public static SubtitlesFormat SubViewerFormat = new SubtitlesFormat()
         {
             Name = "SubViewer",
-            Extension = ".sub"
+            Extension = @"\.sub"
         };
         public static SubtitlesFormat SubStationAlphaFormat = new SubtitlesFormat()
         {
             Name = "SubStationAlpha",
-            Extension = ".ssa"
+            Extension = @"\.ssa"
         };
         public static SubtitlesFormat YoutubeXmlFormat = new SubtitlesFormat()
         {
             Name = "YoutubeXml",
-            Extension = ""
+            Extension = @"\.*"
         };
 
 
