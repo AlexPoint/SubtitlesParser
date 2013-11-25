@@ -8,7 +8,7 @@ using System.Xml;
 
 namespace SubtitlesParser.Classes.Parsers
 {
-    class YtXmlFormatParser : ISubtitlesParser
+    public class YtXmlFormatParser : ISubtitlesParser
     {
         public List<SubtitleItem> ParseStream(Stream xmlStream, Encoding encoding)
         {

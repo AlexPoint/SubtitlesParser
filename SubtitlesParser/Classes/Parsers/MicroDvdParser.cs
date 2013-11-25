@@ -21,7 +21,7 @@ namespace SubtitlesParser.Classes.Parsers
     /// 
     /// see https://en.wikipedia.org/wiki/MicroDVD
     /// </summary>
-    internal class MicroDvdParser : ISubtitlesParser
+    public class MicroDvdParser : ISubtitlesParser
     {
         // Properties -----------------------------------------------------------------------
 

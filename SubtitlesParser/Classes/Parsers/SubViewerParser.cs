@@ -20,7 +20,7 @@ namespace SubtitlesParser.Classes.Parsers
     /// 
     /// see https://en.wikipedia.org/wiki/SubViewer
     /// </summary>
-    internal class SubViewerParser : ISubtitlesParser
+    public class SubViewerParser : ISubtitlesParser
     {
         // Properties ----------------------------------------------------------
 

@@ -31,7 +31,7 @@ namespace SubtitlesParser.Classes.Parsers
     /// Format: Marked, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
     /// Dialogue: Marked=0,0:00:01.18,0:00:06.85,DefaultVCD, NTP,0000,0000,0000,,{\pos(400,570)}Like an angel with pity on nobody
     /// </summary>
-    internal class SsaParser : ISubtitlesParser
+    public class SsaParser : ISubtitlesParser
     {
         // Properties ---------------------------------------------------------------
 

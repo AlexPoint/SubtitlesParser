@@ -19,7 +19,7 @@ namespace SubtitlesParser.Classes.Parsers
     /// 00:00:15,000 --> 00:00:18,000
     /// At the left we can see...[12]
     /// </summary>
-    internal class SrtParser: ISubtitlesParser
+    public class SrtParser: ISubtitlesParser
     {
         
         // Properties -----------------------------------------------------------------------
