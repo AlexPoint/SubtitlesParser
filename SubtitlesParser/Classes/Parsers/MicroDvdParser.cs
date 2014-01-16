@@ -99,7 +99,7 @@ namespace SubtitlesParser.Classes.Parsers
         /// <returns>The corresponding SubtitleItem</returns>
         private SubtitleItem ParseLine(string line, float frameRate)
         {
-            const string regex = @"^[{\[](\d+)[}\]][{\[](\d+)[}\]](.*)";
+            const string regex = @"^[{\[](-?\d+)[}\]][{\[](-?\d+)[}\]](.*)";
             var match = Regex.Match(line, regex);
             if (match.Success && match.Groups.Count > 2)
             {
@@ -122,7 +122,7 @@ namespace SubtitlesParser.Classes.Parsers
             else
             {
                 var message = string.Format("The subtitle file line {0} is " +
-                                            "not in the .sub format. We stop the process.", line);
+                                            "not in the micro dvd format. We stop the process.", line);
                 Console.WriteLine(message);
                 throw new InvalidDataException(message);
             }
