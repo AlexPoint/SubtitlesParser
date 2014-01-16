@@ -54,45 +54,41 @@ namespace SubtitlesParser.Classes.Parsers
             var srtSubParts = GetSrtSubTitleParts(reader);
             foreach (var srtSubPart in srtSubParts)
             {
-                var lines = srtSubPart.Split(new string[]{Environment.NewLine}, StringSplitOptions.None).Select(s => s.Trim()).ToList();
-                if (lines.Count < 3)
-                {
-                    Console.WriteLine("Srt part {0} could not be parsed -> we skip it.", srtSubPart);
-                    continue;
-                }
+                var lines = srtSubPart.Split(new string[]{Environment.NewLine}, StringSplitOptions.None).Select(s => s.Trim()).Where(l => !string.IsNullOrEmpty(l)).ToList();
 
-                // lines[0] is the index -> useless
-                // timecode part
-                var timeCodeLine = lines[1];
-                var timeCodeParts = timeCodeLine.Split(_delimiters, StringSplitOptions.None);
-                if (timeCodeParts.Length != 2)
+                var item = new SubtitleItem();
+                foreach (var line in lines)
                 {
-                    var msg = string.Format("Timecode line {0} in {1} could not be parsed " +
-                                            "to retrieve item start and end timecodes", timeCodeLine, srtSubPart);
-                    throw new IndexOutOfRangeException(msg);
-                }
-                var start = ParseSrtTimecode(timeCodeParts[0]);
-                if (start == -1)
-                {
-                    var msg = string.Format("Failed to parse timecode {0} in {1}. Timecode is in the wrong format.", timeCodeParts[0], srtSubPart);
-                    throw new FormatException(msg);
-                }
-                var end = ParseSrtTimecode(timeCodeParts[1]);
-                if (end == -1)
-                {
-                    var msg = string.Format("Failed to parse timecode {0} in {1}. Timecode is in the wrong format.", timeCodeParts[1], srtSubPart);
-                    throw new FormatException(msg);
-                }
-
-                // take only the non-empty lines
-                var textLines = lines.Skip(2).Where(l => !string.IsNullOrEmpty(l)).ToList();
-                
-                items.Add(new SubtitleItem
+                    if (item.StartTime == 0 && item.EndTime == 0)
                     {
-                        StartTime = start,
-                        EndTime = end,
-                        Lines = textLines
-                    });
+                        // we look for the timecodes first
+                        int startTc;
+                        int endTc;
+                        var success = TryParseTimecodeLine(line, out startTc, out endTc);
+                        if (success)
+                        {
+                            item.StartTime = startTc;
+                            item.EndTime = endTc;
+                        }
+                    }
+                    else
+                    {
+                        // we found the timecode, now we get the text
+                        item.Lines.Add(line);
+                    }
+                }
+
+                if (item.StartTime != 0 || item.EndTime != 0)
+                {
+                    // parsing succeeded
+                    items.Add(item);
+                }
+                else
+                {
+                    // parsing failed -> it's the wrong format
+                    var msg = string.Format("Failed to parse srt part: {0}. We stop the process", string.Join(Environment.NewLine, lines));
+                    throw new FormatException(msg);
+                }
             }
             return items;
         }
@@ -132,6 +128,24 @@ namespace SubtitlesParser.Classes.Parsers
             }
         }
 
+        private bool TryParseTimecodeLine(string line, out int startTc, out int endTc)
+        {
+            var parts = line.Split(_delimiters, StringSplitOptions.None);
+            if (parts.Length != 2)
+            {
+                // this is not a timecode line
+                startTc = -1;
+                endTc = -1;
+                return false;
+            }
+            else
+            {
+                startTc = ParseSrtTimecode(parts[0]);
+                endTc = ParseSrtTimecode(parts[1]);
+                return true;
+            }
+        }
+
         /// <summary>
         /// Takes an SRT timecode as a string and parses it into a double (in seconds). A SRT timecode reads as follows: 
         /// 00:00:20,000
@@ -142,7 +156,7 @@ namespace SubtitlesParser.Classes.Parsers
         {
             TimeSpan result;
             var match = Regex.Match(s, "[0-9]+:[0-9]+:[0-9]+,[0-9]+");
-            if (match != null)
+            if (match.Success)
             {
                 s = match.Value;
                 if (TimeSpan.TryParse(s.Replace(',', '.'), out result))

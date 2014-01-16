@@ -19,7 +19,10 @@ namespace SubtitlesParser.Classes
         /// <summary>
         /// The empty constructor
         /// </summary>
-        public SubtitleItem(){ }
+        public SubtitleItem()
+        {
+            this.Lines = new List<string>();
+        }
 
 
         // Methods --------------------------------------------------------------------------
