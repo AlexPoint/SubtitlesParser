@@ -24,7 +24,7 @@ namespace Test
                         var items = parser.ParseStream(fileStream);
                         if (items.Any())
                         {
-                            Console.WriteLine("Parsing of file {0}: SUCCESS", fileName);
+                            Console.WriteLine("Parsing of file {0}: SUCCESS ({1} items)", fileName, items.Count);
                             /*Console.WriteLine();
                             Console.WriteLine(string.Join(Environment.NewLine, items.Take(5)));*/
                         }

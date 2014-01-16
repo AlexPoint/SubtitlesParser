@@ -130,7 +130,6 @@ namespace SubtitlesParser.Classes.Parsers
             {
                 var message = string.Format("The subtitle file line {0} is " +
                                             "not in the micro dvd format. We stop the process.", line);
-                Console.WriteLine(message);
                 throw new InvalidDataException(message);
             }
         }
