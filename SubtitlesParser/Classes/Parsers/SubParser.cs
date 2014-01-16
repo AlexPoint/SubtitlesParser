@@ -125,7 +125,15 @@ namespace SubtitlesParser.Classes.Parsers
                     var parser = subtitlesParser.Value;
                     var items = parser.ParseStream(seekableStream, encoding);
 
-                    return items;
+                    // safeguard
+                    if (items.Any())
+                    {
+                        return items;
+                    }
+                    else
+                    {
+                        throw new FormatException(string.Format("Failed to parse as {0}", subtitlesParser.Key));
+                    }
                 }
                 catch(Exception ex)
                 {

@@ -85,7 +85,14 @@ namespace SubtitlesParser.Classes.Parsers
                 }
             }
 
-            return items;
+            if (items.Any())
+            {
+                return items;
+            }
+            else
+            {
+                throw new ArgumentException("Stream is not in a valid MicroDVD format");
+            }
         }
 
         /// <summary>

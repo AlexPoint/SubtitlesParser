@@ -113,7 +113,14 @@ namespace SubtitlesParser.Classes.Parsers
                                 line = reader.ReadLine();
                             }
 
-                            return items;
+                            if (items.Any())
+                            {
+                                return items;
+                            }
+                            else
+                            {
+                                throw new ArgumentException("Stream is not in a valid Ssa format");
+                            }
                         }
                         else
                         {

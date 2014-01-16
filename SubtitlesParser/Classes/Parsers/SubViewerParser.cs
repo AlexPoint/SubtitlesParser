@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 
@@ -79,7 +80,14 @@ namespace SubtitlesParser.Classes.Parsers
                         separatorLine = reader.ReadLine();
                     }
 
-                    return items;
+                    if (items.Any())
+                    {
+                        return items;
+                    }
+                    else
+                    {
+                        throw new ArgumentException("Stream is not in a valid SubViewer format");
+                    }
                 }
                 else
                 {
@@ -90,7 +98,7 @@ namespace SubtitlesParser.Classes.Parsers
             }
             else
             {
-                throw new ArgumentException("Wrong subtitles format for the SubViewerParser");
+                throw new ArgumentException("Stream is not in a valid SubViewer format");
             }
         }
 
