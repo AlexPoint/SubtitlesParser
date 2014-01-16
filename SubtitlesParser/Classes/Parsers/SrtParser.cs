@@ -51,46 +51,59 @@ namespace SubtitlesParser.Classes.Parsers
             var reader = new StreamReader(srtStream, encoding, true);
 
             var items = new List<SubtitleItem>();
-            var srtSubParts = GetSrtSubTitleParts(reader);
-            foreach (var srtSubPart in srtSubParts)
+            var srtSubParts = GetSrtSubTitleParts(reader).ToList();
+            if (srtSubParts.Any())
             {
-                var lines = srtSubPart.Split(new string[]{Environment.NewLine}, StringSplitOptions.None).Select(s => s.Trim()).Where(l => !string.IsNullOrEmpty(l)).ToList();
-
-                var item = new SubtitleItem();
-                foreach (var line in lines)
+                foreach (var srtSubPart in srtSubParts)
                 {
-                    if (item.StartTime == 0 && item.EndTime == 0)
+                    var lines =
+                        srtSubPart.Split(new string[] {Environment.NewLine}, StringSplitOptions.None)
+                                  .Select(s => s.Trim())
+                                  .Where(l => !string.IsNullOrEmpty(l))
+                                  .ToList();
+
+                    var item = new SubtitleItem();
+                    foreach (var line in lines)
                     {
-                        // we look for the timecodes first
-                        int startTc;
-                        int endTc;
-                        var success = TryParseTimecodeLine(line, out startTc, out endTc);
-                        if (success)
+                        if (item.StartTime == 0 && item.EndTime == 0)
                         {
-                            item.StartTime = startTc;
-                            item.EndTime = endTc;
+                            // we look for the timecodes first
+                            int startTc;
+                            int endTc;
+                            var success = TryParseTimecodeLine(line, out startTc, out endTc);
+                            if (success)
+                            {
+                                item.StartTime = startTc;
+                                item.EndTime = endTc;
+                            }
+                        }
+                        else
+                        {
+                            // we found the timecode, now we get the text
+                            item.Lines.Add(line);
                         }
                     }
-                    else
+
+                    if ((item.StartTime != 0 || item.EndTime != 0) && item.Lines.Any())
                     {
-                        // we found the timecode, now we get the text
-                        item.Lines.Add(line);
+                        // parsing succeeded
+                        items.Add(item);
                     }
                 }
 
-                if (item.StartTime != 0 || item.EndTime != 0)
+                if (items.Any())
                 {
-                    // parsing succeeded
-                    items.Add(item);
+                    return items;
                 }
                 else
                 {
-                    // parsing failed -> it's the wrong format
-                    var msg = string.Format("Failed to parse srt part: {0}. We stop the process", string.Join(Environment.NewLine, lines));
-                    throw new FormatException(msg);
+                    throw new ArgumentException("Stream is not in a valid Srt format");
                 }
             }
-            return items;
+            else
+            {
+                throw new FormatException("Parsing as srt returned no srt part.");
+            }
         }
         
         /// <summary>
@@ -113,7 +126,12 @@ namespace SubtitlesParser.Classes.Parsers
             {
                 if (string.IsNullOrEmpty(line.Trim()))
                 {
-                    yield return sb.ToString().TrimEnd();
+                    // return only if not empty
+                    var res = sb.ToString().TrimEnd();
+                    if (!string.IsNullOrEmpty(res))
+	                {
+		                yield return res;
+	                }
                     sb = new StringBuilder();
                 }
                 else
