@@ -22,9 +22,17 @@ namespace Test
                     try
                     {
                         var items = parser.ParseStream(fileStream);
-                        Console.WriteLine("Parsing of file {0}: SUCCESS", fileName);
-                        Console.WriteLine();
-                        Console.WriteLine(string.Join(Environment.NewLine, items.Take(5)));
+                        if (items.Any())
+                        {
+                            Console.WriteLine("Parsing of file {0}: SUCCESS", fileName);
+                            /*Console.WriteLine();
+                            Console.WriteLine(string.Join(Environment.NewLine, items.Take(5)));*/
+                        }
+                        else
+                        {
+                            throw new ArgumentException("Not items found!");
+                        }
+                        
                     }
                     catch (Exception ex)
                     {

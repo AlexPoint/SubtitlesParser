@@ -46,27 +46,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="Content\SubtitlesFiles\4989_ES.srt" />
+    <None Include="Content\SubtitlesFiles\20140115-204540_invalidSub" />
+    <None Include="Content\SubtitlesFiles\20140115-204541_invalidSub" />
+    <None Include="Content\SubtitlesFiles\Annie Hall - Eng 25fps.srt" />
     <None Include="Content\SubtitlesFiles\battlestar.galactica.s03e09.ws.dsr.xvid-orenji.eng.sub" />
     <None Include="Content\SubtitlesFiles\Fight Club_eng.sub" />
     <None Include="Content\SubtitlesFiles\Freaks - Freaks, la monstrueuse parade %28Tod Browning - 1932%29.sub" />
     <None Include="Content\SubtitlesFiles\Game of Thrones - 03x05 - Kissed by Fire.2HD.English.HI.C.orig.Addic7ed.com.srt" />
     <None Include="Content\SubtitlesFiles\Gangs-of-New-York-DVD-Deadman-2.sub" />
     <None Include="Content\SubtitlesFiles\HellBoy 2 The Golden Army.ssa" />
+    <None Include="Content\SubtitlesFiles\How I Met Your Mother - 3x01 - Wait For It.en.srt" />
     <None Include="Content\SubtitlesFiles\HP2.ssa" />
     <None Include="Content\SubtitlesFiles\Jack_the_Giant_Slayer.srt" />
     <None Include="Content\SubtitlesFiles\jPod.S01E01.HDTV.XviD-2HD.srt" />
     <None Include="Content\SubtitlesFiles\Lost_and_Delirious_fr.ssa" />
     <None Include="Content\SubtitlesFiles\Pirates of Caraibean CD1.sub" />
+    <None Include="Content\SubtitlesFiles\Remember the Titans[2000]DvDrip[Eng]-prithwi %281%29.srt" />
     <None Include="Content\SubtitlesFiles\Remember the Titans[2000]DvDrip[Eng]-prithwi.srt" />
+    <None Include="Content\SubtitlesFiles\Rise.of.the.Guardians.2012.BDRip.XViD-SPARKS.srt" />
+    <None Include="Content\SubtitlesFiles\The Mentalist - 3x11 - Episode 11.fr.srt" />
     <None Include="Content\TestFiles\20140115-194321_invalidSub" />
-    <None Include="Content\TestFiles\20140115-204540_invalidSub" />
-    <None Include="Content\TestFiles\20140115-204541_invalidSub" />
-    <None Include="Content\TestFiles\Annie Hall - Eng 25fps.srt" />
-    <None Include="Content\TestFiles\How I Met Your Mother - 3x01 - Wait For It.en.srt" />
-    <None Include="Content\TestFiles\Remember the Titans[2000]DvDrip[Eng]-prithwi %281%29.srt" />
-    <None Include="Content\TestFiles\Rise.of.the.Guardians.2012.BDRip.XViD-SPARKS.srt" />
-    <None Include="Content\TestFiles\The Mentalist - 3x11 - Episode 11.fr.srt" />
+    <None Include="Content\TestFiles\4989_ES.srt" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SubtitlesParser\SubtitlesParser.csproj">
