@@ -78,9 +78,11 @@ namespace SubtitlesParser.Classes.Parsers
                 line = reader.ReadLine();
                 while (line != null)
                 {
-                    var item = ParseLine(line, frameRate);
-
-                    items.Add(item);
+                    if (!string.IsNullOrEmpty(line))
+                    {
+                        var item = ParseLine(line, frameRate);
+                        items.Add(item); 
+                    }
                     line = reader.ReadLine();
                 }
             }
