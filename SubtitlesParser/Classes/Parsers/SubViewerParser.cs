@@ -30,7 +30,6 @@ namespace SubtitlesParser.Classes.Parsers
 
         private readonly Regex _timestampRegex = new Regex(@"\d{2}:\d{2}:\d{2}\.\d{2},\d{2}:\d{2}:\d{2}\.\d{2}", RegexOptions.Compiled);
         private const char TimecodeSeparator = ',';
-        private readonly string[] _lineSeparator = {"[br]"};
 
 
         // Methods -------------------------------------------------------------
@@ -52,32 +51,57 @@ namespace SubtitlesParser.Classes.Parsers
                     lineNumber++;
                 }
 
+                // first relevant line should be a timecode
                 if (line != null && lineNumber <= MaxLineNumberForItems && IsTimestampLine(line))
                 {
                     // we parse all the lines
                     var items = new List<SubtitleItem>();
 
                     var timeCodeLine = line;
-                    var textLine = reader.ReadLine();
-                    var separatorLine = reader.ReadLine();
+                    var textLines = new List<string>();
 
-                    while (IsTimestampLine(timeCodeLine) && !string.IsNullOrEmpty(textLine))
+                    while (line != null)
                     {
-                        // parse current line
-                        var timeCodes = ParseTimecodeLine(timeCodeLine);
-                        var lines = new List<string>(textLine.Split(_lineSeparator, StringSplitOptions.RemoveEmptyEntries));
-                        var item = new SubtitleItem()
-                            {
-                                StartTime = timeCodes.Item1,
-                                EndTime = timeCodes.Item2,
-                                Lines = lines
-                            };
-                        items.Add(item);
+                        line = reader.ReadLine();
+                        if (IsTimestampLine(line))
+                        {
+                            // store previous item
+                            var timeCodes = ParseTimecodeLine(timeCodeLine);
+                            var start = timeCodes.Item1;
+                            var end = timeCodes.Item2;
 
-                        // read next lines
-                        timeCodeLine = reader.ReadLine();
-                        textLine = reader.ReadLine();
-                        separatorLine = reader.ReadLine();
+                            if (start > 0 && end > 0 && textLines.Any())
+                            {
+                                items.Add(new SubtitleItem()
+                                    {
+                                        StartTime = start,
+                                        EndTime = end,
+                                        Lines = textLines
+                                    });
+                            }
+
+                            // reset timecode line and text lines
+                            timeCodeLine = line;
+                            textLines = new List<string>();
+                        } else if (!string.IsNullOrEmpty(line))
+                        {
+                            // it's a text line
+                            textLines.Add(line);
+                        }
+                    }
+
+                    // store last line if necessary
+                    var lastTimeCodes = ParseTimecodeLine(timeCodeLine);
+                    var lastStart = lastTimeCodes.Item1;
+                    var lastEnd = lastTimeCodes.Item2;
+                    if (lastStart > 0 && lastEnd > 0 && textLines.Any())
+                    {
+                        items.Add(new SubtitleItem()
+                            {
+                                StartTime = lastStart,
+                                EndTime = lastEnd,
+                                Lines = textLines
+                            });
                     }
 
                     if (items.Any())
