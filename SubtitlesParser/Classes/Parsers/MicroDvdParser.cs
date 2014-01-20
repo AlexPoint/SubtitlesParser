@@ -25,7 +25,7 @@ namespace SubtitlesParser.Classes.Parsers
     {
         // Properties -----------------------------------------------------------------------
 
-        private readonly float _defaultFrameRate = 25;
+        private readonly float defaultFrameRate = 25;
         private readonly char[] _lineSeparators = {'|'};
 
 
@@ -35,7 +35,7 @@ namespace SubtitlesParser.Classes.Parsers
 
         public MicroDvdParser(float defaultFrameRate)
         {
-            this._defaultFrameRate = defaultFrameRate;
+            this.defaultFrameRate = defaultFrameRate;
         }
 
 
@@ -68,16 +68,23 @@ namespace SubtitlesParser.Classes.Parsers
             {
                 float frameRate;
                 // try to extract the framerate from the first line
-                var firstItem = ParseLine(line, _defaultFrameRate);
-                var success = TryExtractFrameRate(firstItem.Lines[0], out frameRate);
-                if (!success)
+                var firstItem = ParseLine(line, defaultFrameRate);
+                if (firstItem.Lines != null && firstItem.Lines.Any())
                 {
-                    Console.WriteLine("Couldn't extract frame rate of sub file with first line {0}. " +
-                                      "We use the default frame rate: {1}", line, _defaultFrameRate);
-                    frameRate = _defaultFrameRate;
-                    
-                    // treat it as a regular line
-                    items.Add(firstItem);
+                    var success = TryExtractFrameRate(firstItem.Lines[0], out frameRate);
+                    if (!success)
+                    {
+                        Console.WriteLine("Couldn't extract frame rate of sub file with first line {0}. " +
+                                          "We use the default frame rate: {1}", line, defaultFrameRate);
+                        frameRate = defaultFrameRate;
+
+                        // treat it as a regular line
+                        items.Add(firstItem);
+                    }
+                }
+                else
+                {
+                    frameRate = defaultFrameRate;
                 }
 
                 // parse other lines
@@ -103,7 +110,7 @@ namespace SubtitlesParser.Classes.Parsers
             }
         }
 
-        const string lineRegex = @"^[{\[](-?\d+)[}\]][{\[](-?\d+)[}\]](.*)";
+        private const string lineRegex = @"^[{\[](-?\d+)[}\]][{\[](-?\d+)[}\]](.*)";
 
         private bool IsMicroDvdLine(string line)
         {
@@ -160,8 +167,17 @@ namespace SubtitlesParser.Classes.Parsers
         /// <returns>True if the parsing was successful, false otherwise</returns>
         private bool TryExtractFrameRate(string text, out float frameRate)
         {
-            var success = float.TryParse(text, NumberStyles.AllowDecimalPoint, CultureInfo.InvariantCulture, out frameRate);
-            return success;
+            if (!string.IsNullOrEmpty(text))
+            {
+                var success = float.TryParse(text, NumberStyles.AllowDecimalPoint, CultureInfo.InvariantCulture,
+                                             out frameRate);
+                return success;
+            }
+            else
+            {
+                frameRate = defaultFrameRate;
+                return false;
+            }
         }
 
     }
