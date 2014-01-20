@@ -58,6 +58,12 @@ namespace SubtitlesParser.Classes.Parsers
 
             var items = new List<SubtitleItem>();
             var line = reader.ReadLine();
+            // find the first relevant line
+            while (line != null && !IsMicroDvdLine(line))
+            {
+                line = reader.ReadLine();
+            }
+
             if (line != null)
             {
                 float frameRate;
@@ -97,6 +103,13 @@ namespace SubtitlesParser.Classes.Parsers
             }
         }
 
+        const string lineRegex = @"^[{\[](-?\d+)[}\]][{\[](-?\d+)[}\]](.*)";
+
+        private bool IsMicroDvdLine(string line)
+        {
+            return Regex.IsMatch(line, lineRegex);
+        }
+
         /// <summary>
         /// Parses one line of the .sub file
         /// 
@@ -108,8 +121,7 @@ namespace SubtitlesParser.Classes.Parsers
         /// <returns>The corresponding SubtitleItem</returns>
         private SubtitleItem ParseLine(string line, float frameRate)
         {
-            const string regex = @"^[{\[](-?\d+)[}\]][{\[](-?\d+)[}\]](.*)";
-            var match = Regex.Match(line, regex);
+            var match = Regex.Match(line, lineRegex);
             if (match.Success && match.Groups.Count > 2)
             {
                 var startFrame = match.Groups[1].Value;
