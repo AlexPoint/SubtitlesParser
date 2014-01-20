@@ -35,9 +35,7 @@ namespace SubtitlesParser.Classes.Parsers
     {
         // Properties ---------------------------------------------------------------
 
-        private const string FirstLine = "[Script Info]";
         private const string EventLine = "[Events]";
-        private const short MaxLineNumberForEventSection = 30;
         private const char Separator = ',';
 
         private const string StartColumn = "Start";
@@ -64,90 +62,86 @@ namespace SubtitlesParser.Classes.Parsers
             var reader = new StreamReader(ssaStream, encoding, true);
 
             var line = reader.ReadLine();
-            if (line == FirstLine)
+            var lineNumber = 1;
+            // read the line until the [Events] section
+            while (line != null && line != EventLine)
             {
-                var lineNumber = 1;
-                // read the line until the [Events] section
-                while (line != null && line != EventLine && lineNumber <= MaxLineNumberForEventSection)
-                {
-                    line = reader.ReadLine();
-                    lineNumber++;
-                }
+                line = reader.ReadLine();
+                lineNumber++;
+            }
 
-                if (line != null && lineNumber <= MaxLineNumberForEventSection)
+            if (line != null)
+            {
+                // we are at the event section
+                var headerLine = reader.ReadLine();
+                if (!string.IsNullOrEmpty(headerLine))
                 {
-                    // we are at the event section
-                    var headerLine = reader.ReadLine();
-                    if (!string.IsNullOrEmpty(headerLine))
+                    var columnHeaders = headerLine.Split(Separator).Select(head => head.Trim()).ToList();
+
+                    var startIndexColumn = columnHeaders.IndexOf(StartColumn);
+                    var endIndexColumn = columnHeaders.IndexOf(EndColumn);
+                    var textIndexColumn = columnHeaders.IndexOf(TextColumn);
+
+                    if (startIndexColumn > 0 && endIndexColumn > 0 && textIndexColumn > 0)
                     {
-                        var columnHeaders = headerLine.Split(Separator).Select(head => head.Trim()).ToList();
+                        var items = new List<SubtitleItem>();
 
-                        var startIndexColumn = columnHeaders.IndexOf(StartColumn);
-                        var endIndexColumn = columnHeaders.IndexOf(EndColumn);
-                        var textIndexColumn = columnHeaders.IndexOf(TextColumn);
-
-                        if (startIndexColumn > 0 && endIndexColumn > 0 && textIndexColumn > 0)
+                        line = reader.ReadLine();
+                        while (line != null)
                         {
-                            var items = new List<SubtitleItem>();
+                            var columns = line.Split(Separator);
+                            var startText = columns[startIndexColumn];
+                            var endText = columns[endIndexColumn];
+
+
+                            var textLine = string.Join(",", columns.Skip(textIndexColumn));
+
+                            var start = ParseSsaTimecode(startText);
+                            var end = ParseSsaTimecode(endText);
+
+                            // TODO: split text line?
+                            if (start > 0 && end > 0 && !string.IsNullOrEmpty(textLine))
+                            {
+                                var item = new SubtitleItem()
+                                                        {
+                                                            StartTime = start,
+                                                            EndTime = end,
+                                                            Lines = new List<string>() { textLine }
+                                                        };
+                                items.Add(item); 
+                            }
 
                             line = reader.ReadLine();
-                            while (line != null)
-                            {
-                                var columns = line.Split(Separator);
-                                var startText = columns[startIndexColumn];
-                                var endText = columns[endIndexColumn];
-                                var textLine = columns[textIndexColumn];
+                        }
 
-                                var start = ParseSsaTimecode(startText);
-                                var end = ParseSsaTimecode(endText);
-
-                                // TODO: split text line?
-                                var item = new SubtitleItem()
-                                    {
-                                        StartTime = start,
-                                        EndTime = end,
-                                        Lines = new List<string>() {textLine}
-                                    };
-                                items.Add(item);
-
-                                line = reader.ReadLine();
-                            }
-
-                            if (items.Any())
-                            {
-                                return items;
-                            }
-                            else
-                            {
-                                throw new ArgumentException("Stream is not in a valid Ssa format");
-                            }
+                        if (items.Any())
+                        {
+                            return items;
                         }
                         else
                         {
-                            var message = string.Format("Couldn't find all the necessary columns " +
-                                                        "headers ({0}, {1}, {2}) in header line {3}",
-                                                        StartColumn, EndColumn, TextColumn, headerLine);
-                            throw new ArgumentException(message);
+                            throw new ArgumentException("Stream is not in a valid Ssa format");
                         }
                     }
                     else
                     {
-                        var message = string.Format("The header line after the line '{0}' was null -> " +
-                                                    "no need to continue parsing", line);
+                        var message = string.Format("Couldn't find all the necessary columns " +
+                                                    "headers ({0}, {1}, {2}) in header line {3}",
+                                                    StartColumn, EndColumn, TextColumn, headerLine);
                         throw new ArgumentException(message);
                     }
                 }
                 else
                 {
-                    var message = string.Format("We reached line '{0}' with line number #{1} without finding to " +
-                                                "Event section ({2})", line, lineNumber, EventLine);
+                    var message = string.Format("The header line after the line '{0}' was null -> " +
+                                                "no need to continue parsing", line);
                     throw new ArgumentException(message);
                 }
             }
             else
             {
-                var message = string.Format("First subtitle line '{0}' was different from the one expected " +
-                                            "for a SSA file ({1}). We stop the parsing here.", line, FirstLine);
+                var message = string.Format("We reached line '{0}' with line number #{1} without finding to " +
+                                            "Event section ({2})", line, lineNumber, EventLine);
                 throw new ArgumentException(message);
             }
         }
