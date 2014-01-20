@@ -89,28 +89,30 @@ namespace SubtitlesParser.Classes.Parsers
                         line = reader.ReadLine();
                         while (line != null)
                         {
-                            var columns = line.Split(Separator);
-                            var startText = columns[startIndexColumn];
-                            var endText = columns[endIndexColumn];
-
-
-                            var textLine = string.Join(",", columns.Skip(textIndexColumn));
-
-                            var start = ParseSsaTimecode(startText);
-                            var end = ParseSsaTimecode(endText);
-
-                            // TODO: split text line?
-                            if (start > 0 && end > 0 && !string.IsNullOrEmpty(textLine))
+                            if(!string.IsNullOrEmpty(line))
                             {
-                                var item = new SubtitleItem()
-                                                        {
-                                                            StartTime = start,
-                                                            EndTime = end,
-                                                            Lines = new List<string>() { textLine }
-                                                        };
-                                items.Add(item); 
-                            }
+                                var columns = line.Split(Separator);
+                                var startText = columns[startIndexColumn];
+                                var endText = columns[endIndexColumn];
 
+
+                                var textLine = string.Join(",", columns.Skip(textIndexColumn));
+
+                                var start = ParseSsaTimecode(startText);
+                                var end = ParseSsaTimecode(endText);
+
+                                // TODO: split text line?
+                                if (start > 0 && end > 0 && !string.IsNullOrEmpty(textLine))
+                                {
+                                    var item = new SubtitleItem()
+                                                            {
+                                                                StartTime = start,
+                                                                EndTime = end,
+                                                                Lines = new List<string>() { textLine }
+                                                            };
+                                    items.Add(item);
+                                }
+                            }
                             line = reader.ReadLine();
                         }
 
