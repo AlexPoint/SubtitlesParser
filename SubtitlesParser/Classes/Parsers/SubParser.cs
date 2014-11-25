@@ -17,6 +17,7 @@ namespace SubtitlesParser.Classes.Parsers
                 {SubtitlesFormat.MicroDvdFormat, new MicroDvdParser()},
                 {SubtitlesFormat.SubViewerFormat, new SubViewerParser()},
                 {SubtitlesFormat.SubStationAlphaFormat, new SsaParser()},
+                {SubtitlesFormat.TtmlFormat, new TtmlParser()},
                 {SubtitlesFormat.WebVttFormat, new VttParser()},
                 {SubtitlesFormat.YoutubeXmlFormat, new YtXmlFormatParser()}
             };

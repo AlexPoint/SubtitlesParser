@@ -37,6 +37,11 @@ namespace SubtitlesParser.Classes
             Name = "SubStationAlpha",
             Extension = @"\.ssa"
         };
+        public static SubtitlesFormat TtmlFormat = new SubtitlesFormat()
+        {
+            Name = "TTML",
+            Extension = @"\.*"
+        };
         public static SubtitlesFormat WebVttFormat = new SubtitlesFormat()
         {
             Name = "WebVTT",
@@ -54,6 +59,7 @@ namespace SubtitlesParser.Classes
                 MicroDvdFormat,
                 SubViewerFormat,
                 SubStationAlphaFormat,
+                TtmlFormat,
                 WebVttFormat,
                 YoutubeXmlFormat
             };

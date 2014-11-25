@@ -86,6 +86,7 @@
     <Compile Include="Classes\Parsers\ISubtitlesParser.cs" />
     <Compile Include="Classes\Parsers\SrtParser.cs" />
     <Compile Include="Classes\Parsers\SsaParser.cs" />
+    <Compile Include="Classes\Parsers\TtmlParser.cs" />
     <Compile Include="Classes\Parsers\VttParser.cs" />
     <Compile Include="Classes\Parsers\YtXmlFormatParser.cs" />
     <Compile Include="Classes\StreamHelpers.cs" />
