@@ -2,14 +2,14 @@
 <package >
   <metadata>
     <id>SubtitlesParser</id>
-    <version>1.4.0</version>
+    <version>1.4.1</version>
     <title>Subtitles parser</title>
     <authors>AlexPoint</authors>
     <owners>AlexPoint</owners>
     <projectUrl>https://github.com/AlexPoint/SubtitlesParser</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Universal subtitles parser</description>
-    <releaseNotes>Added new WebVTT subtitles parser</releaseNotes>
+    <releaseNotes>Added new TTML subtitles parser</releaseNotes>
     <copyright>Copyright 2014</copyright>
     <tags>subtitles parser</tags>
   </metadata>
