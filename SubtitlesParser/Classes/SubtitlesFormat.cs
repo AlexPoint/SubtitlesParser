@@ -40,7 +40,7 @@ namespace SubtitlesParser.Classes
         public static SubtitlesFormat TtmlFormat = new SubtitlesFormat()
         {
             Name = "TTML",
-            Extension = @"\.*"
+            Extension = @"\.ttml"
         };
         public static SubtitlesFormat WebVttFormat = new SubtitlesFormat()
         {
