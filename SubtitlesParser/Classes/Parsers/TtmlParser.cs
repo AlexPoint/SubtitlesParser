@@ -5,6 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Xml;
+using System.Xml.Linq;
 
 namespace SubtitlesParser.Classes.Parsers
 {
@@ -17,12 +18,12 @@ namespace SubtitlesParser.Classes.Parsers
             var items = new List<SubtitleItem>();
 
             // parse xml stream
-            var xmlDoc = new XmlDocument();
-            xmlDoc.Load(xmlStream);
-            
-            if (xmlDoc.DocumentElement != null)
+            var xElement = XElement.Load(xmlStream);
+            XNamespace tt = xElement.GetNamespaceOfPrefix("tt");
+
+            if (xElement != null)
             {
-                var nodeList = xmlDoc.DocumentElement.SelectNodes("//p");
+                var nodeList = xElement.Descendants(tt + "p").ToList();
 
                 if (nodeList != null)
                 {
@@ -31,11 +32,13 @@ namespace SubtitlesParser.Classes.Parsers
                         var node = nodeList[i];
                         try
                         {
-                            var beginString = node.Attributes["begin"].Value.Replace("t", "");
-                            int startTicks = int.Parse(beginString);
-                            var endString = node.Attributes["dur"].Value.Replace("t", "");
-                            int endTicks = int.Parse(endString);
-                            var text = node.InnerText;
+                            var reader = node.CreateReader();
+                            reader.MoveToContent();
+                            var beginString = node.Attribute("begin").Value.Replace("t", "");
+                            long startTicks = long.Parse(beginString);
+                            var endString = node.Attribute("end").Value.Replace("t", "");
+                            long endTicks = long.Parse(endString);
+                            var text = reader.ReadInnerXml().Replace("<tt:", "<").Replace("</tt:", "</").Replace(string.Format(@" xmlns:tt=""{0}""", tt), "");
 
                             items.Add(new SubtitleItem()
                             {
