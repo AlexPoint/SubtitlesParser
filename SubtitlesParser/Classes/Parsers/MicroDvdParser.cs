@@ -110,11 +110,11 @@ namespace SubtitlesParser.Classes.Parsers
             }
         }
 
-        private const string lineRegex = @"^[{\[](-?\d+)[}\]][{\[](-?\d+)[}\]](.*)";
+        private const string LineRegex = @"^[{\[](-?\d+)[}\]][{\[](-?\d+)[}\]](.*)";
 
         private bool IsMicroDvdLine(string line)
         {
-            return Regex.IsMatch(line, lineRegex);
+            return Regex.IsMatch(line, LineRegex);
         }
 
         /// <summary>
@@ -128,7 +128,7 @@ namespace SubtitlesParser.Classes.Parsers
         /// <returns>The corresponding SubtitleItem</returns>
         private SubtitleItem ParseLine(string line, float frameRate)
         {
-            var match = Regex.Match(line, lineRegex);
+            var match = Regex.Match(line, LineRegex);
             if (match.Success && match.Groups.Count > 2)
             {
                 var startFrame = match.Groups[1].Value;

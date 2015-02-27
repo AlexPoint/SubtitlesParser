@@ -21,12 +21,19 @@ namespace Test
                 {
                     try
                     {
-                        var items = parser.ParseStream(fileStream);
+                        var mostLikelyFormat = parser.GetMostLikelyFormat(fileName);
+                        var items = parser.ParseStream(fileStream, Encoding.UTF8, mostLikelyFormat);
                         if (items.Any())
                         {
                             Console.WriteLine("Parsing of file {0}: SUCCESS ({1} items)", fileName, items.Count);
-                            /*Console.WriteLine();
-                            Console.WriteLine(string.Join(Environment.NewLine, items.Take(5)));*/
+                            foreach (var item in items)
+                            {
+                                Console.WriteLine(item);
+                            }
+                            /*var duplicates =
+                                items.GroupBy(it => new {it.StartTime, it.EndTime}).Where(grp => grp.Count() > 1);
+                            Console.WriteLine("{0} duplicate items", duplicates.Count());*/
+                            Console.WriteLine("----------------");
                         }
                         else
                         {

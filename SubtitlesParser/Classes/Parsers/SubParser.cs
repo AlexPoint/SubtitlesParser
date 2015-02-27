@@ -7,7 +7,7 @@ using System.Text.RegularExpressions;
 
 namespace SubtitlesParser.Classes.Parsers
 {
-    public class SubParser : ISubtitlesParser
+    public class SubParser 
     {
         // Properties -----------------------------------------------------------------------
         
@@ -40,16 +40,18 @@ namespace SubtitlesParser.Classes.Parsers
         {
             var extension = Path.GetExtension(fileName);
 
-            foreach (var format in SubtitlesFormat.SupportedSubtitlesFormats)
+            if (!string.IsNullOrEmpty(extension))
             {
-                if (Regex.IsMatch(extension, format.Extension))
+                foreach (var format in SubtitlesFormat.SupportedSubtitlesFormats)
                 {
-                    return format;
-                }
+                    if (format.Extension != null && Regex.IsMatch(extension, format.Extension))
+                    {
+                        return format;
+                    }
+                } 
             }
 
-            // return default format -> srt
-            return SubtitlesFormat.SubRipFormat;
+            return null;
         }
 
         /// <summary>
@@ -69,26 +71,16 @@ namespace SubtitlesParser.Classes.Parsers
         /// </summary>
         /// <param name="stream">The subtitle file stream</param>
         /// <param name="encoding">The stream encoding</param>
-        /// <returns>The corresponding list of SubtitleItem, null if parsing failed</returns>
-        public List<SubtitleItem> ParseStream(Stream stream, Encoding encoding)
-        {
-            return ParseStream(stream, encoding, SubtitlesFormat.SubRipFormat);
-        }
-
-        /// <summary>
-        /// Parses a subtitle file stream.
-        /// We try all the parsers registered in the _subFormatToParser dictionary
-        /// </summary>
-        /// <param name="stream">The subtitle file stream</param>
-        /// <param name="encoding">The stream encoding</param>
         /// <param name="subFormat">The preferred subFormat to try first (if we have a clue with the subtitle file name for example)</param>
         /// <returns>The corresponding list of SubtitleItem, null if parsing failed</returns>
-        public List<SubtitleItem> ParseStream(Stream stream, Encoding encoding, SubtitlesFormat subFormat)
+        public List<SubtitleItem> ParseStream(Stream stream, Encoding encoding, SubtitlesFormat subFormat = null)
         {
-            var dictionary = _subFormatToParser
-                                // start the parsing by the specified format
-                                .OrderBy(dic => Math.Abs(String.Compare(dic.Key.Name, subFormat.Name, StringComparison.Ordinal)))
-                                .ToDictionary(entry => entry.Key, entry => entry.Value);
+            var dictionary = subFormat != null ?
+                _subFormatToParser
+                // start the parsing by the specified format
+                .OrderBy(dic => Math.Abs(string.Compare(dic.Key.Name, subFormat.Name, StringComparison.Ordinal)))
+                .ToDictionary(entry => entry.Key, entry => entry.Value):
+                _subFormatToParser;
 
             return ParseStream(stream, encoding, dictionary);
         }
@@ -181,5 +173,6 @@ namespace SubtitlesParser.Classes.Parsers
             }
             return message;
         }
+
     }
 }

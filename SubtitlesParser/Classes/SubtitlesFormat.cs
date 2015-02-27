@@ -50,7 +50,7 @@ namespace SubtitlesParser.Classes
         public static SubtitlesFormat YoutubeXmlFormat = new SubtitlesFormat()
         {
             Name = "YoutubeXml",
-            Extension = @"\.*"
+            //Extension = @"\.*"
         };
 
         public static List<SubtitlesFormat> SupportedSubtitlesFormats = new List<SubtitlesFormat>()
