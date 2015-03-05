@@ -177,25 +177,30 @@ namespace SubtitlesParser.Classes.Parsers
         /// <returns>The parsed timecode as a TimeSpan instance. If the parsing was unsuccessful, -1 is returned (subtitles should never show)</returns>
         private int ParseVttTimecode(string s)
         {
-            TimeSpan result;
             string timeString = string.Empty;
-            var match = Regex.Match(s, "[0-9]+:[0-9]+:[0-9]+.[0-9]+");
+            var match = Regex.Match(s, "[0-9]+:[0-9]+:[0-9]+[,\\.][0-9]+");
             if (match.Success)
             {
                 timeString = match.Value;
             }
             else
             {
-                match = Regex.Match(s, "[0-9]+:[0-9]+.[0-9]+");
+                match = Regex.Match(s, "[0-9]+:[0-9]+[,\\.][0-9]+");
                 if (match.Success)
                 {
                     timeString = "00:" + match.Value;
                 }
             }
-            if (TimeSpan.TryParse(timeString, out result))
+
+            if (!string.IsNullOrEmpty(timeString))
             {
-                var nbOfMs = (int)result.TotalMilliseconds;
-                return nbOfMs;
+                timeString = timeString.Replace(',', '.');
+                TimeSpan result;
+                if (TimeSpan.TryParse(timeString, out result))
+                {
+                    var nbOfMs = (int)result.TotalMilliseconds;
+                    return nbOfMs;
+                } 
             }
             
             return -1;

@@ -172,11 +172,11 @@ namespace SubtitlesParser.Classes.Parsers
         /// <returns>The parsed timecode as a TimeSpan instance. If the parsing was unsuccessful, -1 is returned (subtitles should never show)</returns>
         private int ParseSrtTimecode(string s)
         {
-            TimeSpan result;
-            var match = Regex.Match(s, "[0-9]+:[0-9]+:[0-9]+,[0-9]+");
+            var match = Regex.Match(s, "[0-9]+:[0-9]+:[0-9]+[,\\.][0-9]+");
             if (match.Success)
             {
                 s = match.Value;
+                TimeSpan result;
                 if (TimeSpan.TryParse(s.Replace(',', '.'), out result))
                 {
                     var nbOfMs = (int)result.TotalMilliseconds;
