@@ -4,6 +4,9 @@
 Universal subtitles parser which aims at supporting all subtitle formats.
 For more info on subtitles formats, see this page: http://en.wikipedia.org/wiki/Category:Subtitle_file_formats
 
+It's available on Nuget:
+> Install-Package SubtitlesParser
+
 For now, 7 different formats are supported:
 * MicroDvd	https://github.com/AlexPoint/SubtitlesParser/blob/master/SubtitlesParser/Classes/Parsers/MicroDvdParser.cs
 * SubRip	https://github.com/AlexPoint/SubtitlesParser/blob/master/SubtitlesParser/Classes/Parsers/SrtParser.cs
