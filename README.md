@@ -25,18 +25,21 @@ You can check the Test project for subtitles files and more sample codes.
 
 If you don't specify the subtitle format, the SubtitlesParser will try all the registered parsers (7 for now)
 
-	var parser = new SubtitlesParser.Classes.Parsers.SubtitlesParser();
-	using (var fileStream = File.OpenRead(pathToSrtFile)){
-		var items = parser.ParseStream(fileStream);
-	}
-
+```csharp
+var parser = new SubtitlesParser.Classes.Parsers.SubtitlesParser();
+using (var fileStream = File.OpenRead(pathToSrtFile)){
+	var items = parser.ParseStream(fileStream);
+}
+```
 
 #### Specific parser
 
 You can use a specific parser if you know the format of the files you parse.
 For example, for parsing an srt file:
 
-	var parser = new SubtitlesParser.Classes.Parsers.SrtParser();
-	using (var fileStream = File.OpenRead(pathToSrtFile)){
-		var items = parser.ParseStream(fileStream);
-	}
+```chsarp
+var parser = new SubtitlesParser.Classes.Parsers.SrtParser();
+using (var fileStream = File.OpenRead(pathToSrtFile)){
+	var items = parser.ParseStream(fileStream);
+}
+```
