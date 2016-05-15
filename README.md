@@ -37,7 +37,7 @@ using (var fileStream = File.OpenRead(pathToSrtFile)){
 You can use a specific parser if you know the format of the files you parse.
 For example, for parsing an srt file:
 
-```chsarp
+```csharp
 var parser = new SubtitlesParser.Classes.Parsers.SrtParser();
 using (var fileStream = File.OpenRead(pathToSrtFile)){
 	var items = parser.ParseStream(fileStream);
