@@ -2,15 +2,15 @@
 <package >
   <metadata>
     <id>SubtitlesParser</id>
-    <version>1.4.6</version>
+    <version>1.4.7</version>
     <title>Subtitles parser</title>
     <authors>AlexPoint</authors>
     <owners>AlexPoint</owners>
     <projectUrl>https://github.com/AlexPoint/SubtitlesParser</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Universal subtitles parser</description>
-    <releaseNotes>Allow . as millisecond seprator in srt files</releaseNotes>
-    <copyright>Copyright 2015</copyright>
+    <releaseNotes>Made Ttml and Srt parsers more robust</releaseNotes>
+    <copyright>Copyright 2016</copyright>
     <tags>subtitles parser</tags>
   </metadata>
 </package>
