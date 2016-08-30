@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<tt xml:lang="en" xmlns="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:tts="http://www.w3.org/ns/ttml#styling" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" ttp:profile="http://www.w3.org/TR/profile/sdp-us" >
+<head>
+<styling>
+<style xml:id="s1" tts:textAlign="center" tts:extent="90% 90%" tts:origin="5% 5%" tts:displayAlign="after"/>
+<style xml:id="s2" tts:fontSize=".72c" tts:backgroundColor="black" tts:color="white"/>
+</styling>
+<layout>
+<region xml:id="r1" style="s1"/>
+</layout>
+</head>
+<body region="r1">
+<div>
+<p begin="00:00:00.000" end="00:00:01.760" style="s2">yeah</p>
+<p begin="00:00:01.760" end="00:00:04.760" style="s2">yeah</p>
+<p begin="00:00:08.290" end="00:00:11.290" style="s2">yeah</p>
+<p begin="00:00:12.410" end="00:00:16.250" style="s2">hey everyone if I had to choose just one<br />topic that makes all of the others and</p>
+<p begin="00:00:16.250" end="00:00:19.910" style="s2">linear algebra start to click in which<br />too often goes unlearned the first time</p>
+<p begin="00:00:19.910" end="00:00:21.529" style="s2">a student takes linear algebra</p>
+<p begin="00:00:21.529" end="00:00:25.610" style="s2">it would be this one the idea of a<br />linear transformation and its relation</p>
+<p begin="00:00:25.610" end="00:00:29.180" style="s2">to matrices for this video I&#39;m just<br />going to focus on what these</p>
+<p begin="00:00:29.180" end="00:00:33.080" style="s2">transformations look like in the case of<br />two dimensions and how they relate to</p>
+<p begin="00:00:33.080" end="00:00:37.790" style="s2">the idea of matrix vector multiplication<br />in particular I want to show you a way</p>
+<p begin="00:00:37.790" end="00:00:41.269" style="s2">to think about matrix vector<br />multiplication that doesn&#39;t rely on</p>
+<p begin="00:00:41.269" end="00:00:43.030" style="s2">memorization</p>
+<p begin="00:00:43.030" end="00:00:48.219" style="s2">to start let&#39;s just parse this term<br />linear transformation transformation is</p>
+<p begin="00:00:48.219" end="00:00:50.260" style="s2">essentially a fancy word for function</p>
+<p begin="00:00:50.260" end="00:00:53.829" style="s2">it&#39;s something that takes in inputs and<br />spits out an output for each one</p>
+<p begin="00:00:53.829" end="00:00:57.519" style="s2">specifically in the context of linear<br />algebra we like to think about</p>
+<p begin="00:00:57.519" end="00:01:00.940" style="s2">transformations that take in some vector<br />and spit out another vector</p>
+<p begin="00:01:02.329" end="00:01:05.720" style="s2">so why use the word transformation<br />instead of function if they mean the</p>
+<p begin="00:01:05.720" end="00:01:06.710" style="s2">same thing</p>
+<p begin="00:01:06.710" end="00:01:10.850" style="s2">well it&#39;s to be suggestive of a certain<br />way to visualize this input output</p>
+<p begin="00:01:10.850" end="00:01:11.720" style="s2">relation</p>
+<p begin="00:01:11.720" end="00:01:15.890" style="s2">you see a great way to understand<br />functions of vectors is to use movement</p>
+<p begin="00:01:16.760" end="00:01:21.650" style="s2">if a transformation takes some input<br />vector to some output vector we imagine</p>
+<p begin="00:01:21.650" end="00:01:22.820" style="s2">that input vector</p>
+<p begin="00:01:22.820" end="00:01:27.740" style="s2">moving over to the output vector then to<br />understand the transformation as a whole</p>
+<p begin="00:01:27.740" end="00:01:31.520" style="s2">we might imagine watching every possible<br />input vector</p>
+<p begin="00:01:31.520" end="00:01:36.230" style="s2">move over to its corresponding output<br />vector it gets really crowded to think</p>
+<p begin="00:01:36.230" end="00:01:40.010" style="s2">about all of the vectors all at once<br />each one is a narrow so as I mentioned</p>
+<p begin="00:01:40.010" end="00:01:43.970" style="s2">last video a nice trick is to<br />conceptualize each vector not as an</p>
+<p begin="00:01:43.970" end="00:01:44.720" style="s2">arrow</p>
+<p begin="00:01:44.720" end="00:01:49.220" style="s2">but as a single point the point where<br />its tip sets that way to think about a</p>
+<p begin="00:01:49.220" end="00:01:53.360" style="s2">transformation taking every possible<br />input vector to some output vector we</p>
+<p begin="00:01:53.360" end="00:01:55.130" style="s2">watch every point in space</p>
+<p begin="00:01:55.130" end="00:01:59.630" style="s2">moving to some other point in the case<br />of transformations in two dimensions to</p>
+<p begin="00:01:59.630" end="00:02:02.960" style="s2">get a better feel for the whole shape of<br />the transformation</p>
+<p begin="00:02:02.960" end="00:02:06.320" style="s2">I like to do this with all of the points<br />on an infinite grid</p>
+<p begin="00:02:06.320" end="00:02:09.470" style="s2">I also sometimes like to keep a copy of<br />the grid in the background</p>
+<p begin="00:02:09.470" end="00:02:12.380" style="s2">just to help keep track of where<br />everything ends up relative to where it</p>
+<p begin="00:02:12.380" end="00:02:14.720" style="s2">starts</p>
+<p begin="00:02:14.720" end="00:02:18.680" style="s2">the effect for various transformations<br />moving around all of the points in space</p>
+<p begin="00:02:18.680" end="00:02:21.590" style="s2">is you&#39;ve got to admit beautiful</p>
+<p begin="00:02:21.590" end="00:02:26.060" style="s2">it gives the feeling of squishing and<br />morphing space itself as you can imagine</p>
+<p begin="00:02:26.060" end="00:02:30.770" style="s2">though arbitrary transformations can<br />look pretty complicated but luckily</p>
+<p begin="00:02:30.770" end="00:02:34.970" style="s2">linear algebra limits itself to a<br />special type of transformation ones that</p>
+<p begin="00:02:34.970" end="00:02:40.340" style="s2">are easier to understand called linear<br />transformations visually speaking a</p>
+<p begin="00:02:40.340" end="00:02:41.780" style="s2">transformation is linear</p>
+<p begin="00:02:41.780" end="00:02:47.540" style="s2">if it has two properties all mines must<br />remain lines without getting curved and</p>
+<p begin="00:02:47.540" end="00:02:50.420" style="s2">the origin must remain fixed in place</p>
+<p begin="00:02:50.420" end="00:02:54.800" style="s2">for example this right here would not be<br />a linear transformation since the lines</p>
+<p begin="00:02:54.800" end="00:02:57.319" style="s2">get all curvy and this one right here</p>
+<p begin="00:02:57.319" end="00:03:00.980" style="s2">although it keeps the line straight is<br />not a linear transformation because it</p>
+<p begin="00:03:00.980" end="00:03:05.239" style="s2">moves the origin this one here fixes the<br />origin and it might look like it keeps</p>
+<p begin="00:03:05.239" end="00:03:08.270" style="s2">line straight but that&#39;s just because<br />I&#39;m only showing the horizontal and</p>
+<p begin="00:03:08.270" end="00:03:12.110" style="s2">vertical grid lines when you see what it<br />does to a diagonal line it becomes clear</p>
+<p begin="00:03:12.110" end="00:03:15.200" style="s2">that it&#39;s not at all linear since it<br />turns that line all curvy</p>
+<p begin="00:03:16.580" end="00:03:20.210" style="s2">in general you should think of linear<br />transformations as keeping grid lines</p>
+<p begin="00:03:20.210" end="00:03:23.360" style="s2">parallel and evenly spaced</p>
+<p begin="00:03:23.360" end="00:03:27.080" style="s2">some linear transformations are simple<br />to think about like rotations about the</p>
+<p begin="00:03:27.080" end="00:03:27.920" style="s2">origin</p>
+<p begin="00:03:27.920" end="00:03:30.920" style="s2">others are a little trickier to describe<br />with words</p>
+<p begin="00:03:31.990" end="00:03:36.190" style="s2">so how do you think you could describe<br />these transformations numerically if you</p>
+<p begin="00:03:36.190" end="00:03:40.240" style="s2">were say programming some animations to<br />make a video teaching the topic what</p>
+<p begin="00:03:40.240" end="00:03:43.510" style="s2">formula did you give the computer so<br />that if you give it the coordinates of a</p>
+<p begin="00:03:43.510" end="00:03:47.260" style="s2">vector it can give you the coordinates<br />of where that vector lands</p>
+<p begin="00:03:48.340" end="00:03:52.390" style="s2">it turns out that you only need to<br />record where the two basis vectors</p>
+<p begin="00:03:52.390" end="00:03:56.319" style="s2">I hat and Jay had each land and<br />everything else will follow from that</p>
+<p begin="00:03:57.310" end="00:04:01.630" style="s2">for example consider the vector V with<br />coordinates negative 12</p>
+<p begin="00:04:01.630" end="00:04:05.709" style="s2">meaning that it equals negative 1 times<br />I hat plus 2 times J hat</p>
+<p begin="00:04:08.940" end="00:04:12.270" style="s2">if we play some transformation and<br />follow where all three of these vectors</p>
+<p begin="00:04:12.270" end="00:04:13.230" style="s2">go</p>
+<p begin="00:04:13.230" end="00:04:17.190" style="s2">the property that grid lines remain<br />parallel and evenly spaced has a really</p>
+<p begin="00:04:17.190" end="00:04:21.420" style="s2">important consequence the place where<br />vlans will be negative 1 times the</p>
+<p begin="00:04:21.420" end="00:04:26.310" style="s2">vector where I had landed plus 2 times<br />the vector where Jay had landed in other</p>
+<p begin="00:04:26.310" end="00:04:30.690" style="s2">words it started off as a certain linear<br />combination of i had and J hat and it</p>
+<p begin="00:04:30.690" end="00:04:34.620" style="s2">ends up is that same linear combination<br />of where those two vectors landed</p>
+<p begin="00:04:35.430" end="00:04:40.290" style="s2">this means you can deduce where v must<br />go based only on where i had and J hat</p>
+<p begin="00:04:40.290" end="00:04:41.340" style="s2">each land</p>
+<p begin="00:04:41.340" end="00:04:45.300" style="s2">this is why I like keeping a copy of the<br />original grid in the background for the</p>
+<p begin="00:04:45.300" end="00:04:49.650" style="s2">transformation shown here we can read<br />off that I had lands on the coordinates</p>
+<p begin="00:04:49.650" end="00:04:54.930" style="s2">1 negative 2 and J hat lens on the x<br />axis over at the coordinates 30</p>
+<p begin="00:04:55.700" end="00:04:59.930" style="s2">this means that the vector represented<br />by negative 1 I hat plus 2 times J hat</p>
+<p begin="00:04:59.930" end="00:05:06.110" style="s2">ends up at negative 1 times the vector 1<br />negative 2 plus 2 times the vector 30</p>
+<p begin="00:05:06.990" end="00:05:11.550" style="s2">having that all together you can deduce<br />that it has to land on the vector 52</p>
+<p begin="00:05:14.480" end="00:05:15.710" style="s2">this is a good point to par</p>
+<p begin="00:05:15.710" end="00:05:18.600" style="s2">and ponder because it&#39;s pretty important</p>
+<p begin="00:05:18.600" end="00:05:21.990" style="s2">out given that i&#39;m actually showing you<br />the full transformation</p>
+<p begin="00:05:21.990" end="00:05:26.460" style="s2">you could have just looked to see that V<br />has the coordinates 52 but the cool part</p>
+<p begin="00:05:26.460" end="00:05:31.440" style="s2">here is that this gives us a technique<br />to deduce where any vectors land so long</p>
+<p begin="00:05:31.440" end="00:05:36.000" style="s2">as we have a record of where i had and J<br />hat each land without needing to watch</p>
+<p begin="00:05:36.000" end="00:05:38.470" style="s2">the transformation itself</p>
+<p begin="00:05:38.470" end="00:05:42.850" style="s2">write the vector with more general<br />coordinates x and y and it will land on</p>
+<p begin="00:05:42.850" end="00:05:45.850" style="s2">x times the vector where I hat lands 1<br />negative 2</p>
+<p begin="00:05:47.230" end="00:05:53.740" style="s2">plus y times the vector where J hat<br />lands 30 carrying out that some you see</p>
+<p begin="00:05:53.740" end="00:05:54.820" style="s2">that it lands it</p>
+<p begin="00:05:54.820" end="00:06:01.270" style="s2">1 x + 3 y negative 2x plus 0y I give you<br />any vector and you can tell me where</p>
+<p begin="00:06:01.270" end="00:06:04.660" style="s2">that vector lens using this formula</p>
+<p begin="00:06:04.660" end="00:06:09.010" style="s2">what all of this is saying is that a two<br />dimensional linear transformation is</p>
+<p begin="00:06:09.010" end="00:06:12.190" style="s2">completely described by just four<br />numbers</p>
+<p begin="00:06:12.190" end="00:06:16.060" style="s2">the two coordinates for why I hat lands<br />and the two coordinates for where J hat</p>
+<p begin="00:06:16.060" end="00:06:16.870" style="s2">lands</p>
+<p begin="00:06:16.870" end="00:06:18.280" style="s2">isn&#39;t that cool</p>
+<p begin="00:06:18.280" end="00:06:21.910" style="s2">it&#39;s common to package these coordinates<br />into a two by two great of numbers</p>
+<p begin="00:06:21.910" end="00:06:26.740" style="s2">called a 2 by 2 matrix where you can<br />interpret the columns as the two special</p>
+<p begin="00:06:26.740" end="00:06:29.740" style="s2">vectors were i had and J hat each land</p>
+<p begin="00:06:30.390" end="00:06:34.230" style="s2">if you&#39;re given a 2 by 2 matrix<br />describing a linear transformation and</p>
+<p begin="00:06:34.230" end="00:06:38.340" style="s2">some specific vector and you want to<br />know where that linear transformation</p>
+<p begin="00:06:38.340" end="00:06:43.350" style="s2">takes that vector you can take the<br />coordinates of the vector multiply them</p>
+<p begin="00:06:43.350" end="00:06:47.700" style="s2">by the corresponding columns of the<br />matrix then add together what you get</p>
+<p begin="00:06:47.700" end="00:06:52.230" style="s2">this corresponds with the idea of adding<br />the scaled versions of our new basis</p>
+<p begin="00:06:52.230" end="00:06:54.700" style="s2">vectors</p>
+<p begin="00:06:54.700" end="00:06:58.240" style="s2">let&#39;s see what this looks like in the<br />most general case where your matrix</p>
+<p begin="00:06:58.240" end="00:06:59.080" style="s2">whose entries</p>
+<p begin="00:06:59.080" end="00:07:04.360" style="s2">ABCD and remember this matrix is just a<br />way of packaging the information needed</p>
+<p begin="00:07:04.360" end="00:07:06.580" style="s2">to describe a linear transformation</p>
+<p begin="00:07:06.580" end="00:07:11.140" style="s2">always remember to interpret that first<br />column AC as the place where the first</p>
+<p begin="00:07:11.140" end="00:07:15.370" style="s2">basis vector lands and that second<br />column B D is the place where the second</p>
+<p begin="00:07:15.370" end="00:07:17.360" style="s2">basis vector lands</p>
+<p begin="00:07:17.360" end="00:07:20.360" style="s2">when we apply this transformation to<br />some vector XY</p>
+<p begin="00:07:20.360" end="00:07:21.900" style="s2">what do you get</p>
+<p begin="00:07:21.900" end="00:07:26.880" style="s2">well it will be x times AC plus y x BD</p>
+<p begin="00:07:27.930" end="00:07:34.680" style="s2">putting this together you get a vector<br />ax plus B Y CX Plus D Y you can even</p>
+<p begin="00:07:34.680" end="00:07:37.889" style="s2">define this as matrix vector<br />multiplication</p>
+<p begin="00:07:37.889" end="00:07:42.060" style="s2">when you put the matrix on the left of<br />the vector like it&#39;s a function then you</p>
+<p begin="00:07:42.060" end="00:07:45.300" style="s2">could make high schoolers memorize this<br />without showing them the crucial part</p>
+<p begin="00:07:45.300" end="00:07:48.050" style="s2">that makes it feel intuitive</p>
+<p begin="00:07:48.050" end="00:07:51.830" style="s2">but isn&#39;t it more fun to think about<br />these columns as the transformed</p>
+<p begin="00:07:51.830" end="00:07:55.310" style="s2">versions of your basis vectors and to<br />think about the result is the</p>
+<p begin="00:07:55.310" end="00:07:58.310" style="s2">appropriate linear combination of those<br />vectors</p>
+<p begin="00:08:00.800" end="00:08:01.870" style="s2">let&#39;s practice described</p>
+<p begin="00:08:01.870" end="00:08:06.550" style="s2">being a few linear transformations with<br />matrices for example if we rotate all of</p>
+<p begin="00:08:06.550" end="00:08:09.160" style="s2">space 90 degrees counterclockwise</p>
+<p begin="00:08:09.160" end="00:08:12.160" style="s2">then I hat lands on the coordinates 0 1</p>
+<p begin="00:08:13.990" end="00:08:17.170" style="s2">I and J hat lens on the coordinates<br />negative 10</p>
+<p begin="00:08:17.860" end="00:08:21.939" style="s2">so the matrix we end up with his columns<br />0 1 negative 10</p>
+<p begin="00:08:23.100" end="00:08:26.100" style="s2">to figure out what happens to any vector<br />after a 90 degree rotation</p>
+<p begin="00:08:26.730" end="00:08:29.730" style="s2">you could just multiply its coordinates<br />by this matrix</p>
+<p begin="00:08:31.330" end="00:08:35.649" style="s2">here&#39;s a fun transformation with a<br />special name called a sheer in it</p>
+<p begin="00:08:35.649" end="00:08:41.529" style="s2">I had remains fixed so the first column<br />of the matrix is 10 but J hat moves over</p>
+<p begin="00:08:41.529" end="00:08:46.450" style="s2">to the coordinates 11 which become the<br />second column of the matrix and at the</p>
+<p begin="00:08:46.450" end="00:08:50.140" style="s2">risk of being redundant here figuring<br />out how a sheer transforms a given</p>
+<p begin="00:08:50.140" end="00:08:53.920" style="s2">vector comes down to multiplying this<br />matrix by that vector</p>
+<p begin="00:08:55.610" end="00:08:59.180" style="s2">let&#39;s say we want to go the other way<br />around starting with the matrix say with</p>
+<p begin="00:08:59.180" end="00:09:05.180" style="s2">columns 1 2 &amp; 3 1 and we want to reduce<br />what its transformation looks like pause</p>
+<p begin="00:09:05.180" end="00:09:09.829" style="s2">and take a moment to see if you can<br />imagine it one way to do this is to</p>
+<p begin="00:09:09.829" end="00:09:17.089" style="s2">first move I hat - 12 then move J hat -<br />31 always moving the rest of space in</p>
+<p begin="00:09:17.089" end="00:09:20.180" style="s2">such a way that keeps grid lines<br />parallel and evenly spaced</p>
+<p begin="00:09:21.750" end="00:09:26.430" style="s2">if the vectors that I had and Jay had<br />land on are linearly dependent which if</p>
+<p begin="00:09:26.430" end="00:09:30.570" style="s2">you recall from last video means that<br />one is a scaled version of the other</p>
+<p begin="00:09:30.570" end="00:09:35.790" style="s2">it means that the linear transformation<br />squishes all of 2d space on to the line</p>
+<p begin="00:09:35.790" end="00:09:40.290" style="s2">where those two vectors it also known as<br />the one-dimensional span of those two</p>
+<p begin="00:09:40.290" end="00:09:43.290" style="s2">linearly dependent vectors</p>
+<p begin="00:09:44.490" end="00:09:49.890" style="s2">to sum up linear transformations our way<br />to move around space such the grid lines</p>
+<p begin="00:09:49.890" end="00:09:53.730" style="s2">remain parallel and evenly spaced and<br />such that the origin remains fixed</p>
+<p begin="00:09:53.730" end="00:09:58.140" style="s2">delightfully these transformations can<br />be described using only a handful of</p>
+<p begin="00:09:58.140" end="00:09:58.950" style="s2">numbers</p>
+<p begin="00:09:58.950" end="00:10:04.110" style="s2">the coordinates of where each basis<br />vector lands matrices give us a language</p>
+<p begin="00:10:04.110" end="00:10:08.459" style="s2">to describe these transformations where<br />the columns represent those coordinates</p>
+<p begin="00:10:08.459" end="00:10:12.570" style="s2">and matrix vector multiplication is just<br />a way to compute what that</p>
+<p begin="00:10:12.570" end="00:10:16.920" style="s2">transformation does to a given vector<br />the important takeaway here is that</p>
+<p begin="00:10:16.920" end="00:10:21.360" style="s2">every time you see a matrix you can<br />interpret it as a certain transformation</p>
+<p begin="00:10:21.360" end="00:10:22.380" style="s2">of space</p>
+<p begin="00:10:22.380" end="00:10:26.430" style="s2">once you really digest this idea you&#39;re<br />in a great position to understand linear</p>
+<p begin="00:10:26.430" end="00:10:31.230" style="s2">algebra deeply almost all of the topics<br />coming up from matrix multiplication to</p>
+<p begin="00:10:31.230" end="00:10:33.209" style="s2">determinant change of basis</p>
+<p begin="00:10:33.209" end="00:10:37.560" style="s2">eigenvalues all of these will become<br />easier to understand once you start</p>
+<p begin="00:10:37.560" end="00:10:40.740" style="s2">thinking about matrices as<br />transformations of space</p>
+<p begin="00:10:40.740" end="00:10:44.730" style="s2">most immediately in the next video I&#39;ll<br />be talking about multiplying two</p>
+<p begin="00:10:44.730" end="00:10:46.020" style="s2">matrices together</p>
+<p begin="00:10:46.020" end="00:10:46.440" style="s2">see them</p>
+</div>
+</body>
+</tt>
