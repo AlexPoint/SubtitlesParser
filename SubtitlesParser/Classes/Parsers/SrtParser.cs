@@ -24,7 +24,7 @@ namespace SubtitlesParser.Classes.Parsers
         
         // Properties -----------------------------------------------------------------------
 
-        private readonly string[] _delimiters = new string[] { "-->" , "- >", "->" };
+        private readonly string[] _delimiters = { "-->" , "- >", "->" };
         
 
         // Constructors --------------------------------------------------------------------
@@ -58,9 +58,9 @@ namespace SubtitlesParser.Classes.Parsers
                 {
                     var lines =
                         srtSubPart.Split(new string[] {Environment.NewLine}, StringSplitOptions.None)
-                                  .Select(s => s.Trim())
-                                  .Where(l => !string.IsNullOrEmpty(l))
-                                  .ToList();
+                            .Select(s => s.Trim())
+                            .Where(l => !string.IsNullOrEmpty(l))
+                            .ToList();
 
                     var item = new SubtitleItem();
                     foreach (var line in lines)
@@ -170,9 +170,9 @@ namespace SubtitlesParser.Classes.Parsers
         /// </summary>
         /// <param name="s">The timecode to parse</param>
         /// <returns>The parsed timecode as a TimeSpan instance. If the parsing was unsuccessful, -1 is returned (subtitles should never show)</returns>
-        private int ParseSrtTimecode(string s)
+        private static int ParseSrtTimecode(string s)
         {
-            var match = Regex.Match(s, "[0-9]+:[0-9]+:[0-9]+[,\\.][0-9]+");
+            var match = Regex.Match(s, "[0-9]+:[0-9]+:[0-9]+([,\\.][0-9]+)?");
             if (match.Success)
             {
                 s = match.Value;
