@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubtitlesParser", "SubtitlesParser\SubtitlesParser.csproj", "{6F33AA98-2275-4241-BBED-B3D02BDE5EBB}"
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SubtitlesParser", "SubtitlesParser\SubtitlesParser.csproj", "{6F33AA98-2275-4241-BBED-B3D02BDE5EBB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{3617CC79-3E2F-4BD6-B2CF-CA1F42176C18}"
 EndProject
@@ -17,14 +19,14 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{6F33AA98-2275-4241-BBED-B3D02BDE5EBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6F33AA98-2275-4241-BBED-B3D02BDE5EBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6F33AA98-2275-4241-BBED-B3D02BDE5EBB}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{6F33AA98-2275-4241-BBED-B3D02BDE5EBB}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{6F33AA98-2275-4241-BBED-B3D02BDE5EBB}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{6F33AA98-2275-4241-BBED-B3D02BDE5EBB}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
 		{6F33AA98-2275-4241-BBED-B3D02BDE5EBB}.Debug|x86.ActiveCfg = Debug|Any CPU
 		{6F33AA98-2275-4241-BBED-B3D02BDE5EBB}.Debug|x86.Build.0 = Debug|Any CPU
 		{6F33AA98-2275-4241-BBED-B3D02BDE5EBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F33AA98-2275-4241-BBED-B3D02BDE5EBB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6F33AA98-2275-4241-BBED-B3D02BDE5EBB}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{6F33AA98-2275-4241-BBED-B3D02BDE5EBB}.Release|Mixed Platforms.Build.0 = Release|x86
+		{6F33AA98-2275-4241-BBED-B3D02BDE5EBB}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{6F33AA98-2275-4241-BBED-B3D02BDE5EBB}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{6F33AA98-2275-4241-BBED-B3D02BDE5EBB}.Release|x86.ActiveCfg = Release|Any CPU
 		{6F33AA98-2275-4241-BBED-B3D02BDE5EBB}.Release|x86.Build.0 = Release|Any CPU
 		{3617CC79-3E2F-4BD6-B2CF-CA1F42176C18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -40,5 +42,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B56D2FDB-164C-49EE-B9A3-6BB5DDBC0A21}
 	EndGlobalSection
 EndGlobal
