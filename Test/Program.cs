@@ -57,8 +57,8 @@ namespace Test
         private static string[] BrowseTestSubtitlesFiles()
         {
             const string subFilesDirectory = @"Content\TestFiles";
-            var currentPath = Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
-            var completePath = Path.Combine(currentPath, "..", "..", subFilesDirectory);
+            var currentPath = Directory.GetCurrentDirectory();
+            var completePath = Path.Combine(currentPath, subFilesDirectory);
 
             var allFiles = Directory.GetFiles(completePath);
             return allFiles;
