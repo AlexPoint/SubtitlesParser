@@ -93,14 +93,7 @@ namespace SubtitlesParser.Classes.Parsers
                     }
                 }
 
-                if (items.Any())
-                {
-                    return items;
-                }
-                else
-                {
-                    throw new ArgumentException("Stream is not in a valid VTT format");
-                }
+                return items;
             }
             else
             {

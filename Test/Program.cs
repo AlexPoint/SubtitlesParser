@@ -39,7 +39,7 @@ namespace Test
                         }
                         else
                         {
-                            throw new ArgumentException("Not items found!");
+                            Console.WriteLine("Parsing of file {0}: SUCCESS (No items found!)", fileName, items.Count);
                         }
                         
                     }
