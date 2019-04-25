@@ -7,7 +7,7 @@
     <StartupObject />
     <PackageId>SubtitlesParser</PackageId>
     <AssemblyName>SubtitlesParser</AssemblyName>
-    <Version>1.4.7</Version>
+    <Version>1.4.8</Version>
     <Title>Subtitles parser</Title>
     <Authors>AlexPoint</Authors>
     <PackageProjectUrl>https://github.com/AlexPoint/SubtitlesParser</PackageProjectUrl>
@@ -16,6 +16,7 @@
     <Description>Universal subtitles parser</Description>
     <ReleaseNotes>Made Ttml and Srt parsers more robust</ReleaseNotes>
     <Tags>subtitles parser</Tags>
+    <PackageReleaseNotes>Remove dependecy to .NET Core and target .NET standard</PackageReleaseNotes>
   </PropertyGroup>
 
 </Project>
