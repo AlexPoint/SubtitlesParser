@@ -1,5 +1,4 @@
 ## SubtitlesParser
-===============
 
 Universal subtitles parser which aims at supporting all subtitle formats.
 For more info on subtitles formats, see this page: http://en.wikipedia.org/wiki/Category:Subtitle_file_formats
@@ -26,7 +25,7 @@ You can check the Test project for subtitles files and more sample codes.
 If you don't specify the subtitle format, the SubtitlesParser will try all the registered parsers (7 for now)
 
 ```csharp
-var parser = new SubtitlesParser.Classes.Parsers.SubtitlesParser();
+var parser = new SubtitlesParser.Classes.Parsers.SubParser();
 using (var fileStream = File.OpenRead(pathToSrtFile)){
 	var items = parser.ParseStream(fileStream);
 }
