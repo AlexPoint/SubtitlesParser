@@ -1,0 +1,831 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tt xmlns:tt="http://www.w3.org/ns/ttml" xmlns:ttm="http://www.w3.org/ns/ttml#metadata" xmlns:ttp="http://www.w3.org/ns/ttml#parameter" xmlns:tts="http://www.w3.org/ns/ttml#styling" ttp:tickRate="10000000" ttp:timeBase="media" xmlns="http://www.w3.org/ns/ttml">
+<head>
+<ttp:profile use="http://netflix.com/ttml/profile/dfxp-ls-sdh"/>
+<styling>
+<style tts:color="white" tts:fontSize="100%" tts:fontWeight="normal" xml:id="s1"/>
+<style tts:color="white" tts:fontSize="100%" tts:fontStyle="italic" tts:fontWeight="normal" xml:id="s1_1"/>
+</styling>
+<layout>
+<region tts:displayAlign="after" tts:extent="80.00% 80.00%" tts:origin="10.00% 10.00%" tts:textAlign="center" xml:id="bottomCenter"/>
+<region tts:displayAlign="before" tts:extent="80.00% 80.00%" tts:origin="10.00% 10.00%" tts:textAlign="center" xml:id="topCenter"/>
+</layout>
+</head>
+<body>
+<div xml:space="preserve">
+<p begin="79249170t" end="120119999t" region="bottomCenter" style="s1" xml:id="subtitle0">SÉRIE NETFLIX ORIGINAL</p>
+<p begin="134304170t" end="158908750t" region="bottomCenter" style="s1" xml:id="subtitle1"><span style="s1_1">J'ai toujours adoré me laver.</span></p>
+<p begin="170590420t" end="186856670t" region="bottomCenter" style="s1" xml:id="subtitle2"><span style="s1_1">J'adore les bains.</span></p>
+<p begin="202282080t" end="218968749t" region="bottomCenter" style="s1" xml:id="subtitle3"><span style="s1_1">J'adore les douches.</span></p>
+<p begin="285705420t" end="303633330t" region="bottomCenter" style="s1" xml:id="subtitle4"><span style="s1_1">C'est mon havre de paix.</span></p>
+<p begin="368698330t" end="386215830t" region="bottomCenter" style="s1" xml:id="subtitle5"><span style="s1_1">Enfin, ça l'était.</span></p>
+<p begin="467967499t" end="500079579t" region="bottomCenter" style="s1" xml:id="subtitle6"><span style="s1_1">Inspection des poux</span><br/><span style="s1_1">chez toutes les détenues du dortoir D.</span></p>
+<p begin="500920419t" end="536786249t" region="bottomCenter" style="s1" xml:id="subtitle7"><span style="s1_1">Je répète, inspection des poux</span><br/><span style="s1_1">chez toutes les détenues du dortoir D.</span></p>
+<p begin="570149580t" end="587667080t" region="bottomCenter" style="s1" xml:id="subtitle8">Je sors dans une seconde. Promis.</p>
+<p begin="603102500t" end="634383750t" region="bottomCenter" style="s1" xml:id="subtitle9">J'attends. Mais tu as intérêt<br/>à me laisser de l'eau chaude.</p>
+<p begin="635214580t" end="656906250t" region="bottomCenter" style="s1" xml:id="subtitle10">Il n'en restait pas beaucoup<br/>à mon arrivée.</p>
+<p begin="676926250t" end="687767080t" region="bottomCenter" style="s1" xml:id="subtitle11">Magne-toi !</p>
+<p begin="696946250t" end="711961250t" region="bottomCenter" style="s1" xml:id="subtitle12">D'accord, d'accord.</p>
+<p begin="725304580t" end="746165420t" region="bottomCenter" style="s1" xml:id="subtitle13">J'ai fini. Je sors. C'est bon.</p>
+<p begin="746996250t" end="766185420t" region="bottomCenter" style="s1" xml:id="subtitle14">T'as de jolis petits nichons.</p>
+<p begin="777026250t" end="802051250t" region="bottomCenter" style="s1" xml:id="subtitle15">- Merci.<br/>- Comme les filles à la télé.</p>
+<p begin="802882080t" end="832081250t" region="bottomCenter" style="s1" xml:id="subtitle16">Tout guillerets,<br/>ils pointent tout seuls vers le ciel.</p>
+<p begin="832912080t" end="847096249t" region="bottomCenter" style="s1" xml:id="subtitle17">D'accord.</p>
+<p begin="867947079t" end="903402499t" region="bottomCenter" style="s1" xml:id="subtitle18">Ils vendent des tongs<br/>à l'intendance, tu sais.</p>
+<p begin="904233329t" end="925504579t" region="bottomCenter" style="s1" xml:id="subtitle19">Mon chèque n'a pas été encaissé.</p>
+<p begin="926345419t" end="958037079t" region="bottomCenter" style="s1" xml:id="subtitle20">T'es créative.<br/>Je te l'accorde, jolis tétons.</p>
+<p begin="975144169t" end="1000169169t" region="bottomCenter" style="s1" xml:id="subtitle21">Allez, bouge ton cul de là.</p>
+<p begin="1000999999t" end="1013512499t" region="bottomCenter" style="s1" xml:id="subtitle22">D'accord.</p>
+<p begin="1936104169t" end="1956954999t" region="topCenter" style="s1" xml:id="subtitle23">Il y a un cochon entier là-dedans ?</p>
+<p begin="1957785829t" end="1969467499t" region="topCenter" style="s1" xml:id="subtitle24">Oui.</p>
+<p begin="1970298329t" end="1987405419t" region="topCenter" style="s1" xml:id="subtitle25">Pour nous quatre ?</p>
+<p begin="1988236249t" end="2020768749t" region="topCenter" style="s1" xml:id="subtitle26">C'est un petit cochon.<br/>Je tenais à utiliser ce barbecue.</p>
+<p begin="2021599579t" end="2037034999t" region="topCenter" style="s1" xml:id="subtitle27">Mon cadeau d'anniversaire.</p>
+<p begin="2037865829t" end="2074152079t" region="topCenter" style="s1" xml:id="subtitle28">Elle culpabilise de partir.<br/>C'est un barbecue de culpabilité.</p>
+<p begin="2074992919t" end="2092510419t" region="topCenter" style="s1" xml:id="subtitle29">Au moins, tu y gagnes un truc.</p>
+<p begin="2093341249t" end="2126704579t" region="topCenter" style="s1" xml:id="subtitle30">Je baiserai pas pendant un an aussi<br/>et j'y gagne quoi ?</p>
+<p begin="2127545419t" end="2137555419t" region="topCenter" style="s1" xml:id="subtitle31">Un bébé ?</p>
+<p begin="2138386249t" end="2151319170t" region="topCenter" style="s1" xml:id="subtitle32">Ça ne se mange pas.</p>
+<p begin="2169667500t" end="2199697500t" region="topCenter" style="s1" xml:id="subtitle33">- On va vraiment le manger ?<br/>- C'est de circonstance.</p>
+<p begin="2200528330t" end="2216384170t" region="topCenter" style="s1" xml:id="subtitle34">Heureusement, t'es pas musulmane.</p>
+<p begin="2217215000t" end="2233481250t" region="topCenter" style="s1" xml:id="subtitle35">Les flics sont des porcs.</p>
+<p begin="2276444170t" end="2298546250t" region="topCenter" style="s1" xml:id="subtitle36">Putain, dire que tu vas en taule demain !</p>
+<p begin="2299377080t" end="2325242920t" region="topCenter" style="s1" xml:id="subtitle37">En prison... pas en taule.</p>
+<p begin="2336504170t" end="2351098750t" region="topCenter" style="s1" xml:id="subtitle38">Tu vas rater<br/>ma fête de naissance.</p>
+<p begin="2351929580t" end="2375292920t" region="topCenter" style="s1" xml:id="subtitle39">Je suis navrée, Polly.</p>
+<p begin="2388215830t" end="2398646250t" region="topCenter" style="s1" xml:id="subtitle40">Je sais.</p>
+<p begin="2427845420t" end="2462880420t" region="topCenter" style="s1" xml:id="subtitle41">Pense plutôt à la façon<br/>dont tu vas t'épiler les sourcils.</p>
+<p begin="2463711250t" end="2497074580t" region="bottomCenter" style="s1" xml:id="subtitle42">Je refuse que tu ressortes<br/>avec un monosourcil.</p>
+<p begin="2516263750t" end="2529607080t" region="bottomCenter" style="s1" xml:id="subtitle43">J'ai le droit de pleurer ?</p>
+<p begin="2530447920t" end="2557134580t" region="bottomCenter" style="s1" xml:id="subtitle44">Non. Sérieusement, non.</p>
+<p begin="2557975420t" end="2612610000t" region="topCenter" style="s1" xml:id="subtitle45">Bon, on est prêts.<br/>Tout le monde à l'intérieur.</p>
+<p begin="2613440830t" end="2625542920t" region="topCenter" style="s1" xml:id="subtitle46">- Je t'aide ?<br/>- Oui.</p>
+<p begin="2626373750t" end="2641809170t" region="topCenter" style="s1" xml:id="subtitle47">Ma grande.</p>
+<p begin="2642640000t" end="2665162500t" region="bottomCenter" style="s1" xml:id="subtitle48">Allons rejouer la Cène.</p>
+<p begin="2694772080t" end="2711458750t" region="bottomCenter" style="s1" xml:id="subtitle49">- Il faut le faire.<br/>- Je sais.</p>
+<p begin="2728976250t" end="2751078330t" region="bottomCenter" style="s1" xml:id="subtitle50">On n'aurait jamais dû<br/>manger autant.</p>
+<p begin="2751919170t" end="2773190420t" region="bottomCenter" style="s1" xml:id="subtitle51">Je sais. Il faut y arriver.</p>
+<p begin="2774021250t" end="2785282500t" region="bottomCenter" style="s1" xml:id="subtitle52">D'accord.</p>
+<p begin="2786113330t" end="2818235420t" region="bottomCenter" style="s1" xml:id="subtitle53">- Pour se faire des souvenirs.<br/>- Oui.</p>
+<p begin="2819066250t" end="2848265420t" region="bottomCenter" style="s1" xml:id="subtitle54">Et t'aider<br/>pour les mois de disette à venir.</p>
+<p begin="2849096250t" end="2877044170t" region="bottomCenter" style="s1" xml:id="subtitle55">Dit comme ça.</p>
+<p begin="2994661670t" end="3015932920t" region="bottomCenter" style="s1" xml:id="subtitle56">- Attends, je dois...<br/>- Quoi ?</p>
+<p begin="3016763750t" end="3038035000t" region="bottomCenter" style="s1" xml:id="subtitle57">- Je dois aller pisser.<br/>- Quoi ? Non.</p>
+<p begin="3038865830t" end="3049716670t" region="bottomCenter" style="s1" xml:id="subtitle58">- Si.<br/>- Sérieux ?</p>
+<p begin="3050547500t" end="3063890830t" region="bottomCenter" style="s1" xml:id="subtitle59">Je...</p>
+<p begin="3080577500t" end="3107684580t" region="bottomCenter" style="s1" xml:id="subtitle60">Je reviens.</p>
+<p begin="3146473330t" end="3158575420t" region="bottomCenter" style="s1" xml:id="subtitle61">Hé.</p>
+<p begin="3168995830t" end="3188185000t" region="topCenter" style="s1" xml:id="subtitle62">Oui ?</p>
+<p begin="3189015830t" end="3209456250t" region="topCenter" style="s1" xml:id="subtitle63">Tu es magnifique.</p>
+<p begin="3225722500t" end="3237404170t" region="topCenter" style="s1" xml:id="subtitle64">Merci.</p>
+<p begin="3367944579t" end="3382549169t" region="bottomCenter" style="s1" xml:id="subtitle65">Merde.</p>
+<p begin="3983149169t" end="3994410419t" region="topCenter" style="s1" xml:id="subtitle66">Quoi ?</p>
+<p begin="4032778749t" end="4052378329t" region="topCenter" style="s1" xml:id="subtitle67">Tu es magnifique aussi.</p>
+<p begin="4106182079t" end="4129955829t" region="topCenter" style="s1" xml:id="subtitle68">Allez. Grimpe.</p>
+<p begin="4303469170t" end="4314730420t" region="bottomCenter" style="s1" xml:id="subtitle69">Hé.</p>
+<p begin="4345170830t" end="4357272920t" region="bottomCenter" style="s1" xml:id="subtitle70">Tu pleures.</p>
+<p begin="4383959580t" end="4396061670t" region="bottomCenter" style="s1" xml:id="subtitle71">Baise-moi.</p>
+<p begin="4396892500t" end="4410656250t" region="bottomCenter" style="s1" xml:id="subtitle72">Piper.</p>
+<p begin="4411487080t" end="4429425000t" region="bottomCenter" style="s1" xml:id="subtitle73">La ferme.</p>
+<p begin="4430255830t" end="4460285830t" region="bottomCenter" style="s1" xml:id="subtitle74">S'il te plaît. S'il te plaît.</p>
+<p begin="4490315830t" end="4503248750t" region="bottomCenter" style="s1" xml:id="subtitle75">D'accord.</p>
+<p begin="4673839170t" end="4689685000t" region="bottomCenter" style="s1" xml:id="subtitle76">DÉPARTEMENT DE LA JUSTICE<br/>DES ÉTATS-UNIS</p>
+<p begin="4690515830t" end="4707202500t" region="bottomCenter" style="s1" xml:id="subtitle77">ÉTABLISSEMENT PÉNITENTIAIRE<br/>DE LITCHFIELD</p>
+<p begin="4903648750t" end="4915740830t" region="bottomCenter" style="s1" xml:id="subtitle78">Pas de visites aujourd'hui.</p>
+<p begin="4916581670t" end="4949524580t" region="bottomCenter" style="s1" xml:id="subtitle79">Bonjour... je viens me livrer.</p>
+<p begin="4950365420t" end="4966631670t" region="bottomCenter" style="s1" xml:id="subtitle80">Ah, alors, d'accord.</p>
+<p begin="5010835830t" end="5027522500t" region="topCenter" style="s1" xml:id="subtitle81">Il avait l'air surpris ?</p>
+<p begin="5028353330t" end="5056301250t" region="topCenter" style="s1" xml:id="subtitle82">Quand j'ai dit que je me livrais ?<br/>Tu ne trouves pas ?</p>
+<p begin="5057132080t" end="5079244170t" region="topCenter" style="s1" xml:id="subtitle83">Genre : "Que fiche-t-elle là ?"</p>
+<p begin="5080075000t" end="5113027920t" region="topCenter" style="s1" xml:id="subtitle84">- J'ai pas remarqué.<br/>- Il avait l'air surpris.</p>
+<p begin="5138052920t" end="5178923750t" region="bottomCenter" style="s1" xml:id="subtitle85">J'ai une sale mine.<br/>Mes yeux sont tout bouffis.</p>
+<p begin="5179754580t" end="5190185000t" region="bottomCenter" style="s1" xml:id="subtitle86">Tu t'inquiètes de ça ?</p>
+<p begin="5191015830t" end="5202697500t" region="bottomCenter" style="s1" xml:id="subtitle87">Ils sauront que j'ai pleuré.</p>
+<p begin="5203528330t" end="5220635420t" region="bottomCenter" style="s1" xml:id="subtitle88">Je ne dois montrer<br/>aucune faiblesse.</p>
+<p begin="5221466250t" end="5234399170t" region="bottomCenter" style="s1" xml:id="subtitle89">Tous les livres le disent.</p>
+<p begin="5235230000t" end="5246491250t" region="bottomCenter" style="s1" xml:id="subtitle90">Oh, ma chérie...</p>
+<p begin="5247322080t" end="5265260000t" region="bottomCenter" style="s1" xml:id="subtitle91">Ne m'appelle pas "chérie".</p>
+<p begin="5266090830t" end="5280275000t" region="bottomCenter" style="s1" xml:id="subtitle92">Oh, Léonard.</p>
+<p begin="5290705420t" end="5306971670t" region="bottomCenter" style="s1" xml:id="subtitle93">C'est mieux.</p>
+<p begin="5368693330t" end="5388302920t" region="bottomCenter" style="s1" xml:id="subtitle94">Je ne peux pas l'emmener.</p>
+<p begin="5427502080t" end="5441686250t" region="bottomCenter" style="s1" xml:id="subtitle95">D'accord. Entendu.</p>
+<p begin="5470885420t" end="5485480000t" region="bottomCenter" style="s1" xml:id="subtitle96">Qu'est-ce que tu fais ?</p>
+<p begin="5486310830t" end="5496741250t" region="bottomCenter" style="s1" xml:id="subtitle97">Quoi ?</p>
+<p begin="5497572080t" end="5512587080t" region="bottomCenter" style="s1" xml:id="subtitle98">Si tu la mets dans ta poche,</p>
+<p begin="5513427920t" end="5531776250t" region="bottomCenter" style="s1" xml:id="subtitle99">elle va finir<br/>dans le tambour de la machine.</p>
+<p begin="5532607080t" end="5549293750t" region="bottomCenter" style="s1" xml:id="subtitle100">D'accord.</p>
+<p begin="5550124580t" end="5564308750t" region="bottomCenter" style="s1" xml:id="subtitle101">Où veux-tu que je la mette ?</p>
+<p begin="5565139580t" end="5578492920t" region="bottomCenter" style="s1" xml:id="subtitle102">Dans ton cul.</p>
+<p begin="5579323750t" end="5611856250t" region="bottomCenter" style="s1" xml:id="subtitle103">Y a pas de place,<br/>j'ai déjà la tête dans le cul.</p>
+<p begin="5622697080t" end="5634799170t" region="bottomCenter" style="s1" xml:id="subtitle104">Je suis désolée.</p>
+<p begin="5662737080t" end="5676500830t" region="bottomCenter" style="s1" xml:id="subtitle105">Ce n'est rien.</p>
+<p begin="5709033330t" end="5720715000t" region="bottomCenter" style="s1" xml:id="subtitle106">Tu sais quoi ?</p>
+<p begin="5734058330t" end="5767011250t" region="bottomCenter" style="s1" xml:id="subtitle107">Je la mets dans mon portefeuille.<br/>Ça te va ?</p>
+<p begin="5767842080t" end="5819143330t" region="bottomCenter" style="s1" xml:id="subtitle108">Et en rentrant...<br/>je la rangerai dans ta boîte à bijoux.</p>
+<p begin="5819984170t" end="5840414580t" region="bottomCenter" style="s1" xml:id="subtitle109">Pour payer le loyer,<br/>je la mettrai au clou.</p>
+<p begin="5841255420t" end="5873787920t" region="bottomCenter" style="s1" xml:id="subtitle110">Mais je la récupérerai<br/>avant que tu sortes de prison.</p>
+<p begin="5938852920t" end="5950114170t" region="bottomCenter" style="s1" xml:id="subtitle111">Il faut y aller.</p>
+<p begin="6002666670t" end="6014758750t" region="bottomCenter" style="s1" xml:id="subtitle112">Bon.</p>
+<p begin="6027271250t" end="6040204170t" region="bottomCenter" style="s1" xml:id="subtitle113"><span style="s1_1">Une fille qui se livre.</span></p>
+<p begin="6041035000t" end="6061475420t" region="bottomCenter" style="s1" xml:id="subtitle114">Je n'étais pas au courant<br/>non plus.</p>
+<p begin="6062306250t" end="6073987920t" region="bottomCenter" style="s1" xml:id="subtitle115"><span style="s1_1">Gardiens disponibles...</span></p>
+<p begin="6074818750t" end="6092756670t" region="bottomCenter" style="s1" xml:id="subtitle116">J'ai son dossier sous les yeux.</p>
+<p begin="6093587500t" end="6119443330t" region="bottomCenter" style="s1" xml:id="subtitle117">Elle s'appelle Chapman.</p>
+<p begin="6120284170t" end="6142806670t" region="bottomCenter" style="s1" xml:id="subtitle118">Oui.</p>
+<p begin="6143637500t" end="6176590420t" region="bottomCenter" style="s1" xml:id="subtitle119">Chapman, comme la chanteuse<br/>Tracy Chapman.</p>
+<p begin="6177421250t" end="6188262080t" region="bottomCenter" style="s1" xml:id="subtitle120">Asseyez-vous.</p>
+<p begin="6222466250t" end="6242486250t" region="bottomCenter" style="s1" xml:id="subtitle121">Piper. Ça rime avec "sniper".</p>
+<p begin="6243317080t" end="6270434170t" region="bottomCenter" style="s1" xml:id="subtitle122"><span style="s1_1">La détenue Robinson est attendue</span><br/><span style="s1_1">en salle des visites.</span></p>
+<p begin="6308382080t" end="6321315000t" region="bottomCenter" style="s1" xml:id="subtitle123">Tu as faim ?</p>
+<p begin="6322145830t" end="6333827500t" region="bottomCenter" style="s1" xml:id="subtitle124">Pas vraiment.</p>
+<p begin="6334658330t" end="6351765420t" region="bottomCenter" style="s1" xml:id="subtitle125"><span style="s1_1">Gardien Thompson, au mirador.</span></p>
+<p begin="6352596250t" end="6368442080t" region="bottomCenter" style="s1" xml:id="subtitle126">Mange quand même.</p>
+<p begin="6369282920t" end="6384297920t" region="bottomCenter" style="s1" xml:id="subtitle127">C'est à la burrata.</p>
+<p begin="6398472080t" end="6411825420t" region="bottomCenter" style="s1" xml:id="subtitle128">Merci.</p>
+<p begin="6457701250t" end="6498161670t" region="bottomCenter" style="s1" xml:id="subtitle129">Ma mère a dit à ses amies<br/>que je faisais du bénévolat en Afrique.</p>
+<p begin="6516089580t" end="6534858330t" region="bottomCenter" style="s1" xml:id="subtitle130">Elles doivent être choquées<br/>que tu ailles</p>
+<p begin="6535699170t" end="6551965420t" region="bottomCenter" style="s1" xml:id="subtitle131">dans un lieu aussi sale et dangereux.</p>
+<p begin="6574898330t" end="6627871250t" region="bottomCenter" style="s1" xml:id="subtitle132">Je n'ai jamais passé de drogues.<br/>Juste... de l'argent.</p>
+<p begin="6637460830t" end="6654978330t" region="bottomCenter" style="s1" xml:id="subtitle133">Tu as été lesbienne ?</p>
+<p begin="6655819170t" end="6668331670t" region="bottomCenter" style="s1" xml:id="subtitle134">Je l'ai été.</p>
+<p begin="6680423750t" end="6690854170t" region="bottomCenter" style="s1" xml:id="subtitle135">Tu l'es toujours ?</p>
+<p begin="6691685000t" end="6711705000t" region="bottomCenter" style="s1" xml:id="subtitle136">Non, je ne le suis plus.</p>
+<p begin="6712535830t" end="6725468749t" region="bottomCenter" style="s1" xml:id="subtitle137">Tu es sûre ?</p>
+<p begin="6739652919t" end="6781774999t" region="bottomCenter" style="s1" xml:id="subtitle138">Un jour, j'ai embrassé Mary Straley<br/>quand on était en pensionnat.</p>
+<p begin="6782605829t" end="6795538749t" region="bottomCenter" style="s1" xml:id="subtitle139">Ce n'était pas mon truc.</p>
+<p begin="6818061249t" end="6829322499t" region="bottomCenter" style="s1" xml:id="subtitle140">Tu étais au courant ?</p>
+<p begin="6830153329t" end="6864357499t" region="bottomCenter" style="s1" xml:id="subtitle141">Non. Non, pas du tout.</p>
+<p begin="6880623749t" end="6900223329t" region="bottomCenter" style="s1" xml:id="subtitle142">Elle m'avait parlé<br/>de ses voyages après la fac,</p>
+<p begin="6901064169t" end="6932345419t" region="bottomCenter" style="s1" xml:id="subtitle143">mais pas de son amante</p>
+<p begin="6933176249t" end="6955278329t" region="bottomCenter" style="s1" xml:id="subtitle144">qui dirigeait<br/>un réseau de trafic de drogues.</p>
+<p begin="6956119169t" end="6970293329t" region="bottomCenter" style="s1" xml:id="subtitle145">Imaginez ma surprise.</p>
+<p begin="6979472499t" end="7000323329t" region="bottomCenter" style="s1" xml:id="subtitle146">Qu'as-tu bien pu faire de l'argent ?</p>
+<p begin="7001164169t" end="7032024999t" region="bottomCenter" style="s1" xml:id="subtitle147">Eh bien, mamie,<br/>je n'ai pas fait ça pour l'argent.</p>
+<p begin="7042455419t" end="7064977919t" region="bottomCenter" style="s1" xml:id="subtitle148">Oh, Piper, pour l'amour du ciel !</p>
+<p begin="7109602499t" end="7133796669t" region="bottomCenter" style="s1" xml:id="subtitle149">C'est mon dernier post<br/>en tant que femme libre.</p>
+<p begin="7134627499t" end="7160072919t" region="bottomCenter" style="s1" xml:id="subtitle150">- Que vas-tu écrire ?<br/>- Hé !</p>
+<p begin="7160903749t" end="7183846669t" region="bottomCenter" style="s1" xml:id="subtitle151">Non. Les téléphones sont interdits ici.</p>
+<p begin="7184677499t" end="7204277079t" region="bottomCenter" style="s1" xml:id="subtitle152">C'est un bâtiment fédéral.<br/>Vous devez sortir.</p>
+<p begin="7205117919t" end="7228471249t" region="bottomCenter" style="s1" xml:id="subtitle153">J'ai le droit de sortir ?</p>
+<p begin="7229302079t" end="7239732499t" region="bottomCenter" style="s1" xml:id="subtitle154">Lui peut s'en charger.</p>
+<p begin="7240563329t" end="7265177919t" region="bottomCenter" style="s1" xml:id="subtitle155">Donc... téléphones interdits ?</p>
+<p begin="7266008749t" end="7281854579t" region="bottomCenter" style="s1" xml:id="subtitle156">- Tu le savais.<br/>- Maintenant.</p>
+<p begin="7282695419t" end="7301043749t" region="bottomCenter" style="s1" xml:id="subtitle157">Mon Dieu, Larry,<br/>quand je sortirai,</p>
+<p begin="7301874579t" end="7325648329t" region="bottomCenter" style="s1" xml:id="subtitle158">il y aura<br/>trois nouvelles générations d'iPhones.</p>
+<p begin="7326489169t" end="7354016669t" region="bottomCenter" style="s1" xml:id="subtitle159">Je peux demander à un agent<br/>de vous escorter dehors.</p>
+<p begin="7354847499t" end="7392384999t" region="bottomCenter" style="s1" xml:id="subtitle160">Non, j'y vais. C'est bon.<br/>Je reviens tout de suite.</p>
+<p begin="7393215829t" end="7423245829t" region="bottomCenter" style="s1" xml:id="subtitle161">Je ramène le téléphone à la voiture,<br/>je reviens.</p>
+<p begin="7424086669t" end="7436178749t" region="bottomCenter" style="s1" xml:id="subtitle162">Deux secondes.</p>
+<p begin="7437009579t" end="7451614169t" region="bottomCenter" style="s1" xml:id="subtitle163">- Oui ?<br/>- D'accord.</p>
+<p begin="7467459999t" end="7481644169t" region="bottomCenter" style="s1" xml:id="subtitle164">Deux secondes.</p>
+<p begin="7514176669t" end="7527519999t" region="bottomCenter" style="s1" xml:id="subtitle165">- Chapman !<br/>- Oui.</p>
+<p begin="7539201669t" end="7569231669t" region="bottomCenter" style="s1" xml:id="subtitle166">Oui, c'est moi. Mais vous devez attendre.</p>
+<p begin="7570062499t" end="7595087499t" region="bottomCenter" style="s1" xml:id="subtitle167">Tu me dis quoi faire ?</p>
+<p begin="7595918329t" end="7613025419t" region="bottomCenter" style="s1" xml:id="subtitle168">Ramène ton cul, ici, fissa. Allez.</p>
+<p begin="7613856249t" end="7638050419t" region="bottomCenter" style="s1" xml:id="subtitle169">Il va revenir.<br/>On attend depuis deux heures.</p>
+<p begin="7638881249t" end="7652644999t" region="bottomCenter" style="s1" xml:id="subtitle170">L'attente est finie.</p>
+<p begin="7653475829t" end="7667659999t" region="topCenter" style="s1" xml:id="subtitle171">Ton matricule d'entrée.</p>
+<p begin="7668490829t" end="7694356669t" region="topCenter" style="s1" xml:id="subtitle172">Tu le colleras sur ton uniforme<br/>le moment venu.</p>
+<p begin="7695187499t" end="7715207499t" region="bottomCenter" style="s1" xml:id="subtitle173">- Je suis là. Je suis là.<br/>- Il est là.</p>
+<p begin="7716038329t" end="7737729999t" region="bottomCenter" style="s1" xml:id="subtitle174">- Qui est-ce ?<br/>- Mon fiancé.</p>
+<p begin="7738560829t" end="7751073329t" region="bottomCenter" style="s1" xml:id="subtitle175">Ah oui ? Bonne chance.</p>
+<p begin="7751914169t" end="7762754999t" region="bottomCenter" style="s1" xml:id="subtitle176">Pardon ?</p>
+<p begin="7763585829t" end="7782354579t" region="bottomCenter" style="s1" xml:id="subtitle177">- Des effets personnels ?<br/>- Tenez.</p>
+<p begin="7818640829t" end="7830742919t" region="bottomCenter" style="s1" xml:id="subtitle178">C'est quoi, ce chèque ?</p>
+<p begin="7831573749t" end="7853675829t" region="bottomCenter" style="s1" xml:id="subtitle179">La semaine dernière,<br/>on m'a dit de l'apporter.</p>
+<p begin="7854516669t" end="7880372499t" region="bottomCenter" style="s1" xml:id="subtitle180">Envoyez-le dans l'Iowa.<br/>Il sera traité dans quelques semaines.</p>
+<p begin="7881203329t" end="7907479579t" region="bottomCenter" style="s1" xml:id="subtitle181">Quelques semaines ?<br/>Elle ne doit rien acheter ?</p>
+<p begin="7908320419t" end="7920412499t" region="bottomCenter" style="s1" xml:id="subtitle182">C'est comme ça.</p>
+<p begin="7932094169t" end="7943355419t" region="bottomCenter" style="s1" xml:id="subtitle183">Où doit-on l'envoyer ?</p>
+<p begin="7944186249t" end="7970462499t" region="bottomCenter" style="s1" xml:id="subtitle184">Tu as l'adresse en Iowa ?</p>
+<p begin="7982554579t" end="8013425419t" region="bottomCenter" style="s1" xml:id="subtitle185">Y a des photos nues là-dedans ?<br/>Du porno ? Des trucs cochons ?</p>
+<p begin="8014256249t" end="8041363329t" region="bottomCenter" style="s1" xml:id="subtitle186">Non, pas de photos nues.</p>
+<p begin="8042204169t" end="8071393329t" region="bottomCenter" style="s1" xml:id="subtitle187">Faites vos adieux.<br/>Vous ne la verrez pas avant un moment.</p>
+<p begin="8098510419t" end="8119781669t" region="bottomCenter" style="s1" xml:id="subtitle188">- Je t'aime tant.<br/>- Moi aussi !</p>
+<p begin="8120612499t" end="8141463329t" region="bottomCenter" style="s1" xml:id="subtitle189">- Je t'appelle dès que possible.<br/>- Oui.</p>
+<p begin="8142304169t" end="8163985829t" region="bottomCenter" style="s1" xml:id="subtitle190">Envoie le chèque immédiatement.</p>
+<p begin="8164826669t" end="8178590419t" region="bottomCenter" style="s1" xml:id="subtitle191">Entendu. Promis.</p>
+<p begin="8179421249t" end="8203194999t" region="bottomCenter" style="s1" xml:id="subtitle192">Je t'aime.<br/>Mets mon site Web à jour.</p>
+<p begin="8204025829t" end="8221963749t" region="bottomCenter" style="s1" xml:id="subtitle193">Je t'aime tellement.</p>
+<p begin="8238229999t" end="8249911669t" region="bottomCenter" style="s1" xml:id="subtitle194">Ça va aller.</p>
+<p begin="8345006669t" end="8358349999t" region="bottomCenter" style="s1" xml:id="subtitle195">Ça va aller.</p>
+<p begin="8477639169t" end="8502243749t" region="bottomCenter" style="s1" xml:id="subtitle196">- Tu fais quelle pointure ?<br/>- 41, 42.</p>
+<p begin="8559380829t" end="8573985419t" region="bottomCenter" style="s1" xml:id="subtitle197">On dirait des Toms.</p>
+<p begin="8574816249t" end="8602343750t" region="bottomCenter" style="s1" xml:id="subtitle198">- Tom qui ?<br/>- Ce sont des chaussures.</p>
+<p begin="8603174580t" end="8634455830t" region="bottomCenter" style="s1" xml:id="subtitle199">Une paire achetée, une autre est offerte<br/>à un enfant dans le besoin.</p>
+<p begin="8635296670t" end="8662824170t" region="bottomCenter" style="s1" xml:id="subtitle200">Elles sont super.<br/>Il y a différents coloris et...</p>
+<p begin="8663655000t" end="8674916250t" region="bottomCenter" style="s1" xml:id="subtitle201">Super.</p>
+<p begin="8694515830t" end="8705366670t" region="bottomCenter" style="s1" xml:id="subtitle202">À poil.</p>
+<p begin="8930171250t" end="8941852920t" region="bottomCenter" style="s1" xml:id="subtitle203">Viens ici.</p>
+<p begin="9069890830t" end="9086577500t" region="bottomCenter" style="s1" xml:id="subtitle204">Approche.</p>
+<p begin="9213374170t" end="9228389170t" region="bottomCenter" style="s1" xml:id="subtitle205">Je vais te manquer ?</p>
+<p begin="9240901670t" end="9254245000t" region="bottomCenter" style="s1" xml:id="subtitle206">Oui.</p>
+<p begin="9284695420t" end="9296367080t" region="bottomCenter" style="s1" xml:id="subtitle207">Trop, même.</p>
+<p begin="9331822500t" end="9342663330t" region="bottomCenter" style="s1" xml:id="subtitle208">Viens avec moi.</p>
+<p begin="9348919580t" end="9359350000t" region="bottomCenter" style="s1" xml:id="subtitle209">Quoi ?</p>
+<p begin="9369360000t" end="9384375000t" region="bottomCenter" style="s1" xml:id="subtitle210">Viens à Bali.</p>
+<p begin="9401892500t" end="9422332920t" region="bottomCenter" style="s1" xml:id="subtitle211">Je suis sérieuse.<br/>Je te paierai le billet.</p>
+<p begin="9460701250t" end="9474044580t" region="bottomCenter" style="s1" xml:id="subtitle212">Tu es sérieuse ?</p>
+<p begin="9498659170t" end="9510330830t" region="bottomCenter" style="s1" xml:id="subtitle213">Oui.</p>
+<p begin="9542032500t" end="9585826250t" region="bottomCenter" style="s1" xml:id="subtitle214">Viens avec moi.<br/>Démissionne et viens avec moi.</p>
+<p begin="9597918330t" end="9612102500t" region="bottomCenter" style="s1" xml:id="subtitle215">Eh bien...</p>
+<p begin="9624194580t" end="9641301670t" region="bottomCenter" style="s1" xml:id="subtitle216">je dois donner mon préavis.</p>
+<p begin="9642132500t" end="9676747080t" region="bottomCenter" style="s1" xml:id="subtitle217">T'es qu'une serveuse.<br/>Pas besoin de préavis.</p>
+<p begin="9677587920t" end="9690100420t" region="bottomCenter" style="s1" xml:id="subtitle218">Je vais m'attirer des ennuis ?</p>
+<p begin="9690931250t" end="9707197500t" region="bottomCenter" style="s1" xml:id="subtitle219">J'espère bien.</p>
+<p begin="9753914170t" end="9773093330t" region="bottomCenter" style="s1" xml:id="subtitle220">Tu sais de quoi je parle.</p>
+<p begin="9773934170t" end="9800620830t" region="bottomCenter" style="s1" xml:id="subtitle221">Tu n'auras rien à faire.</p>
+<p begin="9801461670t" end="9837327500t" region="bottomCenter" style="s1" xml:id="subtitle222">Rien d'autre<br/>que de me tenir compagnie, d'accord ?</p>
+<p begin="9873193330t" end="9894464580t" region="bottomCenter" style="s1" xml:id="subtitle223">Allez. Accompagne-moi.</p>
+<p begin="9895305420t" end="9915325420t" region="bottomCenter" style="s1" xml:id="subtitle224">Je veux que tu viennes.</p>
+<p begin="9946606670t" end="9965375420t" region="bottomCenter" style="s1" xml:id="subtitle225">Oui ? Je prends ça pour un oui ?</p>
+<p begin="9966206250t" end="9980800830t" region="bottomCenter" style="s1" xml:id="subtitle226">Oui.</p>
+<p begin="9995815830t" end="10011671670t" region="bottomCenter" style="s1" xml:id="subtitle227">Oui.</p>
+<p begin="10012502500t" end="10027937920t" region="bottomCenter" style="s1" xml:id="subtitle228"><span style="s1_1">Ouvre la bouche,</span><br/><span style="s1_1">tire la langue.</span></p>
+<p begin="10028768750t" end="10051291250t" region="bottomCenter" style="s1" xml:id="subtitle229"><span style="s1_1">Mise à jour des règles</span></p>
+<p begin="10052122080t" end="10085075000t" region="bottomCenter" style="s1" xml:id="subtitle230"><span style="s1_1">pour les détenues</span><br/><span style="s1_1">en salle commune.</span></p>
+<p begin="10093833750t" end="10103843750t" region="bottomCenter" style="s1" xml:id="subtitle231">Lève les bras.</p>
+<p begin="10129699580t" end="10145135000t" region="bottomCenter" style="s1" xml:id="subtitle232">Tourne-toi.</p>
+<p begin="10182672500t" end="10193933750t" region="bottomCenter" style="s1" xml:id="subtitle233">Accroupis-toi.</p>
+<p begin="10226466250t" end="10237307080t" region="bottomCenter" style="s1" xml:id="subtitle234">Écarte les fesses et tousse.</p>
+<p begin="10266506250t" end="10279849580t" region="bottomCenter" style="s1" xml:id="subtitle235">Sérieusement ?</p>
+<p begin="10409148750t" end="10419989580t" region="bottomCenter" style="s1" xml:id="subtitle236">C'est tout ?</p>
+<p begin="10420830420t" end="10437927500t" region="bottomCenter" style="s1" xml:id="subtitle237">Attends, il y en a encore une.</p>
+<p begin="10492151670t" end="10505915420t" region="bottomCenter" style="s1" xml:id="subtitle238">Ma fermeture est cassée.</p>
+<p begin="10533022500t" end="10543452920t" region="bottomCenter" style="s1" xml:id="subtitle239">C'est la 1re fois ?</p>
+<p begin="10544283750t" end="10557627080t" region="bottomCenter" style="s1" xml:id="subtitle240">Dans le bus ?</p>
+<p begin="10558467920t" end="10583492920t" region="bottomCenter" style="s1" xml:id="subtitle241">Non, ton 1er séjour en prison ?</p>
+<p begin="10584323750t" end="10608928330t" region="bottomCenter" style="s1" xml:id="subtitle242">Oui.</p>
+<p begin="10609769170t" end="10638958330t" region="bottomCenter" style="s1" xml:id="subtitle243">C'est pas si mal.<br/>Tout le monde est correct.</p>
+<p begin="10639799170t" end="10655645000t" region="bottomCenter" style="s1" xml:id="subtitle244">Mais fais gaffe aux voleuses.</p>
+<p begin="10682752080t" end="10722792080t" region="bottomCenter" style="s1" xml:id="subtitle245">Tu t'appelles comment ?<br/>Tout le monde utilise son nom de famille.</p>
+<p begin="10723632920t" end="10752822080t" region="bottomCenter" style="s1" xml:id="subtitle246">Moi, c'est Morello,<br/>et elle, c'est Watson.</p>
+<p begin="10764503750t" end="10774934170t" region="bottomCenter" style="s1" xml:id="subtitle247">Chapman.</p>
+<p begin="10775765000t" end="10796205420t" region="bottomCenter" style="s1" xml:id="subtitle248">T'en as pris pour combien, Chapman ?</p>
+<p begin="10808297500t" end="10819138330t" region="bottomCenter" style="s1" xml:id="subtitle249">Quinze mois.</p>
+<p begin="10819979170t" end="10837496670t" region="bottomCenter" style="s1" xml:id="subtitle250">C'est pas si mal.</p>
+<p begin="10838327500t" end="10870860000t" region="bottomCenter" style="s1" xml:id="subtitle251">Moi, 34 mois,<br/>j'espère tirer moins pour bonne conduite.</p>
+<p begin="10871690830t" end="10915074170t" region="bottomCenter" style="s1" xml:id="subtitle252">Tu... tu es... Ils te laissent conduire ?</p>
+<p begin="10915905000t" end="10960950000t" region="bottomCenter" style="s1" xml:id="subtitle253">Qui d'autre le ferait ?<br/>On fait tout, ici.</p>
+<p begin="10971790830t" end="11006415420t" region="bottomCenter" style="s1" xml:id="subtitle254">Je peux te poser une question ?<br/>Je parie que tu t'y connais.</p>
+<p begin="11007246250t" end="11023512500t" region="bottomCenter" style="s1" xml:id="subtitle255">Tu préfères quelle robe ?</p>
+<p begin="11024343330t" end="11061050000t" region="bottomCenter" style="s1" xml:id="subtitle256">Mes deux préférées sont celles<br/>où j'ai mis un post-it.</p>
+<p begin="11061880830t" end="11097756670t" region="bottomCenter" style="s1" xml:id="subtitle257">Je veux une robe<br/>qui reflète ma personnalité.</p>
+<p begin="11098587500t" end="11132371250t" region="bottomCenter" style="s1" xml:id="subtitle258">Le hic, c'est que je veux mettre en valeur<br/>mes seins et mes fesses,</p>
+<p begin="11133202080t" end="11160729580t" region="bottomCenter" style="s1" xml:id="subtitle259">mais mes bras et mon ventre<br/>ne me plaisent pas,</p>
+<p begin="11161570420t" end="11179087920t" region="bottomCenter" style="s1" xml:id="subtitle260">du coup, c'est compliqué.</p>
+<p begin="11210369170t" end="11222040830t" region="bottomCenter" style="s1" xml:id="subtitle261">Les deux sont bien.</p>
+<p begin="11231640420t" end="11244983750t" region="bottomCenter" style="s1" xml:id="subtitle262">C'est tout ?</p>
+<p begin="11271260000t" end="11303372080t" region="bottomCenter" style="s1" xml:id="subtitle263">Je veux être belle.<br/>Ma 1re danse va finir sur YouTube.</p>
+<p begin="11304212920t" end="11334653330t" region="bottomCenter" style="s1" xml:id="subtitle264">J'ai trouvé une pierre<br/>en forme de pénis avec une couille.</p>
+<p begin="11335494170t" end="11356345000t" region="bottomCenter" style="s1" xml:id="subtitle265">- Non.<br/>- Je vais l'appeler Lance Armstrong.</p>
+<p begin="11357175830t" end="11395964580t" region="bottomCenter" style="s1" xml:id="subtitle266">Montre-la-moi. Jolie.</p>
+<p begin="11396805420t" end="11414322920t" region="bottomCenter" style="s1" xml:id="subtitle267">Vas-y, lèche-la doucement,</p>
+<p begin="11415153750t" end="11428917500t" region="bottomCenter" style="s1" xml:id="subtitle268">comme s'il était clean.</p>
+<p begin="11429748330t" end="11445183750t" region="bottomCenter" style="s1" xml:id="subtitle269">Bon Dieu ! Éteins ça !</p>
+<p begin="11446014580t" end="11465624170t" region="bottomCenter" style="s1" xml:id="subtitle270">Tu as tort.<br/>Ça ferait un tabac sur le Net.</p>
+<p begin="11466455000t" end="11477716250t" region="bottomCenter" style="s1" xml:id="subtitle271">Sérieux, éteins-la.</p>
+<p begin="11478547080t" end="11502741250t" region="bottomCenter" style="s1" xml:id="subtitle272">- Quoi ?<br/>- Je stresse et je mange trop.</p>
+<p begin="11503572080t" end="11523592080t" region="bottomCenter" style="s1" xml:id="subtitle273">Je ne veux pas que tu m'enregistres.</p>
+<p begin="11541950420t" end="11564472920t" region="bottomCenter" style="s1" xml:id="subtitle274">Je sais ce que je vais faire en prison.</p>
+<p begin="11565303750t" end="11584492920t" region="bottomCenter" style="s1" xml:id="subtitle275">Je vais... me muscler.</p>
+<p begin="11597005420t" end="11620779170t" region="bottomCenter" style="s1" xml:id="subtitle276">Musclée comme un homme.</p>
+<p begin="11621610000t" end="11652060420t" region="bottomCenter" style="s1" xml:id="subtitle277">Et je vais lire tout ce qui est<br/>sur ma liste d'envies Amazon.</p>
+<p begin="11652891250t" end="11696264580t" region="bottomCenter" style="s1" xml:id="subtitle278">Je pourrais aussi me mettre au bricolage.<br/>Un peu de travaux manuels.</p>
+<p begin="11697105420t" end="11713371670t" region="bottomCenter" style="s1" xml:id="subtitle279">Je veux apprendre des trucs.</p>
+<p begin="11714202500t" end="11770508750t" region="bottomCenter" style="s1" xml:id="subtitle280">Je compte pas perdre une année de ma vie.<br/>Qu'est-ce que tu cherches, bon sang ?</p>
+<p begin="11824312500t" end="11838496670t" region="bottomCenter" style="s1" xml:id="subtitle281">Non.</p>
+<p begin="11839327500t" end="11850588750t" region="bottomCenter" style="s1" xml:id="subtitle282">C'est quoi ?</p>
+<p begin="11851419580t" end="11867275420t" region="bottomCenter" style="s1" xml:id="subtitle283">Piper...</p>
+<p begin="11868106250t" end="11886875000t" region="bottomCenter" style="s1" xml:id="subtitle284">Bon Dieu, Larry.<br/>Pourquoi tu voudrais...</p>
+<p begin="11887705830t" end="11934842920t" region="bottomCenter" style="s1" xml:id="subtitle285">Pourquoi je voudrais<br/>qu'une ex-lesbienne criminelle protestante</p>
+<p begin="11935673750t" end="11949857920t" region="bottomCenter" style="s1" xml:id="subtitle286">qui va en prison<br/>devienne ma femme ?</p>
+<p begin="11950688750t" end="11971960000t" region="bottomCenter" style="s1" xml:id="subtitle287">Oui. Sans oublier que j'ai grossi.</p>
+<p begin="11982800830t" end="12031189170t" region="bottomCenter" style="s1" xml:id="subtitle288">Parce que le Juif excentrique,</p>
+<p begin="12032020000t" end="12071639580t" region="bottomCenter" style="s1" xml:id="subtitle289">insignifiant et sous-employé est<br/>amoureux d'elle.</p>
+<p begin="12089157080t" end="12128786670t" region="bottomCenter" style="s1" xml:id="subtitle290">Et il sait qu'il ne s'ennuiera jamais</p>
+<p begin="12129617500t" end="12187175000t" region="bottomCenter" style="s1" xml:id="subtitle291">et n'en revient pas de la chance qu'il a<br/>de l'avoir rencontrée.</p>
+<p begin="12217205000t" end="12249737500t" region="bottomCenter" style="s1" xml:id="subtitle292">Faut que je conclue avant que tu partes.</p>
+<p begin="12274342080t" end="12288105830t" region="bottomCenter" style="s1" xml:id="subtitle293">Je t'aime.</p>
+<p begin="12302710420t" end="12321058750t" region="bottomCenter" style="s1" xml:id="subtitle294">Veux-tu m'épouser ?</p>
+<p begin="12321889580t" end="12338155830t" region="bottomCenter" style="s1" xml:id="subtitle295">Quand je sortirai, c'est ça ?</p>
+<p begin="12338996670t" end="12351509170t" region="bottomCenter" style="s1" xml:id="subtitle296">Quand tu voudras.</p>
+<p begin="12363601250t" end="12377785420t" region="bottomCenter" style="s1" xml:id="subtitle297">Je serai baraquée.</p>
+<p begin="12397385000t" end="12437425000t" region="bottomCenter" style="s1" xml:id="subtitle298">Tu pourras porter une robe de mariée<br/>qui s'arrête là, tu vois ?</p>
+<p begin="12438255830t" end="12455773330t" region="bottomCenter" style="s1" xml:id="subtitle299">Pour exhiber tes abdos.</p>
+<p begin="12456614170t" end="12470788330t" region="bottomCenter" style="s1" xml:id="subtitle300">Oui !</p>
+<p begin="12527094580t" end="12546283750t" region="bottomCenter" style="s1" xml:id="subtitle301">Celle de ta grand-mère ?</p>
+<p begin="12547114580t" end="12573390830t" region="bottomCenter" style="s1" xml:id="subtitle302">Non, ma mère la garde pour ma sœur.</p>
+<p begin="12574231670t" end="12598415830t" region="bottomCenter" style="s1" xml:id="subtitle303">C'est celle de ma grand-tante Marcia.</p>
+<p begin="12599256670t" end="12614271670t" region="bottomCenter" style="s1" xml:id="subtitle304">Elle a eu<br/>le cancer de la thyroïde</p>
+<p begin="12615102500t" end="12647635000t" region="bottomCenter" style="s1" xml:id="subtitle305">et des schnauzers<br/>qu'elle a tous appelés Schnapps.</p>
+<p begin="12663070420t" end="12694762080t" region="bottomCenter" style="s1" xml:id="subtitle306">Mets-la à ton doigt.<br/>Je l'ai faite ajuster.</p>
+<p begin="12746063330t" end="12758996250t" region="bottomCenter" style="s1" xml:id="subtitle307">Elle est magnifique.</p>
+<p begin="12759827080t" end="12776513750t" region="bottomCenter" style="s1" xml:id="subtitle308">C'est donc un "oui" ?</p>
+<p begin="12777344580t" end="12794031250t" region="bottomCenter" style="s1" xml:id="subtitle309">Oui.</p>
+<p begin="12794862080t" end="12812800000t" region="bottomCenter" style="s1" xml:id="subtitle310">Oui.</p>
+<p begin="12813630830t" end="12838655830t" region="bottomCenter" style="s1" xml:id="subtitle311">Tu veux bien me le redire<br/>encore une fois ?</p>
+<p begin="12839496670t" end="12869106250t" region="bottomCenter" style="s1" xml:id="subtitle312">Mais cette fois, devant la caméra ?</p>
+<p begin="12869937080t" end="12894131250t" region="bottomCenter" style="s1" xml:id="subtitle313">Espèce de salaud !</p>
+<p begin="12894962080t" end="12914151250t" region="bottomCenter" style="s1" xml:id="subtitle314">- Pour immortaliser l'instant.<br/>- Éteins ça.</p>
+<p begin="12914982080t" end="12932499580t" region="bottomCenter" style="s1" xml:id="subtitle315">- Quoi ?<br/>- Donne-moi ça !</p>
+<p begin="12957524580t" end="12980467500t" region="bottomCenter" style="s1" xml:id="subtitle316">Tu es gelée. Approche.</p>
+<p begin="12981298330t" end="13001738750t" region="bottomCenter" style="s1" xml:id="subtitle317">Bouge les jambes.<br/>Ça te réchauffera.</p>
+<p begin="13002569580t" end="13014251250t" region="bottomCenter" style="s1" xml:id="subtitle318">Merci.</p>
+<p begin="13027184170t" end="13052619580t" region="bottomCenter" style="s1" xml:id="subtitle319">Tu crois que ton mec t'attendra<br/>jusqu'à ta sortie ?</p>
+<p begin="13053460420t" end="13078485420t" region="bottomCenter" style="s1" xml:id="subtitle320">Oui, il sera là.<br/>Je suis l'amour de sa vie.</p>
+<p begin="13095582500t" end="13123530420t" region="bottomCenter" style="s1" xml:id="subtitle321">34 mois, c'est long.</p>
+<p begin="13124361250t" end="13151057920t" region="bottomCenter" style="s1" xml:id="subtitle322">Oui, mais c'est l'amour de sa vie !</p>
+<p begin="13151888750t" end="13174831670t" region="bottomCenter" style="s1" xml:id="subtitle323">C'est pas à toi que je cause !</p>
+<p begin="13175662500t" end="13185672500t" region="bottomCenter" style="s1" xml:id="subtitle324">On y va.</p>
+<p begin="13186503330t" end="13201518330t" region="bottomCenter" style="s1" xml:id="subtitle325"><span style="s1_1">Ouverture des grilles blindées 1 et 2.</span></p>
+<p begin="13202359170t" end="13237394170t" region="bottomCenter" style="s1" xml:id="subtitle326">Sa cravate sera assortie<br/>aux robes des demoiselles d'honneur.</p>
+<p begin="13238225000t" end="13251157920t" region="bottomCenter" style="s1" xml:id="subtitle327">Elles sont six.</p>
+<p begin="13251988750t" end="13273680420t" region="bottomCenter" style="s1" xml:id="subtitle328">Ma cousine me fait chier,<br/>je vais la virer.</p>
+<p begin="13362519170t" end="13380036670t" region="bottomCenter" style="s1" xml:id="subtitle329">Allez, on avance.</p>
+<p begin="13631117499t" end="13641958329t" region="bottomCenter" style="s1" xml:id="subtitle330">Bonjour, Mlle Claudette.</p>
+<p begin="13642799169t" end="13659065419t" region="bottomCenter" style="s1" xml:id="subtitle331">Morello.</p>
+<p begin="13687844169t" end="13700356669t" region="bottomCenter" style="s1" xml:id="subtitle332">Faites gaffe à elle.</p>
+<p begin="13701187499t" end="13745401669t" region="bottomCenter" style="s1" xml:id="subtitle333">Elle est très gentille...<br/>mais mieux vaut pas la contrarier.</p>
+<p begin="13746232499t" end="13762919169t" region="bottomCenter" style="s1" xml:id="subtitle334">Entrez. Allez.</p>
+<p begin="13791697919t" end="13819635829t" region="bottomCenter" style="s1" xml:id="subtitle335">Je vais vous expliquer<br/>tout le processus.</p>
+<p begin="13820476669t" end="13834240419t" region="bottomCenter" style="s1" xml:id="subtitle336">On va vous assigner<br/>vos cellules,</p>
+<p begin="13835071249t" end="13865932079t" region="bottomCenter" style="s1" xml:id="subtitle337">et je vous retrouverai ici<br/>pour vous y emmener. D'accord ?</p>
+<p begin="13866772919t" end="13893459579t" region="bottomCenter" style="s1" xml:id="subtitle338">Ne fais pas la tête.<br/>Ça va te faire des rides.</p>
+<p begin="13894300419t" end="13921827919t" region="bottomCenter" style="s1" xml:id="subtitle339">Bon, relève la tête et fixe l'objectif.</p>
+<p begin="13933919999t" end="13951437499t" region="bottomCenter" style="s1" xml:id="subtitle340">Merde !</p>
+<p begin="13952268329t" end="13982718749t" region="bottomCenter" style="s1" xml:id="subtitle341">Le nouveau...<br/>tu t'appelles comment, Bennett ?</p>
+<p begin="13992308329t" end="14012748749t" region="bottomCenter" style="s1" xml:id="subtitle342">Bennett, cette saloperie a encore planté.</p>
+<p begin="14013579579t" end="14036522499t" region="bottomCenter" style="s1" xml:id="subtitle343">- Tu l'as allumé ?<br/>- Oui, je l'ai allumé.</p>
+<p begin="14075731669t" end="14112428329t" region="bottomCenter" style="s1" xml:id="subtitle344">Attends, je crois que c'est bon. Prête ?</p>
+<p begin="14113269169t" end="14125781669t" region="bottomCenter" style="s1" xml:id="subtitle345">Oui.</p>
+<p begin="14144960829t" end="14156642499t" region="bottomCenter" style="s1" xml:id="subtitle346">Attends, non.</p>
+<p begin="14157473329t" end="14184169999t" region="bottomCenter" style="s1" xml:id="subtitle347">- Ce bouton sert à quoi ?<br/>- N'y touche pas !</p>
+<p begin="14185000829t" end="14198354169t" region="bottomCenter" style="s1" xml:id="subtitle348">Désolé, princesse.</p>
+<p begin="14210025829t" end="14221287079t" region="bottomCenter" style="s1" xml:id="subtitle349">Il y a un câble, là.</p>
+<p begin="14222127919t" end="14255070829t" region="bottomCenter" style="s1" xml:id="subtitle350">Il ne faudrait pas le brancher ?</p>
+<p begin="14264249999t" end="14280516249t" region="bottomCenter" style="s1" xml:id="subtitle351">Boucle-la et tiens-toi droite.</p>
+<p begin="14323479169t" end="14345160829t" region="bottomCenter" style="s1" xml:id="subtitle352">- Elle a raison.<br/>- Bon, d'accord.</p>
+<p begin="14346001669t" end="14365180829t" region="bottomCenter" style="s1" xml:id="subtitle353">- C'est bon.<br/>- J'étais pas prête.</p>
+<p begin="14366021669t" end="14384369999t" region="bottomCenter" style="s1" xml:id="subtitle354">Pas de bol. Suivante.</p>
+<p begin="14385200829t" end="14396882499t" region="bottomCenter" style="s1" xml:id="subtitle355">CHAPMAN PIPER - DÉTENUE</p>
+<p begin="14397713329t" end="14424830419t" region="bottomCenter" style="s1" xml:id="subtitle356">C'est un test de tuberculose.<br/>Belles veines.</p>
+<p begin="14425661249t" end="14445260829t" region="bottomCenter" style="s1" xml:id="subtitle357">- Aucune marque de piqûre.<br/>- Merci.</p>
+<p begin="14446101669t" end="14461947499t" region="bottomCenter" style="s1" xml:id="subtitle358">Des tatouages ?</p>
+<p begin="14462778329t" end="14475290829t" region="bottomCenter" style="s1" xml:id="subtitle359">Oui.</p>
+<p begin="14494059579t" end="14513248749t" region="bottomCenter" style="s1" xml:id="subtitle360">Un poisson. Tu aimes ça ?</p>
+<p begin="14530345829t" end="14562467919t" region="bottomCenter" style="s1" xml:id="subtitle361">Je l'ai vu en faisant de la plongée.</p>
+<p begin="14563298749t" end="14575390829t" region="bottomCenter" style="s1" xml:id="subtitle362">Je l'ai trouvé magnifique.</p>
+<p begin="14576231669t" end="14612517919t" region="bottomCenter" style="s1" xml:id="subtitle363">J'aime pas ça. J'aime le porc, le poulet.</p>
+<p begin="14613348749t" end="14629614999t" region="bottomCenter" style="s1" xml:id="subtitle364">Mais c'est un joli poisson.</p>
+<p begin="14642547919t" end="14656311669t" region="bottomCenter" style="s1" xml:id="subtitle365">Merci.</p>
+<p begin="14657142499t" end="14672577919t" region="bottomCenter" style="s1" xml:id="subtitle366"><span style="s1_1">Ça va s'effacer</span><br/><span style="s1_1">si je transpire.</span></p>
+<p begin="14673408749t" end="14703018329t" region="bottomCenter" style="s1" xml:id="subtitle367">Non. C'est imperméable. Arrête.</p>
+<p begin="14725130419t" end="14767252499t" region="bottomCenter" style="s1" xml:id="subtitle368">Quand ça sera sec...<br/>tu pourras y aller.</p>
+<p begin="14778934169t" end="14792277499t" region="bottomCenter" style="s1" xml:id="subtitle369">Comment ça s'enlève ?</p>
+<p begin="14793108329t" end="14804369579t" region="bottomCenter" style="s1" xml:id="subtitle370">Avec de l'acétone.</p>
+<p begin="14824389579t" end="14846501669t" region="bottomCenter" style="s1" xml:id="subtitle371">Super. Alex, j'ignore si je peux...</p>
+<p begin="14847332499t" end="14861516669t" region="bottomCenter" style="s1" xml:id="subtitle372">Hé.</p>
+<p begin="14862347499t" end="14877362499t" region="bottomCenter" style="s1" xml:id="subtitle373">Hé, hé.</p>
+<p begin="14937002079t" end="14972457499t" region="bottomCenter" style="s1" xml:id="subtitle374">Tu es une jolie... femme blonde,<br/>pas vrai ?</p>
+<p begin="14998733749t" end="15016251249t" region="bottomCenter" style="s1" xml:id="subtitle375">Une jeune femme convenable.</p>
+<p begin="15032517499t" end="15068803749t" region="bottomCenter" style="s1" xml:id="subtitle376">Tu viens récupérer ton bagage<br/>sur le tapis roulant...</p>
+<p begin="15069634579t" end="15103838749t" region="bottomCenter" style="s1" xml:id="subtitle377">avant d'aller à ton hôtel moyenne classe<br/>pour décider de ton programme.</p>
+<p begin="15104669579t" end="15128032919t" region="bottomCenter" style="s1" xml:id="subtitle378">Visites de musées, restos chics.</p>
+<p begin="15200605419t" end="15234799579t" region="bottomCenter" style="s1" xml:id="subtitle379">Tu n'as pas à t'en faire. Tout va bien.</p>
+<p begin="15248152919t" end="15261496249t" region="bottomCenter" style="s1" xml:id="subtitle380">Je te retrouverai à Bruxelles,</p>
+<p begin="15262327079t" end="15284849579t" region="bottomCenter" style="s1" xml:id="subtitle381">et tout ira comme sur des roulettes.</p>
+<p begin="15285690419t" end="15300284999t" region="bottomCenter" style="s1" xml:id="subtitle382">C'est promis.</p>
+<p begin="15319884579t" end="15339904579t" region="bottomCenter" style="s1" xml:id="subtitle383">Tout ira bien.</p>
+<p begin="15353257919t" end="15364519169t" region="bottomCenter" style="s1" xml:id="subtitle384"><span style="s1_1">Est-ce que ça va ?</span></p>
+<p begin="15374529169t" end="15399554169t" region="bottomCenter" style="s1" xml:id="subtitle385">Oui. Je crois.</p>
+<p begin="15429994579t" end="15454609169t" region="bottomCenter" style="s1" xml:id="subtitle386">- C'est quoi, Poupi ?<br/>- Poppy.</p>
+<p begin="15472126669t" end="15507992499t" region="bottomCenter" style="s1" xml:id="subtitle387">Une gamme de savons<br/>que j'ai créée avec mon amie Polly.</p>
+<p begin="15508823329t" end="15536771249t" region="bottomCenter" style="s1" xml:id="subtitle388">Polly et Piper. PoPi.</p>
+<p begin="15537602079t" end="15557211669t" region="bottomCenter" style="s1" xml:id="subtitle389">Nos produits seront vendus<br/>chez Barneys.</p>
+<p begin="15558042499t" end="15575559999t" region="bottomCenter" style="s1" xml:id="subtitle390">Barneys ?</p>
+<p begin="15576390829t" end="15591405829t" region="bottomCenter" style="s1" xml:id="subtitle391">Un magasin chic.</p>
+<p begin="15611425829t" end="15647712079t" region="bottomCenter" style="s1" xml:id="subtitle392">Conspiration criminelle,<br/>c'est un crime grave.</p>
+<p begin="15648552919t" end="15674408749t" region="bottomCenter" style="s1" xml:id="subtitle393">C'est la charge retenue contre moi.</p>
+<p begin="15675239579t" end="15700684999t" region="bottomCenter" style="s1" xml:id="subtitle394">J'ai fait passer<br/>une valise d'argent.</p>
+<p begin="15701515829t" end="15726540829t" region="bottomCenter" style="s1" xml:id="subtitle395">D'argent de la drogue. Une fois.</p>
+<p begin="15738222499t" end="15750734999t" region="bottomCenter" style="s1" xml:id="subtitle396">Il y a dix ans.</p>
+<p begin="15751565829t" end="15769924169t" region="bottomCenter" style="s1" xml:id="subtitle397">Quel est<br/>le délai de prescription ?</p>
+<p begin="15788692919t" end="15802456669t" region="bottomCenter" style="s1" xml:id="subtitle398">Douze ans.</p>
+<p begin="15812466669t" end="15824558749t" region="bottomCenter" style="s1" xml:id="subtitle399">Pas de bol.</p>
+<p begin="15825389579t" end="15837071249t" region="bottomCenter" style="s1" xml:id="subtitle400">Eh bien...</p>
+<p begin="15853337499t" end="15901305419t" region="bottomCenter" style="s1" xml:id="subtitle401">j'ai commis ce crime,<br/>une seule fois...</p>
+<p begin="15902136249t" end="15912977079t" region="bottomCenter" style="s1" xml:id="subtitle402">il y a dix ans.</p>
+<p begin="15913817919t" end="15926740829t" region="bottomCenter" style="s1" xml:id="subtitle403">Votre avocat a dit quoi ?</p>
+<p begin="15927581669t" end="15952606669t" region="bottomCenter" style="s1" xml:id="subtitle404">À cause des peines plancher<br/>liées à de tels crimes,</p>
+<p begin="15953437499t" end="15981385419t" region="bottomCenter" style="s1" xml:id="subtitle405">j'ai choisi d'éviter le procès<br/>et accepté la sentence.</p>
+<p begin="15982216249t" end="16000984999t" region="bottomCenter" style="s1" xml:id="subtitle406">Et vous voilà.</p>
+<p begin="16001815829t" end="16013497499t" region="bottomCenter" style="s1" xml:id="subtitle407">Et me voilà.</p>
+<p begin="16023507499t" end="16059793749t" region="bottomCenter" style="s1" xml:id="subtitle408">Aux frais du contribuable<br/>et en sueur sur ma chaise.</p>
+<p begin="16060624579t" end="16088992919t" region="bottomCenter" style="s1" xml:id="subtitle409">Je suis ici depuis 22 ans</p>
+<p begin="16089823749t" end="16118602499t" region="bottomCenter" style="s1" xml:id="subtitle410">et je ne comprends toujours pas<br/>comment fonctionne le système.</p>
+<p begin="16129443329t" end="16153637499t" region="bottomCenter" style="s1" xml:id="subtitle411">J'ai une dealeuse de crack<br/>qui tire 9 mois</p>
+<p begin="16154468329t" end="16202015829t" region="bottomCenter" style="s1" xml:id="subtitle412">et une autre femme qui a renversé<br/>un facteur par accident</p>
+<p begin="16202856669t" end="16222876669t" region="bottomCenter" style="s1" xml:id="subtitle413">qui tire quatre années.</p>
+<p begin="16223707499t" end="16246650419t" region="bottomCenter" style="s1" xml:id="subtitle414">Le type ne s'est que pété la clavicule.</p>
+<p begin="16247481249t" end="16265419169t" region="bottomCenter" style="s1" xml:id="subtitle415">Je ne comprends pas.</p>
+<p begin="16290854579t" end="16310464169t" region="bottomCenter" style="s1" xml:id="subtitle416">Vous allez vomir ?</p>
+<p begin="16311294999t" end="16335899579t" region="bottomCenter" style="s1" xml:id="subtitle417">Prévenez-moi.<br/>Il y a une corbeille derrière vous.</p>
+<p begin="16336740419t" end="16353837499t" region="bottomCenter" style="s1" xml:id="subtitle418">Je ne vais pas vomir.</p>
+<p begin="16354668329t" end="16385949579t" region="bottomCenter" style="s1" xml:id="subtitle419">Je ne serais pas content<br/>si vous vomissiez ailleurs.</p>
+<p begin="16395128749t" end="16405138749t" region="bottomCenter" style="s1" xml:id="subtitle420">Je ne vais pas vomir.</p>
+<p begin="16429743329t" end="16444347919t" region="bottomCenter" style="s1" xml:id="subtitle421">Mlle Chapman,</p>
+<p begin="16461024579t" end="16500654169t" region="bottomCenter" style="s1" xml:id="subtitle422">vous n'aurez pas d'ennuis ici,<br/>sauf si vous les cherchez.</p>
+<p begin="16509823329t" end="16528181669t" region="bottomCenter" style="s1" xml:id="subtitle423">On n'est pas dans <span style="s1_1">Oz.</span></p>
+<p begin="16529012499t" end="16559462919t" region="bottomCenter" style="s1" xml:id="subtitle424">Les femmes se battent<br/>à coups de ragots.</p>
+<p begin="16560293749t" end="16608261669t" region="bottomCenter" style="s1" xml:id="subtitle425">Elles pourraient vous croire riche<br/>et essayer de vous voler de l'argent.</p>
+<p begin="16620774169t" end="16635368749t" region="bottomCenter" style="s1" xml:id="subtitle426">Il y a aussi les lesbiennes.</p>
+<p begin="16649963329t" end="16664978329t" region="bottomCenter" style="s1" xml:id="subtitle427">Elles ne vous embêteront pas.</p>
+<p begin="16665819169t" end="16701684999t" region="bottomCenter" style="s1" xml:id="subtitle428">Elles essaieront d'être votre amie,<br/>mais gardez vos distances.</p>
+<p begin="16709612919t" end="16725879169t" region="bottomCenter" style="s1" xml:id="subtitle429">Comprenez bien...</p>
+<p begin="16726709999t" end="16776339579t" region="bottomCenter" style="s1" xml:id="subtitle430">que vous n'êtes pas obligée<br/>de coucher avec des lesbiennes.</p>
+<p begin="16835989169t" end="16853917079t" region="bottomCenter" style="s1" xml:id="subtitle431">J'ai un fiancé.</p>
+<p begin="16868521669t" end="16880613749t" region="bottomCenter" style="s1" xml:id="subtitle432">Il s'appelle Larry.</p>
+<p begin="16881444579t" end="16896459579t" region="bottomCenter" style="s1" xml:id="subtitle433">C'est un écrivain.</p>
+<p begin="16914817919t" end="16926909999t" region="bottomCenter" style="s1" xml:id="subtitle434">Peut-il me rendre visite ?</p>
+<p begin="16927740829t" end="16951104169t" region="bottomCenter" style="s1" xml:id="subtitle435">- Il est sur la liste ?<br/>- Tout le monde y est.</p>
+<p begin="16951934999t" end="16983216249t" region="bottomCenter" style="s1" xml:id="subtitle436">Toutes les personnes sur votre liste<br/>auront le droit de visite.</p>
+<p begin="16984047079t" end="17004907919t" region="bottomCenter" style="s1" xml:id="subtitle437">Il peut venir ce week-end.</p>
+<p begin="17005738749t" end="17023676669t" region="bottomCenter" style="s1" xml:id="subtitle438">Je m'assurerai que ce soit le cas.</p>
+<p begin="17024507499t" end="17042445419t" region="bottomCenter" style="s1" xml:id="subtitle439">Merci beaucoup, M. Healy.</p>
+<p begin="17055788749t" end="17092074999t" region="bottomCenter" style="s1" xml:id="subtitle440">Ne faites pas de vagues...<br/>et ça ira.</p>
+<p begin="17092905829t" end="17107510419t" region="bottomCenter" style="s1" xml:id="subtitle441">Ne vous faites pas d'amies.</p>
+<p begin="17118351249t" end="17174657499t" region="bottomCenter" style="s1" xml:id="subtitle442">N'oubliez pas...<br/>je sais tout ce qui se passe ici.</p>
+<p begin="17175488329t" end="17208441250t" region="bottomCenter" style="s1" xml:id="subtitle443">Tu sais tout de moi ! Je te raconte tout !</p>
+<p begin="17218030830t" end="17242225000t" region="bottomCenter" style="s1" xml:id="subtitle444">La webcam, quand je me suis coupé<br/>le pénis en le rasant.</p>
+<p begin="17243055830t" end="17257240000t" region="bottomCenter" style="s1" xml:id="subtitle445">Pourquoi j'ignorais ça ?</p>
+<p begin="17258070830t" end="17288941670t" region="bottomCenter" style="s1" xml:id="subtitle446">Que voulais-tu que je te dise ?</p>
+<p begin="17289772500t" end="17301864580t" region="bottomCenter" style="s1" xml:id="subtitle447">C'était une phase.</p>
+<p begin="17302705420t" end="17348160830t" region="bottomCenter" style="s1" xml:id="subtitle448">Ma phase<br/>"âme perdue qui cherche l'aventure".</p>
+<p begin="17365267920t" end="17413225830t" region="bottomCenter" style="s1" xml:id="subtitle449">J'étais trop gênée. Je n'en revenais pas<br/>de ce qu'elle avait fait.</p>
+<p begin="17414066670t" end="17432835420t" region="bottomCenter" style="s1" xml:id="subtitle450">Et moi de ce que tu as fait.</p>
+<p begin="17433666250t" end="17446178750t" region="bottomCenter" style="s1" xml:id="subtitle451">J'ignore qui tu es !</p>
+<p begin="17447009580t" end="17481213750t" region="bottomCenter" style="s1" xml:id="subtitle452">On se croirait dans un "Jason Bourne".<br/>Tu as déjà tué quelqu'un ?</p>
+<p begin="17503736250t" end="17535017500t" region="bottomCenter" style="s1" xml:id="subtitle453">Bon Dieu. Non. Arrête, ma chérie.</p>
+<p begin="17535848330t" end="17549201670t" region="bottomCenter" style="s1" xml:id="subtitle454">Approche.</p>
+<p begin="17566719170t" end="17577139580t" region="bottomCenter" style="s1" xml:id="subtitle455">Allez.</p>
+<p begin="17577980420t" end="17595077500t" region="bottomCenter" style="s1" xml:id="subtitle456">Tu devrais rompre avec moi.</p>
+<p begin="17595908330t" end="17620522920t" region="bottomCenter" style="s1" xml:id="subtitle457">- Quoi ?<br/>- Je te l'ai caché.</p>
+<p begin="17621353750t" end="17661814170t" region="bottomCenter" style="s1" xml:id="subtitle458">Bon. Arrête, allez. Tout va bien.</p>
+<p begin="17662645000t" end="17677660000t" region="bottomCenter" style="s1" xml:id="subtitle459">Tout va bien ?</p>
+<p begin="17678490830t" end="17690592920t" region="bottomCenter" style="s1" xml:id="subtitle460">Tout va bien ?</p>
+<p begin="17720622920t" end="17747730000t" region="bottomCenter" style="s1" xml:id="subtitle461">"Selon le témoin, Piper Chapman<br/>a transporté une valise d'argent.</p>
+<p begin="17748560830t" end="17769832080t" region="bottomCenter" style="s1" xml:id="subtitle462">Elle faisait partie du réseau."</p>
+<p begin="17770672920t" end="17783185420t" region="bottomCenter" style="s1" xml:id="subtitle463">C'est le cas ?</p>
+<p begin="17797359580t" end="17810292500t" region="bottomCenter" style="s1" xml:id="subtitle464">J'avais 22 ans.</p>
+<p begin="17821974170t" end="17838240420t" region="bottomCenter" style="s1" xml:id="subtitle465">Je croyais être amoureuse.</p>
+<p begin="17850332500t" end="17867019170t" region="bottomCenter" style="s1" xml:id="subtitle466">J'étais amoureuse.</p>
+<p begin="17867850000t" end="17889541670t" region="bottomCenter" style="s1" xml:id="subtitle467">Et c'était... la folie.</p>
+<p begin="17890372500t" end="17907059170t" region="bottomCenter" style="s1" xml:id="subtitle468">Puis c'est devenu...</p>
+<p begin="17920402500t" end="17933745830t" region="bottomCenter" style="s1" xml:id="subtitle469">effrayant,</p>
+<p begin="17934586670t" end="17949601670t" region="bottomCenter" style="s1" xml:id="subtitle470">alors, j'ai fui</p>
+<p begin="17950432500t" end="17988800830t" region="bottomCenter" style="s1" xml:id="subtitle471">et je suis devenue la jolie petite blonde<br/>que j'étais censée devenir.</p>
+<p begin="17989641670t" end="18040942920t" region="bottomCenter" style="s1" xml:id="subtitle472">Je savais... que c'était quelqu'un<br/>de dangereux, mais bordel !</p>
+<p begin="18058870830t" end="18095577500t" region="bottomCenter" style="s1" xml:id="subtitle473">Quelle connasse !<br/>Non, ça ne va pas aller.</p>
+<p begin="18113095000t" end="18124776670t" region="bottomCenter" style="s1" xml:id="subtitle474">- Non.<br/>- Non.</p>
+<p begin="18125607500t" end="18138540420t" region="bottomCenter" style="s1" xml:id="subtitle475">En effet.</p>
+<p begin="18194426250t" end="18224876670t" region="bottomCenter" style="s1" xml:id="subtitle476">Mais on va y faire face, d'accord ?</p>
+<p begin="18251983750t" end="18265747500t" region="bottomCenter" style="s1" xml:id="subtitle477">On va trouver une solution.</p>
+<p begin="18277839580t" end="18291192920t" region="bottomCenter" style="s1" xml:id="subtitle478">Tu as contacté un avocat ?</p>
+<p begin="18300782500t" end="18317879580t" region="bottomCenter" style="s1" xml:id="subtitle479">- Non.<br/>- J'appelle mon père.</p>
+<p begin="18318720420t" end="18344155830t" region="bottomCenter" style="s1" xml:id="subtitle480">Ne fais pas ça.<br/>Il me déteste déjà assez comme ça.</p>
+<p begin="18344996670t" end="18377529170t" region="bottomCenter" style="s1" xml:id="subtitle481">Oui, eh bien... moi, je t'aime.</p>
+<p begin="18378360000t" end="18412143750t" region="bottomCenter" style="s1" xml:id="subtitle482">Et il m'aime, donc...</p>
+<p begin="18430492080t" end="18442173750t" region="bottomCenter" style="s1" xml:id="subtitle483">voilà.</p>
+<p begin="18443004580t" end="18463445000t" region="bottomCenter" style="s1" xml:id="subtitle484">Dépêchons, c'est bientôt<br/>l'heure du comptage.</p>
+<p begin="18464275830t" end="18488470000t" region="bottomCenter" style="s1" xml:id="subtitle485">Les chambres sont là.<br/>Les dortoirs en bas.</p>
+<p begin="18489300830t" end="18508490000t" region="bottomCenter" style="s1" xml:id="subtitle486">Vous n'avez pas le droit<br/>de descendre là.</p>
+<p begin="18509320830t" end="18531012500t" region="bottomCenter" style="s1" xml:id="subtitle487">Cette zone vous est interdite<br/>pour l'instant.</p>
+<p begin="18531843330t" end="18548109580t" region="bottomCenter" style="s1" xml:id="subtitle488">Vous avez compris ?</p>
+<p begin="18548950420t" end="18563545000t" region="bottomCenter" style="s1" xml:id="subtitle489"><span style="s1_1">Namaste,</span> Jones !</p>
+<p begin="18576057500t" end="18616517920t" region="bottomCenter" style="s1" xml:id="subtitle490">Elle enseigne le yoga, si vous voulez.<br/>Et elle est sympa. Très spirituelle.</p>
+<p begin="18617348750t" end="18635286670t" region="bottomCenter" style="s1" xml:id="subtitle491">Il y a des bureaux, ici.</p>
+<p begin="18636117500t" end="18667398750t" region="bottomCenter" style="s1" xml:id="subtitle492">Voici la cafétéria, la salle commune,<br/>le bureau des conseillers.</p>
+<p begin="18668229580t" end="18682413750t" region="bottomCenter" style="s1" xml:id="subtitle493">Qui est ton conseiller ?</p>
+<p begin="18683244580t" end="18697849170t" region="bottomCenter" style="s1" xml:id="subtitle494">Healy.</p>
+<p begin="18698680000t" end="18710772080t" region="bottomCenter" style="s1" xml:id="subtitle495">D'accord. Bon.</p>
+<p begin="18711612920t" end="18722033330t" region="bottomCenter" style="s1" xml:id="subtitle496">Quoi ?</p>
+<p begin="18722874170t" end="18734135420t" region="bottomCenter" style="s1" xml:id="subtitle497">Non, c'est rien.</p>
+<p begin="18734966250t" end="18762073330t" region="bottomCenter" style="s1" xml:id="subtitle498">Il fait sa paperasse, ce qui est bien.</p>
+<p begin="18762914170t" end="18782513750t" region="bottomCenter" style="s1" xml:id="subtitle499">Quand est-ce qu'on aura<br/>des uniformes ?</p>
+<p begin="18783344580t" end="18807538750t" region="bottomCenter" style="s1" xml:id="subtitle500">Je l'ignore.<br/>Peut-être demain après le petit-déj'.</p>
+<p begin="18808369580t" end="18830892080t" region="bottomCenter" style="s1" xml:id="subtitle501">Descendez et adressez-vous à...</p>
+<p begin="18850501670t" end="18863014170t" region="bottomCenter" style="s1" xml:id="subtitle502">C'est quoi, ça ?</p>
+<p begin="18875106250t" end="18885116250t" region="bottomCenter" style="s1" xml:id="subtitle503">Une amie ?</p>
+<p begin="18896377500t" end="18921402500t" region="bottomCenter" style="s1" xml:id="subtitle504">Non. C'est ma mère.</p>
+<p begin="18930161250t" end="18966447500t" region="bottomCenter" style="s1" xml:id="subtitle505">Chapman, Diaz,<br/>vous êtes chez vous.</p>
+<p begin="18967278330t" end="18990221250t" region="bottomCenter" style="s1" xml:id="subtitle506">DeMarco, c'est Chapman. La nouvelle.</p>
+<p begin="18991052080t" end="19004815830t" region="bottomCenter" style="s1" xml:id="subtitle507">Elle s'est livrée.<br/>Tu la guideras.</p>
+<p begin="19005656670t" end="19019420420t" region="bottomCenter" style="s1" xml:id="subtitle508">Oui.</p>
+<p begin="19020251250t" end="19053614580t" region="bottomCenter" style="s1" xml:id="subtitle509">Mendoza, voici Diaz. Vas-y. Elle t'aidera.</p>
+<p begin="19054455420t" end="19079480420t" region="bottomCenter" style="s1" xml:id="subtitle510">Je suis à toi dans une seconde.<br/>Je finis ça.</p>
+<p begin="19080311250t" end="19105756670t" region="bottomCenter" style="s1" xml:id="subtitle511">Je ne parle pas espagnol.</p>
+<p begin="19106587500t" end="19126187080t" region="bottomCenter" style="s1" xml:id="subtitle512">Super. Encore une Bounty.</p>
+<p begin="19127027920t" end="19158309170t" region="bottomCenter" style="s1" xml:id="subtitle513">Ta mère ne t'a pas appris l'espagnol ?</p>
+<p begin="19173324170t" end="19212112920t" region="bottomCenter" style="s1" xml:id="subtitle514">Tiens. Des mouchoirs.<br/>La 1re nuit est toujours difficile.</p>
+<p begin="19223374170t" end="19244225000t" region="bottomCenter" style="s1" xml:id="subtitle515">Et une brosse à dents.</p>
+<p begin="19245055830t" end="19258819580t" region="bottomCenter" style="s1" xml:id="subtitle516">On ne t'en donne pas.</p>
+<p begin="19270080830t" end="19291772500t" region="bottomCenter" style="s1" xml:id="subtitle517">Merci. Merci beaucoup.<br/>Merci pour tout.</p>
+<p begin="19292603330t" end="19321382080t" region="bottomCenter" style="s1" xml:id="subtitle518">Non. Pas de souci.<br/>On se serre les coudes entre nous.</p>
+<p begin="19333484170t" end="19343904580t" region="bottomCenter" style="s1" xml:id="subtitle519">Entre nous ?</p>
+<p begin="19344745420t" end="19358088750t" region="bottomCenter" style="s1" xml:id="subtitle520">Me la joue pas<br/>politiquement correct.</p>
+<p begin="19358919580t" end="19385616250t" region="bottomCenter" style="s1" xml:id="subtitle521">Je parle au sens tribal, pas raciste.</p>
+<p begin="19454014580t" end="19466116670t" region="bottomCenter" style="s1" xml:id="subtitle522">Redis-moi ton nom ?</p>
+<p begin="19466947500t" end="19501562080t" region="bottomCenter" style="s1" xml:id="subtitle523">Piper. Chapman.</p>
+<p begin="19502402920t" end="19514074580t" region="bottomCenter" style="s1" xml:id="subtitle524">Voilà Mlle Rosa.</p>
+<p begin="19525756250t" end="19560370830t" region="bottomCenter" style="s1" xml:id="subtitle525">Et ça, c'est Nichols.<br/>Elle est sortie du trou il y a huit jours.</p>
+<p begin="19561211670t" end="19596657080t" region="bottomCenter" style="s1" xml:id="subtitle526">Elle a dit à un gardien<br/>d'aller se faire foutre. C'est con.</p>
+<p begin="19597497920t" end="19616266670t" region="bottomCenter" style="s1" xml:id="subtitle527">Pourquoi se foutre dans la merde ?</p>
+<p begin="19617097500t" end="19633784170t" region="bottomCenter" style="s1" xml:id="subtitle528">Le trou. C'est l'isolement ?</p>
+<p begin="19634615000t" end="19669650000t" region="bottomCenter" style="s1" xml:id="subtitle529">Oui. Et je te conseille de l'éviter.<br/>Fais-moi confiance.</p>
+<p begin="19670480830t" end="19696757080t" region="bottomCenter" style="s1" xml:id="subtitle530">Tiens, du PQ.<br/>Garde-le sur toi.</p>
+<p begin="19706356670t" end="19733884170t" region="bottomCenter" style="s1" xml:id="subtitle531">Merci. C'est quoi, ce truc ?</p>
+<p begin="19745555830t" end="19780180420t" region="bottomCenter" style="s1" xml:id="subtitle532">C'est ma machine.<br/>J'en ai besoin la nuit.</p>
+<p begin="19781011250t" end="19813964170t" region="bottomCenter" style="s1" xml:id="subtitle533">En arrivant,<br/>j'ai fait une méga crise cardiaque.</p>
+<p begin="19814795000t" end="19827727920t" region="bottomCenter" style="s1" xml:id="subtitle534">Tu connais le comptage ?</p>
+<p begin="19828558750t" end="19845655830t" region="bottomCenter" style="s1" xml:id="subtitle535">Reparle-moi<br/>de ta crise cardiaque.</p>
+<p begin="19846496670t" end="19858168330t" region="bottomCenter" style="s1" xml:id="subtitle536">J'aime pas en parler.</p>
+<p begin="19859009170t" end="19880280420t" region="bottomCenter" style="s1" xml:id="subtitle537">Comment je passe un coup de fil ?</p>
+<p begin="19881111250t" end="19923233330t" region="bottomCenter" style="s1" xml:id="subtitle538">Il te faut un numéro d'accès personnel,<br/>remplir un formulaire. Tout un cirque.</p>
+<p begin="19924074170t" end="19950760830t" region="bottomCenter" style="s1" xml:id="subtitle539">Peut-être que Caputo te laissera<br/>passer un coup de fil.</p>
+<p begin="19951601670t" end="19974955000t" region="bottomCenter" style="s1" xml:id="subtitle540">Ça aide de pleurer.</p>
+<p begin="20005815830t" end="20018748750t" region="bottomCenter" style="s1" xml:id="subtitle541">Ne fais pas ton lit !</p>
+<p begin="20019579580t" end="20030010000t" region="bottomCenter" style="s1" xml:id="subtitle542">Quoi ?</p>
+<p begin="20030840830t" end="20044604580t" region="bottomCenter" style="s1" xml:id="subtitle543">On s'en charge.</p>
+<p begin="20045445420t" end="20063373330t" region="bottomCenter" style="s1" xml:id="subtitle544">Non, c'est inutile.</p>
+<p begin="20064214170t" end="20079639580t" region="bottomCenter" style="s1" xml:id="subtitle545">Chérie !</p>
+<p begin="20080480420t" end="20129689580t" region="bottomCenter" style="s1" xml:id="subtitle546">On s'en charge.<br/>On sait comment faire.</p>
+<p begin="20139289170t" end="20149299170t" region="bottomCenter" style="s1" xml:id="subtitle547">Je sais faire un lit.</p>
+<p begin="20150130000t" end="20173072920t" region="bottomCenter" style="s1" xml:id="subtitle548">On sait en faire un<br/>qui passe l'inspection.</p>
+<p begin="20173903750t" end="20215195000t" region="bottomCenter" style="s1" xml:id="subtitle549">Tu peux aider à nettoyer.<br/>On nettoie tout à la serviette hygiénique.</p>
+<p begin="20216025830t" end="20231040830t" region="bottomCenter" style="s1" xml:id="subtitle550">Sérieusement ?</p>
+<p begin="20231881670t" end="20264414170t" region="bottomCenter" style="s1" xml:id="subtitle551">Oui. C'est pas l'idéal,<br/>mais c'est tout ce qu'on a.</p>
+<p begin="20265245000t" end="20284434170t" region="bottomCenter" style="s1" xml:id="subtitle552">On fait nos lits le matin<br/>avant qu'ils...</p>
+<p begin="20285265000t" end="20328638330t" region="bottomCenter" style="s1" xml:id="subtitle553">Non. Tu dors sur le lit.<br/>Avec une couverture par-dessus.</p>
+<p begin="20329479170t" end="20342822500t" region="bottomCenter" style="s1" xml:id="subtitle554">Et si je veux dormir dedans ?</p>
+<p begin="20343653330t" end="20367016670t" region="bottomCenter" style="s1" xml:id="subtitle555">Tu peux faire ce que tu veux,</p>
+<p begin="20367847500t" end="20399128750t" region="bottomCenter" style="s1" xml:id="subtitle556">mais tu seras la seule à faire ça<br/>dans toute la prison.</p>
+<p begin="20399959580t" end="20427907500t" region="bottomCenter" style="s1" xml:id="subtitle557">Si c'est ce que tu veux,<br/>libre à toi.</p>
+<p begin="20428738330t" end="20459188750t" region="bottomCenter" style="s1" xml:id="subtitle558">C'est l'heure du comptage, les filles !</p>
+<p begin="20460019580t" end="20490890420t" region="bottomCenter" style="s1" xml:id="subtitle559">Quand la lumière s'allume,<br/>tu dois être à ta place</p>
+<p begin="20491721250t" end="20526335830t" region="bottomCenter" style="s1" xml:id="subtitle560">et tu n'en bouges pas jusqu'à<br/>ce qu'elle s'éteigne. Après, on mange.</p>
+<p begin="20538437920t" end="20560119580t" region="bottomCenter" style="s1" xml:id="subtitle561">Hé, <span style="s1_1">blanca.</span> Tu parles espagnol ?</p>
+<p begin="20601831250t" end="20638117500t" region="bottomCenter" style="s1" xml:id="subtitle562">Tu vois...<br/>la petite Blanche cause espagnol.</p>
+<p begin="20784934170t" end="20795775000t" region="bottomCenter" style="s1" xml:id="subtitle563">Et alors ?</p>
+<p begin="20796605830t" end="20811620830t" region="bottomCenter" style="s1" xml:id="subtitle564">Attends.</p>
+<p begin="20925905000t" end="20938837920t" region="bottomCenter" style="s1" xml:id="subtitle565">Le dîner est à 16h30 ?</p>
+<p begin="20939668750t" end="20959688750t" region="bottomCenter" style="s1" xml:id="subtitle566">Recomptage, les filles !</p>
+<p begin="20978457500t" end="21010990000t" region="bottomCenter" style="s1" xml:id="subtitle567">- Ils se plantent tout le temps.<br/>- C'est pas dur de compter.</p>
+<p begin="21011820830t" end="21030589580t" region="bottomCenter" style="s1" xml:id="subtitle568">Nicky, voici...</p>
+<p begin="21031430420t" end="21047276250t" region="bottomCenter" style="s1" xml:id="subtitle569">Piper. Chapman.</p>
+<p begin="21057286250t" end="21076475420t" region="bottomCenter" style="s1" xml:id="subtitle570">T'es là pour quoi, blondinette ?</p>
+<p begin="21077306250t" end="21104002920t" region="bottomCenter" style="s1" xml:id="subtitle571">On n'est pas censées<br/>ne pas poser la question ?</p>
+<p begin="21104833750t" end="21128607500t" region="bottomCenter" style="s1" xml:id="subtitle572">Je l'ai lu quelque part.</p>
+<p begin="21129438330t" end="21151130000t" region="bottomCenter" style="s1" xml:id="subtitle573">Tu l'as lu ?</p>
+<p begin="21151960830t" end="21170319170t" region="bottomCenter" style="s1" xml:id="subtitle574">Tu as potassé<br/>avant d'entrer en prison ?</p>
+<p begin="21268327080t" end="21278337080t" region="bottomCenter" style="s1" xml:id="subtitle575">Et toi ?</p>
+<p begin="21279177920t" end="21295444170t" region="bottomCenter" style="s1" xml:id="subtitle576"><span style="s1_1">Je ne comprends pas.</span></p>
+<p begin="21296275000t" end="21324633330t" region="bottomCenter" style="s1" xml:id="subtitle577">Ma valise ! Ma valise !</p>
+<p begin="21325474170t" end="21340489170t" region="bottomCenter" style="s1" xml:id="subtitle578">Elle n'est pas arrivée.</p>
+<p begin="21341320000t" end="21370098750t" region="bottomCenter" style="s1" xml:id="subtitle579">Parfois, les valises se perdent en route.</p>
+<p begin="21370929580t" end="21409307920t" region="bottomCenter" style="s1" xml:id="subtitle580">Attendez le prochain vol en provenance<br/>de Paris. Peut-être qu'elle y sera.</p>
+<p begin="21670819170t" end="21688336670t" region="bottomCenter" style="s1" xml:id="subtitle581">Ma valise !</p>
+<p begin="21689167500t" end="21700849170t" region="bottomCenter" style="s1" xml:id="subtitle582">Ma valise.</p>
+<p begin="21868096250t" end="21897295420t" region="bottomCenter" style="s1" xml:id="subtitle583">Bienvenue en Belgique.<br/>Tout s'est bien passé ?</p>
+<p begin="21913141250t" end="21932740830t" region="bottomCenter" style="s1" xml:id="subtitle584">Je m'inquiétais.<br/>D'où viens-tu ?</p>
+<p begin="21933581670t" end="21944002080t" region="bottomCenter" style="s1" xml:id="subtitle585">De là-bas.</p>
+<p begin="21954432500t" end="21966945000t" region="bottomCenter" style="s1" xml:id="subtitle586">T'as esquivé la douane ?</p>
+<p begin="21967775830t" end="21991970000t" region="bottomCenter" style="s1" xml:id="subtitle587">Je suis passée par là<br/>et je suis arrivée ici.</p>
+<p begin="21992800830t" end="22033681670t" region="bottomCenter" style="s1" xml:id="subtitle588">T'as esquivé la douane ?<br/>Bordel ! C'est génial.</p>
+<p begin="22034512500t" end="22060368330t" region="bottomCenter" style="s1" xml:id="subtitle589">- Je dois y retourner ?<br/>- Non. On va à l'hôtel.</p>
+<p begin="22061209170t" end="22082890830t" region="bottomCenter" style="s1" xml:id="subtitle590">Je vais te manger toute crue.</p>
+<p begin="22094572500t" end="22124182080t" region="bottomCenter" style="s1" xml:id="subtitle591">J'ai flippé en ne voyant pas<br/>la valise, j'ai failli me tirer.</p>
+<p begin="22125022920t" end="22155463330t" region="bottomCenter" style="s1" xml:id="subtitle592">Heureusement que non.<br/>Y en a pour 50 plaques dedans.</p>
+<p begin="22156304170t" end="22180488330t" region="bottomCenter" style="s1" xml:id="subtitle593">Kubra t'aurait fait tuer. Viens.</p>
+<p begin="22196344170t" end="22217195000t" region="bottomCenter" style="s1" xml:id="subtitle594">Avance. Tu m'empêches de bosser.</p>
+<p begin="22303951670t" end="22329807500t" region="bottomCenter" style="s1" xml:id="subtitle595">Va t'asseoir là-bas.<br/>C'est une gentille Blanche.</p>
+<p begin="22347745420t" end="22359417080t" region="bottomCenter" style="s1" xml:id="subtitle596">Merci.</p>
+<p begin="22462440000t" end="22472450000t" region="bottomCenter" style="s1" xml:id="subtitle597">Salut.</p>
+<p begin="22492470000t" end="22509567080t" region="bottomCenter" style="s1" xml:id="subtitle598">Je peux m'asseoir ?</p>
+<p begin="22510407920t" end="22523751250t" region="bottomCenter" style="s1" xml:id="subtitle599">Bien sûr, la nouvelle.</p>
+<p begin="22542520000t" end="22560037500t" region="bottomCenter" style="s1" xml:id="subtitle600">Je suis Jones.</p>
+<p begin="22560868330t" end="22571719170t" region="bottomCenter" style="s1" xml:id="subtitle601">Chapman.</p>
+<p begin="22582980420t" end="22605082500t" region="bottomCenter" style="s1" xml:id="subtitle602">Tu t'en sors, Chapman ?</p>
+<p begin="22605913330t" end="22629687080t" region="bottomCenter" style="s1" xml:id="subtitle603">Je ne sais pas<br/>comment répondre à cette question.</p>
+<p begin="22643450830t" end="22668065420t" region="bottomCenter" style="s1" xml:id="subtitle604">Tout me semble irréel.</p>
+<p begin="22698505830t" end="22720197500t" region="bottomCenter" style="s1" xml:id="subtitle605">Tu sais ce qu'est un mandala ?</p>
+<p begin="22734792080t" end="22758565830t" region="bottomCenter" style="s1" xml:id="subtitle606">Une sorte d'art bouddhiste ?</p>
+<p begin="22759406670t" end="22798195420t" region="bottomCenter" style="s1" xml:id="subtitle607">Les moines tibétains les font<br/>à partir de sable coloré</p>
+<p begin="22799026250t" end="22834892080t" region="bottomCenter" style="s1" xml:id="subtitle608">qu'ils étendent pour en faire<br/>de grands et magnifiques motifs.</p>
+<p begin="22835732920t" end="22874932080t" region="bottomCenter" style="s1" xml:id="subtitle609">Et une fois finis, après plusieurs jours<br/>ou semaines de travail,</p>
+<p begin="22875772920t" end="22895372500t" region="bottomCenter" style="s1" xml:id="subtitle610">ils les effacent.</p>
+<p begin="22911218330t" end="22934581670t" region="bottomCenter" style="s1" xml:id="subtitle611">Ouah. C'est... c'est incroyable.</p>
+<p begin="22947094170t" end="22987544580t" region="bottomCenter" style="s1" xml:id="subtitle612">Essaie de voir ton expérience ici<br/>comme un mandala, Chapman.</p>
+<p begin="22999226250t" end="23048025000t" region="bottomCenter" style="s1" xml:id="subtitle613">Travaille dur. Pour faire une expérience<br/>la plus significative possible.</p>
+<p begin="23048855830t" end="23080977920t" region="bottomCenter" style="s1" xml:id="subtitle614">Et en sortant, tu reprendras ta vie<br/>en sachant que c'était temporaire.</p>
+<p begin="23093490420t" end="23138535420t" region="bottomCenter" style="s1" xml:id="subtitle615">Tâche de t'en souvenir.<br/>Tout ça n'est que temporaire.</p>
+<p begin="23151878750t" end="23167724580t" region="bottomCenter" style="s1" xml:id="subtitle616">Tout ça n'est que temporaire.</p>
+<p begin="23180237080t" end="23216112920t" region="bottomCenter" style="s1" xml:id="subtitle617">Je te le dis. Survivre ici...</p>
+<p begin="23216943750t" end="23236543330t" region="bottomCenter" style="s1" xml:id="subtitle618">c'est une question de perspective.</p>
+<p begin="23264911670t" end="23277003750t" region="bottomCenter" style="s1" xml:id="subtitle619">Ne mange pas ce pudding.</p>
+<p begin="23277834580t" end="23297444170t" region="bottomCenter" style="s1" xml:id="subtitle620">Quelle est la perspective<br/>sur le pudding ?</p>
+<p begin="23298275000t" end="23328725420t" region="bottomCenter" style="s1" xml:id="subtitle621">On les reçoit dans des boîtes<br/>"Tempête du désert".</p>
+<p begin="23329556250t" end="23341237920t" region="bottomCenter" style="s1" xml:id="subtitle622">En cuisine,</p>
+<p begin="23342068750t" end="23372098750t" region="bottomCenter" style="s1" xml:id="subtitle623">ils enlèvent la croûte moisie<br/>avant de le servir.</p>
+<p begin="23372929580t" end="23395452080t" region="bottomCenter" style="s1" xml:id="subtitle624">Bonjour.</p>
+<p begin="23396292920t" end="23428825420t" region="bottomCenter" style="s1" xml:id="subtitle625">Bonjour, ma sœur. Voici Chapman.</p>
+<p begin="23429656250t" end="23450507080t" region="bottomCenter" style="s1" xml:id="subtitle626">Vous êtes religieuse ?</p>
+<p begin="23451347920t" end="23475532080t" region="bottomCenter" style="s1" xml:id="subtitle627">Oui. Et tueuse.</p>
+<p begin="23476372920t" end="23496803330t" region="bottomCenter" style="s1" xml:id="subtitle628">Arrête. Elle ignore que tu plaisantes.</p>
+<p begin="23497644170t" end="23534761250t" region="bottomCenter" style="s1" xml:id="subtitle629">Elle s'est enchaînée au porte-drapeau<br/>d'un site de test nucléaire.</p>
+<p begin="23576052500t" end="23591898330t" region="bottomCenter" style="s1" xml:id="subtitle630">Amen.</p>
+<p begin="23592739170t" end="23629025420t" region="bottomCenter" style="s1" xml:id="subtitle631">Bon, et toi, Chapman,<br/>c'est quoi, ton histoire ?</p>
+<p begin="23636112500t" end="23658635000t" region="bottomCenter" style="s1" xml:id="subtitle632">Je me suis enchaînée<br/>à une dealeuse.</p>
+<p begin="23677824170t" end="23713269580t" region="bottomCenter" style="s1" xml:id="subtitle633">Piper, n'écoute pas les conseils<br/>d'une religieuse et d'une hippie.</p>
+<p begin="23714110420t" end="23762909170t" region="bottomCenter" style="s1" xml:id="subtitle634">C'est mieux que la sagesse suprême<br/>d'une junkie philosophe à ses heures.</p>
+<p begin="23763740000t" end="23782508750t" region="bottomCenter" style="s1" xml:id="subtitle635">Je prie pour toi, Nicky.</p>
+<p begin="23783339580t" end="23808785000t" region="bottomCenter" style="s1" xml:id="subtitle636">Je prie aussi pour toi, ma sœur.</p>
+<p begin="23809615830t" end="23845491670t" region="bottomCenter" style="s1" xml:id="subtitle637">Et je fantasme sur toi, Yoga Jones,<br/>sur tes bras musclés.</p>
+<p begin="23858004170t" end="23872598750t" region="bottomCenter" style="s1" xml:id="subtitle638">J'adore un corps de yogi.</p>
+<p begin="23873429580t" end="23900126250t" region="bottomCenter" style="s1" xml:id="subtitle639">Tu devrais suivre mes cours,<br/>me voir faire un chaturanga.</p>
+<p begin="23900957080t" end="23937243330t" region="bottomCenter" style="s1" xml:id="subtitle640">Ta salle de cours sent le pet.<br/>Ça ne me donne pas envie.</p>
+<p begin="23938084170t" end="23958514580t" region="bottomCenter" style="s1" xml:id="subtitle641">T'aimes la chatte, Piper ?</p>
+<p begin="23959355420t" end="23980626670t" region="bottomCenter" style="s1" xml:id="subtitle642">Ou tu préfères la pipe<br/>comme ton nom le suggère ?</p>
+<p begin="23981457500t" end="24004400420t" region="bottomCenter" style="s1" xml:id="subtitle643">Je sens des vibrations saphiques<br/>entre nous.</p>
+<p begin="24005231250t" end="24021077080t" region="bottomCenter" style="s1" xml:id="subtitle644">Laisse-la tranquille.</p>
+<p begin="24034840830t" end="24046102080t" region="bottomCenter" style="s1" xml:id="subtitle645">Arrête, ma sœur.</p>
+<p begin="24046942920t" end="24069045000t" region="bottomCenter" style="s1" xml:id="subtitle646">On aurait déjà baisé<br/>si t'avais pas épousé Jésus.</p>
+<p begin="24142448330t" end="24153299170t" region="bottomCenter" style="s1" xml:id="subtitle647">Merci, maman.</p>
+<p begin="24176232080t" end="24187913750t" region="bottomCenter" style="s1" xml:id="subtitle648">Merci, Red.</p>
+<p begin="24218364170t" end="24230456250t" region="bottomCenter" style="s1" xml:id="subtitle649">Merci, Red.</p>
+<p begin="24263409170t" end="24275921670t" region="bottomCenter" style="s1" xml:id="subtitle650">C'est ta mère ?</p>
+<p begin="24276752500t" end="24291767500t" region="bottomCenter" style="s1" xml:id="subtitle651">Mon substitut de mère.</p>
+<p begin="24292598330t" end="24318874580t" region="bottomCenter" style="s1" xml:id="subtitle652">Ma vraie mère vit au Brésil<br/>avec son petit ami, Paolo,</p>
+<p begin="24319715420t" end="24345991670t" region="bottomCenter" style="s1" xml:id="subtitle653">destructeur de l'Amazonie<br/>et collectionneur d'art.</p>
+<p begin="24346822500t" end="24366011670t" region="bottomCenter" style="s1" xml:id="subtitle654">C'est une conne.<br/>Et moi, la honte de sa vie.</p>
+<p begin="24366842500t" end="24397292920t" region="bottomCenter" style="s1" xml:id="subtitle655">Salut, Red. T'en as aussi pour moi ?</p>
+<p begin="24398123750t" end="24424820420t" region="bottomCenter" style="s1" xml:id="subtitle656">Tu as ce que je t'ai demandé ?</p>
+<p begin="24425651250t" end="24439835420t" region="bottomCenter" style="s1" xml:id="subtitle657">J'y travaille.</p>
+<p begin="24449425000t" end="24467773330t" region="bottomCenter" style="s1" xml:id="subtitle658">Moi aussi.</p>
+<p begin="24468614170t" end="24491967500t" region="bottomCenter" style="s1" xml:id="subtitle659">T'auras ta gâterie<br/>quand je dormirai mieux.</p>
+<p begin="24543268750t" end="24587062500t" region="bottomCenter" style="s1" xml:id="subtitle660">C'est pas si dur que ça de sortir<br/>une planche de l'atelier. Franchement !</p>
+<p begin="24608333750t" end="24619595000t" region="bottomCenter" style="s1" xml:id="subtitle661">Qui c'est ?</p>
+<p begin="24620425830t" end="24666311670t" region="bottomCenter" style="s1" xml:id="subtitle662">Chapman. Une nouvelle qui s'est livrée.<br/>Elle se croit raffinée.</p>
+<p begin="24680485830t" end="24720115420t" region="bottomCenter" style="s1" xml:id="subtitle663">Tiens, la raffinée. Un yaourt.</p>
+<p begin="24755560830t" end="24771827080t" region="bottomCenter" style="s1" xml:id="subtitle664">En échange de quoi ?</p>
+<p begin="24783929170t" end="24826471670t" region="bottomCenter" style="s1" xml:id="subtitle665">T'es nouvelle. Tu es comme nous.<br/>Vois ça comme un cadeau.</p>
+<p begin="24827302500t" end="24871096250t" region="bottomCenter" style="s1" xml:id="subtitle666">Merci. Merci beaucoup.</p>
+<p begin="24906962080t" end="24930735830t" region="bottomCenter" style="s1" xml:id="subtitle667">La nourriture ici est dégoûtante.</p>
+<p begin="25026251250t" end="25037932920t" region="bottomCenter" style="s1" xml:id="subtitle668">Quoi ?</p>
+<p begin="25038763750t" end="25061286250t" region="bottomCenter" style="s1" xml:id="subtitle669">Je t'ai pas dit<br/>que Red gère la cuisine ?</p>
+<p begin="25086311250t" end="25097572500t" region="bottomCenter" style="s1" xml:id="subtitle670">Merde.</p>
+<p begin="25111756670t" end="25122597500t" region="bottomCenter" style="s1" xml:id="subtitle671">Désolée.</p>
+<p begin="25171396250t" end="25182657500t" region="bottomCenter" style="s1" xml:id="subtitle672">Chérie.</p>
+<p begin="25194749580t" end="25218943750t" region="bottomCenter" style="s1" xml:id="subtitle673">Tu viens d'arriver,<br/>tu n'es pas au parfum.</p>
+<p begin="25219774580t" end="25238543330t" region="bottomCenter" style="s1" xml:id="subtitle674">Je vais t'y mettre.</p>
+<p begin="25239384170t" end="25258983750t" region="bottomCenter" style="s1" xml:id="subtitle675">T'aimes pas la bouffe ?</p>
+<p begin="25271075830t" end="25289434170t" region="bottomCenter" style="s1" xml:id="subtitle676">Y a pas de problème.</p>
+<p begin="25360335000t" end="25399954580t" region="bottomCenter" style="s1" xml:id="subtitle677">Oh, putain. La bourde monumentale.</p>
+<p begin="25429574170t" end="25441666250t" region="bottomCenter" style="s1" xml:id="subtitle678"><span style="s1_1">Je peux vous aider ?</span></p>
+<p begin="25452507080t" end="25482126670t" region="bottomCenter" style="s1" xml:id="subtitle679">Je suis Chapman.<br/>Je viens d'arriver.</p>
+<p begin="25482957500t" end="25517572080t" region="bottomCenter" style="s1" xml:id="subtitle680">On m'a dit de venir vous voir.<br/>Je n'ai pas de numéro d'accès personnel.</p>
+<p begin="25518412920t" end="25530925420t" region="bottomCenter" style="s1" xml:id="subtitle681">Qui ça, "on" ?</p>
+<p begin="25557612080t" end="25603077500t" region="bottomCenter" style="s1" xml:id="subtitle682">M. Caputo, j'aimerais appeler mon fiancé.</p>
+<p begin="25603908330t" end="25621846250t" region="bottomCenter" style="s1" xml:id="subtitle683">Pour qu'il sache que je vais bien.</p>
+<p begin="25635189580t" end="25665640000t" region="bottomCenter" style="s1" xml:id="subtitle684">Deux minutes.<br/>Vous avez deux minutes, c'est tout.</p>
+<p begin="25666470830t" end="25689834170t" region="bottomCenter" style="s1" xml:id="subtitle685">La porte.<br/>Je veux pas que ça se sache.</p>
+<p begin="25690665000t" end="25712767080t" region="bottomCenter" style="s1" xml:id="subtitle686"><span style="s1_1">Détenue Gonzales au rapport</span><br/><span style="s1_1">en salle des fournitures.</span></p>
+<p begin="25772827080t" end="25789934170t" region="bottomCenter" style="s1" xml:id="subtitle687">Composez le 9 pour sortir.</p>
+<p begin="25891695830t" end="25911305420t" region="bottomCenter" style="s1" xml:id="subtitle688">- Allô, téléphone de Larry.<br/><span style="s1_1">- Amy ?</span></p>
+<p begin="25912136250t" end="25928822920t" region="bottomCenter" style="s1" xml:id="subtitle689">- Piper ?<br/>- Donne.</p>
+<p begin="25929653750t" end="25948002080t" region="bottomCenter" style="s1" xml:id="subtitle690">Une seconde. Je veux lui parler.</p>
+<p begin="25948842920t" end="25971365420t" region="bottomCenter" style="s1" xml:id="subtitle691">Je n'ai que deux minutes.</p>
+<p begin="25972196250t" end="25999303330t" region="bottomCenter" style="s1" xml:id="subtitle692">Est-ce que ça va ?<br/>C'est comment, là-bas ?</p>
+<p begin="26000144170t" end="26033507500t" region="bottomCenter" style="s1" xml:id="subtitle693">Howard et moi avons apporté du chinois.<br/>Larry est bouleversé.</p>
+<p begin="26034338330t" end="26044348330t" region="bottomCenter" style="s1" xml:id="subtitle694">- Maman.<br/>- Passe-lui.</p>
+<p begin="26045189170t" end="26055199170t" region="bottomCenter" style="s1" xml:id="subtitle695">Passe-le-moi.</p>
+<p begin="26056030000t" end="26073127080t" region="bottomCenter" style="s1" xml:id="subtitle696">Pourriez-vous<br/>me passer Larry ?</p>
+<p begin="26073967920t" end="26102746670t" region="bottomCenter" style="s1" xml:id="subtitle697">Quand Martha Stewart était en prison,</p>
+<p begin="26103577500t" end="26118172080t" region="bottomCenter" style="s1" xml:id="subtitle698">elle mangeait des pissenlits.</p>
+<p begin="26119012920t" end="26134027920t" region="bottomCenter" style="s1" xml:id="subtitle699">Maman, s'il te plaît.</p>
+<p begin="26134858750t" end="26162806670t" region="bottomCenter" style="s1" xml:id="subtitle700">- Je parlais !<br/>- Tu n'es pas le centre du monde.</p>
+<p begin="26163637500t" end="26181575420t" region="bottomCenter" style="s1" xml:id="subtitle701">- Comment ça ?<br/>- Piper ?</p>
+<p begin="26182406250t" end="26202846670t" region="bottomCenter" style="s1" xml:id="subtitle702">Plus qu'une minute.<br/>J'appelle du bureau du garde.</p>
+<p begin="26203677500t" end="26221195000t" region="bottomCenter" style="s1" xml:id="subtitle703">Est-ce que ça va ? Raconte.</p>
+<p begin="26222025830t" end="26234127920t" region="bottomCenter" style="s1" xml:id="subtitle704">Je t'aime tellement.</p>
+<p begin="26234958750t" end="26253727500t" region="bottomCenter" style="s1" xml:id="subtitle705">Je t'aime aussi.<br/>Est-ce que ça va ?</p>
+<p begin="26254558330t" end="26282506250t" region="bottomCenter" style="s1" xml:id="subtitle706">Je porte des culottes de mamie<br/>et je parle qu'aux Blanches.</p>
+<p begin="26291265000t" end="26305449170t" region="bottomCenter" style="s1" xml:id="subtitle707">T'as rejoint la nation aryenne ?</p>
+<p begin="26306280000t" end="26325879580t" region="bottomCenter" style="s1" xml:id="subtitle708"><span style="s1_1">Je sais pas. Il y a une religieuse.</span></p>
+<p begin="26326720420t" end="26348402080t" region="bottomCenter" style="s1" xml:id="subtitle709">On dort pas dans ses draps,<br/>mais au-dessus.</p>
+<p begin="26349242920t" end="26359252920t" region="bottomCenter" style="s1" xml:id="subtitle710">C'est bizarre.</p>
+<p begin="26360083750t" end="26371345000t" region="bottomCenter" style="s1" xml:id="subtitle711">Oui, hein ?</p>
+<p begin="26372175830t" end="26383857500t" region="bottomCenter" style="s1" xml:id="subtitle712">En arrivant, on m'a donné</p>
+<p begin="26384688330t" end="26406380000t" region="bottomCenter" style="s1" xml:id="subtitle713">du savon,<br/>mais pas de shampooing.</p>
+<p begin="26407210830t" end="26443917500t" region="bottomCenter" style="s1" xml:id="subtitle714">Je pense pouvoir en emprunter<br/>à d'autres filles blanches.</p>
+<p begin="26458101670t" end="26473947500t" region="bottomCenter" style="s1" xml:id="subtitle715">Je t'aime tellement.</p>
+<p begin="26489382920t" end="26514407920t" region="bottomCenter" style="s1" xml:id="subtitle716">Une des filles de ma chambre a fait<br/>une crise cardiaque.</p>
+<p begin="26515238750t" end="26540684170t" region="bottomCenter" style="s1" xml:id="subtitle717">Je t'interdis d'en faire une.</p>
+<p begin="26550694170t" end="26563206670t" region="bottomCenter" style="s1" xml:id="subtitle718">Tu as mangé quoi ?</p>
+<p begin="26570714170t" end="26592395830t" region="bottomCenter" style="s1" xml:id="subtitle719">Mes parents ont pris<br/>du chinois au Palace.</p>
+<p begin="26603657080t" end="26614087500t" region="bottomCenter" style="s1" xml:id="subtitle720">Le Palace.</p>
+<p begin="26625769170t" end="26649953330t" region="bottomCenter" style="s1" xml:id="subtitle721">On mange des trucs crades.</p>
+<p begin="26650794170t" end="26672475830t" region="bottomCenter" style="s1" xml:id="subtitle722">J'ai insulté la cuisinière,</p>
+<p begin="26673316670t" end="26712936250t" region="bottomCenter" style="s1" xml:id="subtitle723">et on doit pas manger de pudding qui<br/>provient de l'opération Tempête du désert.</p>
+<p begin="26713767080t" end="26742545830t" region="bottomCenter" style="s1" xml:id="subtitle724"><span style="s1_1">Écoute-moi, Piper.</span><br/><span style="s1_1">Tu dois garder la tête froide.</span></p>
+<p begin="26743386670t" end="26766740000t" region="bottomCenter" style="s1" xml:id="subtitle725">Je suis sérieux.<br/>Dis-moi que tu y arriveras.</p>
+<p begin="26767570830t" end="26799272500t" region="bottomCenter" style="s1" xml:id="subtitle726">S'il te plaît... dis-moi que tu vas bien.</p>
+<p begin="26800103330t" end="26828051250t" region="bottomCenter" style="s1" xml:id="subtitle727">- On termine, Chapman.<br/>- On... m'appelle Chapman.</p>
+<p begin="26828882080t" end="26848902080t" region="bottomCenter" style="s1" xml:id="subtitle728">Tu es ma petite Piper.</p>
+<p begin="26849742920t" end="26888942080t" region="bottomCenter" style="s1" xml:id="subtitle729">Je t'aime, et...<br/>tout ça n'est que temporaire.</p>
+<p begin="26898121250t" end="26926899999t" region="bottomCenter" style="s1" xml:id="subtitle730">C'est ce que disait Yoga Jones.<br/>Mais c'est que mon 1er jour.</p>
+<p begin="26927730829t" end="26943166249t" region="bottomCenter" style="s1" xml:id="subtitle731">Je n'y arriverai pas !</p>
+<p begin="26943997079t" end="26965688749t" region="bottomCenter" style="s1" xml:id="subtitle732">Bien sûr que si, Piper !</p>
+<p begin="26966519579t" end="26995298329t" region="bottomCenter" style="s1" xml:id="subtitle733">Tu es forte, ma chérie. Tu...</p>
+<p begin="26996139169t" end="27009902919t" region="bottomCenter" style="s1" xml:id="subtitle734">Et tu aimes l'aventure.</p>
+<p begin="27010733749t" end="27033676669t" region="bottomCenter" style="s1" xml:id="subtitle735"><span style="s1_1">Tu es en prison pour ça,</span><br/><span style="s1_1">tu vas tenir grâce à ça.</span></p>
+<p begin="27034507499t" end="27073716669t" region="bottomCenter" style="s1" xml:id="subtitle736">Ce n'est qu'une grande aventure<br/>culinaire avec Yoga Jones</p>
+<p begin="27074547499t" end="27092485419t" region="bottomCenter" style="s1" xml:id="subtitle737">et des racistes.</p>
+<p begin="27093316249t" end="27116669579t" region="bottomCenter" style="s1" xml:id="subtitle738">Tu peux venir vendredi.<br/>S'il te plaît, viens.</p>
+<p begin="27117510419t" end="27130022919t" region="bottomCenter" style="s1" xml:id="subtitle739">Dis à ma mère de venir samedi</p>
+<p begin="27130853749t" end="27147950829t" region="bottomCenter" style="s1" xml:id="subtitle740">et ne lui dis pas<br/>que tu viens vendredi.</p>
+<p begin="27148791669t" end="27167139999t" region="bottomCenter" style="s1" xml:id="subtitle741">Bien sûr. D'accord ?</p>
+<p begin="27167970829t" end="27187990829t" region="bottomCenter" style="s1" xml:id="subtitle742">Deux nuits. C'est tout.</p>
+<p begin="27188831669t" end="27227199999t" region="bottomCenter" style="s1" xml:id="subtitle743">Deux nuits... en dehors de tes draps.<br/>Et après, je serai là.</p>
+<p begin="27234707499t" end="27266819579t" region="bottomCenter" style="s1" xml:id="subtitle744">Il faut raccrocher. Dites-lui au revoir.</p>
+<p begin="27267660419t" end="27278080829t" region="bottomCenter" style="s1" xml:id="subtitle745">Je dois te laisser.</p>
+<p begin="27278921669t" end="27288931669t" region="bottomCenter" style="s1" xml:id="subtitle746">Hé, ne pleure pas.</p>
+<p begin="27289762499t" end="27303105829t" region="bottomCenter" style="s1" xml:id="subtitle747">Je ne pleure pas.</p>
+<p begin="27303946669t" end="27326879579t" region="bottomCenter" style="s1" xml:id="subtitle748"><span style="s1_1">Piper, je t'aime.</span><br/><span style="s1_1">Je te vois vendredi.</span></p>
+<p begin="27327720419t" end="27342314999t" region="bottomCenter" style="s1" xml:id="subtitle749">Sois courageuse.</p>
+<p begin="27343145829t" end="27357329999t" region="bottomCenter" style="s1" xml:id="subtitle750">Et que personne fouille<br/>ta culotte de mamie.</p>
+<p begin="27358160829t" end="27369842499t" region="bottomCenter" style="s1" xml:id="subtitle751"><span style="s1_1">Je t'aime.</span></p>
+<p begin="27370673329t" end="27383606249t" region="bottomCenter" style="s1" xml:id="subtitle752">Je t'aime.</p>
+<p begin="27431574169t" end="27453676249t" region="bottomCenter" style="s1" xml:id="subtitle753">Vous avez encore du mal.</p>
+<p begin="27454507079t" end="27472865419t" region="bottomCenter" style="s1" xml:id="subtitle754">Ne vous en faites pas, ça va venir.</p>
+<p begin="27473696249t" end="27502054579t" region="bottomCenter" style="s1" xml:id="subtitle755">En attendant, essayez de dormir.</p>
+<p begin="27502895419t" end="27533756249t" region="bottomCenter" style="s1" xml:id="subtitle756">La séance d'information a lieu<br/>demain à 9 h.</p>
+<p begin="27534587079t" end="27555447919t" region="bottomCenter" style="s1" xml:id="subtitle757">Du shampooing.</p>
+<p begin="27573796249t" end="27603826249t" region="bottomCenter" style="s1" xml:id="subtitle758">Le mot que vous cherchez,<br/>c'est "merci".</p>
+<p begin="27604657079t" end="27625097499t" region="bottomCenter" style="s1" xml:id="subtitle759">Merci.</p>
+<p begin="27625928329t" end="27639281669t" region="bottomCenter" style="s1" xml:id="subtitle760">Bonsoir, Chapman.</p>
+<p begin="27680572919t" end="27691834169t" region="bottomCenter" style="s1" xml:id="subtitle761">Fermez la porte derrière vous.</p>
+<p begin="27884937079t" end="27910802919t" region="bottomCenter" style="s1" xml:id="subtitle762">Chapman. Hé, Chapman.</p>
+<p begin="27911633749t" end="27921643749t" region="bottomCenter" style="s1" xml:id="subtitle763">- Quoi ?<br/>- On se lève.</p>
+<p begin="27922474579t" end="27933325419t" region="bottomCenter" style="s1" xml:id="subtitle764">Quoi ?</p>
+<p begin="27934156249t" end="27962934999t" region="bottomCenter" style="s1" xml:id="subtitle765">Si tu veux te doucher et manger,<br/>faut te lever.</p>
+<p begin="27963765829t" end="27983785829t" region="bottomCenter" style="s1" xml:id="subtitle766">Regarde tes yeux.</p>
+<p begin="27984626669t" end="27999221249t" region="bottomCenter" style="s1" xml:id="subtitle767">Mets de l'eau froide dessus.</p>
+<p begin="28000052079t" end="28012154169t" region="bottomCenter" style="s1" xml:id="subtitle768">D'accord. Merci.</p>
+<p begin="28012984999t" end="28058029999t" region="bottomCenter" style="s1" xml:id="subtitle769">Prends une bonne douche et habille-toi,<br/>tout ira mieux après.</p>
+<p begin="28058860829t" end="28076798749t" region="bottomCenter" style="s1" xml:id="subtitle770">- T'as des tongs ?<br/>- Non.</p>
+<p begin="28077629579t" end="28113084999t" region="bottomCenter" style="s1" xml:id="subtitle771">Ma pauvre.<br/>Les douches sont pleines de mycoses.</p>
+<p begin="28294936669t" end="28317038749t" region="bottomCenter" style="s1" xml:id="subtitle772">Tu me rends dingue !</p>
+<p begin="28404626249t" end="28416718329t" region="bottomCenter" style="s1" xml:id="subtitle773">Bouh !</p>
+<p begin="28634435829t" end="28656958329t" region="bottomCenter" style="s1" xml:id="subtitle774">On a un fruit, au petit-déjeuner.</p>
+<p begin="28657799169t" end="28694916249t" region="bottomCenter" style="s1" xml:id="subtitle775">T'inquiète pas,<br/>tu t'y feras bientôt. Sérieux.</p>
+<p begin="28695747079t" end="28722864169t" region="bottomCenter" style="s1" xml:id="subtitle776">- T'as faim ?<br/>- Je meurs de faim. Excuse-moi.</p>
+<p begin="28723694999t" end="28739961249t" region="bottomCenter" style="s1" xml:id="subtitle777">- Beaux cheveux !<br/>- Merci.</p>
+<p begin="28740792079t" end="28765817079t" region="bottomCenter" style="s1" xml:id="subtitle778">Quand on verra tes racines,<br/>viens me voir.</p>
+<p begin="28766657919t" end="28784175419t" region="bottomCenter" style="s1" xml:id="subtitle779">Je m'occuperai bien de toi.</p>
+<p begin="28785006249t" end="28814205419t" region="bottomCenter" style="s1" xml:id="subtitle780">Même si tu ne viens pas me voir,<br/>ne va pas voir Danita.</p>
+<p begin="28815036249t" end="28848399579t" region="bottomCenter" style="s1" xml:id="subtitle781">Elle te cramera les cheveux<br/>jusqu'à la racine. La file avance.</p>
+<p begin="28860501669t" end="28873424579t" region="bottomCenter" style="s1" xml:id="subtitle782">Tu es Chapman ?</p>
+<p begin="28924725829t" end="28943084169t" region="bottomCenter" style="s1" xml:id="subtitle783">Red t'a préparé un menu spécial.</p>
+<p begin="28943914999t" end="28976867919t" region="bottomCenter" style="s1" xml:id="subtitle784">Merci. Remercie-la pour moi.</p>
+<p begin="28977698749t" end="28998139169t" region="bottomCenter" style="s1" xml:id="subtitle785">Je fais que bosser. Suivante.</p>
+<p begin="29015236249t" end="29026077079t" region="bottomCenter" style="s1" xml:id="subtitle786">Franchement,</p>
+<p begin="29026917919t" end="29056107079t" region="bottomCenter" style="s1" xml:id="subtitle787">avant qu'on me répare les dents,<br/>j'avais un trou énorme.</p>
+<p begin="29056947919t" end="29075296249t" region="bottomCenter" style="s1" xml:id="subtitle788">Maintenant, elles font bidon.</p>
+<p begin="29076127079t" end="29095736669t" region="bottomCenter" style="s1" xml:id="subtitle789">Tes fausses dents sont superbes.</p>
+<p begin="29096567499t" end="29113664579t" region="bottomCenter" style="s1" xml:id="subtitle790">Tu te coinces jamais de bouffe.</p>
+<p begin="29114505419t" end="29134104999t" region="bottomCenter" style="s1" xml:id="subtitle791">T'as l'haleine fraîche<br/>en permanence.</p>
+<p begin="29134935829t" end="29147868749t" region="bottomCenter" style="s1" xml:id="subtitle792">C'est bien.</p>
+<p begin="29148699579t" end="29178319169t" region="bottomCenter" style="s1" xml:id="subtitle793">Comme si Dieu t'en avait fait don.<br/>Une brise d'été en bouche.</p>
+<p begin="29179149999t" end="29209179999t" region="bottomCenter" style="s1" xml:id="subtitle794">- Oui ? T'aimes bien ?<br/>- Ça sent toujours... Oui.</p>
+<p begin="29232953749t" end="29245886669t" region="bottomCenter" style="s1" xml:id="subtitle795">T'as fait quoi ?</p>
+<p begin="29246717499t" end="29261732499t" region="bottomCenter" style="s1" xml:id="subtitle796">Elle a critiqué la bouffe<br/>devant Red.</p>
+<p begin="29262563329t" end="29289259999t" region="bottomCenter" style="s1" xml:id="subtitle797">Mince. Tu ne vas pas manger<br/>avant un moment.</p>
+<p begin="29311362079t" end="29347237919t" region="bottomCenter" style="s1" xml:id="subtitle798">Jette-moi ça.<br/>Je suis contente d'être ménopausée.</p>
+<p begin="29348068749t" end="29373514169t" region="bottomCenter" style="s1" xml:id="subtitle799">Il faut que tu te rabiboches avec Red.</p>
+<p begin="29374344999t" end="29393944579t" region="bottomCenter" style="s1" xml:id="subtitle800">Pense à passer à la blanchisserie.</p>
+<p begin="29394785419t" end="29419389999t" region="bottomCenter" style="s1" xml:id="subtitle801">Et vérifie les élastiques<br/>de tes pantalons.</p>
+<p begin="29420220829t" end="29440240829t" region="bottomCenter" style="s1" xml:id="subtitle802">Te laisse pas refiler<br/>de futals qui tombent.</p>
+<p begin="29441081669t" end="29460260829t" region="bottomCenter" style="s1" xml:id="subtitle803">Ta séance d'orientation commence<br/>dans 10 mn.</p>
+<p begin="29461101669t" end="29487788329t" region="bottomCenter" style="s1" xml:id="subtitle804">Au moins, t'as pu prendre une douche.</p>
+<p begin="29488629169t" end="29509479999t" region="bottomCenter" style="s1" xml:id="subtitle805">Je crois t'y avoir vue.</p>
+<p begin="29539930419t" end="29576627079t" region="bottomCenter" style="s1" xml:id="subtitle806">Je ne... je ne sais pas. Excusez-moi.</p>
+<p begin="29577467919t" end="29608328749t" region="bottomCenter" style="s1" xml:id="subtitle807">Hé ! Oublie pas<br/>de débarrasser ton plateau.</p>
+<p begin="29666717079t" end="29697587919t" region="bottomCenter" style="s1" xml:id="subtitle808">Où elle va avec ce plateau ?<br/>On n'a pas le droit de les sortir.</p>
+<p begin="29698418749t" end="29710931249t" region="bottomCenter" style="s1" xml:id="subtitle809">Elle finira par comprendre.</p>
+<p begin="29711762079t" end="29729699999t" region="bottomCenter" style="s1" xml:id="subtitle810">Tu l'as vraiment vue<br/>aux douches ?</p>
+<p begin="29942412499t" end="29965765829t" region="bottomCenter" style="s1" xml:id="subtitle811">C'est le mauvais moment<br/>pour te dire bonjour ?</p>
+<p begin="30554273749t" end="30574293749t" region="bottomCenter" style="s1" xml:id="subtitle812">Adaptation : Luc Kenoufi, Deluxe</p>
+</div>
+</body>
+</tt>

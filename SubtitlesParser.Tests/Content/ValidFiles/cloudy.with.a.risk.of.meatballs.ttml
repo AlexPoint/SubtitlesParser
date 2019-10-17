@@ -1,0 +1,1138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<tt xmlns:tt="http://www.w3.org/2006/10/ttaf1" xmlns:ttm="http://www.w3.org/2006/10/ttaf1#metadata" xmlns:ttp="http://www.w3.org/2006/10/ttaf1#parameter" xmlns:tts="http://www.w3.org/2006/10/ttaf1#styling" ttp:tickRate="10000000" ttp:timeBase="media" xmlns="http://www.w3.org/2006/10/ttaf1">
+<head use="dfxp-ls-sdh">
+<ttp:profile xmlns:ttp="http://www.w3.org/2006/10/ttaf1"/>
+<layout>
+<region xml:id="BOTTOM_CENTER">
+<style tts:textAlign="center"/>
+<style tts:displayAlign="after"/>
+<style tts:backgroundColor="transparent"/>
+<style tts:origin="10.00% 10.00%"/>
+<style tts:extent="80.00% 80.00%"/>
+</region>
+<region xml:id="TOP_CENTER">
+<style tts:textAlign="center"/>
+<style tts:displayAlign="before"/>
+<style tts:backgroundColor="transparent"/>
+<style tts:origin="10.00% 10.00%"/>
+<style tts:extent="80.00% 80.00%"/>
+</region>
+</layout>
+<styling>
+<style tts:fontStyle="italic" xml:id="style_0"/>
+</styling>
+</head>
+<body>
+<div xml:space="preserve">
+<p begin="464634169t" end="513432919t" region="BOTTOM_CENTER" xml:id="subtitle0"><span style="style_0">Have you ever felt like</span><br/><span style="style_0">you were a little bit different?</span></p>
+<p begin="515104589t" end="543883340t" region="BOTTOM_CENTER" xml:id="subtitle1"><span style="style_0">Like you had something unique</span><br/><span style="style_0">to offer the world...</span></p>
+<p begin="545555010t" end="576836260t" region="BOTTOM_CENTER" xml:id="subtitle2"><span style="style_0">...if you could just get people</span><br/><span style="style_0">to see it.</span></p>
+<p begin="588928340t" end="631460830t" region="BOTTOM_CENTER" xml:id="subtitle3"><span style="style_0">Then you know exactly how it felt...</span></p>
+<p begin="633132500t" end="653993340t" region="BOTTOM_CENTER" xml:id="subtitle4"><span style="style_0">...to be me.</span></p>
+<p begin="655665010t" end="667757090t" region="BOTTOM_CENTER" xml:id="subtitle5">Go ahead, Flint.</p>
+<p begin="685274590t" end="733232500t" region="BOTTOM_CENTER" xml:id="subtitle6">What is the number one problem<br/>facing our community today?</p>
+<p begin="737827090t" end="753252500t" region="BOTTOM_CENTER" xml:id="subtitle7">Untied shoelaces.</p>
+<p begin="764934170t" end="808727920t" region="BOTTOM_CENTER" xml:id="subtitle8">Which is why I've invented<br/>a laceless alternative foot covering.</p>
+<p begin="810399590t" end="833332500t" region="BOTTOM_CENTER" xml:id="subtitle9">Spray-On Shoes.</p>
+<p begin="871700829t" end="891310419t" region="BOTTOM_CENTER" xml:id="subtitle10">-Voilà.<br/>-They're so nifty.</p>
+<p begin="899658759t" end="920099179t" region="BOTTOM_CENTER" xml:id="subtitle11">How you gonna get them off, nerd?</p>
+<p begin="960139179t" end="998917919t" region="BOTTOM_CENTER" xml:id="subtitle12">What a freak.<br/>He wants to be smart, but that's lame.</p>
+<p begin="1058567509t" end="1084833750t" region="BOTTOM_CENTER" xml:id="subtitle13"><span style="style_0">I wanted to run away that day.</span></p>
+<p begin="1088177090t" end="1125294170t" region="BOTTOM_CENTER" xml:id="subtitle14"><span style="style_0">But you can't run away</span><br/><span style="style_0">from your own feet.</span></p>
+<p begin="1224973750t" end="1252080830t" region="BOTTOM_CENTER" xml:id="subtitle15">Not every sardine is meant<br/>to swim, son.</p>
+<p begin="1256675420t" end="1287546260t" region="BOTTOM_CENTER" xml:id="subtitle16">I don't understand<br/>fishing metaphors.</p>
+<p begin="1289207920t" end="1312140830t" region="BOTTOM_CENTER" xml:id="subtitle17">-What did I say?<br/>-Don't worry.</p>
+<p begin="1330509180t" end="1371790420t" region="BOTTOM_CENTER" xml:id="subtitle18">Honey, I think your shoes<br/>are wonderful.</p>
+<p begin="1373462090t" end="1396405010t" region="BOTTOM_CENTER" xml:id="subtitle19">Everyone just thinks I'm a weirdo.</p>
+<p begin="1398066670t" end="1411830420t" region="BOTTOM_CENTER" xml:id="subtitle20">So?</p>
+<p begin="1413502090t" end="1443111670t" region="BOTTOM_CENTER" xml:id="subtitle21">People probably thought<br/>that these guys were weirdoes too.</p>
+<p begin="1456875420t" end="1475644170t" region="BOTTOM_CENTER" xml:id="subtitle22">But that never stopped them.</p>
+<p begin="1477315840t" end="1521520000t" region="BOTTOM_CENTER" xml:id="subtitle23">I was saving this<br/>for your birthday, but here.</p>
+<p begin="1523191670t" end="1551139590t" region="BOTTOM_CENTER" xml:id="subtitle24">A professional-grade lab coat.</p>
+<p begin="1552801250t" end="1571990420t" region="BOTTOM_CENTER" xml:id="subtitle25">Just like the real guys wear.</p>
+<p begin="1594512920t" end="1609117510t" region="BOTTOM_CENTER" xml:id="subtitle26">It fits perfect.</p>
+<p begin="1610789180t" end="1640398760t" region="BOTTOM_CENTER" xml:id="subtitle27">The world needs<br/>your originality, Flint.</p>
+<p begin="1649157510t" end="1679187510t" region="BOTTOM_CENTER" xml:id="subtitle28">You just have to grow into it.</p>
+<p begin="1680859180t" end="1717135419t" region="BOTTOM_CENTER" xml:id="subtitle29">And I know that you're gonna do<br/>big things someday.</p>
+<p begin="1952780829t" end="1967805839t" region="BOTTOM_CENTER" xml:id="subtitle30"><span style="style_0">From that moment on...</span></p>
+<p begin="1969477509t" end="2002830829t" region="BOTTOM_CENTER" xml:id="subtitle31"><span style="style_0">...I was determined</span><br/><span style="style_0">to invent something great.</span></p>
+<p begin="2004502499t" end="2032860829t" region="TOP_CENTER" xml:id="subtitle32"><span style="style_0">Remote Control Television.</span></p>
+<p begin="2046214169t" end="2071249179t" region="TOP_CENTER" xml:id="subtitle33"><span style="style_0">And the pitch is in.</span></p>
+<p begin="2082500419t" end="2092920829t" region="TOP_CENTER" xml:id="subtitle34"><span style="style_0">Eventually.</span></p>
+<p begin="2094592499t" end="2116284169t" region="TOP_CENTER" xml:id="subtitle35"><span style="style_0">Hair Un-Balder.</span></p>
+<p begin="2138806669t" end="2164662500t" region="TOP_CENTER" xml:id="subtitle36"><span style="style_0">Flying Car.</span></p>
+<p begin="2173000830t" end="2190528340t" region="TOP_CENTER" xml:id="subtitle37"><span style="style_0">Monkey Thought Translator.</span></p>
+<p begin="2192190000t" end="2209717510t" region="TOP_CENTER" xml:id="subtitle38"><span style="style_0">-Hungry. Hungry. Hungry.</span><br/><span style="style_0">-How wise.</span></p>
+<p begin="2211389180t" end="2255593340t" region="TOP_CENTER" xml:id="subtitle39"><span style="style_0">No, Steve. No, no, no, no, no!</span><br/><span style="style_0">No, please! Leave it--</span></p>
+<p begin="2261439180t" end="2276444170t" region="TOP_CENTER" xml:id="subtitle40"><span style="style_0">Ratbirds.</span></p>
+<p begin="2278115840t" end="2298966670t" region="TOP_CENTER" xml:id="subtitle41"><span style="style_0">Hey, what's going on, little guy?</span></p>
+<p begin="2300638340t" end="2320658340t" region="TOP_CENTER" xml:id="subtitle42"><span style="style_0">Flint Lockwood.</span></p>
+<p begin="2331509180t" end="2358195840t" region="TOP_CENTER" xml:id="subtitle43"><span style="style_0">My dream was to help</span><br/><span style="style_0">my hometown...</span></p>
+<p begin="2359867510t" end="2396564170t" region="TOP_CENTER" xml:id="subtitle44"><span style="style_0">...a tiny island hidden under</span><br/><span style="style_0">the "A" in "Atlantic"...</span></p>
+<p begin="2400738340t" end="2427435010t" region="BOTTOM_CENTER" xml:id="subtitle45"><span style="style_0">...called Swallow Falls.</span></p>
+<p begin="2437855420t" end="2455793340t" region="BOTTOM_CENTER" xml:id="subtitle46"><span style="style_0">We were famous for sardines...</span></p>
+<p begin="2464131670t" end="2500838340t" region="BOTTOM_CENTER" xml:id="subtitle47"><span style="style_0">...until the day the Baby Brent</span><br/><span style="style_0">Sardine Cannery closed for good.</span></p>
+<p begin="2502500000t" end="2538375840t" region="BOTTOM_CENTER" xml:id="subtitle48"><span style="style_0">Right after everyone in the world</span><br/><span style="style_0">realized that sardines...</span></p>
+<p begin="2540047510t" end="2552139590t" region="BOTTOM_CENTER" xml:id="subtitle49"><span style="style_0">...are super gross.</span></p>
+<p begin="2566734170t" end="2626794170t" region="BOTTOM_CENTER" xml:id="subtitle50"><span style="style_0">Soon, all of us were stuck eating</span><br/><span style="style_0">the sardines that no one else wanted.</span></p>
+<p begin="2628465840t" end="2693110420t" region="BOTTOM_CENTER" xml:id="subtitle51"><span style="style_0">Poached, fried, boiled, dried,</span><br/><span style="style_0">candied and juiced.</span></p>
+<p begin="2694782090t" end="2727314590t" region="BOTTOM_CENTER" xml:id="subtitle52"><span style="style_0">Life became gray and flavorless.</span></p>
+<p begin="2728986260t" end="2771108340t" region="BOTTOM_CENTER" xml:id="subtitle53"><span style="style_0">But when all seemed lost,</span><br/><span style="style_0">I stared at defeat...</span></p>
+<p begin="2780287510t" end="2793620830t" region="BOTTOM_CENTER" xml:id="subtitle54"><span style="style_0">...and found hope.</span></p>
+<p begin="3075162090t" end="3099766670t" region="BOTTOM_CENTER" xml:id="subtitle55"><span style="style_0">My name is Flint Lockwood.</span></p>
+<p begin="3105192090t" end="3133960830t" region="BOTTOM_CENTER" xml:id="subtitle56"><span style="style_0">And I was about to invent</span><br/><span style="style_0">a machine...</span></p>
+<p begin="3135632500t" end="3153980830t" region="BOTTOM_CENTER" xml:id="subtitle57"><span style="style_0">...that turns water...</span></p>
+<p begin="3155652500t" end="3177344170t" region="BOTTOM_CENTER" xml:id="subtitle58"><span style="style_0">...into food.</span></p>
+<p begin="3186523340t" end="3226563340t" region="BOTTOM_CENTER" xml:id="subtitle59">Steve, my best friend<br/>and trusted colleague.</p>
+<p begin="3230737510t" end="3240747510t" region="BOTTOM_CENTER" xml:id="subtitle60"><span style="style_0">Steve.</span></p>
+<p begin="3242419180t" end="3269936670t" region="BOTTOM_CENTER" xml:id="subtitle61">Can I count on your help?</p>
+<p begin="3294120830t" end="3304130830t" region="BOTTOM_CENTER" xml:id="subtitle62"><span style="style_0">Can.</span></p>
+<p begin="3317484170t" end="3333750420t" region="BOTTOM_CENTER" xml:id="subtitle63">I knew I could.</p>
+<p begin="3335422090t" end="3360867510t" region="BOTTOM_CENTER" xml:id="subtitle64">Button, on.<br/>Memory, activate.</p>
+<p begin="3362539179t" end="3401317919t" region="BOTTOM_CENTER" xml:id="subtitle65">Blueprints, awesome.<br/>Begin nano-mutation.</p>
+<p begin="3407574169t" end="3429265839t" region="BOTTOM_CENTER" xml:id="subtitle66">Radiation matrix, secure.</p>
+<p begin="3434681249t" end="3450957509t" region="BOTTOM_CENTER" xml:id="subtitle67">Computer, boot.</p>
+<p begin="3467634169t" end="3489325839t" region="BOTTOM_CENTER" xml:id="subtitle68">Coolness enhancement, complete.</p>
+<p begin="3490997509t" end="3509345839t" region="BOTTOM_CENTER" xml:id="subtitle69">Engage coffee break.</p>
+<p begin="3546042499t" end="3562739179t" region="BOTTOM_CENTER" xml:id="subtitle70">Networking power grid.</p>
+<p begin="3642819179t" end="3672849179t" region="BOTTOM_CENTER" xml:id="subtitle71">Beginning conversion of water...</p>
+<p begin="3674500829t" end="3691197509t" region="BOTTOM_CENTER" xml:id="subtitle72">...into food.</p>
+<p begin="3692869179t" end="3713709999t" region="BOTTOM_CENTER" xml:id="subtitle73">Hydrating protein matrix.</p>
+<p begin="3718304589t" end="3744570829t" region="BOTTOM_CENTER" xml:id="subtitle74">Calibrating flavor panel.</p>
+<p begin="3746242499t" end="3774600829t" region="BOTTOM_CENTER" xml:id="subtitle75">Priming chow plopper.</p>
+<p begin="3780867089t" end="3811317509t" region="BOTTOM_CENTER" xml:id="subtitle76">Uploading cool machine voice.</p>
+<p begin="3825071249t" end="3840927089t" region="BOTTOM_CENTER" xml:id="subtitle77"><span style="style_0">Cheeseburger.</span></p>
+<p begin="3850106259t" end="3890146259t" region="BOTTOM_CENTER" xml:id="subtitle78">Everyone is going to love this.</p>
+<p begin="4148314169t" end="4160416259t" region="BOTTOM_CENTER" xml:id="subtitle79">Flint!</p>
+<p begin="4162077919t" end="4176672499t" region="BOTTOM_CENTER" xml:id="subtitle80">Sorry, Dad.</p>
+<p begin="4181687509t" end="4201287089t" region="BOTTOM_CENTER" xml:id="subtitle81">Steve, keep working.</p>
+<p begin="4235060829t" end="4258424169t" region="BOTTOM_CENTER" xml:id="subtitle82">Scanning hand.</p>
+<p begin="4433609180t" end="4459465010t" region="BOTTOM_CENTER" xml:id="subtitle83">That's a really weird dude.</p>
+<p begin="4504089590t" end="4530786260t" region="BOTTOM_CENTER" xml:id="subtitle84">Re-energizing tower unit.</p>
+<p begin="4582087510t" end="4602938340t" region="BOTTOM_CENTER" xml:id="subtitle85">Jeez. See you, Dad.</p>
+<p begin="4620035420t" end="4635460830t" region="BOTTOM_CENTER" xml:id="subtitle86">Flint.</p>
+<p begin="4682187510t" end="4728063340t" region="BOTTOM_CENTER" xml:id="subtitle87">Don't you think it's time to give up<br/>this inventing thing, get a real job?</p>
+<p begin="4729735010t" end="4744740000t" region="BOTTOM_CENTER" xml:id="subtitle88">No, why?</p>
+<p begin="4746411670t" end="4790625840t" region="BOTTOM_CENTER" xml:id="subtitle89">Well, all your technology stuff,<br/>it just ends in disaster.</p>
+<p begin="4792297510t" end="4821076260t" region="BOTTOM_CENTER" xml:id="subtitle90">The ratbirds, yes, they escaped<br/>and bred at a surprising rate.</p>
+<p begin="4822737920t" end="4849434590t" region="BOTTOM_CENTER" xml:id="subtitle91">But I took care of that problem<br/>and disposed of them.</p>
+<p begin="4851106260t" end="4869454590t" region="BOTTOM_CENTER" xml:id="subtitle92">Billy, just play dead.</p>
+<p begin="4871126260t" end="4913668760t" region="BOTTOM_CENTER" xml:id="subtitle93">Flint, you don't keep throwing your net<br/>where there aren't any fish.</p>
+<p begin="4915330420t" end="4932847920t" region="BOTTOM_CENTER" xml:id="subtitle94">-What?<br/>-I want you to work full-time...</p>
+<p begin="4934519590t" end="4961626670t" region="BOTTOM_CENTER" xml:id="subtitle95">-...at the tackle shop.<br/>-The tackle shop? Dad, no.</p>
+<p begin="4963298340t" end="4979144170t" region="BOTTOM_CENTER" xml:id="subtitle96">Tackle is a good career.</p>
+<p begin="4980815840t" end="4997492500t" region="BOTTOM_CENTER" xml:id="subtitle97">Please, I'm so close with this one.</p>
+<p begin="4999164170t" end="5040455420t" region="BOTTOM_CENTER" xml:id="subtitle98">I just have to hook it up to the power<br/>station and give it power and it'll work.</p>
+<p begin="5042127090t" end="5062567510t" region="BOTTOM_CENTER" xml:id="subtitle99">And then you could sell food<br/>in the shop...</p>
+<p begin="5064239180t" end="5091756670t" region="BOTTOM_CENTER" xml:id="subtitle100">...and then everyone won't have to eat<br/>sardines anymore.</p>
+<p begin="5093428340t" end="5129294170t" region="BOTTOM_CENTER" xml:id="subtitle101">It is going to be so awesome.</p>
+<p begin="5136381250t" end="5157242090t" region="BOTTOM_CENTER" xml:id="subtitle102">I'm sorry, son.</p>
+<p begin="5158903750t" end="5170175010t" region="BOTTOM_CENTER" xml:id="subtitle103">No more inventing.</p>
+<p begin="5171836670t" end="5203117920t" region="BOTTOM_CENTER" xml:id="subtitle104">Dad, I know I can do this.</p>
+<p begin="5204789590t" end="5216881670t" region="BOTTOM_CENTER" xml:id="subtitle105">And Mom did too.</p>
+<p begin="5238983750t" end="5274859590t" region="BOTTOM_CENTER" xml:id="subtitle106"><span style="style_0">It had been almost 10 years</span><br/><span style="style_0">since Mom died...</span></p>
+<p begin="5276521250t" end="5309894590t" region="BOTTOM_CENTER" xml:id="subtitle107"><span style="style_0">...and Dad still didn't understand me</span><br/><span style="style_0">like she did.</span></p>
+<p begin="5311566260t" end="5346170830t" region="BOTTOM_CENTER" xml:id="subtitle108">Come on. Let's open the shop.</p>
+<p begin="5374128760t" end="5402907510t" region="BOTTOM_CENTER" xml:id="subtitle109">Tim and Son<br/>Sardine Bait and Tackle.</p>
+<p begin="5417502090t" end="5435430000t" region="BOTTOM_CENTER" xml:id="subtitle110">You feeling it?</p>
+<p begin="5469634170t" end="5498833340t" region="BOTTOM_CENTER" xml:id="subtitle111"><span style="style_0">Look out, Baby Brent!</span></p>
+<p begin="5518012500t" end="5533447920t" region="BOTTOM_CENTER" xml:id="subtitle112"><span style="style_0">Baby Brent Sardines.</span></p>
+<p begin="5535119590t" end="5561395840t" region="TOP_CENTER" xml:id="subtitle113"><span style="style_0">Hand-packed in Swallow Falls.</span></p>
+<p begin="5563067510t" end="5611445840t" region="TOP_CENTER" xml:id="subtitle114"><span style="style_0">As your mayor, I know it's time to put</span><br/><span style="style_0">our sardine-canning past behind us...</span></p>
+<p begin="5613117510t" end="5636050420t" region="TOP_CENTER" xml:id="subtitle115"><span style="style_0">...and look to the future.</span></p>
+<p begin="5637722090t" end="5658152500t" region="TOP_CENTER" xml:id="subtitle116"><span style="style_0">Sardine tourism!</span></p>
+<p begin="5672336670t" end="5692777090t" region="BOTTOM_CENTER" xml:id="subtitle117"><span style="style_0">That's why,</span><br/><span style="style_0">without consulting anyone...</span></p>
+<p begin="5694448760t" end="5730735010t" region="BOTTOM_CENTER" xml:id="subtitle118"><span style="style_0">...I spent the entire town budget</span><br/><span style="style_0">on the thing that is under this tarp...</span></p>
+<p begin="5732396670t" end="5757001250t" region="BOTTOM_CENTER" xml:id="subtitle119"><span style="style_0">...which I will be unveiling today...</span></p>
+<p begin="5758672920t" end="5777021250t" region="BOTTOM_CENTER" xml:id="subtitle120"><span style="style_0">...at noon.</span></p>
+<p begin="5778692920t" end="5824999180t" region="BOTTOM_CENTER" xml:id="subtitle121"><span style="style_0">Featuring a live appearance</span><br/><span style="style_0">by Baby Brent himself.</span></p>
+<p begin="5826650830t" end="5860024170t" region="BOTTOM_CENTER" xml:id="subtitle122">What is up, everybody?</p>
+<p begin="5861695840t" end="5880885010t" region="BOTTOM_CENTER" xml:id="subtitle123">-Hey.<br/>-Hey, it's Baby Brent.</p>
+<p begin="5882546670t" end="5923427510t" region="BOTTOM_CENTER" xml:id="subtitle124">What you doing? Stacking cans<br/>with me on them as a baby?</p>
+<p begin="5948442500t" end="5971805840t" region="BOTTOM_CENTER" xml:id="subtitle125">Anyways, who wants to watch me<br/>cut the ribbon...</p>
+<p begin="5973477510t" end="5989733750t" region="BOTTOM_CENTER" xml:id="subtitle126">...at the mayor's unveiling thing?</p>
+<p begin="5991405420t" end="6028522500t" region="BOTTOM_CENTER" xml:id="subtitle127">I'll be using these bad boys<br/>to help save the town.</p>
+<p begin="6054388340t" end="6082746670t" region="BOTTOM_CENTER" xml:id="subtitle128">All right, you guys.<br/>Sardines, yeah.</p>
+<p begin="6084418340t" end="6122786670t" region="BOTTOM_CENTER" xml:id="subtitle129">-Swallow Falls forever!<br/>-What a delight.</p>
+<p begin="6124458340t" end="6162826670t" region="BOTTOM_CENTER" xml:id="subtitle130">Listen, you-- Maybe you wanna go<br/>to that unveiling?</p>
+<p begin="6164498340t" end="6204117920t" region="BOTTOM_CENTER" xml:id="subtitle131">You know, Dad, why don't you<br/>go ahead. I'll hold down the fort here.</p>
+<p begin="6205789590t" end="6234988760t" region="BOTTOM_CENTER" xml:id="subtitle132">Really? You sure you can handle it?</p>
+<p begin="6236650420t" end="6260003750t" region="BOTTOM_CENTER" xml:id="subtitle133">Yeah, Dad,<br/>I'm pretty sure I'll be fine.</p>
+<p begin="6265439180t" end="6277100830t" region="BOTTOM_CENTER" xml:id="subtitle134">All right, then.</p>
+<p begin="6278772500t" end="6308392090t" region="BOTTOM_CENTER" xml:id="subtitle135">I'll be back in half an hour, skipper.</p>
+<p begin="6310053750t" end="6332165840t" region="BOTTOM_CENTER" xml:id="subtitle136">Okay. Bye.</p>
+<p begin="6410153750t" end="6438932500t" region="BOTTOM_CENTER" xml:id="subtitle137">This hellhole is too small<br/>for me, Brent.</p>
+<p begin="6440604170t" end="6459793340t" region="BOTTOM_CENTER" xml:id="subtitle138">I wanna be big.</p>
+<p begin="6461465010t" end="6506089590t" region="BOTTOM_CENTER" xml:id="subtitle139">I want people to look at me and say,<br/>"That is one big mayor."</p>
+<p begin="6507751250t" end="6526520000t" region="BOTTOM_CENTER" xml:id="subtitle140">And that's why this has to work.</p>
+<p begin="6528191670t" end="6544878340t" region="BOTTOM_CENTER" xml:id="subtitle141">It has to work.</p>
+<p begin="6546540000t" end="6578241670t" region="BOTTOM_CENTER" xml:id="subtitle142">Otherwise, I'm just a tiny mayor<br/>of a tiny town...</p>
+<p begin="6579913340t" end="6613697090t" region="BOTTOM_CENTER" xml:id="subtitle143">...full of tiny sardine-sucking<br/>knuckle-scrapers.</p>
+<p begin="6615368760t" end="6629963340t" region="BOTTOM_CENTER" xml:id="subtitle144">But not me, right?</p>
+<p begin="6631635010t" end="6676670000t" region="BOTTOM_CENTER" xml:id="subtitle145">Oh, not you, Brent. No.<br/>You've always been like a son to me.</p>
+<p begin="6702535840t" end="6725058339t" region="BOTTOM_CENTER" xml:id="subtitle146">Hey, everybody.</p>
+<p begin="6743406669t" end="6794707919t" region="BOTTOM_CENTER" xml:id="subtitle147">Under this tarp is the greatest tourist<br/>attraction ever built by humans.</p>
+<p begin="6796379589t" end="6822655839t" region="BOTTOM_CENTER" xml:id="subtitle148">We just need 17,000 more gigajoules.</p>
+<p begin="6824327509t" end="6853106259t" region="BOTTOM_CENTER" xml:id="subtitle149">-An attraction so....<br/><span style="style_0">-</span>Go, go, go.</p>
+<p begin="6867690829t" end="6885218339t" region="BOTTOM_CENTER" xml:id="subtitle150">What are you doing, Flint Lockwood?</p>
+<p begin="6886879999t" end="6912325419t" region="BOTTOM_CENTER" xml:id="subtitle151">Just holding my hands<br/>behind my back respectfully, sir.</p>
+<p begin="6913997089t" end="6933186259t" region="BOTTOM_CENTER" xml:id="subtitle152">-You know what you are, Lockwood?<br/>-No.</p>
+<p begin="6934847919t" end="6953206259t" region="BOTTOM_CENTER" xml:id="subtitle153">A shenaniganizer.</p>
+<p begin="6954867919t" end="6968631669t" region="BOTTOM_CENTER" xml:id="subtitle154">A tomfool.</p>
+<p begin="6970303339t" end="6992825839t" region="BOTTOM_CENTER" xml:id="subtitle155">-You see my beautiful angel son, Cal?<br/>-What's up?</p>
+<p begin="6994497509t" end="7019512499t" region="BOTTOM_CENTER" xml:id="subtitle156">I love him so much.<br/>This is my only son.</p>
+<p begin="7021184169t" end="7037860829t" region="BOTTOM_CENTER" xml:id="subtitle157">I want him to have a bright future.</p>
+<p begin="7039532499t" end="7062065009t" region="BOTTOM_CENTER" xml:id="subtitle158">A future in which you don't ruin<br/>our town's day...</p>
+<p begin="7063726669t" end="7086259179t" region="BOTTOM_CENTER" xml:id="subtitle159">...with one of your<br/>crazy science thingies.</p>
+<p begin="7087910829t" end="7119612499t" region="BOTTOM_CENTER" xml:id="subtitle160">-Well, that's all behind me--<br/>-You see this contact lens, Lockwood?</p>
+<p begin="7121284169t" end="7141724589t" region="BOTTOM_CENTER" xml:id="subtitle161">-This contact lens represent you.<br/>-All right.</p>
+<p begin="7143396259t" end="7165918759t" region="BOTTOM_CENTER" xml:id="subtitle162">-And my eye represents my eye.<br/>-Okay.</p>
+<p begin="7167580419t" end="7214717509t" region="BOTTOM_CENTER" xml:id="subtitle163">I got my eye on you.</p>
+<p begin="7216389179t" end="7249332089t" region="BOTTOM_CENTER" xml:id="subtitle164">-Oh, my gosh, a jaywalker.<br/>-Hey.</p>
+<p begin="7256008759t" end="7295207919t" region="BOTTOM_CENTER" xml:id="subtitle165">And I've arranged for live coverage<br/>from a major network...</p>
+<p begin="7296879589t" end="7332745419t" region="BOTTOM_CENTER" xml:id="subtitle166">...and their most experienced<br/>professional reporter.</p>
+<p begin="7346519179t" end="7374877509t" region="TOP_CENTER" xml:id="subtitle167">Oh, just send the intern.<br/>She's cute and she's super perky.</p>
+<p begin="7376549179t" end="7418661249t" region="BOTTOM_CENTER" xml:id="subtitle168">Well, those are the only things we look<br/>for in a TV weatherperson. Intern.</p>
+<p begin="7420332919t" end="7452455009t" region="BOTTOM_CENTER" xml:id="subtitle169">How would you like to do a weather<br/>report from a rinky-dink island...</p>
+<p begin="7454116669t" end="7479141669t" region="BOTTOM_CENTER" xml:id="subtitle170">...in the middle of the ocean<br/>as a favor to my cousin?</p>
+<p begin="7480813339t" end="7491654169t" region="BOTTOM_CENTER" xml:id="subtitle171">Really?</p>
+<p begin="7497910419t" end="7511674169t" region="BOTTOM_CENTER" xml:id="subtitle172">Can you believe it, Manny?</p>
+<p begin="7513345839t" end="7549211669t" region="BOTTOM_CENTER" xml:id="subtitle173">Temporary<br/>professional meteorologist.</p>
+<p begin="7550883339t" end="7566739179t" region="BOTTOM_CENTER" xml:id="subtitle174">Okay, Manny, what about this?</p>
+<p begin="7568390829t" end="7586759179t" region="BOTTOM_CENTER" xml:id="subtitle175">Welcome, America,<br/>I'm Sam Sparks.</p>
+<p begin="7588410829t" end="7611774169t" region="BOTTOM_CENTER" xml:id="subtitle176">Hello, America, Sam Sparks here.</p>
+<p begin="7613445839t" end="7634296669t" region="BOTTOM_CENTER" xml:id="subtitle177">America, hi. I didn't see you there.</p>
+<p begin="7635968339t" end="7649732089t" region="BOTTOM_CENTER" xml:id="subtitle178">It's me, Sam Sparks.</p>
+<p begin="7651393749t" end="7695197509t" region="BOTTOM_CENTER" xml:id="subtitle179">On my way across the ocean.</p>
+<p begin="7700192499t" end="7746498759t" region="BOTTOM_CENTER" xml:id="subtitle180">Now, when she gets here,<br/>I wanna see a lot of smiling faces.</p>
+<p begin="7748160419t" end="7764847089t" region="BOTTOM_CENTER" xml:id="subtitle181">Act like, "Hey, whoa."</p>
+<p begin="7771934169t" end="7804887089t" region="BOTTOM_CENTER" xml:id="subtitle182">This is a great idea.</p>
+<p begin="7811553749t" end="7826999179t" region="BOTTOM_CENTER" xml:id="subtitle183"><span style="style_0">Weather News Network.</span></p>
+<p begin="7828650829t" end="7844927089t" region="BOTTOM_CENTER" xml:id="subtitle184"><span style="style_0">Weather news happens...</span></p>
+<p begin="7846598759t" end="7859942089t" region="BOTTOM_CENTER" xml:id="subtitle185"><span style="style_0">...or not.</span></p>
+<p begin="7861603749t" end="7877459589t" region="TOP_CENTER" xml:id="subtitle186"><span style="style_0">Now we're over to Swallow Falls...</span></p>
+<p begin="7879121249t" end="7902484589t" region="TOP_CENTER" xml:id="subtitle187"><span style="style_0">...where our intern</span><br/><span style="style_0">is on her first day on the job.</span></p>
+<p begin="7904156259t" end="7930842919t" region="TOP_CENTER" xml:id="subtitle188"><span style="style_0">Or should I say, first gray on the job.</span></p>
+<p begin="7932514589t" end="7948770829t" region="TOP_CENTER" xml:id="subtitle189"><span style="style_0">Looks pretty cloudy there, intern.</span></p>
+<p begin="7950442499t" end="7969631669t" region="TOP_CENTER" xml:id="subtitle190"><span style="style_0">Hello, Sam Sparks, I'm America.</span></p>
+<p begin="7975057089t" end="8023855839t" region="TOP_CENTER" xml:id="subtitle191"><span style="style_0">It's Swallow Falls degrees and--</span><br/><span style="style_0">Well, let's just go to the mayor.</span></p>
+<p begin="8025527509t" end="8068890829t" region="TOP_CENTER" xml:id="subtitle192"><span style="style_0">Thank you and welcome,</span><br/><span style="style_0">national television audience.</span></p>
+<p begin="8070562499t" end="8116448339t" region="BOTTOM_CENTER" xml:id="subtitle193">You are about to witness<br/>an historic event, undoubtedly....</p>
+<p begin="8150642499t" end="8184015839t" region="BOTTOM_CENTER" xml:id="subtitle194">And now, here to cut<br/>the ceremonial ribbon...</p>
+<p begin="8185687509t" end="8237409179t" region="BOTTOM_CENTER" xml:id="subtitle195">...Swallow Falls' favorite son,<br/>Baby Brent!</p>
+<p begin="8239060829t" end="8252834589t" region="BOTTOM_CENTER" xml:id="subtitle196">He's still got it, folks.</p>
+<p begin="8254506259t" end="8265767509t" region="BOTTOM_CENTER" xml:id="subtitle197">Yeah.</p>
+<p begin="8281613339t" end="8322484169t" region="BOTTOM_CENTER" xml:id="subtitle198">I'm the best person<br/>in the whole town.</p>
+<p begin="8375877509t" end="8405487089t" region="BOTTOM_CENTER" xml:id="subtitle199">Food synthesis, go.</p>
+<p begin="8426337919t" end="8465547089t" region="BOTTOM_CENTER" xml:id="subtitle200">My chest hairs are tingling.<br/>Something's wrong.</p>
+<p begin="8473054589t" end="8526027509t" region="BOTTOM_CENTER" xml:id="subtitle201">Well, here it is. The attraction<br/>the whole world has been waiting for:</p>
+<p begin="8527699179t" end="8548960419t" region="BOTTOM_CENTER" xml:id="subtitle202">Sardine Land.</p>
+<p begin="8571062499t" end="8592754170t" region="BOTTOM_CENTER" xml:id="subtitle203">With rides and exhibits.</p>
+<p begin="8594425840t" end="8634886260t" region="BOTTOM_CENTER" xml:id="subtitle204">And featuring Shamo,<br/>the world's largest sardine...</p>
+<p begin="8636547920t" end="8669080420t" region="BOTTOM_CENTER" xml:id="subtitle205">...and his flaming hoop of glory.</p>
+<p begin="8677849180t" end="8707879180t" region="BOTTOM_CENTER" xml:id="subtitle206">Those of you in the splash zone,<br/>look out.</p>
+<p begin="8709530830t" end="8720802090t" region="BOTTOM_CENTER" xml:id="subtitle207">Yeah.</p>
+<p begin="8791282500t" end="8809630830t" region="BOTTOM_CENTER" xml:id="subtitle208"><span style="style_0">Cheeseburger.</span></p>
+<p begin="8811302500t" end="8821732920t" region="BOTTOM_CENTER" xml:id="subtitle209">Flint Lockwood.</p>
+<p begin="8823404590t" end="8855937090t" region="BOTTOM_CENTER" xml:id="subtitle210">Just a second.<br/>I'm in the middle of a--</p>
+<p begin="8941432500t" end="9003164170t" region="BOTTOM_CENTER" xml:id="subtitle211">Well, looks like things in Swallow Falls<br/>are sardine to get better. For--</p>
+<p begin="9004835840t" end="9022353340t" region="BOTTOM_CENTER" xml:id="subtitle212"><span style="style_0">What just happened to me?</span></p>
+<p begin="9024025010t" end="9035696670t" region="BOTTOM_CENTER" xml:id="subtitle213">Sorry.</p>
+<p begin="9251332090t" end="9269680420t" region="BOTTOM_CENTER" xml:id="subtitle214">No.</p>
+<p begin="9278859590t" end="9295956670t" region="BOTTOM_CENTER" xml:id="subtitle215">You're under arrest, Flint Lockwood.</p>
+<p begin="9297628340t" end="9341832500t" region="BOTTOM_CENTER" xml:id="subtitle216">Thank goodness you only caused<br/>minimal damage to Sardine Land.</p>
+<p begin="9401061670t" end="9411492090t" region="BOTTOM_CENTER" xml:id="subtitle217">Come on.</p>
+<p begin="9507007510t" end="9532022500t" region="BOTTOM_CENTER" xml:id="subtitle218">I really shouldn't be running<br/>with these.</p>
+<p begin="9566226670t" end="9592923340t" region="BOTTOM_CENTER" xml:id="subtitle219"><span style="style_0">Jump, jump, jump, run, run,</span><br/><span style="style_0">jump, jump, run.</span></p>
+<p begin="9809800000t" end="9835665840t" region="BOTTOM_CENTER" xml:id="subtitle220">-It's a good thing no one got hurt!<br/>-Flint Lockwood!</p>
+<p begin="9837337510t" end="9879459590t" region="BOTTOM_CENTER" xml:id="subtitle221">I didn't get hurt, but that does<br/>not mean that I'm not still mad at you.</p>
+<p begin="10532191670t" end="10554714170t" region="BOTTOM_CENTER" xml:id="subtitle222">Oh, my gosh. I am so sorry.<br/>Are you okay?</p>
+<p begin="10556385840t" end="10586415840t" region="BOTTOM_CENTER" xml:id="subtitle223">-I didn't get a chance to--<br/>-It's okay, it's just pain.</p>
+<p begin="10588087510t" end="10603933340t" region="BOTTOM_CENTER" xml:id="subtitle224">Sorry, I'm not myself today.</p>
+<p begin="10605605010t" end="10654814170t" region="BOTTOM_CENTER" xml:id="subtitle225">My whole career was ruined by some<br/>crazy jerk riding a homemade rocket.</p>
+<p begin="10666075420t" end="10682762090t" region="BOTTOM_CENTER" xml:id="subtitle226">Wait a minute.</p>
+<p begin="10684423750t" end="10709038340t" region="BOTTOM_CENTER" xml:id="subtitle227">What is going on with your feet?</p>
+<p begin="10710700000t" end="10738237510t" region="BOTTOM_CENTER" xml:id="subtitle228">Spray-On Shoes.<br/>They don't come off.</p>
+<p begin="10739909180t" end="10753242500t" region="BOTTOM_CENTER" xml:id="subtitle229">Cool.</p>
+<p begin="10762001250t" end="10782441670t" region="BOTTOM_CENTER" xml:id="subtitle230">This could solve<br/>the untied shoes epidemic.</p>
+<p begin="10784113340t" end="10814974170t" region="BOTTOM_CENTER" xml:id="subtitle231">What are they made of, some kind of<br/>elastic biopolymer adhesive?</p>
+<p begin="10816645840t" end="10830820000t" region="BOTTOM_CENTER" xml:id="subtitle232">Yeah.</p>
+<p begin="10832491670t" end="10842922090t" region="BOTTOM_CENTER" xml:id="subtitle233">Exactly.</p>
+<p begin="10844583750t" end="10861680830t" region="BOTTOM_CENTER" xml:id="subtitle234">I mean....</p>
+<p begin="10866275420t" end="10900069180t" region="BOTTOM_CENTER" xml:id="subtitle235">Wow, they're shiny. I'm Sam.</p>
+<p begin="10909238340t" end="10921740830t" region="BOTTOM_CENTER" xml:id="subtitle236">-Flint.<br/><span style="style_0">-Steve.</span></p>
+<p begin="10927586670t" end="10953442500t" region="BOTTOM_CENTER" xml:id="subtitle237">-Is that a Monkey Thought Translator?<br/><span style="style_0">-Steve.</span></p>
+<p begin="10966795840t" end="11010179180t" region="BOTTOM_CENTER" xml:id="subtitle238">Incredible.<br/>Did you make all of this stuff?</p>
+<p begin="11014343340t" end="11041860830t" region="BOTTOM_CENTER" xml:id="subtitle239">-You hit me with a rocket.<br/>-You kicked me in the face.</p>
+<p begin="11043532500t" end="11064393340t" region="BOTTOM_CENTER" xml:id="subtitle240">I said I was sorry.</p>
+<p begin="11072311250t" end="11106105010t" region="BOTTOM_CENTER" xml:id="subtitle241">Do you know how hard it is<br/>to break into the weather game?</p>
+<p begin="11107766670t" end="11144883750t" region="BOTTOM_CENTER" xml:id="subtitle242">I spent my entire life building up<br/>to that moment.</p>
+<p begin="11152391250t" end="11173662500t" region="BOTTOM_CENTER" xml:id="subtitle243">You get one shot at the show.</p>
+<p begin="11175334170t" end="11196605420t" region="BOTTOM_CENTER" xml:id="subtitle244">And if you don't make it...</p>
+<p begin="11198277090t" end="11233312090t" region="BOTTOM_CENTER" xml:id="subtitle245">...it's back to cleaning<br/>the barometers.</p>
+<p begin="11303792500t" end="11320489180t" region="BOTTOM_CENTER" xml:id="subtitle246">Cheese?</p>
+<p begin="11365103750t" end="11402220830t" region="BOTTOM_CENTER" xml:id="subtitle247">But that could only mean....</p>
+<p begin="11873531670t" end="11902720830t" region="BOTTOM_CENTER" xml:id="subtitle248"><span style="style_0">Excited. Excited.</span></p>
+<p begin="12006584590t" end="12020348340t" region="BOTTOM_CENTER" xml:id="subtitle249">My machine works.</p>
+<p begin="12039117090t" end="12080828760t" region="BOTTOM_CENTER" xml:id="subtitle250">It really works!</p>
+<p begin="12111279180t" end="12126284170t" region="BOTTOM_CENTER" xml:id="subtitle251">Your machine?</p>
+<p begin="12127955840t" end="12144632500t" region="BOTTOM_CENTER" xml:id="subtitle252">Is that what that rocket was?</p>
+<p begin="12159657510t" end="12176334170t" region="BOTTOM_CENTER" xml:id="subtitle253">Do you like it?</p>
+<p begin="12180087920t" end="12190518340t" region="BOTTOM_CENTER" xml:id="subtitle254">I love it!</p>
+<p begin="12195102920t" end="12219717510t" region="BOTTOM_CENTER" xml:id="subtitle255">This is just amazing.<br/>Look at this.</p>
+<p begin="12221389180t" end="12249327090t" region="BOTTOM_CENTER" xml:id="subtitle256">This is the greatest weather<br/>phenomenon in history.</p>
+<p begin="12250998760t" end="12270598340t" region="BOTTOM_CENTER" xml:id="subtitle257">Hey, aren't you a weathergirl?</p>
+<p begin="12299797510t" end="12319397090t" region="BOTTOM_CENTER" xml:id="subtitle258">Manny, get your camera.</p>
+<p begin="12474962500t" end="12519597090t" region="TOP_CENTER" xml:id="subtitle259"><span style="style_0">This just in: Our humiliated weather</span><br/><span style="style_0">intern is apparently back for more.</span></p>
+<p begin="12521268760t" end="12554211670t" region="TOP_CENTER" xml:id="subtitle260"><span style="style_0">Thanks, Patrick. Okay, everybody,</span><br/><span style="style_0">you are not gonna believe this one...</span></p>
+<p begin="12555883340t" end="12600097510t" region="TOP_CENTER" xml:id="subtitle261"><span style="style_0">...but I am standing</span><br/><span style="style_0">in the middle of a burger rain.</span></p>
+<p begin="12601769180t" end="12618445840t" region="TOP_CENTER" xml:id="subtitle262"><span style="style_0">You may have seen</span><br/><span style="style_0">a meteor shower...</span></p>
+<p begin="12620117510t" end="12658065420t" region="TOP_CENTER" xml:id="subtitle263"><span style="style_0">...but you've never seen a shower</span><br/><span style="style_0">meatier than this.</span></p>
+<p begin="12659737090t" end="12701028340t" region="BOTTOM_CENTER" xml:id="subtitle264">For a town stuck eating sardines,<br/>this is totally manna from heaven.</p>
+<p begin="12702690000t" end="12732720000t" region="BOTTOM_CENTER" xml:id="subtitle265">This tastes significantly better<br/>than sardines.</p>
+<p begin="12802790000t" end="12829486670t" region="BOTTOM_CENTER" xml:id="subtitle266">This is going to be big.</p>
+<p begin="12831158340t" end="12852019180t" region="BOTTOM_CENTER" xml:id="subtitle267"><span style="style_0">This food weather</span><br/><span style="style_0">was created intentionally...</span></p>
+<p begin="12853670830t" end="12885792920t" region="BOTTOM_CENTER" xml:id="subtitle268"><span style="style_0">...by meek-ish backyard tinkerer</span><br/><span style="style_0">Flint Lockwood.</span></p>
+<p begin="12887464590t" end="12907484590t" region="BOTTOM_CENTER" xml:id="subtitle269">Flint Lockwood?</p>
+<p begin="12909156260t" end="12919576670t" region="BOTTOM_CENTER" xml:id="subtitle270">Hi.</p>
+<p begin="12921248340t" end="12942109180t" region="BOTTOM_CENTER" xml:id="subtitle271">You're under arrest<br/>for ruining Sardine Land.</p>
+<p begin="12943760830t" end="12959616670t" region="BOTTOM_CENTER" xml:id="subtitle272">Flint, those burgers were awesome.</p>
+<p begin="12961288340t" end="12995072090t" region="BOTTOM_CENTER" xml:id="subtitle273">The producer called and he was like,<br/>"Everybody loves that food weather."</p>
+<p begin="12996733750t" end="13008835840t" region="BOTTOM_CENTER" xml:id="subtitle274">-Food weather.<br/>-What?</p>
+<p begin="13010507510t" end="13028435420t" region="BOTTOM_CENTER" xml:id="subtitle275">This could be bigger<br/>than Sardine Land.</p>
+<p begin="13030107090t" end="13047624590t" region="BOTTOM_CENTER" xml:id="subtitle276">-Can you make it rain food again?<br/>-No.</p>
+<p begin="13049296260t" end="13071398340t" region="BOTTOM_CENTER" xml:id="subtitle277">-I don't know if I--<br/>-You're gonna do it again?</p>
+<p begin="13073060000t" end="13086413340t" region="BOTTOM_CENTER" xml:id="subtitle278">You gotta be kidding.</p>
+<p begin="13088085010t" end="13110187090t" region="BOTTOM_CENTER" xml:id="subtitle279">Please, please, please.</p>
+<p begin="13138965840t" end="13157314170t" region="BOTTOM_CENTER" xml:id="subtitle280">-Yes.<br/>-No.</p>
+<p begin="13158985840t" end="13185672500t" region="BOTTOM_CENTER" xml:id="subtitle281">-Give me one more chance.<br/>-We know this was an accident.</p>
+<p begin="13187344170t" end="13209035840t" region="BOTTOM_CENTER" xml:id="subtitle282">-I know.<br/>-Cheeseburgers from the sky...</p>
+<p begin="13210707510t" end="13226553340t" region="BOTTOM_CENTER" xml:id="subtitle283">...that's not natural.</p>
+<p begin="13228225010t" end="13254911670t" region="BOTTOM_CENTER" xml:id="subtitle284">My invention could save<br/>the whole town.</p>
+<p begin="13256583340t" end="13282449180t" region="BOTTOM_CENTER" xml:id="subtitle285">You will be so proud of me, Dad.</p>
+<p begin="13284100830t" end="13302469180t" region="BOTTOM_CENTER" xml:id="subtitle286">Plus...</p>
+<p begin="13304120830t" end="13317474170t" region="BOTTOM_CENTER" xml:id="subtitle287">...there's a girl here.</p>
+<p begin="13340837510t" end="13380457090t" region="BOTTOM_CENTER" xml:id="subtitle288">Can you look me in the eye and<br/>tell me you've got this under control...</p>
+<p begin="13382128760t" end="13402569180t" region="BOTTOM_CENTER" xml:id="subtitle289">...and it's not gonna end up<br/>in a disaster?</p>
+<p begin="13410907510t" end="13423830420t" region="BOTTOM_CENTER" xml:id="subtitle290">Yes.</p>
+<p begin="13569395839t" end="13600677089t" region="BOTTOM_CENTER" xml:id="subtitle291">I've got this under control<br/>and it's not gonna end in disaster.</p>
+<p begin="13623199589t" end="13644050419t" region="BOTTOM_CENTER" xml:id="subtitle292">-All right.<br/>-Thanks, Dad.</p>
+<p begin="13645722089t" end="13677834169t" region="BOTTOM_CENTER" xml:id="subtitle293">-Oh, sure.<br/>-Okay. So, Sam...</p>
+<p begin="13679505839t" end="13720797089t" region="BOTTOM_CENTER" xml:id="subtitle294">...this is where the magic happens.</p>
+<p begin="13733719999t" end="13767503749t" region="BOTTOM_CENTER" xml:id="subtitle295"><span style="style_0">Lick. Lick. Lick.</span></p>
+<p begin="13769175419t" end="13801297509t" region="BOTTOM_CENTER" xml:id="subtitle296"><span style="style_0">Lick. Lick. Lick.</span></p>
+<p begin="13816302499t" end="13830486669t" region="BOTTOM_CENTER" xml:id="subtitle297"><span style="style_0">Welcome, Flint.</span></p>
+<p begin="13854260419t" end="13879705839t" region="BOTTOM_CENTER" xml:id="subtitle298">You seriously spend<br/>a lot of time alone.</p>
+<p begin="13881377509t" end="13895972089t" region="BOTTOM_CENTER" xml:id="subtitle299">What?</p>
+<p begin="13921827919t" end="13934750829t" region="BOTTOM_CENTER" xml:id="subtitle300">So here's how it works.</p>
+<p begin="13936422499t" end="13976462499t" region="BOTTOM_CENTER" xml:id="subtitle301">Water goes in the top,<br/>and food comes out the bottom.</p>
+<p begin="13978134169t" end="13996902919t" region="BOTTOM_CENTER" xml:id="subtitle302">When you shot it<br/>into the stratosphere...</p>
+<p begin="13998574589t" end="14036112089t" region="BOTTOM_CENTER" xml:id="subtitle303">...you figured it would induce a phase<br/>change from the cumulonimbus layer?</p>
+<p begin="14037773749t" end="14067803749t" region="BOTTOM_CENTER" xml:id="subtitle304">That's actually<br/>a really smart observation.</p>
+<p begin="14069475419t" end="14086572499t" region="BOTTOM_CENTER" xml:id="subtitle305">I mean....</p>
+<p begin="14094500419t" end="14118694589t" region="BOTTOM_CENTER" xml:id="subtitle306">The clouds probably have water<br/>in them...</p>
+<p begin="14120366259t" end="14154560419t" region="BOTTOM_CENTER" xml:id="subtitle307">...which, I guess, is why<br/>you shot it up there in the first place.</p>
+<p begin="14156232089t" end="14177503339t" region="BOTTOM_CENTER" xml:id="subtitle308">Right, right. That's why I did that.</p>
+<p begin="14179175009t" end="14199195009t" region="BOTTOM_CENTER" xml:id="subtitle309">-On purpose.<br/>-Right. Yeah.</p>
+<p begin="14200856669t" end="14218374169t" region="BOTTOM_CENTER" xml:id="subtitle310">-Right.<br/>-Of course.</p>
+<p begin="14233399179t" end="14249245009t" region="BOTTOM_CENTER" xml:id="subtitle311">Okay.</p>
+<p begin="14250906669t" end="14281777509t" region="BOTTOM_CENTER" xml:id="subtitle312">The machine uses a principle<br/>of hydro-genetic mutation.</p>
+<p begin="14283449179t" end="14313479179t" region="BOTTOM_CENTER" xml:id="subtitle313">Water molecules are bombarded<br/>with microwave radiation...</p>
+<p begin="14315130829t" end="14350175839t" region="BOTTOM_CENTER" xml:id="subtitle314">...which mutates their genetic recipe<br/>into any kind of food you want.</p>
+<p begin="14351847509t" end="14363529179t" region="BOTTOM_CENTER" xml:id="subtitle315">So....</p>
+<p begin="14365180829t" end="14375190829t" region="BOTTOM_CENTER" xml:id="subtitle316">-Pizza?<br/>-Yes.</p>
+<p begin="14376862499t" end="14388544169t" region="BOTTOM_CENTER" xml:id="subtitle317">-Mashed potatoes?<br/>-Yes.</p>
+<p begin="14390215839t" end="14404810419t" region="BOTTOM_CENTER" xml:id="subtitle318">-Peas?<br/>-Yes, that's also a food.</p>
+<p begin="14406482089t" end="14418574169t" region="BOTTOM_CENTER" xml:id="subtitle319">-Steak? Apples?<br/>-Yes.</p>
+<p begin="14420245839t" end="14434840419t" region="BOTTOM_CENTER" xml:id="subtitle320">-Apple sauce? BLT?<br/>-Yes.</p>
+<p begin="14436512089t" end="14458193749t" region="BOTTOM_CENTER" xml:id="subtitle321">-I said any kind of food.<br/>-Chicken wings?</p>
+<p begin="14459865419t" end="14486562089t" region="BOTTOM_CENTER" xml:id="subtitle322">Think about what you're saying<br/>and if it's a food, yes.</p>
+<p begin="14488223749t" end="14511166669t" region="BOTTOM_CENTER" xml:id="subtitle323">-Baloney.<br/>-Baloney. That is a food.</p>
+<p begin="14512838339t" end="14535350829t" region="BOTTOM_CENTER" xml:id="subtitle324">-How about Jell-O?<br/>-Do you like Jell-O?</p>
+<p begin="14537022499t" end="14552047509t" region="BOTTOM_CENTER" xml:id="subtitle325">I love Jell-O.</p>
+<p begin="14553719179t" end="14577482919t" region="BOTTOM_CENTER" xml:id="subtitle326">I love Jell-O too.<br/>Oh, and peanut butter, right?</p>
+<p begin="14579154589t" end="14603348759t" region="BOTTOM_CENTER" xml:id="subtitle327">Oh, no, no, no,<br/>I am severely allergic to peanuts.</p>
+<p begin="14605010419t" end="14615430829t" region="BOTTOM_CENTER" xml:id="subtitle328">Hey, me too.</p>
+<p begin="14617102499t" end="14632958339t" region="BOTTOM_CENTER" xml:id="subtitle329">-What's it called?<br/>-Peanut allergy.</p>
+<p begin="14634619999t" end="14649224589t" region="BOTTOM_CENTER" xml:id="subtitle330">-No, the machine.<br/>-Of course.</p>
+<p begin="14650896259t" end="14678834169t" region="BOTTOM_CENTER" xml:id="subtitle331">It's called the Flint Lockwood<br/>Diatonic Super-Mutating...</p>
+<p begin="14680505839t" end="14702197509t" region="BOTTOM_CENTER" xml:id="subtitle332">...Dynamic Food Replicator.</p>
+<p begin="14703869179t" end="14720545839t" region="BOTTOM_CENTER" xml:id="subtitle333">Or, for short:</p>
+<p begin="14722217509t" end="14739735009t" region="BOTTOM_CENTER" xml:id="subtitle334">The FLDSMDFR.</p>
+<p begin="14744729999t" end="14755570829t" region="BOTTOM_CENTER" xml:id="subtitle335">Fliminadifiser?</p>
+<p begin="14757242499t" end="14770595839t" region="BOTTOM_CENTER" xml:id="subtitle336">FLDSMDFR.</p>
+<p begin="14772267509t" end="14786441669t" region="BOTTOM_CENTER" xml:id="subtitle337">Fliminubahdibferer?</p>
+<p begin="14788113339t" end="14804379589t" region="TOP_CENTER" xml:id="subtitle338">Fli.</p>
+<p begin="14806041249t" end="14823989179t" region="TOP_CENTER" xml:id="subtitle339">Suh.</p>
+<p begin="14826481669t" end="14838994169t" region="TOP_CENTER" xml:id="subtitle340">Fdiferf.</p>
+<p begin="14852347509t" end="14881536669t" region="BOTTOM_CENTER" xml:id="subtitle341">Manny, make sure you get this.<br/>He's gonna make the food now.</p>
+<p begin="14883208339t" end="14893638759t" region="TOP_CENTER" xml:id="subtitle342">Now?</p>
+<p begin="14895300419t" end="14932427509t" region="TOP_CENTER" xml:id="subtitle343">Well, the thing is, I can't...</p>
+<p begin="14934099179t" end="14964949999t" region="TOP_CENTER" xml:id="subtitle344">...wait to show you<br/>this hilarious Internet video.</p>
+<p begin="14976211249t" end="14986221249t" region="TOP_CENTER" xml:id="subtitle345">What?</p>
+<p begin="14987892919t" end="15000405419t" region="TOP_CENTER" xml:id="subtitle346"><span style="style_0">Fight the power!</span></p>
+<p begin="15002077089t" end="15021676669t" region="BOTTOM_CENTER" xml:id="subtitle347">What is this?</p>
+<p begin="15066301249t" end="15079234169t" region="BOTTOM_CENTER" xml:id="subtitle348">It's so cute.</p>
+<p begin="15080905839t" end="15099254169t" region="BOTTOM_CENTER" xml:id="subtitle349">Pushing. Folding. Connecting.</p>
+<p begin="15100925839t" end="15129284169t" region="BOTTOM_CENTER" xml:id="subtitle350">Taping. Turning.<br/>Painting. Switching.</p>
+<p begin="15130955839t" end="15142217089t" region="BOTTOM_CENTER" xml:id="subtitle351">Staring.</p>
+<p begin="15143888759t" end="15157642499t" region="BOTTOM_CENTER" xml:id="subtitle352">Motivating.</p>
+<p begin="15159314169t" end="15184349179t" region="BOTTOM_CENTER" xml:id="subtitle353">-Placing button.<br/>-I can't believe I've been watching this...</p>
+<p begin="15186000829t" end="15206861669t" region="BOTTOM_CENTER" xml:id="subtitle354">-...for three hours.<br/>-I know.</p>
+<p begin="15299454169t" end="15311135839t" region="BOTTOM_CENTER" xml:id="subtitle355">It's working.</p>
+<p begin="15312807509t" end="15332827509t" region="BOTTOM_CENTER" xml:id="subtitle356">What do you guys want for breakfast?</p>
+<p begin="15334499179t" end="15354519179t" region="BOTTOM_CENTER" xml:id="subtitle357"><span style="style_0">-Gummi Bears.</span><br/>-Whoa, Steve, no.</p>
+<p begin="15356170829t" end="15377862499t" region="BOTTOM_CENTER" xml:id="subtitle358">We both know how you get<br/>around Gummi Bears.</p>
+<p begin="15379534169t" end="15393718339t" region="BOTTOM_CENTER" xml:id="subtitle359">How about...</p>
+<p begin="15395379999t" end="15411235839t" region="BOTTOM_CENTER" xml:id="subtitle360">-...eggs.<br/>-And toast.</p>
+<p begin="15412907509t" end="15425830419t" region="BOTTOM_CENTER" xml:id="subtitle361">Orange juice.</p>
+<p begin="15427502089t" end="15444609179t" region="BOTTOM_CENTER" xml:id="subtitle362">-And bacon.<br/>-Bacon.</p>
+<p begin="15454619179t" end="15467952499t" region="BOTTOM_CENTER" xml:id="subtitle363">What are you doing?</p>
+<p begin="15469624169t" end="15483808339t" region="BOTTOM_CENTER" xml:id="subtitle364">Nothing.</p>
+<p begin="15485469999t" end="15495900419t" region="BOTTOM_CENTER" xml:id="subtitle365">To the computer.</p>
+<p begin="15545119589t" end="15569724169t" region="BOTTOM_CENTER" xml:id="subtitle366">So you're sure this is safe?</p>
+<p begin="15574739179t" end="15599754169t" region="BOTTOM_CENTER" xml:id="subtitle367">Don't worry. I have a Dangeometer<br/>that lets us know...</p>
+<p begin="15601425839t" end="15619353749t" region="BOTTOM_CENTER" xml:id="subtitle368">...if the food is going<br/>to over-mutate.</p>
+<p begin="15621025419t" end="15639794169t" region="BOTTOM_CENTER" xml:id="subtitle369">What happens<br/>if the food over-mutates?</p>
+<p begin="15641465839t" end="15665649999t" region="BOTTOM_CENTER" xml:id="subtitle370">I don't know.<br/>But that'll never happen.</p>
+<p begin="15667321669t" end="15691095419t" region="BOTTOM_CENTER" xml:id="subtitle371">All right, this probably<br/>won't explode.</p>
+<p begin="15692767089t" end="15703197509t" region="BOTTOM_CENTER" xml:id="subtitle372">What?</p>
+<p begin="15769924169t" end="15786600829t" region="BOTTOM_CENTER" xml:id="subtitle373"><span style="style_0">Bacon.</span></p>
+<p begin="15852506669t" end="15873367509t" region="BOTTOM_CENTER" xml:id="subtitle374">Those cheeseburgers<br/>were only the beginning...</p>
+<p begin="15875039179t" end="15902977089t" region="BOTTOM_CENTER" xml:id="subtitle375">...because a breakfast system<br/>is on its way to Swallow Falls.</p>
+<p begin="15904648759t" end="15916730829t" region="BOTTOM_CENTER" xml:id="subtitle376"><span style="style_0">My forecast?</span></p>
+<p begin="15918402499t" end="15937591669t" region="BOTTOM_CENTER" xml:id="subtitle377"><span style="style_0">Sunny side up.</span></p>
+<p begin="16011415419t" end="16036019999t" region="BOTTOM_CENTER" xml:id="subtitle378">-Yeah.<br/>-Yeah.</p>
+<p begin="16121115009t" end="16155319179t" region="BOTTOM_CENTER" xml:id="subtitle379">Flint, my boy. Can you do lunch?</p>
+<p begin="16156970829t" end="16170324169t" region="BOTTOM_CENTER" xml:id="subtitle380">All right, here's the skinny:</p>
+<p begin="16171995839t" end="16200354169t" region="BOTTOM_CENTER" xml:id="subtitle381">You keep making it rain<br/>the snackadoos...</p>
+<p begin="16202025839t" end="16222045839t" region="BOTTOM_CENTER" xml:id="subtitle382">...weathergirl provides<br/>free advertising...</p>
+<p begin="16223717509t" end="16245409179t" region="BOTTOM_CENTER" xml:id="subtitle383">...I have taken out<br/>a very high-interest loan...</p>
+<p begin="16247060829t" end="16277931669t" region="BOTTOM_CENTER" xml:id="subtitle384">...to convert this Podunk town<br/>into a tourist food-topia.</p>
+<p begin="16279603339t" end="16313807509t" region="BOTTOM_CENTER" xml:id="subtitle385">All you have to do is make it rain food<br/>three meals a day...</p>
+<p begin="16315479179t" end="16335078759t" region="BOTTOM_CENTER" xml:id="subtitle386">...every day<br/>for the foreseeable future...</p>
+<p begin="16336740419t" end="16364267919t" region="BOTTOM_CENTER" xml:id="subtitle387">...and in 30 days we hold a grand<br/>reopening of the island...</p>
+<p begin="16365939589t" end="16393887509t" region="BOTTOM_CENTER" xml:id="subtitle388">...as a must-see cruise destination.</p>
+<p begin="16395559179t" end="16422245839t" region="BOTTOM_CENTER" xml:id="subtitle389">And everyone, everywhere...</p>
+<p begin="16423917509t" end="16467280829t" region="BOTTOM_CENTER" xml:id="subtitle390">...is going to love your invention.</p>
+<p begin="16470624169t" end="16483977509t" region="BOTTOM_CENTER" xml:id="subtitle391">Do you think so?</p>
+<p begin="16485649179t" end="16509833339t" region="BOTTOM_CENTER" xml:id="subtitle392">I know so.</p>
+<p begin="16553627089t" end="16583657089t" region="BOTTOM_CENTER" xml:id="subtitle393">Now that's what I call<br/>poultry in motion.</p>
+<p begin="16682505839t" end="16708361669t" region="BOTTOM_CENTER" xml:id="subtitle394">Mr. Lockwood,<br/>may I please have waffles?</p>
+<p begin="16710033339t" end="16723376669t" region="BOTTOM_CENTER" xml:id="subtitle395">-Falafels?<br/>-Jellybeans.</p>
+<p begin="16725048339t" end="16738812089t" region="BOTTOM_CENTER" xml:id="subtitle396">-Avocado.<br/>-Coming right up.</p>
+<p begin="16767580829t" end="16779262499t" region="BOTTOM_CENTER" xml:id="subtitle397">Leftovers?</p>
+<p begin="16780934169t" end="16814717919t" region="BOTTOM_CENTER" xml:id="subtitle398">Not a problem with Flint Lockwood's<br/>latest invention, the Outtasighter...</p>
+<p begin="16816389589t" end="16845588759t" region="BOTTOM_CENTER" xml:id="subtitle399">...so-named because it catapults<br/>uneaten food out of sight...</p>
+<p begin="16847250419t" end="16872275419t" region="BOTTOM_CENTER" xml:id="subtitle400">...and therefore, out of mind.</p>
+<p begin="16959032089t" end="16976139179t" region="BOTTOM_CENTER" xml:id="subtitle401">Jellybeans!</p>
+<p begin="16977790829t" end="16987800829t" region="BOTTOM_CENTER" xml:id="subtitle402">Awesome.</p>
+<p begin="16989472499t" end="17012835839t" region="BOTTOM_CENTER" xml:id="subtitle403">-BLT.<br/>-Doughnuts.</p>
+<p begin="17021174169t" end="17034527509t" region="BOTTOM_CENTER" xml:id="subtitle404">Pie.</p>
+<p begin="17036199179t" end="17046619589t" region="BOTTOM_CENTER" xml:id="subtitle405"><span style="style_0">Gummi bears.</span></p>
+<p begin="17048701669t" end="17071224169t" region="BOTTOM_CENTER" xml:id="subtitle406">-Fish.<br/>-Crème brûlée!</p>
+<p begin="17095418339t" end="17114607509t" region="BOTTOM_CENTER" xml:id="subtitle407">A pizza stuffed inside a turkey...</p>
+<p begin="17116279179t" end="17144637509t" region="BOTTOM_CENTER" xml:id="subtitle408">...the whole thing deep-fried<br/>and dipped in chocolate.</p>
+<p begin="17151304169t" end="17170072919t" region="BOTTOM_CENTER" xml:id="subtitle409">It's me, the mayor.</p>
+<p begin="17176339179t" end="17189672500t" region="BOTTOM_CENTER" xml:id="subtitle410">You look different.</p>
+<p begin="17191344170t" end="17209282090t" region="BOTTOM_CENTER" xml:id="subtitle411">Did you get a new haircut?</p>
+<p begin="17210943750t" end="17231384170t" region="BOTTOM_CENTER" xml:id="subtitle412">Yes, I did. Thank you for noticing.</p>
+<p begin="17319392090t" end="17337320000t" region="BOTTOM_CENTER" xml:id="subtitle413">-I love you.<br/>-Thanks, Dad. I love you.</p>
+<p begin="17338991670t" end="17356519180t" region="BOTTOM_CENTER" xml:id="subtitle414">I love spending time with you, Dad.</p>
+<p begin="17399472090t" end="17425748340t" region="BOTTOM_CENTER" xml:id="subtitle415">Hey, Dad, I'm headed back<br/>to the lab.</p>
+<p begin="17427410000t" end="17465788340t" region="BOTTOM_CENTER" xml:id="subtitle416">If you wanna come,<br/>I could show you how I make the food.</p>
+<p begin="17470793340t" end="17485808340t" region="BOTTOM_CENTER" xml:id="subtitle417">No, thanks.</p>
+<p begin="17487470000t" end="17538771250t" region="BOTTOM_CENTER" xml:id="subtitle418">That techno-food, it's too complicated<br/>for an old fisherman.</p>
+<p begin="17540442920t" end="17559211670t" region="BOTTOM_CENTER" xml:id="subtitle419">Got it.</p>
+<p begin="17568380830t" end="17602595010t" region="BOTTOM_CENTER" xml:id="subtitle420">Could still use your help around here,<br/>though, you know.</p>
+<p begin="17604256670t" end="17630953340t" region="BOTTOM_CENTER" xml:id="subtitle421">I'm working<br/>with the mayor now, Dad.</p>
+<p begin="17632625010t" end="17664316670t" region="BOTTOM_CENTER" xml:id="subtitle422">I mean, the town's grand reopening<br/>is in, like, a week.</p>
+<p begin="17665988340t" end="17688500830t" region="BOTTOM_CENTER" xml:id="subtitle423">Right. Got it.</p>
+<p begin="17755657920t" end="17779011250t" region="BOTTOM_CENTER" xml:id="subtitle424"><span style="style_0">Flint Lockwood?</span></p>
+<p begin="17785277510t" end="17801954170t" region="BOTTOM_CENTER" xml:id="subtitle425">Yeah?</p>
+<p begin="17816558760t" end="17839071250t" region="BOTTOM_CENTER" xml:id="subtitle426">It's my son Cal's birthday tomorrow...</p>
+<p begin="17840742920t" end="17874947090t" region="BOTTOM_CENTER" xml:id="subtitle427">...and I was just wondering if you<br/>could make it rain something special.</p>
+<p begin="17876618760t" end="17900382500t" region="BOTTOM_CENTER" xml:id="subtitle428">Well, I'm pretty backed up<br/>on requests.</p>
+<p begin="17902054170t" end="17918730830t" region="BOTTOM_CENTER" xml:id="subtitle429">Plus, you're always mean to me.</p>
+<p begin="17920402500t" end="17938750830t" region="BOTTOM_CENTER" xml:id="subtitle430">It'll be just one time...</p>
+<p begin="17940422500t" end="17965457510t" region="BOTTOM_CENTER" xml:id="subtitle431">...for my special angel's special day.</p>
+<p begin="17977960000t" end="17991723750t" region="BOTTOM_CENTER" xml:id="subtitle432">I don't know.</p>
+<p begin="17993395420t" end="18026348340t" region="BOTTOM_CENTER" xml:id="subtitle433">You know, I don't wanna<br/>overwork the machine, so....</p>
+<p begin="18028010000t" end="18063055010t" region="BOTTOM_CENTER" xml:id="subtitle434">Okay. I knew it was a long shot.</p>
+<p begin="18064716670t" end="18092244170t" region="BOTTOM_CENTER" xml:id="subtitle435">I just wanted Cal to see how much<br/>his father loves him.</p>
+<p begin="18093915840t" end="18111433340t" region="BOTTOM_CENTER" xml:id="subtitle436">I thought you would understand.</p>
+<p begin="18141042920t" end="18163155010t" region="BOTTOM_CENTER" xml:id="subtitle437">You know how fathers always trying<br/>to express...</p>
+<p begin="18164816670t" end="18201523340t" region="BOTTOM_CENTER" xml:id="subtitle438">...their love and appreciation<br/>for their sons.</p>
+<p begin="18239891670t" end="18250732500t" region="BOTTOM_CENTER" xml:id="subtitle439">Earl, wait.</p>
+<p begin="18365437090t" end="18387128760t" region="BOTTOM_CENTER" xml:id="subtitle440"><span style="style_0">Touch. Touch. Touch.</span></p>
+<p begin="18408390000t" end="18420902500t" region="BOTTOM_CENTER" xml:id="subtitle441">I've got an idea.</p>
+<p begin="18601502920t" end="18620692090t" region="BOTTOM_CENTER" xml:id="subtitle442">Happy birthday, son.</p>
+<p begin="18622353750t" end="18634035420t" region="BOTTOM_CENTER" xml:id="subtitle443">Dad?</p>
+<p begin="18635707090t" end="18659060420t" region="BOTTOM_CENTER" xml:id="subtitle444">This is your day. Go have fun.</p>
+<p begin="18660732090t" end="18696187510t" region="BOTTOM_CENTER" xml:id="subtitle445">-I love you guys. You're awesome.<br/>-I love you too, son.</p>
+<p begin="18697859180t" end="18734135420t" region="BOTTOM_CENTER" xml:id="subtitle446">-Have a good time, baby.<br/>-Ice cream!</p>
+<p begin="18742894170t" end="18773765010t" region="BOTTOM_CENTER" xml:id="subtitle447">Yeah! Cool.</p>
+<p begin="18795036260t" end="18817138340t" region="BOTTOM_CENTER" xml:id="subtitle448">Strawberry's my favorite.</p>
+<p begin="18939750830t" end="18949760830t" region="BOTTOM_CENTER" xml:id="subtitle449">Come on, Dad.</p>
+<p begin="18951432500t" end="18966457510t" region="BOTTOM_CENTER" xml:id="subtitle450">I don't know, Cal.</p>
+<p begin="18968129180t" end="18991892920t" region="BOTTOM_CENTER" xml:id="subtitle451">This doesn't look safe!</p>
+<p begin="19071142090t" end="19082403340t" region="BOTTOM_CENTER" xml:id="subtitle452">I love you, son.</p>
+<p begin="19084075010t" end="19115766670t" region="BOTTOM_CENTER" xml:id="subtitle453">I know, Dad. You tell me every day.</p>
+<p begin="19156647510t" end="19174575420t" region="BOTTOM_CENTER" xml:id="subtitle454">Flint, this is amazing.</p>
+<p begin="19176247090t" end="19202102920t" region="BOTTOM_CENTER" xml:id="subtitle455">And designing the ice cream<br/>to accumulate into scoops...</p>
+<p begin="19203774590t" end="19222953750t" region="BOTTOM_CENTER" xml:id="subtitle456">...I don't know how<br/>you're gonna top this.</p>
+<p begin="19224625420t" end="19253404170t" region="BOTTOM_CENTER" xml:id="subtitle457">Maybe with hot fudge.</p>
+<p begin="19275095840t" end="19285936670t" region="BOTTOM_CENTER" xml:id="subtitle458">Hey, Flint.</p>
+<p begin="19287608340t" end="19308048760t" region="BOTTOM_CENTER" xml:id="subtitle459">You wanna be in a snowball fight<br/>with us?</p>
+<p begin="19323474170t" end="19339320000t" region="BOTTOM_CENTER" xml:id="subtitle460">Flint, what's the problem?</p>
+<p begin="19340991670t" end="19363093750t" region="BOTTOM_CENTER" xml:id="subtitle461">I've never actually been<br/>in a snowball fight.</p>
+<p begin="19364765420t" end="19386877510t" region="BOTTOM_CENTER" xml:id="subtitle462">-Really?<br/>-I don't even know the rules.</p>
+<p begin="19388549180t" end="19425245840t" region="BOTTOM_CENTER" xml:id="subtitle463">Is there like a point system or is it...</p>
+<p begin="19426917510t" end="19445265840t" region="BOTTOM_CENTER" xml:id="subtitle464">-...to the death?<br/>-No--</p>
+<p begin="19446937510t" end="19497397920t" region="BOTTOM_CENTER" xml:id="subtitle465">You've nev--? I mean, look, even<br/>Steve is throwing chocolate snowballs.</p>
+<p begin="19544535010t" end="19578739180t" region="BOTTOM_CENTER" xml:id="subtitle466">So like this?</p>
+<p begin="19584154590t" end="19606256670t" region="BOTTOM_CENTER" xml:id="subtitle467">No, harder than that.</p>
+<p begin="19630440830t" end="19656306670t" region="BOTTOM_CENTER" xml:id="subtitle468">Snowball.<br/>Snowball, snowball, snowball.</p>
+<p begin="19666316670t" end="19691341670t" region="BOTTOM_CENTER" xml:id="subtitle469">Snowball. Snowball.</p>
+<p begin="19693013340t" end="19723043340t" region="BOTTOM_CENTER" xml:id="subtitle470">Well, something to be said<br/>for enthusiasm.</p>
+<p begin="19728889180t" end="19744735010t" region="BOTTOM_CENTER" xml:id="subtitle471">Snowball!</p>
+<p begin="19749730000t" end="19765585840t" region="BOTTOM_CENTER" xml:id="subtitle472">Snowball!</p>
+<p begin="19797697920t" end="19816887090t" region="BOTTOM_CENTER" xml:id="subtitle473">Snowball and snowball.</p>
+<p begin="19818558760t" end="19828989180t" region="BOTTOM_CENTER" xml:id="subtitle474">Kids? What's going on?</p>
+<p begin="19830640830t" end="19851922090t" region="BOTTOM_CENTER" xml:id="subtitle475">Snowball.</p>
+<p begin="19864014170t" end="19882362500t" region="BOTTOM_CENTER" xml:id="subtitle476">-Snowball.<br/>-Snowball. Snowball.</p>
+<p begin="19884034170t" end="19897387510t" region="BOTTOM_CENTER" xml:id="subtitle477"><span style="style_0">I scream, you scream...</span></p>
+<p begin="19899059180t" end="19942422500t" region="TOP_CENTER" xml:id="subtitle478"><span style="style_0">...we all scream for Flint Lockwood's</span><br/><span style="style_0">latest tasty town-wide treat...</span></p>
+<p begin="19944094170t" end="19974544590t" region="TOP_CENTER" xml:id="subtitle479"><span style="style_0">...with flurries of frozen fun</span><br/><span style="style_0">on what the mayor declared to be...</span></p>
+<p begin="19976216260t" end="19990800830t" region="TOP_CENTER" xml:id="subtitle480"><span style="style_0">...an ice cream snow day.</span></p>
+<p begin="19992472500t" end="20027517510t" region="BOTTOM_CENTER" xml:id="subtitle481"><span style="style_0">He'd also like to invite everyone</span><br/><span style="style_0">in the world to catch a cruise liner...</span></p>
+<p begin="20029189180t" end="20045865840t" region="BOTTOM_CENTER" xml:id="subtitle482"><span style="style_0">...and come on down</span><br/><span style="style_0">this Saturday...</span></p>
+<p begin="20047537510t" end="20072552500t" region="BOTTOM_CENTER" xml:id="subtitle483"><span style="style_0">...for the grand opening</span><br/><span style="style_0">of Chew And Swallow...</span></p>
+<p begin="20074224170t" end="20105925840t" region="BOTTOM_CENTER" xml:id="subtitle484"><span style="style_0">...a town that is truly à la mode.</span></p>
+<p begin="20182662500t" end="20213533340t" region="BOTTOM_CENTER" xml:id="subtitle485"><span style="style_0">A town that is truly</span><br/><span style="style_0">topped with ice cream.</span></p>
+<p begin="20215205010t" end="20244394170t" region="BOTTOM_CENTER" xml:id="subtitle486">With today's scoop<br/>for the Weather News Network...</p>
+<p begin="20246065840t" end="20269839590t" region="BOTTOM_CENTER" xml:id="subtitle487">...I'm Sam Sparks.</p>
+<p begin="20271501250t" end="20309048760t" region="BOTTOM_CENTER" xml:id="subtitle488">Flint, this is the best breakfast ever.</p>
+<p begin="20374524170t" end="20384534170t" region="BOTTOM_CENTER" xml:id="subtitle489">That's it!</p>
+<p begin="20386205840t" end="20403723340t" region="BOTTOM_CENTER" xml:id="subtitle490">Researching. Role-playing.</p>
+<p begin="20405395010t" end="20419579180t" region="BOTTOM_CENTER" xml:id="subtitle491">Dialing.</p>
+<p begin="20421230830t" end="20437507090t" region="BOTTOM_CENTER" xml:id="subtitle492">Waiting.</p>
+<p begin="20459619180t" end="20478798340t" region="BOTTOM_CENTER" xml:id="subtitle493">-Sam Sparks.<br/>-Hanging up.</p>
+<p begin="20480460000t" end="20502982500t" region="BOTTOM_CENTER" xml:id="subtitle494">Regretting. Re-psyching.</p>
+<p begin="20504654170t" end="20523002500t" region="BOTTOM_CENTER" xml:id="subtitle495">Saying what I'm doing.</p>
+<p begin="20524674170t" end="20545114590t" region="BOTTOM_CENTER" xml:id="subtitle496">-Flint?<br/>-"Hi, Sam, how are you? That's nice.</p>
+<p begin="20546786260t" end="20569729180t" region="BOTTOM_CENTER" xml:id="subtitle497">I was wondering if you would like<br/>to go on a da--"</p>
+<p begin="20571380830t" end="20584734170t" region="BOTTOM_CENTER" xml:id="subtitle498">Activity with me tomorrow.</p>
+<p begin="20605174590t" end="20629789180t" region="BOTTOM_CENTER" xml:id="subtitle499">-Okay.<br/>-Great, bye. Meet me in the forest.</p>
+<p begin="20631440830t" end="20655645010t" region="BOTTOM_CENTER" xml:id="subtitle500">Nailed it. Gotta go, Steve.</p>
+<p begin="20657306670t" end="20688177510t" region="BOTTOM_CENTER" xml:id="subtitle501">Keep an eye on the lab for me.</p>
+<p begin="20703182500t" end="20726966260t" region="BOTTOM_CENTER" xml:id="subtitle502"><span style="style_0">Steve.</span></p>
+<p begin="20731540830t" end="20748237510t" region="BOTTOM_CENTER" xml:id="subtitle503"><span style="style_0">Foster still at the plate.</span></p>
+<p begin="20749909180t" end="20769508760t" region="BOTTOM_CENTER" xml:id="subtitle504"><span style="style_0">And nobody out.</span></p>
+<p begin="20771170420t" end="20785775010t" region="BOTTOM_CENTER" xml:id="subtitle505">Where are we going?</p>
+<p begin="20787436670t" end="20809969180t" region="BOTTOM_CENTER" xml:id="subtitle506">Oh, nowhere.<br/>I just thought it'd be nice...</p>
+<p begin="20811620830t" end="20852081250t" region="BOTTOM_CENTER" xml:id="subtitle507">...for the two of us<br/>to go on a walk together.</p>
+<p begin="20853752920t" end="20884203340t" region="BOTTOM_CENTER" xml:id="subtitle508">Like you do as friends.</p>
+<p begin="20888377510t" end="20919238340t" region="BOTTOM_CENTER" xml:id="subtitle509">Oh, my, what's that?</p>
+<p begin="21010169180t" end="21026845840t" region="BOTTOM_CENTER" xml:id="subtitle510">Jell-O's my favorite.</p>
+<p begin="21033512500t" end="21056455420t" region="BOTTOM_CENTER" xml:id="subtitle511">You never made a request, so...</p>
+<p begin="21058127090t" end="21076475420t" region="BOTTOM_CENTER" xml:id="subtitle512">...I made one for you.</p>
+<p begin="21104833750t" end="21123192090t" region="BOTTOM_CENTER" xml:id="subtitle513">Flint?</p>
+<p begin="21124853750t" end="21138627510t" region="BOTTOM_CENTER" xml:id="subtitle514">Flint?</p>
+<p begin="21142371250t" end="21158647510t" region="BOTTOM_CENTER" xml:id="subtitle515">Join me.</p>
+<p begin="21295864590t" end="21307125840t" region="BOTTOM_CENTER" xml:id="subtitle516">But how did you--?</p>
+<p begin="21308797510t" end="21340909590t" region="BOTTOM_CENTER" xml:id="subtitle517">I made it rain Jell-O, then I gathered<br/>it up with the Outtasighter...</p>
+<p begin="21342571250t" end="21363842500t" region="BOTTOM_CENTER" xml:id="subtitle518">...and then I brought it here<br/>and pressed it...</p>
+<p begin="21365514170t" end="21401380000t" region="BOTTOM_CENTER" xml:id="subtitle519">...into a gigantic custom-carved plastic<br/>Tupperware mold I made. No big deal.</p>
+<p begin="21420579180t" end="21443512090t" region="BOTTOM_CENTER" xml:id="subtitle520">Everything's made of Jell-O.</p>
+<p begin="21445173750t" end="21460198760t" region="BOTTOM_CENTER" xml:id="subtitle521">This piano, those sconces...</p>
+<p begin="21461860420t" end="21486475010t" region="BOTTOM_CENTER" xml:id="subtitle522">...that ghetto blaster, that Jell-O,<br/>that aquarium...</p>
+<p begin="21488136670t" end="21508997510t" region="BOTTOM_CENTER" xml:id="subtitle523">...that <span style="style_0">Venus de Milo</span><br/>with your face on it...</p>
+<p begin="21510669180t" end="21540278760t" region="BOTTOM_CENTER" xml:id="subtitle524">...next to a Michelangelo's <span style="style_0">David</span><br/>that also has your face.</p>
+<p begin="21548196670t" end="21580318760t" region="BOTTOM_CENTER" xml:id="subtitle525">Come on, Sam,<br/>what are you waiting for?</p>
+<p begin="21602000420t" end="21614933340t" region="BOTTOM_CENTER" xml:id="subtitle526">Nothing!</p>
+<p begin="21642450830t" end="21652460830t" region="BOTTOM_CENTER" xml:id="subtitle527">Yeah.</p>
+<p begin="21782590830t" end="21800118340t" region="BOTTOM_CENTER" xml:id="subtitle528">Cannonball.</p>
+<p begin="21814292500t" end="21828897090t" region="BOTTOM_CENTER" xml:id="subtitle529">Belly flop.</p>
+<p begin="21865183340t" end="21885203340t" region="BOTTOM_CENTER" xml:id="subtitle530">Why did I do that?</p>
+<p begin="21965693750t" end="21989887920t" region="BOTTOM_CENTER" xml:id="subtitle531">-So Jell-O.<br/>-Right. Right, right.</p>
+<p begin="21991559590t" end="22006154170t" region="BOTTOM_CENTER" xml:id="subtitle532">It's a solid, it's a liquid...</p>
+<p begin="22007825840t" end="22052860830t" region="BOTTOM_CENTER" xml:id="subtitle533">...it's a visco-elastic polymer made of<br/>polypeptide chains, but you eat it.</p>
+<p begin="22054532500t" end="22071229180t" region="BOTTOM_CENTER" xml:id="subtitle534">I mean...</p>
+<p begin="22072880830t" end="22093741670t" region="BOTTOM_CENTER" xml:id="subtitle535">...it tastes good.</p>
+<p begin="22095413340t" end="22114592500t" region="BOTTOM_CENTER" xml:id="subtitle536">-Why do you do that?<br/>-Do what?</p>
+<p begin="22116264170t" end="22157975840t" region="BOTTOM_CENTER" xml:id="subtitle537">Say something super smart<br/>and then bail from it.</p>
+<p begin="22175072920t" end="22185913750t" region="BOTTOM_CENTER" xml:id="subtitle538">Can you keep a secret?</p>
+<p begin="22187585420t" end="22205102920t" region="BOTTOM_CENTER" xml:id="subtitle539">No.</p>
+<p begin="22214692500t" end="22239727510t" region="BOTTOM_CENTER" xml:id="subtitle540">But this time, sure, yeah.</p>
+<p begin="22251409180t" end="22311048760t" region="BOTTOM_CENTER" xml:id="subtitle541">Okay. Well, it was a really<br/>long time ago, but I, too, was...</p>
+<p begin="22329397090t" end="22339827510t" region="BOTTOM_CENTER" xml:id="subtitle542">...a nerd.</p>
+<p begin="22346073750t" end="22356504170t" region="BOTTOM_CENTER" xml:id="subtitle543">Too?</p>
+<p begin="22358175840t" end="22381539180t" region="BOTTOM_CENTER" xml:id="subtitle544">When I was a little girl...</p>
+<p begin="22383190830t" end="22409477090t" region="BOTTOM_CENTER" xml:id="subtitle545">...I wore a ponytail, I had glasses...</p>
+<p begin="22411148760t" end="22448265840t" region="BOTTOM_CENTER" xml:id="subtitle546">...and I was totally obsessed<br/>with the science of weather.</p>
+<p begin="22472039590t" end="22492059590t" region="BOTTOM_CENTER" xml:id="subtitle547"><span style="style_0">Other girls wanted a Barbie.</span></p>
+<p begin="22493721250t" end="22532510000t" region="BOTTOM_CENTER" xml:id="subtitle548"><span style="style_0">I wanted a Doppler Weather</span><br/><span style="style_0">Radar 2000 Turbo.</span></p>
+<p begin="22534181670t" end="22563791250t" region="TOP_CENTER" xml:id="subtitle549"><span style="style_0">But all the kids used to taunt me</span><br/><span style="style_0">with this lame song.</span></p>
+<p begin="22565462920t" end="22575893340t" region="TOP_CENTER" xml:id="subtitle550"><span style="style_0">It wasn't even clever.</span></p>
+<p begin="22577565010t" end="22596744170t" region="TOP_CENTER" xml:id="subtitle551"><span style="style_0">Four-eyes, four-eyes</span></p>
+<p begin="22598415840t" end="22619266670t" region="BOTTOM_CENTER" xml:id="subtitle552"><span style="style_0">You need glasses to see</span></p>
+<p begin="22648465840t" end="22663470830t" region="BOTTOM_CENTER" xml:id="subtitle553">Go on.</p>
+<p begin="22671829180t" end="22685162500t" region="BOTTOM_CENTER" xml:id="subtitle554">So I got a new look...</p>
+<p begin="22686834170t" end="22711869180t" region="BOTTOM_CENTER" xml:id="subtitle555">...gave up the science-y<br/>smart stuff...</p>
+<p begin="22713520830t" end="22735212500t" region="BOTTOM_CENTER" xml:id="subtitle556">...and I was never<br/>made fun of again.</p>
+<p begin="22736884170t" end="22776924170t" region="BOTTOM_CENTER" xml:id="subtitle557">And I still need these glasses,<br/>but I never wear them.</p>
+<p begin="22778595840t" end="22803610830t" region="BOTTOM_CENTER" xml:id="subtitle558">-I'll bet you look great with glasses on.<br/>-I'm not--</p>
+<p begin="22805282500t" end="22820307510t" region="BOTTOM_CENTER" xml:id="subtitle559">And on they go.</p>
+<p begin="22860347510t" end="22870357510t" region="BOTTOM_CENTER" xml:id="subtitle560">-What?<br/>-Nothing.</p>
+<p begin="22872029180t" end="22887034170t" region="BOTTOM_CENTER" xml:id="subtitle561">Wait.</p>
+<p begin="22927494590t" end="22950437510t" region="BOTTOM_CENTER" xml:id="subtitle562">It's a Jell-O scrunchie.</p>
+<p begin="22980877920t" end="23009246260t" region="BOTTOM_CENTER" xml:id="subtitle563">And now, the reveal.</p>
+<p begin="23067214170t" end="23093490420t" region="BOTTOM_CENTER" xml:id="subtitle564">I mean, you were okay before...</p>
+<p begin="23095162090t" end="23113920830t" region="BOTTOM_CENTER" xml:id="subtitle565">...but now...</p>
+<p begin="23118935840t" end="23140627510t" region="BOTTOM_CENTER" xml:id="subtitle566">...you're beautiful.</p>
+<p begin="23142299180t" end="23168985840t" region="BOTTOM_CENTER" xml:id="subtitle567">No, I'm not. I can't go out in public<br/>like this.</p>
+<p begin="23170657510t" end="23199015840t" region="BOTTOM_CENTER" xml:id="subtitle568">Well, why not?</p>
+<p begin="23200687510t" end="23231548340t" region="BOTTOM_CENTER" xml:id="subtitle569">I mean, this is the real you, right?</p>
+<p begin="23246142920t" end="23261998760t" region="BOTTOM_CENTER" xml:id="subtitle570">Smart.</p>
+<p begin="23263660420t" end="23283260000t" region="BOTTOM_CENTER" xml:id="subtitle571">Bespectacled.</p>
+<p begin="23289105840t" end="23309125840t" region="BOTTOM_CENTER" xml:id="subtitle572">Who wouldn't wanna see that?</p>
+<p begin="23310797510t" end="23356673340t" region="BOTTOM_CENTER" xml:id="subtitle573">You know, I've never met anyone<br/>like you, Flint Lockwood.</p>
+<p begin="23358345010t" end="23375852500t" region="BOTTOM_CENTER" xml:id="subtitle574">Me either.</p>
+<p begin="23377524170t" end="23399215840t" region="BOTTOM_CENTER" xml:id="subtitle575">But about you.</p>
+<p begin="23568965420t" end="23586062500t" region="BOTTOM_CENTER" xml:id="subtitle576"><span style="style_0">Flint, you have a call</span></p>
+<p begin="23587734170t" end="23606923340t" region="BOTTOM_CENTER" xml:id="subtitle577"><span style="style_0">Flint, you have a call</span></p>
+<p begin="23608595010t" end="23626102500t" region="BOTTOM_CENTER" xml:id="subtitle578">Is your phone ringing?</p>
+<p begin="23627774170t" end="23658224590t" region="BOTTOM_CENTER" xml:id="subtitle579">That's weird.<br/>Someone must've changed my ring.</p>
+<p begin="23659896260t" end="23681167510t" region="BOTTOM_CENTER" xml:id="subtitle580">Oh, it's the mayor.<br/>Do you mind if I take this?</p>
+<p begin="23682839180t" end="23693259590t" region="BOTTOM_CENTER" xml:id="subtitle581">No, no, no.</p>
+<p begin="23694921250t" end="23722879180t" region="BOTTOM_CENTER" xml:id="subtitle582">-Go ahead, take it. That's fine.<br/>-I'm sorry. It's important.</p>
+<p begin="23724530830t" end="23758324590t" region="BOTTOM_CENTER" xml:id="subtitle583">-I should be going too. It's getting late.<br/>-I'm just gonna step outside.</p>
+<p begin="23862178340t" end="23883449590t" region="BOTTOM_CENTER" xml:id="subtitle584">Dad, you came.<br/>I have so much to tell you.</p>
+<p begin="23885111250t" end="23915561670t" region="BOTTOM_CENTER" xml:id="subtitle585">-Do I look all right?<br/>-You look great. Come on, let's go.</p>
+<p begin="23928915010t" end="23941427510t" region="BOTTOM_CENTER" xml:id="subtitle586">Dad, I almost kissed a girl.</p>
+<p begin="23943099180t" end="23970206260t" region="BOTTOM_CENTER" xml:id="subtitle587">-It's Baby Brent, you know?<br/>-It was the coolest thing-- Hi.</p>
+<p begin="23979375420t" end="24007733750t" region="BOTTOM_CENTER" xml:id="subtitle588">-I should be on the list.<br/>-Hey, Brian.</p>
+<p begin="24009405420t" end="24060706670t" region="BOTTOM_CENTER" xml:id="subtitle589">What? You're letting that guy in?<br/>That guy's a nerd.</p>
+<p begin="24081567510t" end="24099915840t" region="BOTTOM_CENTER" xml:id="subtitle590">Hey, how's it going?</p>
+<p begin="24106172090t" end="24130366260t" region="BOTTOM_CENTER" xml:id="subtitle591">Oh, thank you. Thank you so much.<br/>Thank you.</p>
+<p begin="24132027920t" end="24164970830t" region="BOTTOM_CENTER" xml:id="subtitle592">A toast.<br/>To Flint and his delicious steaks.</p>
+<p begin="24166642500t" end="24196262090t" region="BOTTOM_CENTER" xml:id="subtitle593">-Oh, thanks. Thank you.<br/>-Very nice place.</p>
+<p begin="24197923750t" end="24216692500t" region="BOTTOM_CENTER" xml:id="subtitle594">Oh, wow, thank you.</p>
+<p begin="24218364170t" end="24247563340t" region="BOTTOM_CENTER" xml:id="subtitle595">-Flint Lockwood.<br/>-Earl.</p>
+<p begin="24301787510t" end="24315120830t" region="BOTTOM_CENTER" xml:id="subtitle596">So no roof.</p>
+<p begin="24316792500t" end="24340155840t" region="BOTTOM_CENTER" xml:id="subtitle597">Yep. You just hold out your plate.</p>
+<p begin="24341827510t" end="24361847510t" region="BOTTOM_CENTER" xml:id="subtitle598">And I even made it rain<br/>your favorite:</p>
+<p begin="24363519180t" end="24373529180t" region="BOTTOM_CENTER" xml:id="subtitle599">Meat.</p>
+<p begin="24447763340t" end="24458183750t" region="BOTTOM_CENTER" xml:id="subtitle600">Okay.</p>
+<p begin="24464860420t" end="24499485010t" region="BOTTOM_CENTER" xml:id="subtitle601">So you know how the grand reopening<br/>of the town is tomorrow?</p>
+<p begin="24501146670t" end="24553709180t" region="BOTTOM_CENTER" xml:id="subtitle602">Well, the mayor has asked me<br/>to cut the ribbon.</p>
+<p begin="24555360830t" end="24578724170t" region="BOTTOM_CENTER" xml:id="subtitle603">He said my invention<br/>saved the town.</p>
+<p begin="24583318760t" end="24606672090t" region="BOTTOM_CENTER" xml:id="subtitle604">Aren't you proud of me?</p>
+<p begin="24686331670t" end="24702597920t" region="BOTTOM_CENTER" xml:id="subtitle605">Well...</p>
+<p begin="24710525840t" end="24733468760t" region="BOTTOM_CENTER" xml:id="subtitle606">...doesn't this steak look<br/>a little big to you?</p>
+<p begin="24754319590t" end="24806872090t" region="BOTTOM_CENTER" xml:id="subtitle607">Yeah, it's a big steak. I mean, every<br/>steak is not exactly the same size.</p>
+<p begin="24808533750t" end="24833568760t" region="BOTTOM_CENTER" xml:id="subtitle608">Did you even hear what I just said?</p>
+<p begin="24847322500t" end="24865670830t" region="BOTTOM_CENTER" xml:id="subtitle609">Son, look around.</p>
+<p begin="24867342500t" end="24892377510t" region="BOTTOM_CENTER" xml:id="subtitle610">I'm not sure this is good for people.</p>
+<p begin="24908223340t" end="24932417510t" region="BOTTOM_CENTER" xml:id="subtitle611">Maybe you should think about<br/>turning this thing off.</p>
+<p begin="24934089180t" end="24961606670t" region="BOTTOM_CENTER" xml:id="subtitle612">It's making everybody happy.</p>
+<p begin="24964119180t" end="24982467510t" region="BOTTOM_CENTER" xml:id="subtitle613">Everybody except you.</p>
+<p begin="24989134170t" end="25012077090t" region="BOTTOM_CENTER" xml:id="subtitle614">When are you gonna accept<br/>that this is who I am...</p>
+<p begin="25013748760t" end="25054619590t" region="BOTTOM_CENTER" xml:id="subtitle615">...instead of trying to get me to work<br/>in some boring tackle shop?</p>
+<p begin="25070885840t" end="25086731670t" region="BOTTOM_CENTER" xml:id="subtitle616">Well...</p>
+<p begin="25092577510t" end="25117182090t" region="BOTTOM_CENTER" xml:id="subtitle617">...you seem like you know<br/>what you're doing, then.</p>
+<p begin="25136781670t" end="25162647510t" region="BOTTOM_CENTER" xml:id="subtitle618">I guess I'll just get out of your way.</p>
+<p begin="25443337920t" end="25455850420t" region="BOTTOM_CENTER" xml:id="subtitle619">Get with the times, man.</p>
+<p begin="25457522090t" end="25484218760t" region="BOTTOM_CENTER" xml:id="subtitle620">I mean, there's no pleasing<br/>that guy.</p>
+<p begin="25485880420t" end="25526751250t" region="BOTTOM_CENTER" xml:id="subtitle621">He just wants to take anything<br/>good I do and just smoosh it.</p>
+<p begin="25624779180t" end="25648963340t" region="BOTTOM_CENTER" xml:id="subtitle622">These are big hot dogs.</p>
+<p begin="25752396670t" end="25767832090t" region="BOTTOM_CENTER" xml:id="subtitle623">Man.</p>
+<p begin="25773667920t" end="25798272500t" region="BOTTOM_CENTER" xml:id="subtitle624">I mean, this isn't that bad.</p>
+<p begin="25799944170t" end="25817882090t" region="BOTTOM_CENTER" xml:id="subtitle625">-Is it, Steve?<br/><span style="style_0">-Yellow.</span></p>
+<p begin="25819543750t" end="25830815010t" region="BOTTOM_CENTER" xml:id="subtitle626">You're right, Steve.</p>
+<p begin="25836640830t" end="25860424590t" region="BOTTOM_CENTER" xml:id="subtitle627">The Dangeometer is in the yellow.</p>
+<p begin="25862096260t" end="25875850000t" region="BOTTOM_CENTER" xml:id="subtitle628">I don't know what to do.</p>
+<p begin="25877521670t" end="25893377510t" region="BOTTOM_CENTER" xml:id="subtitle629">I do.</p>
+<p begin="25900885010t" end="25926730830t" region="BOTTOM_CENTER" xml:id="subtitle630">Declare these hot dogs<br/>to be delicious!</p>
+<p begin="25937581670t" end="25954268340t" region="BOTTOM_CENTER" xml:id="subtitle631">Oh, no.</p>
+<p begin="25963447510t" end="25976780830t" region="BOTTOM_CENTER" xml:id="subtitle632">How did you get in here?</p>
+<p begin="25978452500t" end="25996800830t" region="BOTTOM_CENTER" xml:id="subtitle633">Tomorrow's the big day, Flint.</p>
+<p begin="26002236260t" end="26036430420t" region="BOTTOM_CENTER" xml:id="subtitle634">The entire town's fate is resting<br/>on your food weather.</p>
+<p begin="26038102090t" end="26049363340t" region="BOTTOM_CENTER" xml:id="subtitle635">I'm thinking pasta.</p>
+<p begin="26053537510t" end="26098572500t" region="BOTTOM_CENTER" xml:id="subtitle636">Some light apps.<br/>I know you won't let us down.</p>
+<p begin="26119433340t" end="26148622500t" region="BOTTOM_CENTER" xml:id="subtitle637">Well, Mr. Mayor, I think there's<br/>something you should see.</p>
+<p begin="26150294170t" end="26162806670t" region="BOTTOM_CENTER" xml:id="subtitle638">What?</p>
+<p begin="26166970830t" end="26206180000t" region="BOTTOM_CENTER" xml:id="subtitle639">This is the molecular structure<br/>of a hot dog that fell last week.</p>
+<p begin="26212025840t" end="26256650420t" region="BOTTOM_CENTER" xml:id="subtitle640">And this is the molecular structure<br/>of a hot dog that fell today.</p>
+<p begin="26260404170t" end="26278342090t" region="BOTTOM_CENTER" xml:id="subtitle641">The machine uses<br/>microwave radiation...</p>
+<p begin="26280003750t" end="26302115840t" region="BOTTOM_CENTER" xml:id="subtitle642">...to mutate the genetic recipe<br/>of the food.</p>
+<p begin="26303787510t" end="26330474170t" region="BOTTOM_CENTER" xml:id="subtitle643">The more we ask it to make,<br/>the more clouds it takes in...</p>
+<p begin="26332145840t" end="26372185840t" region="BOTTOM_CENTER" xml:id="subtitle644">...the more radiation it emits, the more<br/>these molecules could over-mutate.</p>
+<p begin="26382195840t" end="26406380000t" region="BOTTOM_CENTER" xml:id="subtitle645">I think that's why the food<br/>is getting bigger.</p>
+<p begin="26416810420t" end="26434748340t" region="BOTTOM_CENTER" xml:id="subtitle646">Here's what I heard:</p>
+<p begin="26436410000t" end="26458522090t" region="BOTTOM_CENTER" xml:id="subtitle647">"Science, science, science, bigger."</p>
+<p begin="26460183750t" end="26476870420t" region="BOTTOM_CENTER" xml:id="subtitle648">And bigger is better.</p>
+<p begin="26478542090t" end="26514407920t" region="BOTTOM_CENTER" xml:id="subtitle649">Everyone's gonna love<br/>these new portion sizes.</p>
+<p begin="26524838340t" end="26538602090t" region="BOTTOM_CENTER" xml:id="subtitle650">I know I do.</p>
+<p begin="26566960420t" end="26585318760t" region="BOTTOM_CENTER" xml:id="subtitle651">My dad thinks I should turn it off.</p>
+<p begin="26586980420t" end="26629102500t" region="BOTTOM_CENTER" xml:id="subtitle652">Geniuses like us are never understood<br/>by their fathers, Flint.</p>
+<p begin="26630774170t" end="26642035420t" region="BOTTOM_CENTER" xml:id="subtitle653">But what if things go--?</p>
+<p begin="26643707090t" end="26665819180t" region="BOTTOM_CENTER" xml:id="subtitle654">Who needs the approval<br/>of one family member...</p>
+<p begin="26667470830t" end="26696259590t" region="BOTTOM_CENTER" xml:id="subtitle655">...when you can have it<br/>from millions of acquaintances?</p>
+<p begin="26697921250t" end="26733376670t" region="BOTTOM_CENTER" xml:id="subtitle656">Not to mention that little cutlet,<br/>Sam Sparks.</p>
+<p begin="26735048340t" end="26750894170t" region="BOTTOM_CENTER" xml:id="subtitle657">And me.</p>
+<p begin="26752565840t" end="26793026260t" region="BOTTOM_CENTER" xml:id="subtitle658">I've always felt that you were<br/>like a son to me, Flint.</p>
+<p begin="26794687920t" end="26844327510t" region="BOTTOM_CENTER" xml:id="subtitle659">And I'm gonna be so proud of you<br/>tomorrow when you cut that ribbon...</p>
+<p begin="26845999180t" end="26861004170t" region="BOTTOM_CENTER" xml:id="subtitle660">...save the town...</p>
+<p begin="26862675840t" end="26908972089t" region="BOTTOM_CENTER" xml:id="subtitle661">...and prove to everybody<br/>what a great inventor you are.</p>
+<p begin="26910633749t" end="26936089179t" region="BOTTOM_CENTER" xml:id="subtitle662">So here's the cheese:</p>
+<p begin="26937740829t" end="26957350419t" region="BOTTOM_CENTER" xml:id="subtitle663">You can keep it going...</p>
+<p begin="26959022089t" end="26978621669t" region="BOTTOM_CENTER" xml:id="subtitle664">...get everything you've ever wanted...</p>
+<p begin="26980293339t" end="27013246259t" region="BOTTOM_CENTER" xml:id="subtitle665">...and be the great man<br/>I know you can be.</p>
+<p begin="27014907919t" end="27042855839t" region="BOTTOM_CENTER" xml:id="subtitle666">Or you can turn it off...</p>
+<p begin="27044527509t" end="27062045009t" region="BOTTOM_CENTER" xml:id="subtitle667">...ruin everything...</p>
+<p begin="27063706669t" end="27100413339t" region="BOTTOM_CENTER" xml:id="subtitle668">...and no one will ever like you.</p>
+<p begin="27107079999t" end="27125438339t" region="BOTTOM_CENTER" xml:id="subtitle669">It's your choice.</p>
+<p begin="27127099999t" end="27140032919t" region="BOTTOM_CENTER" xml:id="subtitle670">Choice.</p>
+<p begin="27141704589t" end="27156309179t" region="BOTTOM_CENTER" xml:id="subtitle671">Choice.</p>
+<p begin="27157960829t" end="27167970829t" region="BOTTOM_CENTER" xml:id="subtitle672">Choice.</p>
+<p begin="27169642499t" end="27182995839t" region="BOTTOM_CENTER" xml:id="subtitle673">Choice.</p>
+<p begin="27184667509t" end="27203436259t" region="BOTTOM_CENTER" xml:id="subtitle674">Choice.</p>
+<p begin="27230953749t" end="27241384169t" region="BOTTOM_CENTER" xml:id="subtitle675">Okay.</p>
+<p begin="27353165839t" end="27379852499t" region="BOTTOM_CENTER" xml:id="subtitle676">I mean, bigger is better...</p>
+<p begin="27381524169t" end="27391954589t" region="BOTTOM_CENTER" xml:id="subtitle677">...right?</p>
+<p begin="27393626259t" end="27414897509t" region="BOTTOM_CENTER" xml:id="subtitle678">Oh, yeah.</p>
+<p begin="27453686259t" end="27491634169t" region="TOP_CENTER" xml:id="subtitle679"><span style="style_0">Spaghetti. Asparagus. Celery.</span><br/><span style="style_0">Garlic bread. Meatball. Shrimp.</span></p>
+<p begin="27625938339t" end="27648871249t" region="BOTTOM_CENTER" xml:id="subtitle680">-Looks safe to me.<br/>-And sanitary too.</p>
+<p begin="27986298339t" end="28017989999t" region="BOTTOM_CENTER" xml:id="subtitle681">Who's hungry?</p>
+<p begin="28019661669t" end="28065547509t" region="BOTTOM_CENTER" xml:id="subtitle682">Welcome, tourists,<br/>to Chew And Swallow.</p>
+<p begin="28067219179t" end="28082224169t" region="BOTTOM_CENTER" xml:id="subtitle683">That is one big mayor.</p>
+<p begin="28083895839t" end="28118920829t" region="BOTTOM_CENTER" xml:id="subtitle684">Delight in our nacho-cheese<br/>hot springs.</p>
+<p begin="28130602499t" end="28161052919t" region="BOTTOM_CENTER" xml:id="subtitle685">Allow your kids to eat<br/>all the junk food they want...</p>
+<p begin="28162724589t" end="28190252089t" region="BOTTOM_CENTER" xml:id="subtitle686">...in our completely<br/>unsupervised Kid Zone!</p>
+<p begin="28191913749t" end="28212354169t" region="BOTTOM_CENTER" xml:id="subtitle687">I've got jellybeans for teeth.</p>
+<p begin="28214025839t" end="28232374169t" region="BOTTOM_CENTER" xml:id="subtitle688">And when the fun is done...</p>
+<p begin="28234045839t" end="28273665419t" region="BOTTOM_CENTER" xml:id="subtitle689">...gaze upon the sunset<br/>cresting over Mount Leftovers.</p>
+<p begin="28275337089t" end="28313295009t" region="BOTTOM_CENTER" xml:id="subtitle690">From which we're protected<br/>by a presumably indestructible dam.</p>
+<p begin="28317469179t" end="28355837509t" region="BOTTOM_CENTER" xml:id="subtitle691">We've got people here today<br/>from all around the world...</p>
+<p begin="28357509179t" end="28379601249t" region="BOTTOM_CENTER" xml:id="subtitle692">...from as far as China<br/>to West Virginia.</p>
+<p begin="28381272919t" end="28400041669t" region="BOTTOM_CENTER" xml:id="subtitle693">Also I think there's<br/>some Canadians here.</p>
+<p begin="28401713339t" end="28424235839t" region="BOTTOM_CENTER" xml:id="subtitle694">-You need to look at this.<br/>-Why aren't you on TV?</p>
+<p begin="28425907509t" end="28444676259t" region="BOTTOM_CENTER" xml:id="subtitle695">You're supposed<br/>to be broadcasting this.</p>
+<p begin="28446337919t" end="28469691249t" region="BOTTOM_CENTER" xml:id="subtitle696">There's a problem.<br/>The food's getting bigger.</p>
+<p begin="28471362919t" end="28500972499t" region="BOTTOM_CENTER" xml:id="subtitle697">I know, it's great. Bigger portion sizes.<br/>Everyone loves it.</p>
+<p begin="28502644169t" end="28526007509t" region="BOTTOM_CENTER" xml:id="subtitle698">I'm not sure we're doing<br/>the right thing here.</p>
+<p begin="28527679179t" end="28551863339t" region="BOTTOM_CENTER" xml:id="subtitle699">What if we've bitten off more<br/>than we can chew?</p>
+<p begin="28553535009t" end="28592734169t" region="BOTTOM_CENTER" xml:id="subtitle700">For the first time in my life, everybody<br/>loves something that I've done.</p>
+<p begin="28594405839t" end="28616507919t" region="BOTTOM_CENTER" xml:id="subtitle701">Why can't you just be happy for me...</p>
+<p begin="28618179589t" end="28643625009t" region="BOTTOM_CENTER" xml:id="subtitle702">...and go say the weather<br/>or something. Jeez.</p>
+<p begin="28645286669t" end="28659050419t" region="BOTTOM_CENTER" xml:id="subtitle703">And without further ado...</p>
+<p begin="28660722089t" end="28699921249t" region="BOTTOM_CENTER" xml:id="subtitle704">...our town's hero<br/>and my metaphorical son...</p>
+<p begin="28701592919t" end="28725787089t" region="BOTTOM_CENTER" xml:id="subtitle705">...Flint Lockwood.</p>
+<p begin="28727458759t" end="28740802089t" region="BOTTOM_CENTER" xml:id="subtitle706">Yeah, Flint.</p>
+<p begin="28742463749t" end="28762904169t" region="BOTTOM_CENTER" xml:id="subtitle707">Thank you. Thank you, everyone.</p>
+<p begin="28764575839t" end="28780842089t" region="BOTTOM_CENTER" xml:id="subtitle708">-Sign my shrimp.<br/>-Thank you.</p>
+<p begin="28782503749t" end="28801272499t" region="BOTTOM_CENTER" xml:id="subtitle709">-Yeah. Yeah.<br/>-I love you.</p>
+<p begin="28806287509t" end="28827979179t" region="BOTTOM_CENTER" xml:id="subtitle710">I admire your quirkiness, dude.</p>
+<p begin="28829630829t" end="28866347509t" region="BOTTOM_CENTER" xml:id="subtitle711">Brent, we're gonna need you<br/>to hand over the ceremonial scissors.</p>
+<p begin="28872183339t" end="28886777919t" region="BOTTOM_CENTER" xml:id="subtitle712">But--</p>
+<p begin="28889280419t" end="28899700829t" region="BOTTOM_CENTER" xml:id="subtitle713">No.</p>
+<p begin="28901372499t" end="28932653749t" region="BOTTOM_CENTER" xml:id="subtitle714">-You can't. You can't take them. No.<br/>-Here you go.</p>
+<p begin="28939740829t" end="28963104169t" region="BOTTOM_CENTER" xml:id="subtitle715">I'm Baby Brent.</p>
+<p begin="28983965009t" end="29011902919t" region="BOTTOM_CENTER" xml:id="subtitle716">Put your clothes back on.</p>
+<p begin="29018169179t" end="29041512499t" region="BOTTOM_CENTER" xml:id="subtitle717">Who am I?</p>
+<p begin="29059450419t" end="29080721669t" region="BOTTOM_CENTER" xml:id="subtitle718">Go ahead, Flint.</p>
+<p begin="29082393339t" end="29106587509t" region="BOTTOM_CENTER" xml:id="subtitle719">Everybody loves you.</p>
+<p begin="29108259179t" end="29134945839t" region="BOTTOM_CENTER" xml:id="subtitle720"><span style="style_0">Lockwood! Lockwood! Lockwood!</span></p>
+<p begin="29136617509t" end="29166227089t" region="BOTTOM_CENTER" xml:id="subtitle721"><span style="style_0">Lockwood! Lockwood! Lockwood!</span></p>
+<p begin="29496977509t" end="29527838339t" region="BOTTOM_CENTER" xml:id="subtitle722"><span style="style_0">Danger. Danger. Danger.</span></p>
+<p begin="29564545009t" end="29591652089t" region="BOTTOM_CENTER" xml:id="subtitle723">Salt-and-pepper wind?</p>
+<p begin="29609169589t" end="29625015419t" region="BOTTOM_CENTER" xml:id="subtitle724">Oregano.</p>
+<p begin="29790590829t" end="29821461669t" region="BOTTOM_CENTER" xml:id="subtitle725">Sam, wait. No, I can turn it off.</p>
+<p begin="29874855009t" end="29890690829t" region="BOTTOM_CENTER" xml:id="subtitle726">I can turn it off.</p>
+<p begin="30021661669t" end="30047107089t" region="BOTTOM_CENTER" xml:id="subtitle727">All right, kid, it's all gonna be okay.</p>
+<p begin="30074214169t" end="30094234169t" region="BOTTOM_CENTER" xml:id="subtitle728">Oh, no.</p>
+<p begin="30117597509t" end="30143863749t" region="BOTTOM_CENTER" xml:id="subtitle729">-Pardon me.<br/>-Pardon me.</p>
+<p begin="30150950829t" end="30176406259t" region="BOTTOM_CENTER" xml:id="subtitle730">-Excuse me.<br/>-No problem.</p>
+<p begin="30213102919t" end="30229379179t" region="BOTTOM_CENTER" xml:id="subtitle731">No.</p>
+<p begin="30304023749t" end="30327387089t" region="BOTTOM_CENTER" xml:id="subtitle732"><span style="style_0">-Gummi Bears.</span><br/>-Not now, Steve.</p>
+<p begin="30392031669t" end="30421641249t" region="BOTTOM_CENTER" xml:id="subtitle733">Condiments? Salt? Pepper?</p>
+<p begin="30445835419t" end="30462932499t" region="BOTTOM_CENTER" xml:id="subtitle734">Flint.</p>
+<p begin="30502972499t" end="30526335839t" region="BOTTOM_CENTER" xml:id="subtitle735">This is Sam Sparks,<br/>live from Chew And Swallow...</p>
+<p begin="30528007509t" end="30543012499t" region="BOTTOM_CENTER" xml:id="subtitle736">...where a spaghetti twister--</p>
+<p begin="30544684169t" end="30586395839t" region="BOTTOM_CENTER" xml:id="subtitle737"><span style="style_0">Sam, hey, we love a good storm</span><br/><span style="style_0">over here, but you look like a nerd.</span></p>
+<p begin="30588067509t" end="30630599999t" region="BOTTOM_CENTER" xml:id="subtitle738">Patrick, several children are stranded<br/>in the path of this tomato tornado.</p>
+<p begin="30633522919t" end="30648958339t" region="BOTTOM_CENTER" xml:id="subtitle739">My tummy hurts.</p>
+<p begin="30667727089t" end="30680649999t" region="BOTTOM_CENTER" xml:id="subtitle740">Cal.</p>
+<p begin="30693162499t" end="30724033339t" region="BOTTOM_CENTER" xml:id="subtitle741"><span style="style_0">What is that, a scrunchie? I haven't</span><br/><span style="style_0">seen one of those since 1995.</span></p>
+<p begin="30725705009t" end="30761981249t" region="BOTTOM_CENTER" xml:id="subtitle742"><span style="style_0">What? We have</span><br/><span style="style_0">an actual weather emergency.</span></p>
+<p begin="30763652919t" end="30783252499t" region="BOTTOM_CENTER" xml:id="subtitle743"><span style="style_0">Well, we'll get right back</span><br/><span style="style_0">to that storm...</span></p>
+<p begin="30784924169t" end="30812872089t" region="BOTTOM_CENTER" xml:id="subtitle744"><span style="style_0">...and hopefully Sam'll look</span><br/><span style="style_0">a little more appealing.</span></p>
+<p begin="30889618759t" end="30925064169t" region="BOTTOM_CENTER" xml:id="subtitle745">Steve, we just have to upload the kill<br/>code and then we'll shut down the--</p>
+<p begin="30926735839t" end="30939248339t" region="BOTTOM_CENTER" xml:id="subtitle746">What are you doing here?</p>
+<p begin="30940909999t" end="30963432499t" region="BOTTOM_CENTER" xml:id="subtitle747">I've been ordering dinner<br/>for the last 10 minutes.</p>
+<p begin="30965104169t" end="30989718759t" region="BOTTOM_CENTER" xml:id="subtitle748">-Is something going on?<br/>-I've gotta stop the machine.</p>
+<p begin="30991380419t" end="31013482499t" region="BOTTOM_CENTER" xml:id="subtitle749">Everyone's in danger<br/>because of me.</p>
+<p begin="31015154169t" end="31043512499t" region="BOTTOM_CENTER" xml:id="subtitle750">Oh, it can't be that bad.</p>
+<p begin="31046855839t" end="31073542499t" region="BOTTOM_CENTER" xml:id="subtitle751">-No.<br/>-Well, I'm out of here.</p>
+<p begin="31075214169t" end="31100249179t" region="BOTTOM_CENTER" xml:id="subtitle752">I can still stop the order<br/>with the kill code.</p>
+<p begin="31130279179t" end="31156965839t" region="BOTTOM_CENTER" xml:id="subtitle753">-Sending kill code.<br/>-I'm back.</p>
+<p begin="31158637509t" end="31179488339t" region="BOTTOM_CENTER" xml:id="subtitle754">Got to get the button.</p>
+<p begin="31195334169t" end="31206595419t" region="BOTTOM_CENTER" xml:id="subtitle755"><span style="style_0">Play. Fun. Fun. Play.</span></p>
+<p begin="31208267089t" end="31254563339t" region="BOTTOM_CENTER" xml:id="subtitle756">Hey, Flint. It's been nice<br/>to beet you.</p>
+<p begin="31262481249t" end="31287926669t" region="BOTTOM_CENTER" xml:id="subtitle757">That's a radish.</p>
+<p begin="31503972499t" end="31547776259t" region="BOTTOM_CENTER" xml:id="subtitle758">That was the only way<br/>to communicate with the machine.</p>
+<p begin="31551940419t" end="31569047509t" region="BOTTOM_CENTER" xml:id="subtitle759">What exactly did you order?</p>
+<p begin="31570719179t" end="31610759179t" region="BOTTOM_CENTER" xml:id="subtitle760">A Vegas-style all-you-can-eat buffet.</p>
+<p begin="31631599999t" end="31666645009t" region="BOTTOM_CENTER" xml:id="subtitle761"><span style="style_0">Jellybean. Watermelon.</span><br/><span style="style_0">Marshmallow. Pretzel. Sushi.</span></p>
+<p begin="31668306669t" end="31729207509t" region="BOTTOM_CENTER" xml:id="subtitle762"><span style="style_0">Cheeseburger. Pretzel. Egg salad.</span><br/><span style="style_0">Strawberry. Marshmallow.</span></p>
+<p begin="31748386669t" end="31760488759t" region="BOTTOM_CENTER" xml:id="subtitle763"><span style="style_0">Strawberry.</span></p>
+<p begin="31810118339t" end="31835143339t" region="BOTTOM_CENTER" xml:id="subtitle764">-Is everyone okay?<br/>-Yeah.</p>
+<p begin="31901869999t" end="31923561669t" region="BOTTOM_CENTER" xml:id="subtitle765">Help, somebody.</p>
+<p begin="31926484589t" end="31946084169t" region="BOTTOM_CENTER" xml:id="subtitle766">Help me, please.</p>
+<p begin="31947755839t" end="31965273339t" region="BOTTOM_CENTER" xml:id="subtitle767">It's my son.</p>
+<p begin="31971529589t" end="31985293339t" region="BOTTOM_CENTER" xml:id="subtitle768">We need a doctor.</p>
+<p begin="31986965009t" end="32015323339t" region="BOTTOM_CENTER" xml:id="subtitle769">Is anyone here a doctor? Anyone?</p>
+<p begin="32016995009t" end="32036174169t" region="BOTTOM_CENTER" xml:id="subtitle770">I am a doctor.</p>
+<p begin="32037845839t" end="32047855839t" region="BOTTOM_CENTER" xml:id="subtitle771">You are?</p>
+<p begin="32049527509t" end="32076214169t" region="BOTTOM_CENTER" xml:id="subtitle772">I was, back in Guatemala.</p>
+<p begin="32077885839t" end="32097485419t" region="BOTTOM_CENTER" xml:id="subtitle773">I came here for a better life.</p>
+<p begin="32099157089t" end="32111259179t" region="BOTTOM_CENTER" xml:id="subtitle774">Pretty great decision, eh?</p>
+<p begin="32162960829t" end="32176314169t" region="BOTTOM_CENTER" xml:id="subtitle775">How is he, doc?</p>
+<p begin="32196754589t" end="32209687509t" region="BOTTOM_CENTER" xml:id="subtitle776">He's in a food coma.</p>
+<p begin="32225112919t" end="32240548339t" region="BOTTOM_CENTER" xml:id="subtitle777">Too much junk food.</p>
+<p begin="32242209999t" end="32255563339t" region="BOTTOM_CENTER" xml:id="subtitle778">I need a celery, stat.</p>
+<p begin="32257235009t" end="32274742499t" region="BOTTOM_CENTER" xml:id="subtitle779">Here you go.</p>
+<p begin="32308536259t" end="32341899589t" region="BOTTOM_CENTER" xml:id="subtitle780">-Daddy?<br/>-Oh, Cal. Cal.</p>
+<p begin="32343561249t" end="32368175839t" region="BOTTOM_CENTER" xml:id="subtitle781">I love you, son.</p>
+<p begin="32404041669t" end="32424892499t" region="BOTTOM_CENTER" xml:id="subtitle782">Looks like everything<br/>turned out okay.</p>
+<p begin="32426564169t" end="32437825419t" region="BOTTOM_CENTER" xml:id="subtitle783">Not yet, it hasn't.</p>
+<p begin="32439497089t" end="32473270829t" region="BOTTOM_CENTER" xml:id="subtitle784">That twister was an amuse-bouche<br/>compared to what's on the way.</p>
+<p begin="32474942499t" end="32499977509t" region="BOTTOM_CENTER" xml:id="subtitle785">-What's an amuse-bouche?<br/>-Manny, patch us through.</p>
+<p begin="32562529999t" end="32574211669t" region="BOTTOM_CENTER" xml:id="subtitle786">Go.</p>
+<p begin="32575883339t" end="32604662089t" region="TOP_CENTER" xml:id="subtitle787"><span style="style_0">Cute report, Nancy.</span><br/><span style="style_0">Hey. Hey. Four-eyes.</span></p>
+<p begin="32606323749t" end="32617595009t" region="BOTTOM_CENTER" xml:id="subtitle788"><span style="style_0">Can it, Patrick.</span></p>
+<p begin="32619256669t" end="32652619999t" region="BOTTOM_CENTER" xml:id="subtitle789"><span style="style_0">We are about to be in the epicenter</span><br/><span style="style_0">of a perfect food storm.</span></p>
+<p begin="32654291669t" end="32675983339t" region="BOTTOM_CENTER" xml:id="subtitle790"><span style="style_0">It's going to spread</span><br/><span style="style_0">across the globe.</span></p>
+<p begin="32680567919t" end="32714351669t" region="BOTTOM_CENTER" xml:id="subtitle791"><span style="style_0">I've calculated the Coriolis</span><br/><span style="style_0">acceleration of the storm system.</span></p>
+<p begin="32716023339t" end="32736874169t" region="BOTTOM_CENTER" xml:id="subtitle792"><span style="style_0">First, it'll hit New York...</span></p>
+<p begin="32738545839t" end="32758565839t" region="BOTTOM_CENTER" xml:id="subtitle793"><span style="style_0">...then Paris...</span></p>
+<p begin="32760237509t" end="32789426669t" region="BOTTOM_CENTER" xml:id="subtitle794"><span style="style_0">...then the Jiayuguan Pass</span><br/><span style="style_0">in eastern China.</span></p>
+<p begin="32791098339t" end="32849076259t" region="BOTTOM_CENTER" xml:id="subtitle795">And in four hours the entire northern<br/>hemisphere will be one big potluck.</p>
+<p begin="33101408339t" end="33116002919t" region="BOTTOM_CENTER" xml:id="subtitle796">Flint?</p>
+<p begin="33198175009t" end="33211518339t" region="BOTTOM_CENTER" xml:id="subtitle797">Flint?</p>
+<p begin="33213179999t" end="33224020829t" region="BOTTOM_CENTER" xml:id="subtitle798">Hey, Dad.</p>
+<p begin="33230707509t" end="33246963749t" region="BOTTOM_CENTER" xml:id="subtitle799">What are you doing?</p>
+<p begin="33248635419t" end="33275332089t" region="BOTTOM_CENTER" xml:id="subtitle800">Well, I tried to help everybody...</p>
+<p begin="33276993749t" end="33316623339t" region="BOTTOM_CENTER" xml:id="subtitle801">...but instead I ruined everything.</p>
+<p begin="33322469179t" end="33342489179t" region="BOTTOM_CENTER" xml:id="subtitle802">I'm just a piece of junk.</p>
+<p begin="33344140829t" end="33383770419t" region="BOTTOM_CENTER" xml:id="subtitle803">So I threw myself away.</p>
+<p begin="33387944589t" end="33422148759t" region="BOTTOM_CENTER" xml:id="subtitle804">Along with all these<br/>dumb inventions.</p>
+<p begin="33423810419t" end="33442589179t" region="BOTTOM_CENTER" xml:id="subtitle805">This is junk.</p>
+<p begin="33449676259t" end="33470947509t" region="BOTTOM_CENTER" xml:id="subtitle806">This is junk.</p>
+<p begin="33494711249t" end="33510987509t" region="BOTTOM_CENTER" xml:id="subtitle807">This is junk.</p>
+<p begin="33519325839t" end="33557694169t" region="BOTTOM_CENTER" xml:id="subtitle808">Oh, son. Listen, when your boat is,<br/>when it's listing...</p>
+<p begin="33559365839t" end="33584380829t" region="BOTTOM_CENTER" xml:id="subtitle809">...and if it's not running,<br/>you know--</p>
+<p begin="33586052499t" end="33608164589t" region="BOTTOM_CENTER" xml:id="subtitle810">Don't worry, Dad, I get it.</p>
+<p begin="33609836259t" end="33634430829t" region="BOTTOM_CENTER" xml:id="subtitle811">Mom was wrong about me.</p>
+<p begin="33645281669t" end="33665301669t" region="BOTTOM_CENTER" xml:id="subtitle812">I'm not an inventor.</p>
+<p begin="33676562919t" end="33701177509t" region="BOTTOM_CENTER" xml:id="subtitle813">I should've just quit when you said.</p>
+<p begin="33777493749t" end="33791677919t" region="BOTTOM_CENTER" xml:id="subtitle814">Well...</p>
+<p begin="33800857089t" end="33837974169t" region="BOTTOM_CENTER" xml:id="subtitle815">...when it rains, you put on a coat.</p>
+<p begin="33842148339t" end="33888444589t" region="BOTTOM_CENTER" xml:id="subtitle816">Dad, you know I don't understand<br/>fishing metapho--</p>
+<p begin="33909295419t" end="33919725839t" region="BOTTOM_CENTER" xml:id="subtitle817">What?</p>
+<p begin="33960596669t" end="33971447509t" region="BOTTOM_CENTER" xml:id="subtitle818">My coat.</p>
+<p begin="34076542499t" end="34119505419t" region="BOTTOM_CENTER" xml:id="subtitle819">Come on, Steve.<br/>We've got <span style="style_0">diem</span> to <span style="style_0">carpe</span>.</p>
+<p begin="34186652499t" end="34199585419t" region="BOTTOM_CENTER" xml:id="subtitle820">Kill code downloading.</p>
+<p begin="34224610419t" end="34248384169t" region="BOTTOM_CENTER" xml:id="subtitle821">Redesigning. Virtualizing.</p>
+<p begin="34250055839t" end="34265901669t" region="BOTTOM_CENTER" xml:id="subtitle822">Cutting.</p>
+<p begin="34272578339t" end="34297603339t" region="BOTTOM_CENTER" xml:id="subtitle823">Welding. Forging.</p>
+<p begin="34299275009t" end="34318454169t" region="BOTTOM_CENTER" xml:id="subtitle824">-Wiring.<br/><span style="style_0">-Helping.</span></p>
+<p begin="34320125839t" end="34336392089t" region="BOTTOM_CENTER" xml:id="subtitle825">Testing.</p>
+<p begin="34348484169t" end="34367673340t" region="BOTTOM_CENTER" xml:id="subtitle826">Yes.</p>
+<p begin="34401877510t" end="34424390000t" region="BOTTOM_CENTER" xml:id="subtitle827">Flying Car 2.</p>
+<p begin="34426061670t" end="34448584170t" region="BOTTOM_CENTER" xml:id="subtitle828">Now with wings.</p>
+<p begin="34558694170t" end="34588724170t" region="BOTTOM_CENTER" xml:id="subtitle829">Hey, I had a weird dream<br/>like this once.</p>
+<p begin="34593318760t" end="34618754170t" region="BOTTOM_CENTER" xml:id="subtitle830">I have a macaroni<br/>on my head.</p>
+<p begin="34632107510t" end="34647532920t" region="BOTTOM_CENTER" xml:id="subtitle831">Run.</p>
+<p begin="34700926260t" end="34712187510t" region="BOTTOM_CENTER" xml:id="subtitle832">No school!</p>
+<p begin="34763068340t" end="34804770000t" region="BOTTOM_CENTER" xml:id="subtitle833"><span style="style_0">Still nothing-nothing in the bottom of</span><br/><span style="style_0">the third inning.</span></p>
+<p begin="34884029180t" end="34895690830t" region="BOTTOM_CENTER" xml:id="subtitle834">Everyone.</p>
+<p begin="34916551670t" end="34936992090t" region="BOTTOM_CENTER" xml:id="subtitle835">I want to apologize.</p>
+<p begin="34951586670t" end="34972027090t" region="BOTTOM_CENTER" xml:id="subtitle836">Especially to you, Sam.</p>
+<p begin="34973698760t" end="34994960000t" region="BOTTOM_CENTER" xml:id="subtitle837">But I have a plan.</p>
+<p begin="34996631670t" end="35020825840t" region="BOTTOM_CENTER" xml:id="subtitle838">This flash drive contains a kill code.</p>
+<p begin="35022497510t" end="35055850830t" region="BOTTOM_CENTER" xml:id="subtitle839">I will fly up into that food storm,<br/>plug it into the machine...</p>
+<p begin="35057522500t" end="35077132090t" region="BOTTOM_CENTER" xml:id="subtitle840">...and shut it down forever...</p>
+<p begin="35078793750t" end="35102577510t" region="BOTTOM_CENTER" xml:id="subtitle841">...while you guys evacuate<br/>the island, using brea--</p>
+<p begin="35104249180t" end="35122177090t" region="BOTTOM_CENTER" xml:id="subtitle842">This is all his fault. Get him.</p>
+<p begin="35123848760t" end="35134279180t" region="BOTTOM_CENTER" xml:id="subtitle843">There he is! Get him!</p>
+<p begin="35135930830t" end="35145940830t" region="BOTTOM_CENTER" xml:id="subtitle844">Get Flint.</p>
+<p begin="35147612500t" end="35178893750t" region="BOTTOM_CENTER" xml:id="subtitle845">Let's rock his car back and forth.</p>
+<p begin="35227692500t" end="35247302090t" region="BOTTOM_CENTER" xml:id="subtitle846">Hey!</p>
+<p begin="35252727510t" end="35281506260t" region="BOTTOM_CENTER" xml:id="subtitle847">This mess we're in<br/>is all our faults.</p>
+<p begin="35296090830t" end="35324879590t" region="BOTTOM_CENTER" xml:id="subtitle848">Me, I didn't even protect<br/>my own son.</p>
+<p begin="35326541250t" end="35351155840t" region="BOTTOM_CENTER" xml:id="subtitle849">Look, I'm as mad at Flint as you are.</p>
+<p begin="35352827510t" end="35396190830t" region="BOTTOM_CENTER" xml:id="subtitle850">In fact, when he gets out of that car,<br/>I'm gonna slap him in the face.</p>
+<p begin="35397862500t" end="35439153750t" region="BOTTOM_CENTER" xml:id="subtitle851">I know Flint Lockwood made the food,<br/>but it was made-to-order.</p>
+<p begin="35440825420t" end="35469604170t" region="BOTTOM_CENTER" xml:id="subtitle852">And now it's time for all of us<br/>to pay the bill.</p>
+<p begin="35575540000t" end="35593898340t" region="BOTTOM_CENTER" xml:id="subtitle853">Thank you, Earl.</p>
+<p begin="35605990420t" end="35622677090t" region="BOTTOM_CENTER" xml:id="subtitle854">-Sorry.<br/>-It's okay.</p>
+<p begin="35624348760t" end="35664388760t" region="BOTTOM_CENTER" xml:id="subtitle855">-Let's go build some boats.<br/>-Yeah.</p>
+<p begin="35669804170t" end="35687742090t" region="BOTTOM_CENTER" xml:id="subtitle856">I'm gonna go build a boat.</p>
+<p begin="35703587920t" end="35714018340t" region="BOTTOM_CENTER" xml:id="subtitle857">I'm coming with you.</p>
+<p begin="35723197510t" end="35756550830t" region="BOTTOM_CENTER" xml:id="subtitle858">You're gonna need someone<br/>to navigate you through that storm.</p>
+<p begin="35766560830t" end="35780755010t" region="BOTTOM_CENTER" xml:id="subtitle859">I can't let you do this alone.</p>
+<p begin="35782416670t" end="35809944170t" region="BOTTOM_CENTER" xml:id="subtitle860">-Oh, Sam, I'm so sorry.<br/>-Are you kidding?</p>
+<p begin="35811615840t" end="35829964170t" region="BOTTOM_CENTER" xml:id="subtitle861">-Well, I just thought that we--<br/>-No.</p>
+<p begin="35831635840t" end="35841645840t" region="BOTTOM_CENTER" xml:id="subtitle862">Okay.</p>
+<p begin="35843317510t" end="35871255420t" region="BOTTOM_CENTER" xml:id="subtitle863">-You are going to need a copilot.<br/>-You're a pilot too?</p>
+<p begin="35875429590t" end="35900034170t" region="BOTTOM_CENTER" xml:id="subtitle864">Yes. I am also a particle physicist.</p>
+<p begin="35901705840t" end="35922146260t" region="BOTTOM_CENTER" xml:id="subtitle865">-Really?<br/>-No, that was a joke.</p>
+<p begin="35923807920t" end="35934238340t" region="BOTTOM_CENTER" xml:id="subtitle866">I am also a comedian.</p>
+<p begin="35959263340t" end="35988042090t" region="BOTTOM_CENTER" xml:id="subtitle867">-Let's do this thing.<br/>-I'm coming too.</p>
+<p begin="35989703750t" end="36010564590t" region="BOTTOM_CENTER" xml:id="subtitle868">Brent, that's okay.</p>
+<p begin="36012236260t" end="36043517510t" region="BOTTOM_CENTER" xml:id="subtitle869">No, it's not okay.</p>
+<p begin="36045189180t" end="36081465420t" region="BOTTOM_CENTER" xml:id="subtitle870">I've been coasting on my fame<br/>since I was a baby.</p>
+<p begin="36083137090t" end="36111915840t" region="BOTTOM_CENTER" xml:id="subtitle871">But it was all just an illusion.</p>
+<p begin="36113587510t" end="36154878760t" region="BOTTOM_CENTER" xml:id="subtitle872">Maybe up there<br/>I'll find out who I really am.</p>
+<p begin="36161965840t" end="36188652500t" region="BOTTOM_CENTER" xml:id="subtitle873">The car's pretty full, so....</p>
+<p begin="36199913750t" end="36214097920t" region="BOTTOM_CENTER" xml:id="subtitle874">Yeah.</p>
+<p begin="36215769590t" end="36227020830t" region="BOTTOM_CENTER" xml:id="subtitle875">Brent.</p>
+<p begin="36228692500t" end="36246210000t" region="BOTTOM_CENTER" xml:id="subtitle876">Okay.</p>
+<p begin="36371755420t" end="36390103750t" region="BOTTOM_CENTER" xml:id="subtitle877">Good luck, son.</p>
+<p begin="36464347920t" end="36488542090t" region="BOTTOM_CENTER" xml:id="subtitle878"><span style="style_0">Steve.</span></p>
+<p begin="36502305840t" end="36515659180t" region="BOTTOM_CENTER" xml:id="subtitle879">Pea-soup fog.</p>
+<p begin="36517310830t" end="36542766260t" region="BOTTOM_CENTER" xml:id="subtitle880">Manny, hit the wipers.</p>
+<p begin="36571124590t" end="36605749180t" region="BOTTOM_CENTER" xml:id="subtitle881">There's massive gastro-precipitation<br/>accumulated around the machine.</p>
+<p begin="36619082500t" end="36637851250t" region="BOTTOM_CENTER" xml:id="subtitle882">It's almost as if it's....</p>
+<p begin="36641194590t" end="36674147510t" region="BOTTOM_CENTER" xml:id="subtitle883">Inside a giant meatball.</p>
+<p begin="36715438760t" end="36736700000t" region="BOTTOM_CENTER" xml:id="subtitle884">Water goes in the top...</p>
+<p begin="36738371670t" end="36777570830t" region="BOTTOM_CENTER" xml:id="subtitle885">...a food hurricane<br/>comes out the bottom.</p>
+<p begin="36781755010t" end="36800513750t" region="BOTTOM_CENTER" xml:id="subtitle886">Glad I'm wearing a diaper.</p>
+<p begin="36967760830t" end="36989452500t" region="BOTTOM_CENTER" xml:id="subtitle887">Anybody order pizza?</p>
+<p begin="36994047090t" end="37014487510t" region="BOTTOM_CENTER" xml:id="subtitle888">Hold on.</p>
+<p begin="37016159180t" end="37035338340t" region="BOTTOM_CENTER" xml:id="subtitle889">The pizza's chasing us?</p>
+<p begin="37037000000t" end="37056199180t" region="BOTTOM_CENTER" xml:id="subtitle890">Sentient food? That's impossible.</p>
+<p begin="37057850830t" end="37087050000t" region="BOTTOM_CENTER" xml:id="subtitle891">Unless its molecular structure's<br/>mutated into super food!</p>
+<p begin="37088721670t" end="37122925840t" region="BOTTOM_CENTER" xml:id="subtitle892">That's been genetically engineered<br/>to protect the FLDSMDFR.</p>
+<p begin="37124597510t" end="37141274170t" region="BOTTOM_CENTER" xml:id="subtitle893"><span style="style_0">Pizza.</span></p>
+<p begin="37142945840t" end="37165468340t" region="BOTTOM_CENTER" xml:id="subtitle894"><span style="style_0">Pizza. Pizza. Pizza.</span></p>
+<p begin="37196339180t" end="37239702500t" region="BOTTOM_CENTER" xml:id="subtitle895">That was close. I mean, can you<br/>imagine if we lost this kill code?</p>
+<p begin="37305608340t" end="37318110830t" region="BOTTOM_CENTER" xml:id="subtitle896">-Tim's Tackle Shop.<br/>-<span style="style_0">Dad.</span></p>
+<p begin="37319782500t" end="37336479180t" region="BOTTOM_CENTER" xml:id="subtitle897">You're okay, great.</p>
+<p begin="37338130830t" end="37363586260t" region="BOTTOM_CENTER" xml:id="subtitle898">I need a favor. The fate of the world<br/>depends on it!</p>
+<p begin="37365247920t" end="37386108760t" region="BOTTOM_CENTER" xml:id="subtitle899">Okay, then, skipper.<br/>What do you need?</p>
+<p begin="37387770420t" end="37429892500t" region="BOTTOM_CENTER" xml:id="subtitle900">Go into my lab, get on my computer<br/>and e-mail a file to my cell phone.</p>
+<p begin="37505808340t" end="37516238760t" region="BOTTOM_CENTER" xml:id="subtitle901">All right.</p>
+<p begin="37570032500t" end="37590052500t" region="BOTTOM_CENTER" xml:id="subtitle902">-Want me to drive?<br/>-Yeah, okay.</p>
+<p begin="37718931250t" end="37738530830t" region="BOTTOM_CENTER" xml:id="subtitle903">You're a lot better than me.</p>
+<p begin="37800262500t" end="37811523750t" region="BOTTOM_CENTER" xml:id="subtitle904">Okay, here's the plan:</p>
+<p begin="37813195420t" end="37841143340t" region="BOTTOM_CENTER" xml:id="subtitle905">Sam and I will enter the meateroid<br/>through the intake here...</p>
+<p begin="37842815010t" end="37866168340t" region="BOTTOM_CENTER" xml:id="subtitle906">...which should lead us straight<br/>to the FLDSMDFR.</p>
+<p begin="37867830000t" end="37895367510t" region="BOTTOM_CENTER" xml:id="subtitle907">Manny, you and Steve stay<br/>on the plane. Don't spray that.</p>
+<p begin="37897039180t" end="37927479590t" region="BOTTOM_CENTER" xml:id="subtitle908">Once my dad e-mails me the kill code,<br/>we'll destroy the machine...</p>
+<p begin="37929141250t" end="37952084170t" region="BOTTOM_CENTER" xml:id="subtitle909">...and rendezvous<br/>at the western blowhole in--</p>
+<p begin="37953755840t" end="37979191250t" region="BOTTOM_CENTER" xml:id="subtitle910">-How long until the world's destroyed?<br/>-Twenty minutes.</p>
+<p begin="37980862920t" end="37991293340t" region="BOTTOM_CENTER" xml:id="subtitle911">Just before then.</p>
+<p begin="37992965010t" end="38021323340t" region="BOTTOM_CENTER" xml:id="subtitle912">What about me, Brent?<br/>What do I do?</p>
+<p begin="38027169180t" end="38065117090t" region="BOTTOM_CENTER" xml:id="subtitle913">You can be president<br/>of the back seat.</p>
+<p begin="38083055010t" end="38093895840t" region="BOTTOM_CENTER" xml:id="subtitle914">Deploy hatch.</p>
+<p begin="38095567510t" end="38127269180t" region="BOTTOM_CENTER" xml:id="subtitle915">Car upside down, go.</p>
+<p begin="38141853750t" end="38160212090t" region="BOTTOM_CENTER" xml:id="subtitle916">Ladies first?</p>
+<p begin="38164796670t" end="38179811670t" region="BOTTOM_CENTER" xml:id="subtitle917">No?</p>
+<p begin="38181483340t" end="38195667510t" region="BOTTOM_CENTER" xml:id="subtitle918">All right.</p>
+<p begin="38206928760t" end="38228190000t" region="BOTTOM_CENTER" xml:id="subtitle919">Wait for me.</p>
+<p begin="38229861670t" end="38250302090t" region="BOTTOM_CENTER" xml:id="subtitle920">Great. Okay, I'm good.</p>
+<p begin="38273655420t" end="38312444170t" region="BOTTOM_CENTER" xml:id="subtitle921">As long as we stay on course,<br/>it should be a straight shot to the--</p>
+<p begin="38334556260t" end="38352063750t" region="BOTTOM_CENTER" xml:id="subtitle922">Yeah!</p>
+<p begin="38385857510t" end="38405877510t" region="BOTTOM_CENTER" xml:id="subtitle923">We're a team.</p>
+<p begin="38532664170t" end="38557278760t" region="BOTTOM_CENTER" xml:id="subtitle924">We've landed here<br/>in some kind of exhaust vent.</p>
+<p begin="38558940420t" end="38597739180t" region="BOTTOM_CENTER" xml:id="subtitle925">If we go this way, the Flamidabager<br/>should be right down this air shaft.</p>
+<p begin="38599390830t" end="38616918340t" region="BOTTOM_CENTER" xml:id="subtitle926">Brent, get out of that pie.</p>
+<p begin="38618580000t" end="38631092500t" region="BOTTOM_CENTER" xml:id="subtitle927">What's that?</p>
+<p begin="38762894170t" end="38780411670t" region="BOTTOM_CENTER" xml:id="subtitle928">Oh, boy.</p>
+<p begin="38850902090t" end="38874255420t" region="BOTTOM_CENTER" xml:id="subtitle929"><span style="style_0">Welcome, Flint.</span></p>
+<p begin="38966017090t" end="38986457510t" region="BOTTOM_CENTER" xml:id="subtitle930">That's fry oil.</p>
+<p begin="39052763750t" end="39066947920t" region="BOTTOM_CENTER" xml:id="subtitle931"><span style="style_0">Flint, you have a call.</span></p>
+<p begin="39068619590t" end="39081132090t" region="BOTTOM_CENTER" xml:id="subtitle932"><span style="style_0">Flint, you have a--</span></p>
+<p begin="39082793750t" end="39098239180t" region="BOTTOM_CENTER" xml:id="subtitle933">Dad. Oh, okay, great.</p>
+<p begin="39099890830t" end="39127428340t" region="BOTTOM_CENTER" xml:id="subtitle934">On the screen there's a file<br/>marked "kill code."</p>
+<p begin="39129090000t" end="39155786670t" region="BOTTOM_CENTER" xml:id="subtitle935">-Wha--?<br/>-<span style="style_0">Move that into my e-mail window...</span></p>
+<p begin="39165386260t" end="39188329180t" region="BOTTOM_CENTER" xml:id="subtitle936">...type in my name,<br/>and press "send."</p>
+<p begin="39212923750t" end="39223354170t" region="BOTTOM_CENTER" xml:id="subtitle937">-Window?<br/>-Okay, Dad...</p>
+<p begin="39225025840t" end="39255055840t" region="BOTTOM_CENTER" xml:id="subtitle938">...you see the thing that looks like<br/>a little piece of paper?</p>
+<p begin="39256727510t" end="39271732500t" region="BOTTOM_CENTER" xml:id="subtitle939">Use the mouse to drag it.</p>
+<p begin="39273404170t" end="39293424170t" region="BOTTOM_CENTER" xml:id="subtitle940">-Drag it? Drag it.<br/>-Drag it. Drag it.</p>
+<p begin="39295095840t" end="39320110830t" region="BOTTOM_CENTER" xml:id="subtitle941"><span style="style_0">Right? Okay. Great. Okay, great.</span></p>
+<p begin="39321782500t" end="39335966670t" region="BOTTOM_CENTER" xml:id="subtitle942">It's not dragging.</p>
+<p begin="39337638340t" end="39358078760t" region="BOTTOM_CENTER" xml:id="subtitle943">Drag it across the desktop.</p>
+<p begin="39387267920t" end="39418559180t" region="BOTTOM_CENTER" xml:id="subtitle944">-That didn't do anything.<br/>-Of course it didn't! You know what?</p>
+<p begin="39460250830t" end="39470260830t" region="BOTTOM_CENTER" xml:id="subtitle945">Go, go, go.</p>
+<p begin="39471932500t" end="39494875420t" region="BOTTOM_CENTER" xml:id="subtitle946">Hoist those sails. Toast that bread.</p>
+<p begin="39498639180t" end="39516987510t" region="BOTTOM_CENTER" xml:id="subtitle947">We are running out of time.</p>
+<p begin="39553684170t" end="39574124590t" region="BOTTOM_CENTER" xml:id="subtitle948">Let's move out. Go, go, go.</p>
+<p begin="39575796260t" end="39594144590t" region="BOTTOM_CENTER" xml:id="subtitle949">We can do it.<br/>Come on, move it, move it.</p>
+<p begin="39595816260t" end="39629179590t" region="BOTTOM_CENTER" xml:id="subtitle950">Good job. That's what I'm talking<br/>about. Everybody head to the docks.</p>
+<p begin="39698839180t" end="39712172500t" region="BOTTOM_CENTER" xml:id="subtitle951">Wait, wait.</p>
+<p begin="39713844170t" end="39738458760t" region="BOTTOM_CENTER" xml:id="subtitle952">I have an important announcement.</p>
+<p begin="39753884170t" end="39767237510t" region="BOTTOM_CENTER" xml:id="subtitle953">See you, suckers.</p>
+<p begin="39775575840t" end="39788929180t" region="BOTTOM_CENTER" xml:id="subtitle954">Bon voyage.</p>
+<p begin="39797677920t" end="39825625840t" region="BOTTOM_CENTER" xml:id="subtitle955">And bon appétit.</p>
+<p begin="39905705840t" end="39929890000t" region="BOTTOM_CENTER" xml:id="subtitle956">-Cal.<br/>-Calvin.</p>
+<p begin="40024574590t" end="40040830830t" region="BOTTOM_CENTER" xml:id="subtitle957">Cal, get back here.</p>
+<p begin="40104234170t" end="40130920830t" region="BOTTOM_CENTER" xml:id="subtitle958">-Foodalanche.<br/>-Cal.</p>
+<p begin="40132592500t" end="40149289180t" region="BOTTOM_CENTER" xml:id="subtitle959">I'm not gonna lose you again.</p>
+<p begin="40150940830t" end="40168047920t" region="BOTTOM_CENTER" xml:id="subtitle960">Baby.</p>
+<p begin="40212672500t" end="40234364170t" region="BOTTOM_CENTER" xml:id="subtitle961">Hold on tight, Calvin.</p>
+<p begin="40561350830t" end="40601390830t" region="BOTTOM_CENTER" xml:id="subtitle962">Everybody head south.<br/>We gotta stay ahead of that storm.</p>
+<p begin="40632261670t" end="40648117510t" region="BOTTOM_CENTER" xml:id="subtitle963">-Now what?<br/>-Just click "send."</p>
+<p begin="40649789180t" end="40674383750t" region="BOTTOM_CENTER" xml:id="subtitle964">Flint, the Fliminadifiserser's<br/>right down there!</p>
+<p begin="40676475840t" end="40709428760t" region="BOTTOM_CENTER" xml:id="subtitle965">-Dad, hurry.<br/>-Send. Send.</p>
+<p begin="40711090420t" end="40724854170t" region="BOTTOM_CENTER" xml:id="subtitle966">Oh, wait.</p>
+<p begin="40756555840t" end="40776575840t" region="BOTTOM_CENTER" xml:id="subtitle967">Dad? Dad? Can you hear me?</p>
+<p begin="40781991250t" end="40798677920t" region="BOTTOM_CENTER" xml:id="subtitle968">Dad?</p>
+<p begin="40804103340t" end="40816195420t" region="BOTTOM_CENTER" xml:id="subtitle969">Hey, guys?</p>
+<p begin="40868337510t" end="40896695840t" region="BOTTOM_CENTER" xml:id="subtitle970">Holy crap balls.</p>
+<p begin="40901280420t" end="40918797920t" region="BOTTOM_CENTER" xml:id="subtitle971">Go, go, go.</p>
+<p begin="40985534590t" end="41005134170t" region="BOTTOM_CENTER" xml:id="subtitle972">I don't know.<br/>I think they're kind of cute.</p>
+<p begin="41006805840t" end="41029748760t" region="BOTTOM_CENTER" xml:id="subtitle973">I mean, this one just walked<br/>right up to me and--</p>
+<p begin="41031410420t" end="41046845840t" region="BOTTOM_CENTER" xml:id="subtitle974">He's got me!</p>
+<p begin="41066035010t" end="41082711670t" region="BOTTOM_CENTER" xml:id="subtitle975">-They ate Brent.<br/>-They ate Brent.</p>
+<p begin="41093972920t" end="41133592500t" region="BOTTOM_CENTER" xml:id="subtitle976">Dad, I'm surrounded<br/>by man-eating chickens right now.</p>
+<p begin="41144022920t" end="41156955840t" region="BOTTOM_CENTER" xml:id="subtitle977"><span style="style_0">So if this is goodbye...</span></p>
+<p begin="41171550420t" end="41195324170t" region="BOTTOM_CENTER" xml:id="subtitle978"><span style="style_0">...thanks for trying</span><br/><span style="style_0">to set me straight.</span></p>
+<p begin="41200339180t" end="41226605420t" region="BOTTOM_CENTER" xml:id="subtitle979"><span style="style_0">Figured it out a little late, I guess.</span></p>
+<p begin="41236615420t" end="41252461250t" region="BOTTOM_CENTER" xml:id="subtitle980"><span style="style_0">Okay, bye.</span></p>
+<p begin="41434312920t" end="41450589180t" region="BOTTOM_CENTER" xml:id="subtitle981">Dad.</p>
+<p begin="41467265840t" end="41494793340t" region="BOTTOM_CENTER" xml:id="subtitle982">Hey, give me that phone back.</p>
+<p begin="41676224590t" end="41688316670t" region="BOTTOM_CENTER" xml:id="subtitle983">Baby Brent?</p>
+<p begin="41689988340t" end="41720438760t" region="BOTTOM_CENTER" xml:id="subtitle984">I'm not Baby Brent anymore.</p>
+<p begin="41722100420t" end="41750048340t" region="BOTTOM_CENTER" xml:id="subtitle985">I'm Chicken Brent.</p>
+<p begin="41751710000t" end="41790929180t" region="BOTTOM_CENTER" xml:id="subtitle986">And I'm finally contributing<br/>to society.</p>
+<p begin="41792580830t" end="41810949180t" region="BOTTOM_CENTER" xml:id="subtitle987">Crotch kick.</p>
+<p begin="41871830000t" end="41914372500t" region="BOTTOM_CENTER" xml:id="subtitle988">Now go, you crazy kids,<br/>and save the world.</p>
+<p begin="41916044170t" end="41942730830t" region="BOTTOM_CENTER" xml:id="subtitle989">You did it, Chicken Brent.<br/>You really did it.</p>
+<p begin="41944402500t" end="41964012090t" region="BOTTOM_CENTER" xml:id="subtitle990">Go, go, go.</p>
+<p begin="41985693750t" end="42005713750t" region="BOTTOM_CENTER" xml:id="subtitle991">It should be right down this hole.</p>
+<p begin="42030328340t" end="42040758760t" region="BOTTOM_CENTER" xml:id="subtitle992">That's peanut brittle.</p>
+<p begin="42058686670t" end="42092880830t" region="BOTTOM_CENTER" xml:id="subtitle993">If either one of us touches it,<br/>we'll go into anaphylactic shock.</p>
+<p begin="42097895840t" end="42122080000t" region="BOTTOM_CENTER" xml:id="subtitle994">Actually, I'm not entirely allergic<br/>to peanuts.</p>
+<p begin="42123751670t" end="42160878760t" region="BOTTOM_CENTER" xml:id="subtitle995">I might have just said that<br/>to get you to like me.</p>
+<p begin="42162540420t" end="42204252090t" region="BOTTOM_CENTER" xml:id="subtitle996">So you really thought having allergies<br/>would make you more attractive?</p>
+<p begin="42239707510t" end="42258055840t" region="BOTTOM_CENTER" xml:id="subtitle997"><span style="style_0">Mustache.</span></p>
+<p begin="42259727510t" end="42276404170t" region="BOTTOM_CENTER" xml:id="subtitle998"><span style="style_0">Mus--</span></p>
+<p begin="42360658340t" end="42385683340t" region="BOTTOM_CENTER" xml:id="subtitle999">-Sesame bagel.<br/>-Hey, taxi.</p>
+<p begin="42387355010t" end="42405703340t" region="BOTTOM_CENTER" xml:id="subtitle1000">-Taxi.<br/>-Taxi.</p>
+<p begin="42407375010t" end="42434061670t" region="BOTTOM_CENTER" xml:id="subtitle1001">I asked for extra mustard.</p>
+<p begin="42493701250t" end="42518315840t" region="BOTTOM_CENTER" xml:id="subtitle1002">I was right.</p>
+<p begin="42611749180t" end="42624251670t" region="BOTTOM_CENTER" xml:id="subtitle1003">Hot tea?</p>
+<p begin="42625923340t" end="42646353750t" region="BOTTOM_CENTER" xml:id="subtitle1004">Did he say hot tea?</p>
+<p begin="42659286670t" end="42695572920t" region="BOTTOM_CENTER" xml:id="subtitle1005">"You are about to be crushed<br/>by a giant corn."</p>
+<p begin="42697244590t" end="42713921250t" region="BOTTOM_CENTER" xml:id="subtitle1006">Run.</p>
+<p begin="42735192500t" end="42764391670t" region="BOTTOM_CENTER" xml:id="subtitle1007"><span style="style_0">It looks like the food storm</span><br/><span style="style_0">is following an unusual pattern...</span></p>
+<p begin="42766063340t" end="42789416670t" region="BOTTOM_CENTER" xml:id="subtitle1008"><span style="style_0">...of hitting the world's</span><br/><span style="style_0">famous landmarks first...</span></p>
+<p begin="42791088340t" end="42822369590t" region="BOTTOM_CENTER" xml:id="subtitle1009"><span style="style_0">...and is now spreading</span><br/><span style="style_0">to the rest of the globe.</span></p>
+<p begin="42838635840t" end="42849897090t" region="BOTTOM_CENTER" xml:id="subtitle1010">What the what?</p>
+<p begin="42851568760t" end="42877004170t" region="BOTTOM_CENTER" xml:id="subtitle1011">Hurry up, guys.</p>
+<p begin="42878675840t" end="42907034170t" region="BOTTOM_CENTER" xml:id="subtitle1012">After I plug my phone into<br/>the FLDSMDFR and destroy it...</p>
+<p begin="42908705840t" end="42946243340t" region="BOTTOM_CENTER" xml:id="subtitle1013">...I'll tug on the licorice twice<br/>and you'll pull me back up, okay?</p>
+<p begin="42950417510t" end="42967094170t" region="BOTTOM_CENTER" xml:id="subtitle1014">Sounds great.</p>
+<p begin="43072209180t" end="43084711670t" region="BOTTOM_CENTER" xml:id="subtitle1015">Oh, no.</p>
+<p begin="43135182090t" end="43148945840t" region="BOTTOM_CENTER" xml:id="subtitle1016">You got cut, didn't you?</p>
+<p begin="43162299180t" end="43180227090t" region="BOTTOM_CENTER" xml:id="subtitle1017">It's just a scratch.</p>
+<p begin="43191908760t" end="43229025840t" region="BOTTOM_CENTER" xml:id="subtitle1018">Brent, you need to take Sam back to<br/>the plane to get her an allergy shot.</p>
+<p begin="43230697510t" end="43242379180t" region="BOTTOM_CENTER" xml:id="subtitle1019">Just a second.</p>
+<p begin="43244030830t" end="43256553340t" region="BOTTOM_CENTER" xml:id="subtitle1020">What? No.</p>
+<p begin="43261137920t" end="43292008760t" region="BOTTOM_CENTER" xml:id="subtitle1021">-Let go, Sam.<br/>-I'm not gonna let you go.</p>
+<p begin="43293670420t" end="43322459180t" region="BOTTOM_CENTER" xml:id="subtitle1022">Flint, you'll be stuck down there.</p>
+<p begin="43324110830t" end="43345802500t" region="BOTTOM_CENTER" xml:id="subtitle1023">It's not ideal, no.</p>
+<p begin="43351648340t" end="43375832500t" region="BOTTOM_CENTER" xml:id="subtitle1024">Come with us. We'll start over.</p>
+<p begin="43377504170t" end="43411708340t" region="BOTTOM_CENTER" xml:id="subtitle1025">We'll live underground.<br/>Use bacon for clothes.</p>
+<p begin="43413370000t" end="43430897510t" region="BOTTOM_CENTER" xml:id="subtitle1026">Sam, that's not a very good plan.</p>
+<p begin="43432569180t" end="43459255840t" region="BOTTOM_CENTER" xml:id="subtitle1027">It is if it means<br/>I don't have to lose you.</p>
+<p begin="43466763340t" end="43490116670t" region="BOTTOM_CENTER" xml:id="subtitle1028">Look, I like you, okay?</p>
+<p begin="43504711250t" end="43532248760t" region="BOTTOM_CENTER" xml:id="subtitle1029">Like-- Like, as a friend?</p>
+<p begin="43533910420t" end="43551848340t" region="BOTTOM_CENTER" xml:id="subtitle1030">No.</p>
+<p begin="43553930420t" end="43580627090t" region="BOTTOM_CENTER" xml:id="subtitle1031">Like, "like you" like you.</p>
+<p begin="43607734170t" end="43624410830t" region="BOTTOM_CENTER" xml:id="subtitle1032">Me too.</p>
+<p begin="43641107510t" end="43661127510t" region="BOTTOM_CENTER" xml:id="subtitle1033">But about you.</p>
+<p begin="43715341670t" end="43726182500t" region="BOTTOM_CENTER" xml:id="subtitle1034">Goodbye, Sam.</p>
+<p begin="43727854170t" end="43752889180t" region="BOTTOM_CENTER" xml:id="subtitle1035">Flint. No.</p>
+<p begin="43754540830t" end="43767473750t" region="BOTTOM_CENTER" xml:id="subtitle1036">Hang on, Sam.</p>
+<p begin="43769145420t" end="43797924170t" region="BOTTOM_CENTER" xml:id="subtitle1037">Dr. Manny's got the medicine<br/>for your face.</p>
+<p begin="43852989180t" end="43869665840t" region="BOTTOM_CENTER" xml:id="subtitle1038"><span style="style_0">Pickles.</span></p>
+<p begin="43884260420t" end="43896352500t" region="BOTTOM_CENTER" xml:id="subtitle1039"><span style="style_0">Beets.</span></p>
+<p begin="43898024170t" end="43921797920t" region="BOTTOM_CENTER" xml:id="subtitle1040"><span style="style_0">Banana.</span></p>
+<p begin="43923469590t" end="43950576670t" region="BOTTOM_CENTER" xml:id="subtitle1041"><span style="style_0">Strawberry.</span></p>
+<p begin="44063199180t" end="44093229180t" region="BOTTOM_CENTER" xml:id="subtitle1042">-Manny, we're on our way. Hurry.<br/><span style="style_0">-Hang on, Sam.</span></p>
+<p begin="44094880830t" end="44118244170t" region="BOTTOM_CENTER" xml:id="subtitle1043"><span style="style_0">I'm circling the blowhole.</span></p>
+<p begin="44157453340t" end="44167873750t" region="BOTTOM_CENTER" xml:id="subtitle1044"><span style="style_0">Scared.</span></p>
+<p begin="44279245010t" end="44289665420t" region="BOTTOM_CENTER" xml:id="subtitle1045"><span style="style_0">Gummi Bears.</span></p>
+<p begin="44291337090t" end="44316362090t" region="BOTTOM_CENTER" xml:id="subtitle1046">Play with us, play with us.<br/>Eat us, eat us.</p>
+<p begin="44327623340t" end="44341387090t" region="BOTTOM_CENTER" xml:id="subtitle1047"><span style="style_0">Hungry.</span></p>
+<p begin="44348894590t" end="44381006670t" region="BOTTOM_CENTER" xml:id="subtitle1048"><span style="style_0">Hungry. Gummi Bears. Gummi Bears.</span><br/><span style="style_0">Gummi Bears. Steve hungry. Hungry.</span></p>
+<p begin="44382678340t" end="44403539180t" region="BOTTOM_CENTER" xml:id="subtitle1049"><span style="style_0">Steve starving. Hungry.</span><br/><span style="style_0">Hungry. Starving.</span></p>
+<p begin="44470265840t" end="44491957510t" region="BOTTOM_CENTER" xml:id="subtitle1050">Manny. Where are you?</p>
+<p begin="44730946260t" end="44752217510t" region="BOTTOM_CENTER" xml:id="subtitle1051">-She touched a peanut or something.<br/>-Oh, boy.</p>
+<p begin="44854810000t" end="44870665840t" region="BOTTOM_CENTER" xml:id="subtitle1052"><span style="style_0">Corn.</span></p>
+<p begin="45216421250t" end="45226851670t" region="BOTTOM_CENTER" xml:id="subtitle1053">Grabbing.</p>
+<p begin="45232277090t" end="45251876670t" region="BOTTOM_CENTER" xml:id="subtitle1054">Tying. Throwing.</p>
+<p begin="45281496260t" end="45299424170t" region="BOTTOM_CENTER" xml:id="subtitle1055">Waiting.</p>
+<p begin="45320285010t" end="45330705420t" region="BOTTOM_CENTER" xml:id="subtitle1056">Swinging.</p>
+<p begin="45422887510t" end="45451245840t" region="BOTTOM_CENTER" xml:id="subtitle1057">Sorry, old friend.<br/>The kitchen's closed.</p>
+<p begin="45498372920t" end="45508382920t" region="BOTTOM_CENTER" xml:id="subtitle1058"><span style="style_0">Fight the power!</span></p>
+<p begin="45512977510t" end="45523818340t" region="BOTTOM_CENTER" xml:id="subtitle1059">Dad.</p>
+<p begin="45525480000t" end="45537582090t" region="BOTTOM_CENTER" xml:id="subtitle1060">No.</p>
+<p begin="45947571670t" end="45991365420t" region="BOTTOM_CENTER" xml:id="subtitle1061">When it rains, you put on a coat...</p>
+<p begin="45993037090t" end="46013477510t" region="BOTTOM_CENTER" xml:id="subtitle1062">...of Spray-On Shoes.</p>
+<p begin="46036820830t" end="46063527510t" region="BOTTOM_CENTER" xml:id="subtitle1063">Yeah.</p>
+<p begin="46212005840t" end="46238692500t" region="BOTTOM_CENTER" xml:id="subtitle1064">Just-- There were chickens--</p>
+<p begin="46240364170t" end="46251215010t" region="BOTTOM_CENTER" xml:id="subtitle1065">Where's Flint?</p>
+<p begin="46287911670t" end="46304177920t" region="BOTTOM_CENTER" xml:id="subtitle1066">No!</p>
+<p begin="46310434170t" end="46327531250t" region="BOTTOM_CENTER" xml:id="subtitle1067">I know, kid.</p>
+<p begin="46329202920t" end="46342135840t" region="BOTTOM_CENTER" xml:id="subtitle1068">I know.</p>
+<p begin="46433897510t" end="46456830420t" region="BOTTOM_CENTER" xml:id="subtitle1069">-Cool.<br/>-Yeah. All right.</p>
+<p begin="46834297510t" end="46847630830t" region="BOTTOM_CENTER" xml:id="subtitle1070">Flint?</p>
+<p begin="46879332500t" end="46893516670t" region="BOTTOM_CENTER" xml:id="subtitle1071">I'm sorry.</p>
+<p begin="47077860830t" end="47104977920t" region="BOTTOM_CENTER" xml:id="subtitle1072">Your son was a great man.</p>
+<p begin="47357310000t" end="47384847510t" region="BOTTOM_CENTER" xml:id="subtitle1073">-Steve.<br/><span style="style_0">-Steve.</span></p>
+<p begin="47386519180t" end="47403195840t" region="BOTTOM_CENTER" xml:id="subtitle1074">-Flint.<br/>-Brent.</p>
+<p begin="47404867510t" end="47420713340t" region="BOTTOM_CENTER" xml:id="subtitle1075">-Flint.<br/>-Cal.</p>
+<p begin="47422385010t" end="47433225840t" region="BOTTOM_CENTER" xml:id="subtitle1076"><span style="style_0">-Steve.</span><br/>-Flint.</p>
+<p begin="47434897510t" end="47447400000t" region="BOTTOM_CENTER" xml:id="subtitle1077">-Earl.<br/>-Flint.</p>
+<p begin="47449071670t" end="47472435010t" region="BOTTOM_CENTER" xml:id="subtitle1078">-You, guy.<br/><span style="style_0">-Steve.</span></p>
+<p begin="47496208760t" end="47508290830t" region="BOTTOM_CENTER" xml:id="subtitle1079">Sam.</p>
+<p begin="47509962500t" end="47521644170t" region="BOTTOM_CENTER" xml:id="subtitle1080">Flint.</p>
+<p begin="47531654170t" end="47542505010t" region="BOTTOM_CENTER" xml:id="subtitle1081">Sam.</p>
+<p begin="47544166670t" end="47561263750t" region="BOTTOM_CENTER" xml:id="subtitle1082">-Flint.<br/>-Flint.</p>
+<p begin="47562935420t" end="47576288760t" region="BOTTOM_CENTER" xml:id="subtitle1083">-Dad.<br/><span style="style_0">-Steve.</span></p>
+<p begin="47577950420t" end="47595888340t" region="BOTTOM_CENTER" xml:id="subtitle1084">Flint.</p>
+<p begin="47634256670t" end="47673886260t" region="BOTTOM_CENTER" xml:id="subtitle1085">Look, when you--<br/>When you cast your line...</p>
+<p begin="47675547920t" end="47713505840t" region="BOTTOM_CENTER" xml:id="subtitle1086">...if it's not straight--</p>
+<p begin="47721013340t" end="47743115420t" region="BOTTOM_CENTER" xml:id="subtitle1087">Oh, for crying out loud.</p>
+<p begin="47781483750t" end="47800252500t" region="BOTTOM_CENTER" xml:id="subtitle1088"><span style="style_0">I'm proud of you, Flint.</span></p>
+<p begin="47805677920t" end="47831954170t" region="BOTTOM_CENTER" xml:id="subtitle1089"><span style="style_0">I'm amazed that someone</span><br/><span style="style_0">as ordinary as me...</span></p>
+<p begin="47833625840t" end="47874496670t" region="BOTTOM_CENTER" xml:id="subtitle1090"><span style="style_0">...could be the father of someone</span><br/><span style="style_0">as extraordinary as you.</span></p>
+<p begin="47876168340t" end="47909111250t" region="BOTTOM_CENTER" xml:id="subtitle1091"><span style="style_0">You're talented,</span><br/><span style="style_0">you're a total original.</span></p>
+<p begin="47910782920t" end="47939141250t" region="BOTTOM_CENTER" xml:id="subtitle1092"><span style="style_0">And your lab is breathtaking.</span></p>
+<p begin="47940812920t" end="47970842920t" region="BOTTOM_CENTER" xml:id="subtitle1093"><span style="style_0">Your mom, she always knew</span><br/><span style="style_0">you were going to be special.</span></p>
+<p begin="47972514590t" end="48003795840t" region="BOTTOM_CENTER" xml:id="subtitle1094"><span style="style_0">And if she were alive today,</span><br/><span style="style_0">she'd tell us both:</span></p>
+<p begin="48005467510t" end="48027159180t" region="BOTTOM_CENTER" xml:id="subtitle1095"><span style="style_0">"I told you so."</span></p>
+<p begin="48036328340t" end="48067199180t" region="BOTTOM_CENTER" xml:id="subtitle1096"><span style="style_0">Now, look,</span><br/><span style="style_0">when I take this thing off...</span></p>
+<p begin="48068850830t" end="48103895840t" region="BOTTOM_CENTER" xml:id="subtitle1097"><span style="style_0">...and you hear me</span><br/><span style="style_0">make a fishing metaphor...</span></p>
+<p begin="48111403340t" end="48140592500t" region="BOTTOM_CENTER" xml:id="subtitle1098"><span style="style_0">...just know</span><br/><span style="style_0">that fishing metaphor means:</span></p>
+<p begin="48142264170t" end="48160612500t" region="BOTTOM_CENTER" xml:id="subtitle1099">I love my son.</p>
+<p begin="48162284170t" end="48185227090t" region="BOTTOM_CENTER" xml:id="subtitle1100">I love you too, Dad.</p>
+<p begin="48295757510t" end="48314526260t" region="BOTTOM_CENTER" xml:id="subtitle1101">So where were we?</p>
+<p begin="48316187920t" end="48334125840t" region="BOTTOM_CENTER" xml:id="subtitle1102">You were about to kiss me.</p>
+<p begin="48335797510t" end="48356227920t" region="BOTTOM_CENTER" xml:id="subtitle1103">Were you gonna kiss me back?</p>
+<p begin="48357899590t" end="48372914590t" region="BOTTOM_CENTER" xml:id="subtitle1104">Why don't you find out?</p>
+<p begin="48374586260t" end="48403775420t" region="BOTTOM_CENTER" xml:id="subtitle1105">Because I don't want to go for it<br/>and then get shut down again.</p>
+<p begin="48405447090t" end="48422964590t" region="BOTTOM_CENTER" xml:id="subtitle1106">-Just kiss me.<br/>-You know--</p>
+<p begin="48522644170t" end="48554345840t" region="BOTTOM_CENTER" xml:id="subtitle1107">Yeah. I'm a chicken.</p>
+<p begin="48734105420t" end="48772063340t" region="BOTTOM_CENTER" xml:id="subtitle1108">This was not well thought out.</p>
+</div>
+</body>
+</tt>

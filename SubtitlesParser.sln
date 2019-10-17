@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.271
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29324.140
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SubtitlesParser", "SubtitlesParser\SubtitlesParser.csproj", "{6F33AA98-2275-4241-BBED-B3D02BDE5EBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{3617CC79-3E2F-4BD6-B2CF-CA1F42176C18}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Test", "Test\Test.csproj", "{3617CC79-3E2F-4BD6-B2CF-CA1F42176C18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SubtitlesParser.Tests", "SubtitlesParser.Tests\SubtitlesParser.Tests.csproj", "{6D15D73E-BB1C-4BD3-A133-667E9B822CC0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,18 @@ Global
 		{3617CC79-3E2F-4BD6-B2CF-CA1F42176C18}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{3617CC79-3E2F-4BD6-B2CF-CA1F42176C18}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{3617CC79-3E2F-4BD6-B2CF-CA1F42176C18}.Release|x86.ActiveCfg = Release|Any CPU
+		{6D15D73E-BB1C-4BD3-A133-667E9B822CC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D15D73E-BB1C-4BD3-A133-667E9B822CC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D15D73E-BB1C-4BD3-A133-667E9B822CC0}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{6D15D73E-BB1C-4BD3-A133-667E9B822CC0}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{6D15D73E-BB1C-4BD3-A133-667E9B822CC0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{6D15D73E-BB1C-4BD3-A133-667E9B822CC0}.Debug|x86.Build.0 = Debug|Any CPU
+		{6D15D73E-BB1C-4BD3-A133-667E9B822CC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D15D73E-BB1C-4BD3-A133-667E9B822CC0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D15D73E-BB1C-4BD3-A133-667E9B822CC0}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
+		{6D15D73E-BB1C-4BD3-A133-667E9B822CC0}.Release|Mixed Platforms.Build.0 = Release|Any CPU
+		{6D15D73E-BB1C-4BD3-A133-667E9B822CC0}.Release|x86.ActiveCfg = Release|Any CPU
+		{6D15D73E-BB1C-4BD3-A133-667E9B822CC0}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
