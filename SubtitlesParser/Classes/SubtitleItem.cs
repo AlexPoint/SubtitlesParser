@@ -8,8 +8,13 @@ namespace SubtitlesParser.Classes
 
         //Properties------------------------------------------------------------------
         
-        //StartTime and EndTime times are in milliseconds
+        /// <summary>
+        /// Start time in milliseconds.
+        /// </summary>
         public int StartTime { get; set; }
+        /// <summary>
+        /// End time in milliseconds.
+        /// </summary>
         public int EndTime { get; set; }
         public List<string> Lines { get; set; }
         
