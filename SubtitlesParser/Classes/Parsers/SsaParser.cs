@@ -52,7 +52,7 @@ namespace SubtitlesParser.Classes.Parsers
             {
                 var message = string.Format("Stream must be seekable and readable in a subtitles parser. " +
                                    "Operation interrupted; isSeekable: {0} - isReadable: {1}",
-                                   ssaStream.CanSeek, ssaStream.CanSeek);
+                                   ssaStream.CanSeek, ssaStream.CanRead);
                 throw new ArgumentException(message);
             }
 
