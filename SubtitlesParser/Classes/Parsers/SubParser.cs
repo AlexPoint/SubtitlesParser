@@ -122,7 +122,7 @@ namespace SubtitlesParser.Classes.Parsers
                 }
                 catch(Exception ex)
                 {
-                    throw new FormatException(string.Format("Failed to parse as {0}", subtitlesParser.Key), ex);
+                    continue; // Let's try the next parser...
                     //Console.WriteLine(ex);
                 }
             }
