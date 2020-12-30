@@ -7,7 +7,7 @@
     <StartupObject />
     <PackageId>SubtitlesParser</PackageId>
     <AssemblyName>SubtitlesParser</AssemblyName>
-    <Version>1.4.8</Version>
+    <Version>1.4.9</Version>
     <Title>Subtitles parser</Title>
     <Authors>AlexPoint</Authors>
     <PackageProjectUrl>https://github.com/AlexPoint/SubtitlesParser</PackageProjectUrl>
