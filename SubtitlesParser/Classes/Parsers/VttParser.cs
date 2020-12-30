@@ -170,30 +170,33 @@ namespace SubtitlesParser.Classes.Parsers
         /// <returns>The parsed timecode as a TimeSpan instance. If the parsing was unsuccessful, -1 is returned (subtitles should never show)</returns>
         private int ParseVttTimecode(string s)
         {
-            string timeString = string.Empty;
-            var match = Regex.Match(s, "[0-9]+:[0-9]+:[0-9]+[,\\.][0-9]+");
+            int hours = 0;
+            int minutes = 0;
+            int seconds = 0;
+            int milliseconds = -1;
+            var match = Regex.Match(s, "([0-9]+):([0-9]+):([0-9]+)[,\\.]([0-9]+)");
             if (match.Success)
             {
-                timeString = match.Value;
+                hours = int.Parse(match.Groups[1].Value);
+                minutes = int.Parse(match.Groups[2].Value);
+                seconds = int.Parse(match.Groups[3].Value);
+                milliseconds = int.Parse(match.Groups[4].Value);
             }
             else
             {
-                match = Regex.Match(s, "[0-9]+:[0-9]+[,\\.][0-9]+");
-                if (match.Success)
-                {
-                    timeString = "00:" + match.Value;
+                match = Regex.Match(s, "([0-9]+):([0-9]+)[,\\.]([0-9]+)");
+                if (match.Success) {
+                    minutes = int.Parse(match.Groups[1].Value);
+                    seconds = int.Parse(match.Groups[2].Value);
+                    milliseconds = int.Parse(match.Groups[3].Value);
                 }
             }
 
-            if (!string.IsNullOrEmpty(timeString))
+            if (milliseconds >= 0)
             {
-                timeString = timeString.Replace(',', '.');
-                TimeSpan result;
-                if (TimeSpan.TryParse(timeString, out result))
-                {
-                    var nbOfMs = (int)result.TotalMilliseconds;
-                    return nbOfMs;
-                } 
+                TimeSpan result = new TimeSpan(0, hours, minutes, seconds, milliseconds);
+                var nbOfMs = (int)result.TotalMilliseconds;
+                return nbOfMs;
             }
             
             return -1;
