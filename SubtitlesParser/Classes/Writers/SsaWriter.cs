@@ -78,6 +78,11 @@ namespace SubtitlesParser.Classes.Writers
             return builder.AppendJoin(SsaFormatConstants.SEPARATOR, fields).ToString();
         }
 
+        /// <summary>
+        /// Write a list of subtitle items to a stream in the SSA/ASS format synchronously
+        /// </summary>
+        /// <param name="stream">The stream to write to</param>
+        /// <param name="subtitleItems">The subtitle items to write</param>
         public void WriteStream(Stream stream, IEnumerable<SubtitleItem> subtitleItems)
         {
             using TextWriter writer = new StreamWriter(stream);
@@ -89,6 +94,11 @@ namespace SubtitlesParser.Classes.Writers
                 writer.WriteLine(SubtitleItemToDialogueLine(item));
         }
 
+        /// <summary>
+        /// Write a list of subtitle items to a stream in the SSA/ASS format asynchronously
+        /// </summary>
+        /// <param name="stream">The stream to write to</param>
+        /// <param name="subtitleItems">The subtitle items to write</param>
         public async Task WriteStreamAsync(Stream stream, IEnumerable<SubtitleItem> subtitleItems)
         {
             await using TextWriter writer = new StreamWriter(stream);
