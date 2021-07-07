@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using SubtitlesParser.Classes.Utils;
 
 namespace SubtitlesParser.Classes.Parsers
 {
@@ -33,15 +34,6 @@ namespace SubtitlesParser.Classes.Parsers
     /// </summary>
     public class SsaParser : ISubtitlesParser
     {
-        // Properties ---------------------------------------------------------------
-
-        private const string EventLine = "[Events]";
-        private const char Separator = ',';
-
-        private const string StartColumn = "Start";
-        private const string EndColumn = "End";
-        private const string TextColumn = "Text";
-
 
         // Methods ------------------------------------------------------------------
 
@@ -64,7 +56,7 @@ namespace SubtitlesParser.Classes.Parsers
             var line = reader.ReadLine();
             var lineNumber = 1;
             // read the line until the [Events] section
-            while (line != null && line != EventLine)
+            while (line != null && line != SsaFormatConstants.EVENT_LINE)
             {
                 line = reader.ReadLine();
                 lineNumber++;
@@ -76,11 +68,11 @@ namespace SubtitlesParser.Classes.Parsers
                 var headerLine = reader.ReadLine();
                 if (!string.IsNullOrEmpty(headerLine))
                 {
-                    var columnHeaders = headerLine.Split(Separator).Select(head => head.Trim()).ToList();
+                    var columnHeaders = headerLine.Split(SsaFormatConstants.SEPARATOR).Select(head => head.Trim()).ToList();
 
-                    var startIndexColumn = columnHeaders.IndexOf(StartColumn);
-                    var endIndexColumn = columnHeaders.IndexOf(EndColumn);
-                    var textIndexColumn = columnHeaders.IndexOf(TextColumn);
+                    var startIndexColumn = columnHeaders.IndexOf(SsaFormatConstants.START_COLUMN);
+                    var endIndexColumn = columnHeaders.IndexOf(SsaFormatConstants.END_COLUMN);
+                    var textIndexColumn = columnHeaders.IndexOf(SsaFormatConstants.TEXT_COLUMN);
 
                     if (startIndexColumn > 0 && endIndexColumn > 0 && textIndexColumn > 0)
                     {
@@ -91,7 +83,7 @@ namespace SubtitlesParser.Classes.Parsers
                         {
                             if(!string.IsNullOrEmpty(line))
                             {
-                                var columns = line.Split(Separator);
+                                var columns = line.Split(SsaFormatConstants.SEPARATOR);
                                 var startText = columns[startIndexColumn];
                                 var endText = columns[endIndexColumn];
 
@@ -129,7 +121,8 @@ namespace SubtitlesParser.Classes.Parsers
                     {
                         var message = string.Format("Couldn't find all the necessary columns " +
                                                     "headers ({0}, {1}, {2}) in header line {3}",
-                                                    StartColumn, EndColumn, TextColumn, headerLine);
+                                                    SsaFormatConstants.START_COLUMN, SsaFormatConstants.END_COLUMN, 
+                                                    SsaFormatConstants.TEXT_COLUMN, headerLine);
                         throw new ArgumentException(message);
                     }
                 }
@@ -143,7 +136,7 @@ namespace SubtitlesParser.Classes.Parsers
             else
             {
                 var message = string.Format("We reached line '{0}' with line number #{1} without finding to " +
-                                            "Event section ({2})", line, lineNumber, EventLine);
+                                            "Event section ({2})", line, lineNumber, SsaFormatConstants.EVENT_LINE);
                 throw new ArgumentException(message);
             }
         }
