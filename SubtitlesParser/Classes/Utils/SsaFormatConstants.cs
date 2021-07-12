@@ -7,6 +7,7 @@
         public const char SEPARATOR = ',';
         public const char COMMENT = ';';
 
+        public const string WRAP_STYLE_PREFIX = "WrapStyle: ";
         public const string DIALOGUE_PREFIX = "Dialogue: ";
 
         public const string START_COLUMN = "Start";

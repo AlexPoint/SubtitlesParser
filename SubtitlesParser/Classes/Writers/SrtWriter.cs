@@ -25,8 +25,9 @@ namespace SubtitlesParser.Classes.Writers
         /// </summary>
         /// <param name="subtitleItem">The SubtitleItem to convert</param>
         /// <param name="subtitleEntryNumber">The subtitle number for the entry (increments sequentially from 1)</param>
+        /// <param name="includeFormatting">if formatting codes should be included when writing the subtitle item lines. Each subtitle item must have the PlaintextLines property set.</param>
         /// <returns>A list of strings to write as an SRT subtitle entry</returns>
-        private IEnumerable<string> SubtitleItemToSubtitleEntry(SubtitleItem subtitleItem, int subtitleEntryNumber)
+        private IEnumerable<string> SubtitleItemToSubtitleEntry(SubtitleItem subtitleItem, int subtitleEntryNumber, bool includeFormatting)
         {
             // take the start and end timestamps and format it as a timecode line
             string formatTimecodeLine()
@@ -36,10 +37,14 @@ namespace SubtitlesParser.Classes.Writers
                 return $"{start:hh\\:mm\\:ss\\,ff} --> {end:hh\\:mm\\:ss\\,ff}";
             }
 
-            List<string> lines = new List<string>(); 
+            List<string> lines = new List<string>();
             lines.Add(subtitleEntryNumber.ToString());
             lines.Add(formatTimecodeLine());
-            lines.AddRange(subtitleItem.Lines);
+            // check if we should be including formatting or not (default to use formatting if plaintextlines isn't set) 
+            if (includeFormatting == false && subtitleItem.PlaintextLines != null)
+                lines.AddRange(subtitleItem.PlaintextLines);
+            else
+                lines.AddRange(subtitleItem.Lines);
 
             return lines;
         }
@@ -49,7 +54,8 @@ namespace SubtitlesParser.Classes.Writers
         /// </summary>
         /// <param name="stream">The stream to write to</param>
         /// <param name="subtitleItems">The subtitle items to write</param>
-        public void WriteStream(Stream stream, IEnumerable<SubtitleItem> subtitleItems)
+        /// <param name="includeFormatting">if formatting codes should be included when writing the subtitle item lines. Each subtitle item must have the PlaintextLines property set.</param>
+        public void WriteStream(Stream stream, IEnumerable<SubtitleItem> subtitleItems, bool includeFormatting = true)
         {
             using TextWriter writer = new StreamWriter(stream);
 
@@ -57,7 +63,7 @@ namespace SubtitlesParser.Classes.Writers
             for (int i = 0; i < items.Count; i++)
             {
                 SubtitleItem subtitleItem = items[i];
-                IEnumerable<string> lines = SubtitleItemToSubtitleEntry(subtitleItem, i + 1); // add one because subtitle entry numbers start at 1 instead of 0
+                IEnumerable<string> lines = SubtitleItemToSubtitleEntry(subtitleItem, i + 1, includeFormatting); // add one because subtitle entry numbers start at 1 instead of 0
                 foreach (string line in lines)
                     writer.WriteLine(line);
 
@@ -70,7 +76,8 @@ namespace SubtitlesParser.Classes.Writers
         /// </summary>
         /// <param name="stream">The stream to write to</param>
         /// <param name="subtitleItems">The subtitle items to write</param>
-        public async Task WriteStreamAsync(Stream stream, IEnumerable<SubtitleItem> subtitleItems)
+        /// <param name="includeFormatting">if formatting codes should be included when writing the subtitle item lines. Each subtitle item must have the PlaintextLines property set.</param>
+        public async Task WriteStreamAsync(Stream stream, IEnumerable<SubtitleItem> subtitleItems, bool includeFormatting = true)
         {
             await using TextWriter writer = new StreamWriter(stream);
 
@@ -78,7 +85,7 @@ namespace SubtitlesParser.Classes.Writers
             for (int i = 0; i < items.Count; i++)
             {
                 SubtitleItem subtitleItem = items[i];
-                IEnumerable<string> lines = SubtitleItemToSubtitleEntry(subtitleItem, i + 1); // add one because subtitle entry numbers start at 1 instead of 0
+                IEnumerable<string> lines = SubtitleItemToSubtitleEntry(subtitleItem, i + 1, includeFormatting); // add one because subtitle entry numbers start at 1 instead of 0
                 foreach (string line in lines)
                     await writer.WriteLineAsync(line);
 

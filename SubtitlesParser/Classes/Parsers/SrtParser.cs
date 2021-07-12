@@ -19,17 +19,17 @@ namespace SubtitlesParser.Classes.Parsers
     /// 00:00:15,000 --> 00:00:18,000
     /// At the left we can see...[12]
     /// </summary>
-    public class SrtParser: ISubtitlesParser
+    public class SrtParser : ISubtitlesParser
     {
-        
+
         // Properties -----------------------------------------------------------------------
 
-        private readonly string[] _delimiters = { "-->" , "- >", "->" };
-        
+        private readonly string[] _delimiters = {"-->", "- >", "->"};
+
 
         // Constructors --------------------------------------------------------------------
 
-        public SrtParser(){}
+        public SrtParser() {}
 
 
         // Methods -------------------------------------------------------------------------
@@ -40,8 +40,8 @@ namespace SubtitlesParser.Classes.Parsers
             if (!srtStream.CanRead || !srtStream.CanSeek)
             {
                 var message = string.Format("Stream must be seekable and readable in a subtitles parser. " +
-                                   "Operation interrupted; isSeekable: {0} - isReadable: {1}",
-                                   srtStream.CanSeek, srtStream.CanSeek);
+                                            "Operation interrupted; isSeekable: {0} - isReadable: {1}",
+                                            srtStream.CanSeek, srtStream.CanSeek);
                 throw new ArgumentException(message);
             }
 
@@ -81,6 +81,8 @@ namespace SubtitlesParser.Classes.Parsers
                         {
                             // we found the timecode, now we get the text
                             item.Lines.Add(line);
+                            // strip formatting by removing anything within curly braces or angle brackets, which is how SRT styles text according to wikipedia (https://en.wikipedia.org/wiki/SubRip#Formatting)
+                            item.PlaintextLines.Add(Regex.Replace(line, @"\{.*?\}|<.*?>", string.Empty));
                         }
                     }
 
@@ -105,7 +107,7 @@ namespace SubtitlesParser.Classes.Parsers
                 throw new FormatException("Parsing as srt returned no srt part.");
             }
         }
-        
+
         /// <summary>
         /// Enumerates the subtitle parts in a srt file based on the standard line break observed between them. 
         /// A srt subtitle part is in the form:
@@ -129,9 +131,9 @@ namespace SubtitlesParser.Classes.Parsers
                     // return only if not empty
                     var res = sb.ToString().TrimEnd();
                     if (!string.IsNullOrEmpty(res))
-	                {
-		                yield return res;
-	                }
+                    {
+                        yield return res;
+                    }
                     sb = new StringBuilder();
                 }
                 else
