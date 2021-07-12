@@ -38,7 +38,7 @@ namespace SubtitlesParser.Classes.Writers
             writer.WriteLine("ScriptType: v4.00"); // the SSA format 
             writer.WriteLine($"{SsaFormatConstants.WRAP_STYLE_PREFIX}{wrapStyle}");
             writer.WriteLine(); // blank line between sections
-            
+
             writer.Flush();
         }
 
@@ -63,8 +63,9 @@ namespace SubtitlesParser.Classes.Writers
         /// Converts a subtitle item into an SSA formatted dialogue line
         /// </summary>
         /// <param name="subtitleItem">The SubtitleItem to convert</param>
+        /// <param name="includeFormatting">if formatting codes should be included when writing the subtitle item lines. Each subtitle item must have the PlaintextLines property set.</param>
         /// <returns>The full dialogue line</returns>
-        private string SubtitleItemToDialogueLine(SubtitleItem subtitleItem)
+        private string SubtitleItemToDialogueLine(SubtitleItem subtitleItem, bool includeFormatting)
         {
             string[] fields = new string[10]; // style, name, and effect fields are left blank
             fields[0] = "0"; // layer
@@ -73,8 +74,14 @@ namespace SubtitlesParser.Classes.Writers
             fields[5] = "0"; // left margin
             fields[6] = "0"; // right margin 
             fields[7] = "0"; // vertical margin
-            // combine all items in the `Lines` property into a single string, with each item being seperated by an SSA newline (\N) 
-            fields[9] = subtitleItem.Lines.Aggregate(string.Empty, (current, line) => current + $"{line}\\N").TrimEnd('\\', 'N'); // text
+
+            // combine all items in the `Lines` property into a single string, with each item being seperated by an SSA newline (\N)
+            // check if we should be including formatting or not (default to use formatting if plaintextlines isn't set) 
+            if (includeFormatting == false && subtitleItem.PlaintextLines != null)
+                fields[9] = subtitleItem.PlaintextLines.Aggregate(string.Empty, (current, line) => current + $"{line}\\N").TrimEnd('\\', 'N');
+            else
+                fields[9] = subtitleItem.Lines.Aggregate(string.Empty, (current, line) => current + $"{line}\\N").TrimEnd('\\', 'N');
+
 
             StringBuilder builder = new StringBuilder(SsaFormatConstants.DIALOGUE_PREFIX);
             return builder.AppendJoin(SsaFormatConstants.SEPARATOR, fields).ToString();
@@ -85,7 +92,8 @@ namespace SubtitlesParser.Classes.Writers
         /// </summary>
         /// <param name="stream">The stream to write to</param>
         /// <param name="subtitleItems">The subtitle items to write</param>
-        public void WriteStream(Stream stream, IEnumerable<SubtitleItem> subtitleItems)
+        /// <param name="includeFormatting">if formatting codes should be included when writing the subtitle item lines. Each subtitle item must have the PlaintextLines property set.</param>
+        public void WriteStream(Stream stream, IEnumerable<SubtitleItem> subtitleItems, bool includeFormatting = true)
         {
             using TextWriter writer = new StreamWriter(stream);
             WriteHeader(writer);
@@ -93,7 +101,7 @@ namespace SubtitlesParser.Classes.Writers
             writer.WriteLine(SsaFormatConstants.EVENT_LINE);
             writer.WriteLine("Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text"); // column headers
             foreach (SubtitleItem item in subtitleItems)
-                writer.WriteLine(SubtitleItemToDialogueLine(item));
+                writer.WriteLine(SubtitleItemToDialogueLine(item, includeFormatting));
         }
 
         /// <summary>
@@ -101,7 +109,8 @@ namespace SubtitlesParser.Classes.Writers
         /// </summary>
         /// <param name="stream">The stream to write to</param>
         /// <param name="subtitleItems">The subtitle items to write</param>
-        public async Task WriteStreamAsync(Stream stream, IEnumerable<SubtitleItem> subtitleItems)
+        /// <param name="includeFormatting">if formatting codes should be included when writing the subtitle item lines. Each subtitle item must have the PlaintextLines property set.</param>
+        public async Task WriteStreamAsync(Stream stream, IEnumerable<SubtitleItem> subtitleItems, bool includeFormatting = true)
         {
             await using TextWriter writer = new StreamWriter(stream);
             await WriteHeaderAsync(writer);
@@ -109,7 +118,7 @@ namespace SubtitlesParser.Classes.Writers
             await writer.WriteLineAsync(SsaFormatConstants.EVENT_LINE);
             await writer.WriteLineAsync("Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text"); // column headers
             foreach (SubtitleItem item in subtitleItems)
-                await writer.WriteLineAsync(SubtitleItemToDialogueLine(item));
+                await writer.WriteLineAsync(SubtitleItemToDialogueLine(item, includeFormatting));
         }
     }
 }

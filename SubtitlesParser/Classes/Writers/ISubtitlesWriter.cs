@@ -14,13 +14,15 @@ namespace SubtitlesParser.Classes.Writers
         /// </summary>
         /// <param name="stream">the stream to write to</param>
         /// <param name="subtitleItems">the SubtitleItems to write</param>
-        void WriteStream(Stream stream, IEnumerable<SubtitleItem> subtitleItems);
-        
+        /// <param name="includeFormatting">if formatting codes should be included when writing the subtitle item lines. Each subtitle item must have the PlaintextLines property set.</param>
+        void WriteStream(Stream stream, IEnumerable<SubtitleItem> subtitleItems, bool includeFormatting = true);
+
         /// <summary>
         /// Asynchronously writes a list of SubtitleItems into a stream 
         /// </summary>
         /// <param name="stream">the stream to write to</param>
         /// <param name="subtitleItems">the SubtitleItems to write</param>
-        Task WriteStreamAsync(Stream stream, IEnumerable<SubtitleItem> subtitleItems);
+        /// <param name="includeFormatting">if formatting codes should be included when writing the subtitle item lines. Each subtitle item must have the PlaintextLines property set.</param>
+        Task WriteStreamAsync(Stream stream, IEnumerable<SubtitleItem> subtitleItems, bool includeFormatting = true);
     }
 }
