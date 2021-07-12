@@ -128,6 +128,10 @@ namespace SubtitlesParser.Classes.Parsers
                                         default:
                                             throw new ArgumentOutOfRangeException();
                                     }
+                                    
+                                    // trim any spaces from the start of a line (happens when a subtitler includes a space after a newline char ie `this is\N two lines` instead of `this is\Ntwo lines`)
+                                    // this doesn't actually matter for the SSA/ASS format, however if you were to want to convert from SSA/ASS to a format like SRT, it could lead to spaces preceding the second line, which looks funny 
+                                    lines = lines.Select(line => line.TrimStart()).ToList();
 
                                     var item = new SubtitleItem()
                                     {
