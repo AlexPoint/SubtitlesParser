@@ -77,10 +77,10 @@ namespace SubtitlesParser.Classes.Writers
 
             // combine all items in the `Lines` property into a single string, with each item being seperated by an SSA newline (\N)
             // check if we should be including formatting or not (default to use formatting if plaintextlines isn't set) 
-            if (includeFormatting == false && subtitleItem.PlaintextLines != null)
-                fields[9] = subtitleItem.PlaintextLines.Aggregate(string.Empty, (current, line) => current + $"{line}\\N").TrimEnd('\\', 'N');
-            else
-                fields[9] = subtitleItem.Lines.Aggregate(string.Empty, (current, line) => current + $"{line}\\N").TrimEnd('\\', 'N');
+            List<string> lines = includeFormatting == false && subtitleItem.PlaintextLines != null ?
+                subtitleItem.PlaintextLines:
+                subtitleItem.Lines;
+            fields[9] = lines.Aggregate(string.Empty, (current, line) => current + $"{line}\\N").TrimEnd('\\', 'N');
 
 
             StringBuilder builder = new StringBuilder(SsaFormatConstants.DIALOGUE_PREFIX);
