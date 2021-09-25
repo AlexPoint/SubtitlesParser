@@ -36,6 +36,7 @@ namespace SubtitlesParser.Classes
         public SubtitleItem()
         {
             this.Lines = new List<string>();
+            this.PlaintextLines = new List<string>();
         }
 
 
