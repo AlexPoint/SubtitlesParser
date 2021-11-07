@@ -11,11 +11,11 @@ namespace SubtitlesParser.Classes.Writers
     /// See https://en.wikipedia.org/wiki/SubRip for complete explanations.
     /// Example output:
     /// 1
-    /// 00:18:03,87 --> 00:18:04,23
+    /// 00:18:03,875 --> 00:18:04,231
     /// Oh?
     /// 
     /// 2
-    /// 00:18:05,19 --> 00:18:05,90
+    /// 00:18:05,194 --> 00:18:05,905
     /// What was that?
     /// </summary>
     public class SrtWriter : ISubtitlesWriter
@@ -34,7 +34,7 @@ namespace SubtitlesParser.Classes.Writers
             {
                 TimeSpan start = TimeSpan.FromMilliseconds(subtitleItem.StartTime);
                 TimeSpan end = TimeSpan.FromMilliseconds(subtitleItem.EndTime);
-                return $"{start:hh\\:mm\\:ss\\,ff} --> {end:hh\\:mm\\:ss\\,ff}";
+                return $"{start:hh\\:mm\\:ss\\,fff} --> {end:hh\\:mm\\:ss\\,fff}";
             }
 
             List<string> lines = new List<string>();

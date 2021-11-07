@@ -69,8 +69,8 @@ namespace SubtitlesParser.Classes.Writers
         {
             string[] fields = new string[10]; // style, name, and effect fields are left blank
             fields[0] = "0"; // layer
-            fields[1] = TimeSpan.FromMilliseconds(subtitleItem.StartTime).ToString(@"h\:mm\:ss\.ff"); // start
-            fields[2] = TimeSpan.FromMilliseconds(subtitleItem.EndTime).ToString(@"h\:mm\:ss\.ff"); // end
+            fields[1] = TimeSpan.FromMilliseconds(subtitleItem.StartTime).ToString(@"h\:mm\:ss\.fff"); // start
+            fields[2] = TimeSpan.FromMilliseconds(subtitleItem.EndTime).ToString(@"h\:mm\:ss\.fff"); // end
             fields[5] = "0"; // left margin
             fields[6] = "0"; // right margin 
             fields[7] = "0"; // vertical margin
