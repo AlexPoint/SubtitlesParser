@@ -7,7 +7,7 @@
     <StartupObject />
     <PackageId>SubtitlesParser</PackageId>
     <AssemblyName>SubtitlesParser</AssemblyName>
-    <Version>1.5.0</Version>
+    <Version>1.5.1</Version>
     <Title>Subtitles parser</Title>
     <Authors>AlexPoint</Authors>
     <PackageProjectUrl>https://github.com/AlexPoint/SubtitlesParser</PackageProjectUrl>
@@ -16,7 +16,7 @@
     <Description>Universal subtitles parser</Description>
     <ReleaseNotes>Made Ttml and Srt parsers more robust</ReleaseNotes>
     <Tags>subtitles parser</Tags>
-    <PackageReleaseNotes>Update SrtParser to access subtitle lines, without any formatting nor styles</PackageReleaseNotes>
+    <PackageReleaseNotes>Update writers to increase precision in the time codes (now at the millisecond level)</PackageReleaseNotes>
   </PropertyGroup>
 
 </Project>
