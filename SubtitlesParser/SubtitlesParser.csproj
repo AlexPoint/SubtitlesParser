@@ -7,14 +7,14 @@
     <StartupObject />
     <PackageId>SubtitlesParser</PackageId>
     <AssemblyName>SubtitlesParser</AssemblyName>
-    <Version>1.5.1</Version>
+    <Version>1.6</Version>
     <Title>Subtitles parser</Title>
     <Authors>AlexPoint</Authors>
     <PackageProjectUrl>https://github.com/AlexPoint/SubtitlesParser</PackageProjectUrl>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/AlexPoint/SubtitlesParser.git</RepositoryUrl>
     <Description>Universal subtitles parser</Description>
-    <ReleaseNotes>Made Ttml and Srt parsers more robust</ReleaseNotes>
+    <ReleaseNotes>Added async for vtt parser</ReleaseNotes>
     <Tags>subtitles parser</Tags>
     <PackageReleaseNotes>Update writers to increase precision in the time codes (now at the millisecond level)</PackageReleaseNotes>
   </PropertyGroup>

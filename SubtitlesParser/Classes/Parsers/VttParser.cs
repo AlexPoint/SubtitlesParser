@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
+using System.Threading.Tasks;
 
 namespace SubtitlesParser.Classes.Parsers
 {
@@ -52,55 +53,118 @@ namespace SubtitlesParser.Classes.Parsers
             // seek the beginning of the stream
             vttStream.Position = 0;
 
-            var reader = new StreamReader(vttStream, encoding, true);
+            var reader = new StreamReader(vttStream, encoding, detectEncodingFromByteOrderMarks: true);
 
             var items = new List<SubtitleItem>();
             var vttSubParts = GetVttSubTitleParts(reader).ToList();
-            if (vttSubParts.Any())
-            {
-                foreach (var vttSubPart in vttSubParts)
-                {
-                    var lines =
-                        vttSubPart.Split(new string[] { Environment.NewLine }, StringSplitOptions.None)
-                                  .Select(s => s.Trim())
-                                  .Where(l => !string.IsNullOrEmpty(l))
-                                  .ToList();
-
-                    var item = new SubtitleItem();
-                    foreach (var line in lines)
-                    {
-                        if (item.StartTime == 0 && item.EndTime == 0)
-                        {
-                            // we look for the timecodes first
-                            int startTc;
-                            int endTc;
-                            var success = TryParseTimecodeLine(line, out startTc, out endTc);
-                            if (success)
-                            {
-                                item.StartTime = startTc;
-                                item.EndTime = endTc;
-                            }
-                        }
-                        else
-                        {
-                            // we found the timecode, now we get the text
-                            item.Lines.Add(line);
-                        }
-                    }
-
-                    if ((item.StartTime != 0 || item.EndTime != 0) && item.Lines.Any())
-                    {
-                        // parsing succeeded
-                        items.Add(item);
-                    }
-                }
-
-                return items;
-            }
-            else
+            if (false == vttSubParts.Any())
             {
                 throw new FormatException("Parsing as VTT returned no VTT part.");
             }
+
+            foreach (var vttSubPart in vttSubParts)
+            {
+                var lines = vttSubPart
+                    .Split(new string[] { Environment.NewLine }, StringSplitOptions.None)
+                    .Select(s => s.Trim())
+                    .Where(l => !string.IsNullOrEmpty(l))
+                    .ToList();
+
+                var item = new SubtitleItem();
+                foreach (var line in lines)
+                {
+                    if (item.StartTime == 0 && item.EndTime == 0)
+                    {
+                        // we look for the timecodes first
+                        int startTc;
+                        int endTc;
+                        var success = TryParseTimecodeLine(line, out startTc, out endTc);
+                        if (success)
+                        {
+                            item.StartTime = startTc;
+                            item.EndTime = endTc;
+                        }
+                    }
+                    else
+                    {
+                        // we found the timecode, now we get the text
+                        item.Lines.Add(line);
+                    }
+                }
+
+                if ((item.StartTime != 0 || item.EndTime != 0) && item.Lines.Any())
+                {
+                    // parsing succeeded
+                    items.Add(item);
+                }
+            }
+
+            return items;
+        }
+
+        public async Task<List<SubtitleItem>> ParseStreamAsync(Stream vttStream, Encoding encoding)
+        {
+            // test if stream if readable and seekable (just a check, should be good)
+            if (!vttStream.CanRead || !vttStream.CanSeek)
+            {
+                var message = string.Format("Stream must be seekable and readable in a subtitles parser. " +
+                                   "Operation interrupted; isSeekable: {0} - isReadable: {1}",
+                                   vttStream.CanSeek, vttStream.CanSeek);
+                throw new ArgumentException(message);
+            }
+
+            // seek the beginning of the stream
+            vttStream.Position = 0;
+
+            var reader = new StreamReader(vttStream, encoding, detectEncodingFromByteOrderMarks: true);
+
+            var items = new List<SubtitleItem>();
+            var vttSubParts = GetVttSubTitlePartsAsync(reader);
+            var vttBlockEnumerator = vttSubParts.GetAsyncEnumerator();
+            if (await vttBlockEnumerator.MoveNextAsync() == false)
+            {
+                throw new FormatException("Parsing as VTT returned no VTT part.");
+            }
+
+            do
+            {
+                var lines = vttBlockEnumerator.Current
+                    .Split(new string[] { Environment.NewLine }, StringSplitOptions.None)
+                    .Select(s => s.Trim())
+                    .Where(l => !string.IsNullOrEmpty(l))
+                    .ToList();
+
+                var item = new SubtitleItem();
+                foreach (var line in lines)
+                {
+                    if (item.StartTime == 0 && item.EndTime == 0)
+                    {
+                        // we look for the timecodes first
+                        int startTc;
+                        int endTc;
+                        var success = TryParseTimecodeLine(line, out startTc, out endTc);
+                        if (success)
+                        {
+                            item.StartTime = startTc;
+                            item.EndTime = endTc;
+                        }
+                    }
+                    else
+                    {
+                        // we found the timecode, now we get the text
+                        item.Lines.Add(line);
+                    }
+                }
+
+                if ((item.StartTime != 0 || item.EndTime != 0) && item.Lines.Any())
+                {
+                    // parsing succeeded
+                    items.Add(item);
+                }
+            }
+            while (await vttBlockEnumerator.MoveNextAsync());
+
+            return items;
         }
 
         /// <summary>
@@ -121,6 +185,35 @@ namespace SubtitlesParser.Classes.Parsers
             var sb = new StringBuilder();
 
             while ((line = reader.ReadLine()) != null)
+            {
+                if (string.IsNullOrEmpty(line.Trim()))
+                {
+                    // return only if not empty
+                    var res = sb.ToString().TrimEnd();
+                    if (!string.IsNullOrEmpty(res))
+                    {
+                        yield return res;
+                    }
+                    sb = new StringBuilder();
+                }
+                else
+                {
+                    sb.AppendLine(line);
+                }
+            }
+
+            if (sb.Length > 0)
+            {
+                yield return sb.ToString();
+            }
+        }
+
+        private async IAsyncEnumerable<string> GetVttSubTitlePartsAsync(TextReader reader)
+        {
+            string line;
+            var sb = new StringBuilder();
+
+            while ((line = await reader.ReadLineAsync()) != null)
             {
                 if (string.IsNullOrEmpty(line.Trim()))
                 {
