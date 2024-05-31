@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
-
+#nullable enable
 namespace SubtitlesParser.Classes.Parsers
 {
     /// <summary>
@@ -24,8 +24,9 @@ namespace SubtitlesParser.Classes.Parsers
     /// </summary>
     public class VttParser : ISubtitlesParser
     {
-        private static readonly Regex _rxLongTimestamp = new Regex("([0-9]+):([0-9]+):([0-9]+)[,\\.]([0-9]+)", RegexOptions.Compiled);
-        private static readonly Regex _rxShortTimestamp = new Regex("([0-9]+):([0-9]+)[,\\.]([0-9]+)", RegexOptions.Compiled);
+        private static readonly Regex _rxLongTimestamp = new Regex("(?<H>[0-9]+):(?<M>[0-9]+):(?<S>[0-9]+)[,\\.](?<m>[0-9]+)", RegexOptions.Compiled);
+        private static readonly Regex _rxShortTimestamp = new Regex("(?<M>[0-9]+):(?<S>[0-9]+)[,\\.](?<m>[0-9]+)", RegexOptions.Compiled);
+
 
         // Properties -----------------------------------------------------------------------
 
@@ -76,9 +77,7 @@ namespace SubtitlesParser.Classes.Parsers
                     if (item.StartTime == 0 && item.EndTime == 0)
                     {
                         // we look for the timecodes first
-                        int startTc;
-                        int endTc;
-                        var success = TryParseTimecodeLine(line, out startTc, out endTc);
+                        var success = TryParseTimecodeLine(line, out int startTc, out int endTc);
                         if (success)
                         {
                             item.StartTime = startTc;
@@ -140,9 +139,7 @@ namespace SubtitlesParser.Classes.Parsers
                     if (item.StartTime == 0 && item.EndTime == 0)
                     {
                         // we look for the timecodes first
-                        int startTc;
-                        int endTc;
-                        var success = TryParseTimecodeLine(line, out startTc, out endTc);
+                        var success = TryParseTimecodeLine(line, out int startTc, out int endTc);
                         if (success)
                         {
                             item.StartTime = startTc;
@@ -272,19 +269,19 @@ namespace SubtitlesParser.Classes.Parsers
             var match = _rxLongTimestamp.Match(s);
             if (match.Success)
             {
-                hours = int.Parse(match.Groups[1].Value);
-                minutes = int.Parse(match.Groups[2].Value);
-                seconds = int.Parse(match.Groups[3].Value);
-                milliseconds = int.Parse(match.Groups[4].Value);
+                hours = int.Parse(match.Groups["H"].Value);
+                minutes = int.Parse(match.Groups["M"].Value);
+                seconds = int.Parse(match.Groups["S"].Value);
+                milliseconds = int.Parse(match.Groups["m"].Value);
             }
             else
             {
                 match = _rxShortTimestamp.Match(s);
                 if (match.Success)
                 {
-                    minutes = int.Parse(match.Groups[1].Value);
-                    seconds = int.Parse(match.Groups[2].Value);
-                    milliseconds = int.Parse(match.Groups[3].Value);
+                    minutes = int.Parse(match.Groups["M"].Value);
+                    seconds = int.Parse(match.Groups["S"].Value);
+                    milliseconds = int.Parse(match.Groups["m"].Value);
                 }
             }
 

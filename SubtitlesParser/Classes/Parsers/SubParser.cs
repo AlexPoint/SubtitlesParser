@@ -7,10 +7,10 @@ using System.Text.RegularExpressions;
 
 namespace SubtitlesParser.Classes.Parsers
 {
-    public class SubParser 
+    public class SubParser
     {
         // Properties -----------------------------------------------------------------------
-        
+
         private readonly Dictionary<SubtitlesFormat, ISubtitlesParser> _subFormatToParser = new Dictionary<SubtitlesFormat, ISubtitlesParser>
             {
                 {SubtitlesFormat.SubRipFormat, new SrtParser()},
@@ -48,7 +48,7 @@ namespace SubtitlesParser.Classes.Parsers
                     {
                         return format;
                     }
-                } 
+                }
             }
 
             return null;
@@ -132,7 +132,7 @@ namespace SubtitlesParser.Classes.Parsers
             var message = string.Format("All the subtitles parsers failed to parse the following stream:{0}", firstCharsOfFile);
             throw new ArgumentException(message);
         }
-        
+
         /// <summary>
         /// Logs the first characters of a stream for debug
         /// </summary>
