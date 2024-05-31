@@ -55,7 +55,7 @@ namespace SubtitlesParser.Classes
 
         public static List<SubtitlesFormat> SupportedSubtitlesFormats = new List<SubtitlesFormat>()
             {
-                SubRipFormat, 
+                SubRipFormat,
                 MicroDvdFormat,
                 SubViewerFormat,
                 SubStationAlphaFormat,
@@ -66,5 +66,5 @@ namespace SubtitlesParser.Classes
 
     }
 
-    
+
 }

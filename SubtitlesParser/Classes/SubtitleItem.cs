@@ -7,7 +7,7 @@ namespace SubtitlesParser.Classes
     {
 
         //Properties------------------------------------------------------------------
-        
+
         /// <summary>
         /// Start time in milliseconds.
         /// </summary>
@@ -26,7 +26,7 @@ namespace SubtitlesParser.Classes
         /// Does not include formatting
         /// </summary>
         public List<string> PlaintextLines { get; set; }
-        
+
 
         //Constructors-----------------------------------------------------------------
 

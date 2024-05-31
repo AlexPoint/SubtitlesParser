@@ -9,10 +9,10 @@ namespace SubtitlesParser.Classes.Parsers
 {
     /// <summary>
     /// Parser for the .vtt subtitles files. Does not handle formatting tags within the text; that has to be parsed separately.
-    /// 
+    ///
     /// A .vtt file looks like:
     /// WEBVTT
-    /// 
+    ///
     /// CUE - 1
     /// 00:00:10.500 --> 00:00:13.000
     /// Elephant's Dream
@@ -23,6 +23,8 @@ namespace SubtitlesParser.Classes.Parsers
     /// </summary>
     public class VttParser : ISubtitlesParser
     {
+        private static readonly Regex _rxLongTimestamp = new Regex("([0-9]+):([0-9]+):([0-9]+)[,\\.]([0-9]+)", RegexOptions.Compiled);
+        private static readonly Regex _rxShortTimestamp = new Regex("([0-9]+):([0-9]+)[,\\.]([0-9]+)", RegexOptions.Compiled);
 
         // Properties -----------------------------------------------------------------------
 
@@ -102,13 +104,13 @@ namespace SubtitlesParser.Classes.Parsers
         }
 
         /// <summary>
-        /// Enumerates the subtitle parts in a VTT file based on the standard line break observed between them. 
+        /// Enumerates the subtitle parts in a VTT file based on the standard line break observed between them.
         /// A VTT subtitle part is in the form:
-        /// 
+        ///
         /// CUE - 1
         /// 00:00:20.000 --> 00:00:24.400
         /// Altocumulus clouds occur between six thousand
-        /// 
+        ///
         /// The first line is optional, as well as the hours in the time codes.
         /// </summary>
         /// <param name="reader">The textreader associated with the vtt file</param>
@@ -161,7 +163,7 @@ namespace SubtitlesParser.Classes.Parsers
         }
 
         /// <summary>
-        /// Takes an VTT timecode as a string and parses it into a double (in seconds). A VTT timecode reads as follows: 
+        /// Takes an VTT timecode as a string and parses it into a double (in seconds). A VTT timecode reads as follows:
         /// 00:00:20.000
         /// or
         /// 00:20.000
@@ -174,7 +176,7 @@ namespace SubtitlesParser.Classes.Parsers
             int minutes = 0;
             int seconds = 0;
             int milliseconds = -1;
-            var match = Regex.Match(s, "([0-9]+):([0-9]+):([0-9]+)[,\\.]([0-9]+)");
+            var match = _rxLongTimestamp.Match(s);
             if (match.Success)
             {
                 hours = int.Parse(match.Groups[1].Value);
@@ -184,8 +186,9 @@ namespace SubtitlesParser.Classes.Parsers
             }
             else
             {
-                match = Regex.Match(s, "([0-9]+):([0-9]+)[,\\.]([0-9]+)");
-                if (match.Success) {
+                match = _rxShortTimestamp.Match(s);
+                if (match.Success)
+                {
                     minutes = int.Parse(match.Groups[1].Value);
                     seconds = int.Parse(match.Groups[2].Value);
                     milliseconds = int.Parse(match.Groups[3].Value);
@@ -194,11 +197,11 @@ namespace SubtitlesParser.Classes.Parsers
 
             if (milliseconds >= 0)
             {
-                TimeSpan result = new TimeSpan(0, hours, minutes, seconds, milliseconds);
+                var result = new TimeSpan(0, hours, minutes, seconds, milliseconds);
                 var nbOfMs = (int)result.TotalMilliseconds;
                 return nbOfMs;
             }
-            
+
             return -1;
         }
     }
