@@ -57,19 +57,18 @@ namespace SubtitlesParser.Classes.Parsers
             var reader = new StreamReader(vttStream, encoding, detectEncodingFromByteOrderMarks: true);
 
             var items = new List<SubtitleItem>();
-            var vttSubParts = GetVttSubTitleParts(reader).ToList();
-            if (false == vttSubParts.Any())
+            var vttSubParts = GetVttSubTitleParts(reader).GetEnumerator();
+            if (false == vttSubParts.MoveNext())
             {
                 throw new FormatException("Parsing as VTT returned no VTT part.");
             }
 
-            foreach (var vttSubPart in vttSubParts)
+            do
             {
-                var lines = vttSubPart
+                var lines = vttSubParts.Current
                     .Split(new string[] { Environment.NewLine }, StringSplitOptions.None)
                     .Select(s => s.Trim())
-                    .Where(l => !string.IsNullOrEmpty(l))
-                    .ToList();
+                    .Where(l => !string.IsNullOrEmpty(l));
 
                 var item = new SubtitleItem();
                 foreach (var line in lines)
@@ -97,6 +96,7 @@ namespace SubtitlesParser.Classes.Parsers
                     items.Add(item);
                 }
             }
+            while (vttSubParts.MoveNext());
 
             return items;
         }
@@ -118,8 +118,7 @@ namespace SubtitlesParser.Classes.Parsers
             var reader = new StreamReader(vttStream, encoding, detectEncodingFromByteOrderMarks: true);
 
             var items = new List<SubtitleItem>();
-            var vttSubParts = GetVttSubTitlePartsAsync(reader);
-            var vttBlockEnumerator = vttSubParts.GetAsyncEnumerator();
+            var vttBlockEnumerator = GetVttSubTitlePartsAsync(reader).GetAsyncEnumerator();
             if (await vttBlockEnumerator.MoveNextAsync() == false)
             {
                 throw new FormatException("Parsing as VTT returned no VTT part.");
@@ -130,8 +129,7 @@ namespace SubtitlesParser.Classes.Parsers
                 var lines = vttBlockEnumerator.Current
                     .Split(new string[] { Environment.NewLine }, StringSplitOptions.None)
                     .Select(s => s.Trim())
-                    .Where(l => !string.IsNullOrEmpty(l))
-                    .ToList();
+                    .Where(l => !string.IsNullOrEmpty(l));
 
                 var item = new SubtitleItem();
                 foreach (var line in lines)
