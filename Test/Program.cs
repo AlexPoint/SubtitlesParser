@@ -26,7 +26,7 @@ namespace Test
                         var items = parser.ParseStream(fileStream, Encoding.UTF8, mostLikelyFormat);
                         if (items.Any())
                         {
-                            Console.WriteLine("Parsing of file {0}: SUCCESS ({1} items - {2}% corrupted)", 
+                            Console.WriteLine("Parsing of file {0}: SUCCESS ({1} items - {2}% corrupted)",
                                 fileName, items.Count, (items.Count(it => it.StartTime <= 0 || it.EndTime <= 0) * 100)/ items.Count);
                             /*foreach (var item in items)
                             {
@@ -41,7 +41,7 @@ namespace Test
                         {
                             Console.WriteLine("Parsing of file {0}: SUCCESS (No items found!)", fileName, items.Count);
                         }
-                        
+
                     }
                     catch (Exception ex)
                     {
