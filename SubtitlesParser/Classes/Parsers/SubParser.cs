@@ -103,14 +103,16 @@ namespace SubtitlesParser.Classes.Parsers
 
             // copy the stream if not seekable
             var seekableStream = stream;
+            bool wasStreamCopied = false;
             if (!stream.CanSeek)
             {
                 seekableStream = StreamHelpers.CopyStream(stream);
                 seekableStream.Seek(0, SeekOrigin.Begin);
-            }
-
-            // if dictionary is null, use the default one
-            subFormatDictionary = subFormatDictionary ?? _subFormatToParser;
+				wasStreamCopied = true;
+			}
+            
+			// if dictionary is null, use the default one
+			subFormatDictionary = subFormatDictionary ?? _subFormatToParser;
 
             foreach (var subtitlesParser in subFormatDictionary)
             {
@@ -118,18 +120,29 @@ namespace SubtitlesParser.Classes.Parsers
                 {
                     var parser = subtitlesParser.Value;
                     var items = parser.ParseStream(seekableStream, encoding);
-                    return items;
+                    // Pass this point, if a error wasn't thrown, the right parser was used
+					if (wasStreamCopied)
+					{
+                        // Ensure the stream copy is disposed
+						seekableStream?.Dispose();
+					}
+					return items;
                 }
                 catch(Exception ex)
                 {
-                    continue; // Let's try the next parser...
                     //Console.WriteLine(ex);
+                    continue; // Let's try the next parser...
                 }
             }
-
-            // all the parsers failed
-            var firstCharsOfFile = LogFirstCharactersOfStream(stream, 500, encoding);
-            var message = string.Format("All the subtitles parsers failed to parse the following stream:{0}", firstCharsOfFile);
+			
+			// all the parsers failed
+			var firstCharsOfFile = LogFirstCharactersOfStream(stream, 500, encoding);
+			if (wasStreamCopied)
+			{
+				// Ensure the stream copy is disposed
+				seekableStream?.Dispose();
+			}
+			var message = string.Format("All the subtitles parsers failed to parse the following stream:{0}", firstCharsOfFile);
             throw new ArgumentException(message);
         }
 
@@ -151,9 +164,10 @@ namespace SubtitlesParser.Classes.Parsers
                     stream.Position = 0;
                 }
 
-                var reader = new StreamReader(stream, encoding, true);
-
-                var buffer = new char[nbOfCharactersToPrint];
+				// Create a StreamReader & configure it to leave the main stream open when disposing
+				using var reader = new StreamReader(stream, encoding, true, 1024, leaveOpen: true);
+				
+				var buffer = new char[nbOfCharactersToPrint];
                 reader.ReadBlock(buffer, 0, nbOfCharactersToPrint);
                 message = string.Format("Parsing of subtitle stream failed. Beginning of sub stream:\n{0}",
                                         string.Join("", buffer));

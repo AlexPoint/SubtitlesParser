@@ -38,102 +38,106 @@ namespace SubtitlesParser.Classes.Parsers
         {
             // seek the beginning of the stream
             subStream.Position = 0;
-            var reader = new StreamReader(subStream, encoding, true);
-
-            var firstLine = reader.ReadLine();
-            if (firstLine == FirstLine)
+            // Create a StreamReader & configure it to leave the main stream open when disposing
+            using (var reader = new StreamReader(subStream, encoding, true, 1024, true)) 
             {
-                var line = reader.ReadLine();
-                var lineNumber = 2;
-                while (line != null && lineNumber <= MaxLineNumberForItems && !IsTimestampLine(line))
-                {
-                    line = reader.ReadLine();
-                    lineNumber++;
-                }
+				var firstLine = reader.ReadLine();
+				if (firstLine == FirstLine)
+				{
+					var line = reader.ReadLine();
+					var lineNumber = 2;
+					while (line != null && lineNumber <= MaxLineNumberForItems && !IsTimestampLine(line))
+					{
+						line = reader.ReadLine();
+						lineNumber++;
+					}
 
-                // first relevant line should be a timecode
-                if (line != null && lineNumber <= MaxLineNumberForItems && IsTimestampLine(line))
-                {
-                    // we parse all the lines
-                    var items = new List<SubtitleItem>();
+					// first relevant line should be a timecode
+					if (line != null && lineNumber <= MaxLineNumberForItems && IsTimestampLine(line))
+					{
+						// we parse all the lines
+						var items = new List<SubtitleItem>();
 
-                    var timeCodeLine = line;
-                    var textLines = new List<string>();
+						var timeCodeLine = line;
+						var textLines = new List<string>();
 
-                    while (line != null)
-                    {
-                        line = reader.ReadLine();
-                        if (IsTimestampLine(line))
-                        {
-                            // store previous item
-                            var timeCodes = ParseTimecodeLine(timeCodeLine);
-                            var start = timeCodes.Item1;
-                            var end = timeCodes.Item2;
+						while (line != null)
+						{
+							line = reader.ReadLine();
+							if (IsTimestampLine(line))
+							{
+								// store previous item
+								var timeCodes = ParseTimecodeLine(timeCodeLine);
+								var start = timeCodes.Item1;
+								var end = timeCodes.Item2;
 
-                            if (start > 0 && end > 0 && textLines.Any())
-                            {
-                                items.Add(new SubtitleItem()
-                                    {
-                                        StartTime = start,
-                                        EndTime = end,
-                                        Lines = textLines
-                                    });
-                            }
+								if (start > 0 && end > 0 && textLines.Any())
+								{
+									items.Add(new SubtitleItem()
+									{
+										StartTime = start,
+										EndTime = end,
+										Lines = textLines
+									});
+								}
 
-                            // reset timecode line and text lines
-                            timeCodeLine = line;
-                            textLines = new List<string>();
-                        } else if (!string.IsNullOrEmpty(line))
-                        {
-                            // it's a text line
-                            textLines.Add(line);
-                        }
-                    }
+								// reset timecode line and text lines
+								timeCodeLine = line;
+								textLines = new List<string>();
+							}
+							else if (!string.IsNullOrEmpty(line))
+							{
+								// it's a text line
+								textLines.Add(line);
+							}
+						}
 
-                    // store last line if necessary
-                    var lastTimeCodes = ParseTimecodeLine(timeCodeLine);
-                    var lastStart = lastTimeCodes.Item1;
-                    var lastEnd = lastTimeCodes.Item2;
-                    if (lastStart > 0 && lastEnd > 0 && textLines.Any())
-                    {
-                        items.Add(new SubtitleItem()
-                            {
-                                StartTime = lastStart,
-                                EndTime = lastEnd,
-                                Lines = textLines
-                            });
-                    }
+						// store last line if necessary
+						var lastTimeCodes = ParseTimecodeLine(timeCodeLine);
+						var lastStart = lastTimeCodes.Item1;
+						var lastEnd = lastTimeCodes.Item2;
+						if (lastStart > 0 && lastEnd > 0 && textLines.Any())
+						{
+							items.Add(new SubtitleItem()
+							{
+								StartTime = lastStart,
+								EndTime = lastEnd,
+								Lines = textLines
+							});
+						}
 
-                    if (items.Any())
-                    {
-                        return items;
-                    }
-                    else
-                    {
-                        throw new ArgumentException("Stream is not in a valid SubViewer format");
-                    }
-                }
-                else
-                {
-                    var message = string.Format("Couldn't find the first timestamp line in the current sub file. " +
-                                                "Last line read: '{0}', line number #{1}", line, lineNumber);
-                    throw new ArgumentException(message);
-                }
-            }
-            else
-            {
-                throw new ArgumentException("Stream is not in a valid SubViewer format");
-            }
+						if (items.Any())
+						{
+							return items;
+						}
+						else
+						{
+							throw new ArgumentException("Stream is not in a valid SubViewer format");
+						}
+					}
+					else
+					{
+						var message = string.Format("Couldn't find the first timestamp line in the current sub file. " +
+													"Last line read: '{0}', line number #{1}", line, lineNumber);
+						throw new ArgumentException(message);
+					}
+				}
+				else
+				{
+					throw new ArgumentException("Stream is not in a valid SubViewer format");
+				}
+			};
         }
 
-        private Tuple<int, int> ParseTimecodeLine(string line)
+		// ValueTuple
+        private (int, int) ParseTimecodeLine(string line)
         {
             var parts = line.Split(TimecodeSeparator);
             if (parts.Length == 2)
             {
                 var start = ParseTimecode(parts[0]);
                 var end = ParseTimecode(parts[1]);
-                return new Tuple<int, int>(start, end);
+                return (start, end);
             }
             else
             {
