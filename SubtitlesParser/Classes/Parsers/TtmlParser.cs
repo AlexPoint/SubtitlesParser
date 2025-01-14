@@ -26,7 +26,7 @@ namespace SubtitlesParser.Classes.Parsers
             {
                 try
                 {
-                    var reader = node.CreateReader();
+                    using var reader = node.CreateReader();
                     reader.MoveToContent();
                     var beginString = node.Attribute("begin").Value.Replace("t", "");
                     var startTicks = ParseTimecode(beginString);

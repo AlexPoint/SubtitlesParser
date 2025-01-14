@@ -54,7 +54,7 @@ namespace SubtitlesParser.Classes
         };
 
         public static List<SubtitlesFormat> SupportedSubtitlesFormats = new List<SubtitlesFormat>()
-            {
+        {
                 SubRipFormat,
                 MicroDvdFormat,
                 SubViewerFormat,
@@ -62,9 +62,6 @@ namespace SubtitlesParser.Classes
                 TtmlFormat,
                 WebVttFormat,
                 YoutubeXmlFormat
-            };
-
+        };
     }
-
-
 }

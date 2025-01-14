@@ -2,12 +2,12 @@
 
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <TargetFramework>netstandard2.1</TargetFramework>
+    <TargetFrameworks>net8.0;netstandard2.1</TargetFrameworks>
     <ApplicationIcon />
     <StartupObject />
     <PackageId>SubtitlesParser</PackageId>
     <AssemblyName>SubtitlesParser</AssemblyName>
-    <Version>1.6</Version>
+    <Version>1.6.1</Version>
     <Title>Subtitles parser</Title>
     <Authors>AlexPoint</Authors>
     <PackageProjectUrl>https://github.com/AlexPoint/SubtitlesParser</PackageProjectUrl>
@@ -16,7 +16,7 @@
     <Description>Universal subtitles parser</Description>
     <ReleaseNotes>Added async for vtt parser</ReleaseNotes>
     <Tags>subtitles parser</Tags>
-    <PackageReleaseNotes>Update writers to increase precision in the time codes (now at the millisecond level)</PackageReleaseNotes>
+    <PackageReleaseNotes>Added support for NET8.0 framework, improved GC collection</PackageReleaseNotes>
   </PropertyGroup>
 
 </Project>

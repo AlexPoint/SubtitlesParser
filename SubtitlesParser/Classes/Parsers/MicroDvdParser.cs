@@ -54,60 +54,61 @@ namespace SubtitlesParser.Classes.Parsers
 
             // seek the beginning of the stream
             subStream.Position = 0;
-            var reader = new StreamReader(subStream, encoding, true);
+			// Create a StreamReader & configure it to leave the main stream open when disposing
+			using (var reader = new StreamReader(subStream, encoding, true, 1024, true)) {
+				var items = new List<SubtitleItem>();
+				var line = reader.ReadLine();
+				// find the first relevant line
+				while (line != null && !IsMicroDvdLine(line))
+				{
+					line = reader.ReadLine();
+				}
 
-            var items = new List<SubtitleItem>();
-            var line = reader.ReadLine();
-            // find the first relevant line
-            while (line != null && !IsMicroDvdLine(line))
-            {
-                line = reader.ReadLine();
-            }
+				if (line != null)
+				{
+					float frameRate;
+					// try to extract the framerate from the first line
+					var firstItem = ParseLine(line, defaultFrameRate);
+					if (firstItem.Lines != null && firstItem.Lines.Any())
+					{
+						var success = TryExtractFrameRate(firstItem.Lines[0], out frameRate);
+						if (!success)
+						{
+							Console.WriteLine("Couldn't extract frame rate of sub file with first line {0}. " +
+											  "We use the default frame rate: {1}", line, defaultFrameRate);
+							frameRate = defaultFrameRate;
 
-            if (line != null)
-            {
-                float frameRate;
-                // try to extract the framerate from the first line
-                var firstItem = ParseLine(line, defaultFrameRate);
-                if (firstItem.Lines != null && firstItem.Lines.Any())
-                {
-                    var success = TryExtractFrameRate(firstItem.Lines[0], out frameRate);
-                    if (!success)
-                    {
-                        Console.WriteLine("Couldn't extract frame rate of sub file with first line {0}. " +
-                                          "We use the default frame rate: {1}", line, defaultFrameRate);
-                        frameRate = defaultFrameRate;
+							// treat it as a regular line
+							items.Add(firstItem);
+						}
+					}
+					else
+					{
+						frameRate = defaultFrameRate;
+					}
 
-                        // treat it as a regular line
-                        items.Add(firstItem);
-                    }
-                }
-                else
-                {
-                    frameRate = defaultFrameRate;
-                }
+					// parse other lines
+					line = reader.ReadLine();
+					while (line != null)
+					{
+						if (!string.IsNullOrEmpty(line))
+						{
+							var item = ParseLine(line, frameRate);
+							items.Add(item);
+						}
+						line = reader.ReadLine();
+					}
+				}
 
-                // parse other lines
-                line = reader.ReadLine();
-                while (line != null)
-                {
-                    if (!string.IsNullOrEmpty(line))
-                    {
-                        var item = ParseLine(line, frameRate);
-                        items.Add(item); 
-                    }
-                    line = reader.ReadLine();
-                }
-            }
-
-            if (items.Any())
-            {
-                return items;
-            }
-            else
-            {
-                throw new ArgumentException("Stream is not in a valid MicroDVD format");
-            }
+				if (items.Any())
+				{
+					return items;
+				}
+				else
+				{
+					throw new ArgumentException("Stream is not in a valid MicroDVD format");
+				}
+			};
         }
 
         private const string LineRegex = @"^[{\[](-?\d+)[}\]][{\[](-?\d+)[}\]](.*)";

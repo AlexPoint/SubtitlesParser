@@ -48,64 +48,66 @@ namespace SubtitlesParser.Classes.Parsers
             // seek the beginning of the stream
             srtStream.Position = 0;
 
-            var reader = new StreamReader(srtStream, encoding, true);
-
-            var items = new List<SubtitleItem>();
-            var srtSubParts = GetSrtSubTitleParts(reader).ToList();
-            if (srtSubParts.Any())
+            // Create a StreamReader & configure it to leave the main stream open when disposing
+            using (var reader = new StreamReader(srtStream, encoding, true, 1024, true))
             {
-                foreach (var srtSubPart in srtSubParts)
-                {
-                    var lines =
-                        srtSubPart.Split(new string[] {Environment.NewLine}, StringSplitOptions.None)
-                            .Select(s => s.Trim())
-                            .Where(l => !string.IsNullOrEmpty(l))
-                            .ToList();
+				var items = new List<SubtitleItem>();
+				var srtSubParts = GetSrtSubTitleParts(reader).ToList();
+				if (srtSubParts.Any())
+				{
+					foreach (var srtSubPart in srtSubParts)
+					{
+						var lines =
+							srtSubPart.Split(new string[] { Environment.NewLine }, StringSplitOptions.None)
+								.Select(s => s.Trim())
+								.Where(l => !string.IsNullOrEmpty(l))
+								.ToList();
 
-                    var item = new SubtitleItem();
-                    foreach (var line in lines)
-                    {
-                        if (item.StartTime == 0 && item.EndTime == 0)
-                        {
-                            // we look for the timecodes first
-                            int startTc;
-                            int endTc;
-                            var success = TryParseTimecodeLine(line, out startTc, out endTc);
-                            if (success)
-                            {
-                                item.StartTime = startTc;
-                                item.EndTime = endTc;
-                            }
-                        }
-                        else
-                        {
-                            // we found the timecode, now we get the text
-                            item.Lines.Add(line);
-                            // strip formatting by removing anything within curly braces or angle brackets, which is how SRT styles text according to wikipedia (https://en.wikipedia.org/wiki/SubRip#Formatting)
-                            item.PlaintextLines.Add(Regex.Replace(line, @"\{.*?\}|<.*?>", string.Empty));
-                        }
-                    }
+						var item = new SubtitleItem();
+						foreach (var line in lines)
+						{
+							if (item.StartTime == 0 && item.EndTime == 0)
+							{
+								// we look for the timecodes first
+								int startTc;
+								int endTc;
+								var success = TryParseTimecodeLine(line, out startTc, out endTc);
+								if (success)
+								{
+									item.StartTime = startTc;
+									item.EndTime = endTc;
+								}
+							}
+							else
+							{
+								// we found the timecode, now we get the text
+								item.Lines.Add(line);
+								// strip formatting by removing anything within curly braces or angle brackets, which is how SRT styles text according to wikipedia (https://en.wikipedia.org/wiki/SubRip#Formatting)
+								item.PlaintextLines.Add(Regex.Replace(line, @"\{.*?\}|<.*?>", string.Empty));
+							}
+						}
 
-                    if ((item.StartTime != 0 || item.EndTime != 0) && item.Lines.Any())
-                    {
-                        // parsing succeeded
-                        items.Add(item);
-                    }
-                }
+						if ((item.StartTime != 0 || item.EndTime != 0) && item.Lines.Any())
+						{
+							// parsing succeeded
+							items.Add(item);
+						}
+					}
 
-                if (items.Any())
-                {
-                    return items;
-                }
-                else
-                {
-                    throw new ArgumentException("Stream is not in a valid Srt format");
-                }
-            }
-            else
-            {
-                throw new FormatException("Parsing as srt returned no srt part.");
-            }
+					if (items.Any())
+					{
+						return items;
+					}
+					else
+					{
+						throw new ArgumentException("Stream is not in a valid Srt format");
+					}
+				}
+				else
+				{
+					throw new FormatException("Parsing as srt returned no srt part.");
+				}
+			};
         }
 
         /// <summary>
@@ -123,7 +125,7 @@ namespace SubtitlesParser.Classes.Parsers
         {
             string line;
             var sb = new StringBuilder();
-
+            
             while ((line = reader.ReadLine()) != null)
             {
                 if (string.IsNullOrEmpty(line.Trim()))

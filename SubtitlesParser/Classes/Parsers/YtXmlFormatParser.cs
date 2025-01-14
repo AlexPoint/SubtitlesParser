@@ -20,10 +20,10 @@ namespace SubtitlesParser.Classes.Parsers
             var xmlDoc = new XmlDocument();
             xmlDoc.Load(xmlStream);
             
-            if (xmlDoc.DocumentElement != null)
+			if (xmlDoc.DocumentElement != null)
             {
                 var nodeList = xmlDoc.DocumentElement.SelectNodes("//text");
-
+                
                 if (nodeList != null)
                 {
                     for (var i = 0; i < nodeList.Count; i++)
