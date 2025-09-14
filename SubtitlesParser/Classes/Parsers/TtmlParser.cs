@@ -36,7 +36,9 @@ namespace SubtitlesParser.Classes.Parsers
                         .Replace("<tt:", "<")
                         .Replace("</tt:", "</")
                         .Replace(string.Format(@" xmlns:tt=""{0}""", tt), "")
-                        .Replace(string.Format(@" xmlns=""{0}""", tt), "");
+                        .Replace(string.Format(@" xmlns=""{0}""", tt), "")
+                        .TrimStart('\n')
+                        .TrimEnd('\n');
 
                     items.Add(new SubtitleItem()
                     {
